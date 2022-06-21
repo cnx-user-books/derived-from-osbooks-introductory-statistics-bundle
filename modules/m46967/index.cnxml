@@ -30,7 +30,7 @@
 <section id="eip-606">
 <title>Properties of Continuous Probability Distributions</title>
 <para id="eip-60">The graph of a continuous probability distribution is a curve. Probability is represented by area under the curve.</para>
-<para id="eip-33">The curve is called the <term id="term-00001">probability density function</term> (abbreviated as <emphasis>pdf</emphasis>). We use the symbol <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) to represent the curve. <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) is the function that corresponds to the graph; we use the density function <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) to draw the graph of the probability distribution. </para><para id="eip-474"><emphasis>Area under the curve</emphasis> is given by a different function called the  <emphasis>cumulative distribution function </emphasis> (abbreviated as <emphasis>cdf</emphasis>). The cumulative distribution function is used to evaluate probability as area.</para>
+<para id="eip-33">The curve is called the <term>probability density function</term> (abbreviated as <emphasis>pdf</emphasis>). We use the symbol <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) to represent the curve. <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) is the function that corresponds to the graph; we use the density function <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) to draw the graph of the probability distribution. </para><para id="eip-474"><emphasis>Area under the curve</emphasis> is given by a different function called the  <emphasis>cumulative distribution function </emphasis> (abbreviated as <emphasis>cdf</emphasis>). The cumulative distribution function is used to evaluate probability as area.</para>
 <para id="eip-224">
 <list id="eip-id1170587055152"><item>The outcomes are measured, not counted.</item>
 <item>The entire area under the curve and above the x-axis is equal to one.</item>
@@ -48,23 +48,23 @@
 </media>
 <caption>The graph shows a Uniform Distribution with the area between <emphasis effect="italics">x</emphasis> = 3 and <emphasis effect="italics">x</emphasis> = 6 shaded to represent the probability that the value of the random variable <emphasis effect="italics">X</emphasis> is in the interval between three and six.</caption>
 </figure>
-<figure id="id3243513"><media id="id1164323972015" alt="This graph shows an exponential distribution. The graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph from x = 2 to x = 4 is shaded to represent P(2 &lt; x &lt; 4).">
+<figure id="id3243513"><media id="id1164323972015" alt="">
 <image src="../../media/fig-ch05_01_02.jpg" mime-type="image/jpg" width="380"/>
 </media>
 <caption>The graph shows an Exponential Distribution with the area between <emphasis effect="italics">x</emphasis> = 2 and <emphasis effect="italics">x</emphasis> = 4 shaded to represent the probability that the value of the random variable <emphasis effect="italics">X</emphasis> is in the interval between two and four.</caption>
 </figure>
 <figure id="eip-id1164898429541">
-<media id="id1164323801239" alt="This is a normal distribution curve over a horizontal axis labeled from –3 to 3 in intervals of 1. The peak of the curve coincides with the point 0 on the horizontal axis. Vertical lines extend from 1 and 2 to the curve. The area between the lines is shaded. Text notes states “Shaded area represents probability P(1 &lt; x &lt; 2).”">
+<media id="id1164323801239" alt="This graph shows an exponential distribution. The graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph from x = 2 to x = 4 is shaded to represent P(2 &lt; x &lt; 4).">
 <image src="../../media/fig-ch05_01_03.jpg" mime-type="image/jpg" width="380"/>
 </media>
 <caption>The graph shows the Standard Normal Distribution with the area between <emphasis effect="italics">x</emphasis> = 1 and <emphasis effect="italics">x</emphasis> = 2 shaded to represent the probability that the value of the random variable <emphasis effect="italics">X</emphasis> is in the interval between one and two.</caption>
 </figure>
 </para>
-</section> </content>
+</section></content>
 <glossary>
 <definition id="fs-idm138335264">
 <term>Uniform Distribution</term>
-<meaning id="fs-idm102638224">a continuous random variable (RV) that has equally likely outcomes over the domain, <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis>. Notation: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">a</emphasis>,<emphasis effect="italics">b</emphasis>). The mean is <emphasis effect="italics">μ</emphasis> = <m:math>
+<meaning id="fs-idm102638224">a continuous random variable (RV) that has equally likely outcomes over the domain, <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis>. Notation: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">a</emphasis>,<emphasis effect="italics">b</emphasis>). The mean is <emphasis effect="italics">μ</emphasis> = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -74,7 +74,7 @@
 </m:mfrac>
 </m:mrow>
 </m:math>
-and the standard deviation is <m:math>
+and the standard deviation is <m:math display="">
 <m:mrow>
 <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
 <m:mrow>
@@ -98,7 +98,7 @@ and the standard deviation is <m:math>
 </m:mrow>
 </m:msqrt>
 </m:mrow>
-</m:math>. The probability density function is <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
+</m:math>. The probability density function is <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -107,7 +107,7 @@ and the standard deviation is <m:math>
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> for <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis> or <emphasis effect="italics">a</emphasis> ≤ <emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">b</emphasis>. The  cumulative distribution is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = <m:math>
+</m:math> for <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis> or <emphasis effect="italics">a</emphasis> ≤ <emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">b</emphasis>. The  cumulative distribution is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -123,14 +123,14 @@ and the standard deviation is <m:math>
 </definition>
 <definition id="fs-idm29977280">
 <term>Exponential Distribution</term>
-<meaning id="fs-idm115662720">a continuous random variable (RV) that appears when we are interested in the intervals of time between some random events, for example, the length of time between emergency arrivals at a hospital; the notation is <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Exp</emphasis>(<emphasis effect="italics">m</emphasis>). The mean is <emphasis effect="italics">μ</emphasis> = <m:math>
+<meaning id="fs-idm115662720">a continuous random variable (RV) that appears when we are interested in the intervals of time between some random events, for example, the length of time between emergency arrivals at a hospital; the notation is <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">Exp</emphasis>(<emphasis effect="italics">m</emphasis>). The mean is <emphasis effect="italics">μ</emphasis> = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
 <m:mi>m</m:mi>
 </m:mfrac>
 </m:mrow>
-</m:math> and the standard deviation is σ = <m:math>
+</m:math> and the standard deviation is σ = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
