@@ -8,13 +8,9 @@
 </metadata>
 
 <content>
-<para id="s-idm1221053442">The <term id="term-00001">expected value</term> is often referred to as the <emphasis>"long-term" average or mean</emphasis>. This means that over the long term of doing an experiment over and over, you would <emphasis>expect</emphasis> this average.</para>
+<para id="delete_me">The <term>expected value</term> is often referred to as the <emphasis>"long-term" average or mean</emphasis>. This means that over the long term of doing an experiment over and over, you would <emphasis>expect</emphasis> this average.</para>
 
-<para id="fs-idm122105344">You toss a coin and record the result. What is the probability that the result is heads? If you flip a coin two times, does probability tell you that these flips will result in one heads and one tail? You might toss a fair coin ten times and record nine heads. As you learned in <link document="m46938"/>, probability does not describe the short-term results of an experiment. It gives information about what can be expected in the long term. To demonstrate this, Karl Pearson once tossed a fair coin 24,000 times! He recorded the results of each toss, obtaining heads 12,012 times. <emphasis effect="bold">In his experiment, Pearson illustrated the Law of Large Numbers</emphasis>.</para><para id="fs-idm32245968"><emphasis effect="bold">The Law of Large Numbers</emphasis> states that, as the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency approaches zero <emphasis effect="bold">(the theoretical probability and the relative frequency get closer and closer together)</emphasis>. When evaluating the long-term results of statistical experiments, we often want to know the “average” outcome. This “long-term average” is known as the <term id="term-00002">mean</term> or <term id="term-00003">expected value</term> of the experiment and is denoted by the Greek letter <emphasis effect="italics">μ</emphasis>. In other words, after conducting many trials of an experiment, you would expect this average value.</para>
-
-<para id="eip-332">The mean, <emphasis effect="italics">μ</emphasis>, of a discrete probability function is the expected value. </para>
-<equation class="unnumbered" id="eip-226"><label/>
-<m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>∙</m:mo><m:mi>P</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation><para id="eip-436">The standard deviation, Σ, of the PDF is the square root of the variance.</para><equation class="unnumbered" id="eip-365"><m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>[</m:mo><m:msup><m:mrow><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi><m:mi> </m:mi><m:mo>–</m:mo><m:mi> </m:mi><m:mi>μ</m:mi></m:mrow></m:mfenced></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi> </m:mi><m:mo>∙</m:mo><m:mi> </m:mi><m:mi>Ρ</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>]</m:mo><m:mi> </m:mi></m:mrow></m:mrow></m:msqrt></m:math></equation><para id="eip-988">When all outcomes in the probability distribution are equally likely, these formulas coincide with the mean and standard deviation of the set of possible outcomes.</para>
+<para id="fs-idm122105344">You toss a coin and record the result. What is the probability that the result is heads? If you flip a coin two times, does probability tell you that these flips will result in one heads and one tail? You might toss a fair coin ten times and record nine heads. As you learned in <link document="m46938"/>, probability does not describe the short-term results of an experiment. It gives information about what can be expected in the long term. To demonstrate this, Karl Pearson once tossed a fair coin 24,000 times! He recorded the results of each toss, obtaining heads 12,012 times. <emphasis effect="bold">In his experiment, Pearson illustrated the Law of Large Numbers</emphasis>.</para><para id="fs-idm32245968"><emphasis effect="bold">The Law of Large Numbers</emphasis> states that, as the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency approaches zero <emphasis effect="bold">(the theoretical probability and the relative frequency get closer and closer together)</emphasis>. When evaluating the long-term results of statistical experiments, we often want to know the “average” outcome. This “long-term average” is known as the <term>mean</term> or <term>expected value</term> of the experiment and is denoted by the Greek letter <emphasis effect="italics">μ</emphasis>. In other words, after conducting many trials of an experiment, you would expect this average value.</para>
 
 <note id="id8737934"><label/><title>NOTE</title>
 <para id="eip-idp95250624">To find the expected value or long term average, <emphasis effect="italics">μ</emphasis>, simply multiply each value of the random variable by its probability and add the products.</para></note>
@@ -24,8 +20,9 @@
 
 <para id="element-126">To do the problem, first let the random variable <emphasis effect="italics">X</emphasis> = the number of days the men's soccer team plays soccer per week. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2. Construct a PDF table adding a column <emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). In this column, you will multiply each <emphasis effect="italics">x</emphasis> value by its probability.</para>
 
-<table id="element-749" summary="The PDF table contains the number of days a men's soccer team plays soccer per week and thir probabilities."><title>Expected Value Table This table is called an expected value table. The table helps you calculate the expected value or long-term average.</title>
-<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<table id="element-749" summary="The PDF table contains the number of days a men's soccer team plays soccer per week and thir probabilities."><title>Expected Value Table</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
 <thead>
@@ -52,14 +49,16 @@
     <entry>(2)(0.3) = 0.6</entry>
   </row>
 </tbody>
-
 </tgroup>
-</table><para id="fs-idm87467792">Add the last column <emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) to find the long term average or expected value: (0)(0.2) + (1)(0.5) + (2)(0.3) = 0 + 0.5 + 0.6 = 1.1.</para><para id="element-353">The expected value is 1.1. The men's soccer team would, on the average, expect to play soccer 1.1 days per week. The number 1.1 is the long-term average or expected value if the men's soccer team plays soccer week after week after week. We say <emphasis effect="italics">μ</emphasis> = 1.1.</para></example>
+<caption>This table is called an expected value table. The table helps you calculate the expected value or long-term average.</caption>
+</table>
+
+<para id="fs-idm87467792">Add the last column <emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) to find the long term average or expected value: (0)(0.2) + (1)(0.5) + (2)(0.3) = 0 + 0.5 + 0.6 = 1.1.</para><para id="element-353">The expected value is 1.1. The men's soccer team would, on the average, expect to play soccer 1.1 days per week. The number 1.1 is the long-term average or expected value if the men's soccer team plays soccer week after week after week. We say <emphasis effect="italics">μ</emphasis> = 1.1.</para></example>
 
 <example id="fs-idm82770544">
 <para id="fs-idm122112">Find the expected value of the number of times a newborn baby's crying wakes its mother after midnight. The expected value is the expected number of times per week a newborn baby's crying wakes its mother after midnight. Calculate the standard deviation of the variable as well.
 
-<table id="element-740" summary="The PDF table contains the number of times a newborn wakes its mother after midnight, their probabilities and a column for each number multiplied by its probability."><title>You expect a newborn to wake its mother after midnight 2.1 times per week, on the average.</title>
+<table id="element-740" summary="The PDF table contains the number of times a newborn wakes its mother after midnight, their probabilities and a column for each number multiplied by its probability.">
 <tgroup cols="4"><thead>
   <row>
     <entry><emphasis effect="italics">x</emphasis></entry>
@@ -78,7 +77,7 @@
     <m:mn>50</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
@@ -96,7 +95,7 @@
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = 0</entry>
-<entry>(0 – 2.1)<sup>2</sup> ⋅ 0.04 = 0.1764</entry>
+<entry>(0 – 2.1)<sup>2</sup> ⋅ 0.04 = 0.1764</entry>  
 </row>
   <row>
     <entry>1</entry>
@@ -112,7 +111,7 @@
       <m:mn>50</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -129,7 +128,7 @@
       <m:mn>50</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -203,7 +202,7 @@
    </m:mrow>
   </m:mfrac>
  </m:mrow>
-</m:math></entry>
+</m:math></entry>    
 <entry>(3)<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -314,8 +313,7 @@
 
 
 
-
-</tgroup>
+</tgroup><caption>You expect a newborn to wake its mother after midnight 2.1 times per week, on the average.</caption>
 </table></para><para id="fs-idp11618480">Add the values in the third column of the table to find the expected value of <emphasis effect="italics">X</emphasis>: <newline count="1"/><emphasis effect="italics">μ</emphasis> = Expected Value = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -340,9 +338,7 @@
   </m:msqrt>
  </m:mrow>
 </m:math> ≈ 1.0247
-</para>
-
-</example>
+</para></example>
 
 
 <note id="fs-idm80414512" class="statistics try"><label/><title>Try It</title>
@@ -366,9 +362,9 @@
     <m:mn>50</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
-</m:math></entry></row>
+</m:math></entry></row>   
 <row>
 <entry>1</entry>
 <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 1) = <m:math>
@@ -379,7 +375,7 @@
     <m:mn>50</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry></row>
@@ -395,9 +391,9 @@
     <m:mn>50</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
-</m:math></entry></row>
+</m:math></entry></row>  
 <row>
 <entry>3</entry>
 <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = <m:math>
@@ -441,6 +437,133 @@
 
 </tgroup>
 </table></problem>
+<solution id="fs-idm108561760" class="solutions">
+<label/>
+<para id="fs-idm49996960">The expected value is 2.32</para><para id="fs-idm133987296">(0)<m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>4</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> + (1)<m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>8</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> + (2)<m:math>
+ <m:mrow>
+<m:mfrac>
+   <m:mrow>
+    <m:mn>16</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> + (3)<m:math>
+ <m:mrow>
+<m:mfrac>
+   <m:mrow>
+    <m:mn>14</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> + (4)<m:math>
+ <m:mrow>
+<m:mfrac>
+   <m:mn>6</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> + (5)<m:math>
+ <m:mrow>
+<m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> = 0 + <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>8</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> + <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>32</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> +<m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>42</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> + <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>24</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> + <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>10</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>116</m:mn>
+   <m:mrow>
+    <m:mn>50</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> = 2.32</para></solution>
 </exercise></note><example id="element-116">
 <para id="element-117">Suppose you play a game of chance in which five numbers are chosen from 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. A computer randomly selects five numbers from zero to nine with replacement. You pay $2 to play and could profit $100,000 if you match all five numbers in order (you get your $2 back plus $100,000). Over the long term, what is your <emphasis>expected</emphasis> profit of playing the game?</para>
 <para id="element-481">To do this problem, set up an expected value table for the amount of money you can profit.</para>
@@ -448,7 +571,7 @@
 
 <para id="element-996">To win, you must get all five numbers correct, in order. The probability of choosing one correct number is <m:math><m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn></m:mfrac></m:math> because there are ten numbers. You may choose a number more than once. The probability of choosing all five numbers correctly and in order is</para>
 
-<equation class="unnumbered" id="eip-10"><label/><m:math>
+<equation id="eip-10"><m:math display="block">
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -458,7 +581,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -468,7 +591,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -478,7 +601,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -488,7 +611,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -498,7 +621,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msup>
    <m:mrow>
@@ -513,7 +636,7 @@
 </m:math></equation>
 
 <para id="element-800">Therefore, the probability of winning is 0.00001 and the probability of losing is</para>
-<equation class="unnumbered" id="eip-755"><label/><m:math>
+<equation id="eip-755"><m:math display="block">
  <m:mrow>
   <m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.00001</m:mn><m:mo>=</m:mo><m:mn>0.99999.</m:mn>
  </m:mrow>
@@ -522,7 +645,7 @@
 
 <para id="element-839">The expected value table is as follows:</para>
 
-<table id="element-480" summary="In the table, to find the expected value, add the last column."><title>Αdd the last column. –1.99998 + 1 = –0.99998</title>
+<table id="element-480" summary="In the table, to find the expected value, add the last column.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -549,13 +672,80 @@
   </row>
 </tbody>
 
-
-</tgroup>
+</tgroup><caption>Αdd the last column. –1.99998 + 1 = –0.99998</caption>
 </table><para id="element-406">Since –0.99998 is about –1, you would, on average, expect to lose approximately $1 for each game you play. However, each time you play, you either lose $2 or profit $100,000. The $1 is the average or expected LOSS per game after playing this game over and over.</para></example>
 
 <note id="fs-idm7487840" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm58858880"><problem id="fs-idm58346384">
 <para id="fs-idm147804448">You are playing a game of chance in which four cards are drawn from a standard deck of 52 cards. You guess the suit of each card before it is drawn. The cards are replaced in the deck on each draw. You pay $1 to play. If you guess the right suit every time, you get your money back and $256. What is your expected profit of playing the game over the long term?</para></problem>
+
+<solution id="fs-idm14692032" class="solutions">
+<label/>
+<para id="fs-idm127713904">Let <emphasis effect="italics">X</emphasis> = the amount of money you profit. The <emphasis effect="italics">x</emphasis>-values are –$1 and $256.</para><para id="fs-idm112707632">The probability of guessing the right suit each time is <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>256</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> = 0.0039</para>
+<para id="fs-idm50024064">The probability of losing is 1 – <m:math>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>256</m:mn>
+    </m:mrow>
+   </m:mfrac>
+</m:mrow>
+</m:math> = <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>255</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>256</m:mn>
+    </m:mrow>
+   </m:mfrac>  </m:mrow>
+ </m:semantics>
+</m:math> = 0.9961</para><para id="fs-idm108269184">(0.0039)256 + (0.9961)(–1) = 0.9984 + (–0.9961) = 0.0023 or 0.23 cents.</para></solution>
 </exercise></note><example id="element-341">
 <para id="element-408">Suppose you play a game with a biased coin. You play each game by tossing the coin once. <emphasis effect="italics">P</emphasis>(heads) = <m:math>
  <m:mrow>
@@ -572,10 +762,15 @@
   </m:mfrac>
  </m:mrow>
 </m:math>. If you toss a head, you pay $6. If you toss a tail, you win $10. If you play this game many times, will you come out ahead?<newline count="2"/>
-</para>
-<exercise id="element-193">
+</para><exercise id="element-193">
 <problem id="id14631763">
 <para id="element-653">a. Define a random variable <emphasis effect="italics">X</emphasis>.</para>
+</problem>
+<solution id="id14631784">
+  <para id="element-548">a. <emphasis effect="italics">X</emphasis> = amount of profit<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-483"><problem id="id14631817">
 <para id="element-597">b. Complete the following expected value table.</para><table id="element-644" summary="Problem 2 Table">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -585,8 +780,8 @@
   <row>
     <entry/>
     <entry><emphasis effect="italics">x</emphasis></entry>
-    <entry/>
-    <entry/>
+    <entry>____</entry>
+    <entry>____</entry>
   </row>
 </thead>
 <tbody>
@@ -594,23 +789,21 @@
     <entry>WIN</entry>
     <entry>10</entry>
     <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
-    <entry/>
+    <entry>____</entry>
   </row>
   <row>
     <entry>LOSE</entry>
-    <entry/>
-    <entry/>
+    <entry>____</entry>
+    <entry>____</entry>
     <entry><m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
   </row>
-</tbody></tgroup>
-</table>
-<para id="element-847">c. What is the expected value, <emphasis effect="italics">μ</emphasis>? Do you come out ahead?</para>
+</tbody>
 
 
-</problem>
-<solution id="id14631784">
-  <para id="element-548">a. <emphasis effect="italics">X</emphasis> = amount of profit</para>
-  <para id="fs-idm44109456">b.
+</tgroup>
+</table></problem>
+
+<solution id="id7273882"><para id="fs-idm44109456">b. 
 <table id="element-644s" summary="In the PDF table, the outcomes (money you win or lose) of a game played with a biased coin are recorded. There is a column to record the probability and a column to record the outcome multiplied by its probability.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -635,8 +828,20 @@
     <entry>–6</entry>
     <entry><m:math><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
     <entry><m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
-  </row></tbody></tgroup>
-</table></para>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table>
+<newline count="2"/></para></solution>
+</exercise><exercise id="element-737">
+<problem id="id10943564">
+  <para id="element-847">c. What is the expected value, <emphasis effect="italics">μ</emphasis>? Do you come out ahead?</para>
+</problem>
+
+<solution id="id10943588">
   <para id="element-535">c. Add the last column of the table. The expected value <emphasis effect="italics">μ</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -644,7 +849,7 @@
     <m:mtext>–</m:mtext><m:mn>2</m:mn>
    </m:mrow>
    <m:mn>3</m:mn>
-  </m:mfrac>
+  </m:mfrac>  
  </m:mrow>
 </m:math>. You lose, on average, about 67 cents each time you play the game so you do not come out ahead.</para></solution>
 </exercise></example>
@@ -665,7 +870,7 @@
    <m:mn>2</m:mn>
    <m:mn>5</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, and <emphasis effect="italics">P</emphasis>(green) = <m:math>
  <m:mrow>
@@ -673,7 +878,7 @@
    <m:mn>1</m:mn>
    <m:mn>5</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>. If you land on red, you pay $10. If you land on blue, you don't pay or win anything. If you land on green, you win $10. Complete the following expected value table.</para>
 <table id="fs-idm71508016" summary="Exercise 3 Table 1">
@@ -701,7 +906,7 @@
    </m:mrow>
    <m:mn>5</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></entry>
 </row>
@@ -714,7 +919,7 @@
    <m:mn>2</m:mn>
    <m:mn>5</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></entry>
 <entry/>
@@ -731,6 +936,93 @@
 
 </tgroup>
 </table></problem>
+<solution id="fs-idm149175888" class="solutions">
+<label/>
+<table id="fs-idm141334512" summary="value table">
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<thead>
+<row>
+<entry/>
+<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Red</entry>
+<entry>–10</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mo>–</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>20</m:mn>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></entry></row>
+<row>
+<entry>Blue</entry>
+<entry>0</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>0</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></entry></row>
+<row>
+<entry>Green</entry>
+<entry>10</entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></entry>
+<entry><m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>10</m:mn>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math></entry></row>
+</tbody>
+</tgroup>
+</table></solution>
 </exercise></note><para id="element-903">Like data, probability distributions have standard deviations. To calculate the standard deviation (<emphasis effect="italics">σ</emphasis>) of a probability distribution, find each deviation from its expected value, square it, multiply it by its probability, add the products, and take the square root. To understand how to do the calculation, look at the table for the number of days per week a men's soccer team plays soccer. To find the standard deviation, add the entries in the column labeled (<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) and take the square root.
 
 <table id="element-226" summary="PDF table with the added columns for expected value and variance.">
@@ -778,7 +1070,7 @@
    </m:mrow>
   </m:msqrt>
  </m:mrow>
-</m:math> = 0.7</para><para id="element-873">Generally for probability distributions, we use a calculator or a computer to calculate <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis> to reduce roundoff error. For some probability distributions, there are short-cut formulas for calculating <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis>.</para><example id="fs-idp4384592"><exercise id="fs-idm87291728"><problem id="fs-idm69882560">
+</m:math> = 0.7</para><para id="element-873" class="finger">Generally for probability distributions, we use a calculator or a computer to calculate <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis> to reduce roundoff error. For some probability distributions, there are short-cut formulas for calculating <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis>.</para><example id="fs-idp4384592"><exercise id="fs-idm87291728"><problem id="fs-idm69882560">
 
 <para id="fs-idm82328592">Toss a fair, six-sided die twice. Let <emphasis effect="italics">X</emphasis> = the number of faces that show an even number. Construct a table like <link target-id="fs-idm71508016" document=""/> and calculate the mean <emphasis effect="italics">μ</emphasis> and standard deviation <emphasis effect="italics">σ</emphasis> of <emphasis effect="italics">X</emphasis>.</para></problem>
 <solution id="fs-idm46332752">
@@ -803,8 +1095,9 @@
 </table>
 
 <para id="fs-idm130208640">Use the sample space to complete the following table:</para>
-<table id="fs-idp385088" summary="Calculating"><title>Calculating <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis>.</title>
-<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<table id="fs-idp385088" summary="">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
 <colspec colnum="4" colname="c4"/>
@@ -828,7 +1121,7 @@
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></entry>
 <entry>0</entry>
@@ -840,7 +1133,7 @@
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -850,7 +1143,7 @@
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></entry></row>
 <row>
@@ -864,7 +1157,7 @@
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></entry>	<entry><m:math>
  <m:mrow>
@@ -876,7 +1169,7 @@
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></entry>
 <entry>(1 – 1)<sup>2</sup> ⋅ <m:math>
@@ -888,7 +1181,7 @@
    <m:mrow>
     <m:mn>36</m:mn>
    </m:mrow>
-  </m:mfrac>
+  </m:mfrac>  
  </m:mrow>
 </m:math> = 0</entry></row>
 <row>
@@ -900,7 +1193,7 @@
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>	<entry><m:math>
@@ -911,7 +1204,7 @@
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
@@ -923,7 +1216,7 @@
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -933,13 +1226,14 @@
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></entry></row>
 </tbody>
-
 </tgroup>
-</table><para id="fs-idm8206048">Add the values in the third column to find the expected value: <emphasis effect="italics">μ</emphasis> = <m:math>
+<caption>Calculating <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis>.</caption>
+</table>
+<para id="fs-idm8206048">Add the values in the third column to find the expected value: <emphasis effect="italics">μ</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -949,7 +1243,7 @@
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 1. Use this value to complete the fourth column.</para>
 
@@ -970,8 +1264,8 @@
 <thead>
 <row>
 <entry/>
-<entry><emphasis effect="italics">x</emphasis></entry>
-<entry><emphasis effect="italics">P(x)</emphasis></entry>
+<entry><emphasis effect="italics">x</emphasis></entry>	
+<entry><emphasis effect="italics">P(x)</emphasis></entry>	
 <entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">(Px)</emphasis></entry>
 <entry>(<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
 </row></thead>
@@ -985,9 +1279,9 @@
 </row>
 <row>
 <entry>loss</entry>
-<entry>–20</entry>
-<entry>0.7858</entry>
-<entry>–15.716</entry>
+<entry>–20</entry>	
+<entry>0.7858</entry>	
+<entry>–15.716</entry>	
 <entry>[–20 – (–5.006)]<sup>2</sup>(0.7858) = 176.6636</entry></row>
 </tbody>
 </tgroup>
@@ -1007,6 +1301,53 @@
 <exercise id="fs-idm88593344"><problem id="eip-idp52574576">
 <para id="eip-idp52574832">On May 11, 2013 at 9:30 PM, the probability that moderate seismic activity (one moderate earthquake) would occur in the next 48 hours in Japan was about 1.08%. As in <link target-id="example1.8" document=""/>, you bet that a moderate earthquake will occur in Japan during this period. If you win the bet, you win $100. If you lose the bet, you pay $10. Let <emphasis effect="italics">X</emphasis> = the amount of profit from a bet. Find the mean and standard deviation of <emphasis effect="italics">X</emphasis>.</para>
 </problem>
+<solution id="eip-idm74167040" class="solutions">
+<label/>
+<table id="eip-idm74166288" summary="">
+<tgroup cols="5">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry/>
+<entry><emphasis effect="italics">x</emphasis></entry>	
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>	
+<entry><emphasis effect="italics">x</emphasis> ⋅ (<emphasis effect="italics">Px</emphasis>)</entry>
+<entry>(<emphasis effect="italics">x</emphasis> - <emphasis effect="italics">μ</emphasis>)<sup>2</sup> <m:math>
+ <m:mo>⋅</m:mo>
+</m:math>
+ <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry></row></thead>
+<tbody>
+<row>
+<entry>win</entry>
+<entry>100</entry>
+<entry>0.0108</entry>
+<entry>1.08</entry>
+<entry>[100 – (–8.812)]<sup>2</sup> ⋅ 0.0108 = 127.8726</entry></row>
+<row>
+<entry>loss</entry>
+<entry>–10</entry>
+<entry>0.9892</entry>
+<entry>–9.892</entry>
+<entry>[–10 – (–8.812)]<sup>2</sup> ⋅ 0.9892 = 1.3961</entry></row>
+</tbody>
+</tgroup>
+</table>
+<para id="eip-idm102762496">Mean = Expected Value = <emphasis effect="italics">μ</emphasis> = 1.08 + (–9.892) = –8.812</para><para id="fs-idm39975760">If you make this bet many times under the same conditions, your long term outcome will be an average loss of $8.81 per bet.</para>
+<para id="eip-idm45253824"><m:math>
+ <m:mrow>
+  <m:mtext>Standard Deviation = </m:mtext><m:msqrt>
+   <m:mrow>
+    <m:mn>127.7826</m:mn><m:mo>+</m:mo><m:mn>1.3961</m:mn>
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>≈</m:mo><m:mn>11.3696</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution>
 </exercise></note><para id="element-1">Some of the more common discrete probability functions are binomial, geometric, hypergeometric, and Poisson. Most elementary courses do not cover the geometric, hypergeometric, and Poisson. Your instructor will let you know if he or she wishes to cover these distributions.</para>
 
 <para id="element-428">A probability distribution function is a pattern. You try to fit a probability problem into a <emphasis>pattern</emphasis> or distribution in order to perform the necessary calculations. These distributions are tools to make solving probability problems easier. Each distribution has its own special characteristics. Learning the characteristics enables you to distinguish among the different distributions.</para>
@@ -1032,7 +1373,7 @@
      <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
      <m:mtext>​</m:mtext>
     </m:msup>
-
+    
    </m:mrow>
    <m:mrow>
     <m:mi>x</m:mi><m:mo>∈</m:mo><m:mi>X</m:mi>
@@ -1050,7 +1391,7 @@
        <m:mstyle mathsize="140%" displaystyle="true"><m:mo>∑</m:mo></m:mstyle>
        <m:mtext>​</m:mtext>
       </m:msup>
-
+      
      </m:mrow>
      <m:mrow>
       <m:mi>x</m:mi><m:mo>∈</m:mo><m:mi>X</m:mi>
@@ -1065,7 +1406,7 @@
    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math></para></section>
 
@@ -1077,8 +1418,8 @@
 <tgroup cols="3">
 <thead>
 <row>
-<entry><emphasis effect="italics">x</emphasis></entry>
-<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis></entry>	
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>	
 <entry><emphasis effect="italics">x</emphasis>*<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
 </row></thead>
 <tbody>
@@ -1425,7 +1766,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>30</m:mn><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1437,7 +1778,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1.54</m:mn><m:mo>+</m:mo><m:mn>6.92</m:mn><m:mo>=</m:mo><m:mn>5.38</m:mn>
  </m:mrow>
@@ -1484,7 +1825,7 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></entry>
 </row>
@@ -1498,7 +1839,7 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
@@ -1518,7 +1859,7 @@
       <m:mn>100</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>0</m:mn><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1530,7 +1871,7 @@
       <m:mn>100</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>&#8722;</m:mo><m:mn>20</m:mn><m:mo>=</m:mo><m:mo>&#8722;</m:mo><m:mtext>$</m:mtext><m:mn>18.50</m:mn>
  </m:mrow>
@@ -1581,7 +1922,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1589,7 +1930,7 @@
      <m:mn>1</m:mn>
      <m:mn>2</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1599,7 +1940,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1621,7 +1962,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1629,7 +1970,7 @@
      <m:mn>1</m:mn>
      <m:mn>2</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1639,7 +1980,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1661,7 +2002,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mn>1</m:mn>
@@ -1675,7 +2016,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1700,7 +2041,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1710,7 +2051,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1722,7 +2063,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac>
    <m:mrow>
@@ -1732,7 +2073,7 @@
     <m:mn>52</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item>Expected value = –$0.62, rounded to the nearest cent</item>
@@ -1765,7 +2106,7 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></entry>
   </row>
@@ -1779,7 +2120,7 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
@@ -1794,7 +2135,7 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
@@ -1809,7 +2150,7 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
@@ -1828,7 +2169,7 @@
       <m:mn>100</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>90</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1838,7 +2179,7 @@
       <m:mn>100</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1848,7 +2189,7 @@
       <m:mn>100</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>&#8722;</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1860,7 +2201,7 @@
       <m:mn>100</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>&#8722;</m:mo><m:mi>$</m:mi><m:mn>2.</m:mn>
  </m:mrow>
@@ -1949,7 +2290,7 @@
    <m:mn>1</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
@@ -1963,7 +2304,7 @@
    <m:mn>2</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
@@ -1977,7 +2318,7 @@
    <m:mn>3</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </entry>
@@ -1991,7 +2332,7 @@
    <m:mn>1</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> + (5)<m:math>
  <m:mrow>
@@ -1999,7 +2340,7 @@
    <m:mn>2</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> &#8211; (6)<m:math>
  <m:mrow>
@@ -2007,7 +2348,7 @@
    <m:mn>3</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 0.33</item>
 <item>Yes, the expected value is 33 cents</item>
@@ -2276,7 +2617,7 @@
 
 <exercise id="fs-idm63057856"><problem id="fs-idp361456"><para id="fs-idm71157472">Florida State University has 14 statistics classes scheduled for its Summer 2013 term. One class has space available for 30 students, eight classes have space for 60 students, one class has space for 70 students, and four classes have space for 100 students.</para>
 <list id="fs-idm80083648" list-type="enumerated" number-style="lower-alpha"><item>What is the average class size assuming each class is filled to capacity?</item>
-<item>Space is available for 980 students. Suppose that each class is filled to capacity and select a statistics student at random. Let the random variable <emphasis effect="italics">X</emphasis> equal the size of the student’s class. Define the PDF for <emphasis effect="italics">X</emphasis>.</item>
+<item>Space is available for 980 students. Suppose that each class is filled to capacity and select a statistics student at random. Let the random variable <emphasis effect="italics">X</emphasis> equal the size of the student’s class. Define the PDF for <emphasis effect="italics">X</emphasis>.</item> 
 <item>Find the mean of <emphasis effect="italics">X</emphasis>.</item>
 <item>Find the standard deviation of <emphasis effect="italics">X</emphasis>.</item>
 </list>
@@ -2309,7 +2650,7 @@
         <m:mn>14</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -2322,7 +2663,7 @@
         <m:mn>14</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -2335,7 +2676,7 @@
         <m:mn>14</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
@@ -2348,11 +2689,11 @@
         <m:mn>14</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:mtd>
    </m:mtr>
-
+   
   </m:mtable>
  </m:mrow>
 </m:math>
@@ -2365,8 +2706,8 @@
 <colspec colnum="4" colname="c4"/>
 <thead>
 <row>
-<entry><emphasis effect="italics">x</emphasis></entry>
-<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
+<entry><emphasis effect="italics">x</emphasis></entry>	
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>	
 <entry><emphasis effect="italics">x</emphasis><emphasis effect="italics">(Px)</emphasis></entry>
 <entry>(<emphasis effect="italics">x</emphasis> &#8211; <emphasis effect="italics">&#956;</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
 </row></thead>
@@ -2404,7 +2745,7 @@
       <m:mn>14</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>114.2857</m:mn>
  </m:mrow>
@@ -2452,7 +2793,7 @@
       <m:mn>14</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>57.1429</m:mn>
  </m:mrow>
@@ -2496,7 +2837,7 @@
       <m:mn>14</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>
  </m:mrow>
@@ -2543,7 +2884,7 @@
       <m:mn>14</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>257.1429</m:mn>
  </m:mrow>
@@ -2627,12 +2968,12 @@
 
 <thead>
 <row>
-<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">x</emphasis></entry>	
 <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
 </row>
 </thead>
 <tbody>
-<row><entry>0</entry><entry>0.969</entry></row>
+<row><entry>0</entry><entry>0.969</entry></row>	
 <row><entry>5</entry><entry>
 <m:math>
  <m:mrow>
@@ -2644,7 +2985,7 @@
     <m:mtext>10,000</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 0.025</entry></row>
 <row><entry>25</entry><entry><m:math>
@@ -2657,7 +2998,7 @@
     <m:mtext>10,000</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 0.005</entry></row>
 <row><entry>100</entry><entry><m:math>
@@ -2670,7 +3011,7 @@
     <m:mtext>10,000</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 0.001</entry></row>
 </tbody>
@@ -2683,7 +3024,7 @@
 </solution>
 </exercise>
 
-</section> </content>
+</section></content>
 <glossary>
 <definition id="expectedv">
 <term>Expected Value</term>
@@ -2725,7 +3066,7 @@
 
 <definition id="fs-idm82850224">
 <term>Standard Deviation of a Probability Distribution</term>
-<meaning id="fs-idm7483264">a number that measures how far the outcomes of a statistical experiment are from the mean of the distribution <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>[</m:mo><m:msup><m:mrow><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi><m:mi> </m:mi><m:mo>–</m:mo><m:mi> </m:mi><m:mi>μ</m:mi></m:mrow></m:mfenced></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi> </m:mi><m:mo>∙</m:mo><m:mi> </m:mi><m:mi>Ρ</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>]</m:mo><m:mi> </m:mi></m:mrow></m:mrow></m:msqrt></m:math></meaning>
+<meaning id="fs-idm7483264">a number that measures how far the outcomes of a statistical experiment are from the mean of the distribution</meaning>
 </definition>
 
 <definition id="fs-idm140669088">
