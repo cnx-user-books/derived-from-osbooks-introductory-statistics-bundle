@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <para id="element-6892">When you perform a hypothesis test, there are four possible outcomes depending on the actual truth (or falseness) of the null hypothesis <emphasis effect="italics">H<sub>0</sub></emphasis> and the decision to reject or not. The outcomes are summarized in the following table:</para>
+    <para id="delete_me">When you perform a hypothesis test, there are four possible outcomes depending on the actual truth (or falseness) of the null hypothesis <emphasis effect="italics">H<sub>0</sub></emphasis> and the decision to reject or not. The outcomes are summarized in the following table:</para>
 
   <table id="element-689" summary="">
 <tgroup cols="3"><thead>
@@ -48,9 +48,9 @@
   <para id="element-915">The four possible outcomes in the table are:
     <list id="list-1" list-type="enumerated"><item>The decision is <emphasis>not to reject <emphasis effect="italics">H<sub>0</sub></emphasis></emphasis> when <emphasis><emphasis effect="italics">H<sub>0</sub></emphasis> is true (correct decision).</emphasis></item>
 
-      <item>The decision is to <emphasis>reject <emphasis effect="italics">H<sub>0</sub></emphasis></emphasis> when <emphasis><emphasis effect="italics">H<sub>0</sub></emphasis> is true</emphasis> (incorrect decision known as a<term id="term-00001">Type I error</term>).</item>
+      <item>The decision is to <emphasis>reject <emphasis effect="italics">H<sub>0</sub></emphasis></emphasis> when <emphasis><emphasis effect="italics">H<sub>0</sub></emphasis> is true</emphasis> (incorrect decision known as a<term>Type I error</term>).</item>
 
-      <item>The decision is <emphasis>not to reject <emphasis effect="italics">H<sub>0</sub></emphasis></emphasis> when, in fact, <emphasis><emphasis effect="italics">H<sub>0</sub></emphasis> is false</emphasis> (incorrect decision known as a <term id="term-00002">Type II error</term>).</item>
+      <item>The decision is <emphasis>not to reject <emphasis effect="italics">H<sub>0</sub></emphasis></emphasis> when, in fact, <emphasis><emphasis effect="italics">H<sub>0</sub></emphasis> is false</emphasis> (incorrect decision known as a <term>Type II error</term>).</item>
 
       <item>The decision is to <emphasis>reject <emphasis effect="italics">H<sub>0</sub></emphasis></emphasis> when <emphasis><emphasis effect="italics">H<sub>0</sub></emphasis> is false</emphasis> (<emphasis>correct decision</emphasis> whose probability is called the <emphasis>Power of the Test</emphasis>).</item>
     </list></para><para id="element-247">Each of the errors occurs with a particular probability. The Greek letters <emphasis effect="italics">α</emphasis> and <emphasis effect="italics">β</emphasis> represent the probabilities.</para><para id="element-95"><emphasis effect="italics">α</emphasis> = probability of a Type I error = <emphasis><emphasis effect="italics">P</emphasis>(Type I error)</emphasis> = probability of rejecting the null hypothesis when the null hypothesis is true.</para><para id="element-634"><emphasis effect="italics">β</emphasis> = probability of a Type II error = <emphasis><emphasis effect="italics">P</emphasis>(Type II error)</emphasis> = probability of not rejecting the null hypothesis when the null hypothesis is false.</para><para id="fs-idp40594672"><emphasis effect="italics">α</emphasis> and <emphasis effect="italics">β</emphasis> should be as small as possible because they are probabilities of errors. They are rarely zero.</para><para id="element-225">The Power of the Test is 1 – <emphasis effect="italics">β</emphasis>. Ideally, we want a high power that is as close to one as possible. Increasing the sample size can increase the Power of the Test.</para><para id="element-400">The following are examples of Type I and Type II errors.</para>
@@ -145,8 +145,7 @@ The mean price of mid-sized cars in a region is $32,000. A test is conducted to 
 </solution>
 </exercise>
   <exercise id="eip-611"><problem id="eip-552">
-  <para id="eip-384">A sleeping bag is tested to withstand temperatures of –15 °F. You think the bag cannot stand temperatures that low. State the Type I and Type II errors in complete sentences.</para></problem></exercise>
-  <exercise id="eip-655"><problem id="eip-848">
+  <para id="eip-384">A sleeping bag is tested to withstand temperatures of –15 °F. You think the bag cannot stand temperatures that low. State the Type I and Type II errors in complete sentences.</para></problem></exercise><exercise id="eip-655"><problem id="eip-848">
   <para id="eip-13">For <link target-id="eip-611">Exercise 9.12</link>, what are <emphasis effect="italics">α</emphasis> and <emphasis effect="italics">β</emphasis> in words?
   </para></problem>
 
@@ -273,7 +272,7 @@ Type I: The procedure will go well, but the doctors think it will not.
     <item>to conclude that the mean hours per week currently is 4.5, when in fact, it is higher</item>
     <item>to conclude that the mean hours per week currently is no higher than 4.5, when in fact, it is not higher</item></list></problem></exercise></section>
 
- </content>
+</content>
 <glossary>
 <definition id="type1err">
     <term>Type 1 Error</term>

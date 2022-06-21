@@ -78,7 +78,7 @@
 </exercise></note>
 
 
-<para id="eip-522">The stemplot is a quick way to graph data and gives an exact picture of the data. You want to look for an overall pattern and any outliers. An <term id="term-00001">outlier</term> is an observation of data that does not fit the rest of the data. It is sometimes called an <emphasis>extreme value.</emphasis> When you graph an outlier, it will appear not to fit the pattern of the graph. Some outliers are due to mistakes (for example, writing down 50 instead of 500) while others may indicate that something unusual is happening. It takes some background information to explain outliers, so we will cover them in more detail later.</para><example id="element-798">
+<para id="eip-522">The stemplot is a quick way to graph data and gives an exact picture of the data. You want to look for an overall pattern and any outliers. An <term>outlier</term> is an observation of data that does not fit the rest of the data. It is sometimes called an <emphasis>extreme value.</emphasis> When you graph an outlier, it will appear not to fit the pattern of the graph. Some outliers are due to mistakes (for example, writing down 50 instead of 500) while others may indicate that something unusual is happening. It takes some background information to explain outliers, so we will cover them in more detail later.</para><example id="element-798">
 <para id="element-534">The data are the distances (in kilometers) from a home to local supermarkets. Create a stemplot using the data:
 <newline/>1.1; 1.5; 2.3; 2.5; 2.7; 3.2; 3.3; 3.3; 3.5; 3.8; 4.0; 4.2; 4.5; 4.5; 4.7; 4.8; 5.5; 5.6; 6.5; 6.7; 12.3</para><exercise id="element-6923"><problem id="id8567884">
 <para id="fs-idp11807920">Do the data seem to have any concentration of values?</para>
@@ -260,7 +260,7 @@
 <problem id="fs-idm2063072">
 <para id="fs-idm4586448">The table shows the number of wins and losses the Atlanta Hawks have had in 42 seasons. Create a side-by-side stem-and-leaf plot of these wins and losses.</para>
 <table id="fs-idm25873440" summary="..">
-
+<title/>
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -686,6 +686,7 @@ teenager is reminded</entry>
 <para id="fs-idp5119792">A <emphasis>stem-and-leaf plot</emphasis> is a way to plot data and look at the distribution. In a stem-and-leaf plot, all data values within a class are visible. The advantage in a stem-and-leaf plot is that all values are listed, unlike a histogram, which gives classes of data values. A <emphasis>line graph</emphasis> is often used to represent a set of data values in which a quantity varies with time. These graphs are useful for finding trends. That is, finding a general pattern in data sets including temperature, sales, employment, company profit or cost over a period of time. A <emphasis>bar graph</emphasis> is a chart that uses either horizontal or vertical bars to show comparisons among categories. One axis of the chart shows the specific categories being compared, and the other axis represents a discrete value. Some bar graphs present bars clustered in groups of more than one (grouped bar graphs), and others show the bars divided into subparts to show cumulative effect (stacked bar graphs). Bar graphs are especially useful when categorical data is being used.</para></section>
 
 <section id="fs-idp51353072" class="practice">
+<title/>
 <para id="fs-idp2088992"><emphasis effect="italics">For each of the following data sets, create a stem plot and identify any outliers.</emphasis></para>
 
 <exercise id="fs-idp77965776">
@@ -837,7 +838,7 @@ teenager is reminded</entry>
 </exercise>
 
 <exercise id="fs-idp114173136">
-<problem id="fs-idp114173392"><para id="fs-idp114173520">Using the data from Mrs. Ramirez’s math class supplied in <link target-id="M01_Ch02_tbl021"/>, construct a bar graph showing the percentages.</para></problem>
+<problem id="fs-idp114173392"><para id="fs-idp114173520">Using the data from Mrs. Ramirez’s math class supplied in <link target-id="exercise13"/>, construct a bar graph showing the percentages.</para></problem>
 <solution id="fs-idp107574416">
 <figure id="fs-idp48344576"><media id="fs-idp74133360" display="block" alt="This is a bar graph that matches the supplied data. The x-axis shows the seasons of the year, and the y-axis shows the proportion of birthdays."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M03_009.jpg" width="350"/></media></figure></solution>
 </exercise>
@@ -868,7 +869,7 @@ teenager is reminded</entry>
 
 <exercise id="fs-idp107146752">
 <problem id="fs-idp107568048">
-<para id="fs-idp107568176">Use the data from the David County science competition supplied in <link target-id="M01_Ch02_tbl022"/>. Construct a bar graph that shows the county-wide population percentage of students at each school.</para></problem>
+<para id="fs-idp107568176">Use the data from the David County science competition supplied in <link target-id="exercise10"/>. Construct a bar graph that shows the county-wide population percentage of students at each school.</para></problem>
 <solution id="fs-idp4118704">
 <figure id="fs-idp86744448"><media id="fs-idp112012640" display="block" alt="This is a bar graph that matches the supplied data. The x-axis shows the county high schools, and the y-axis shows the proportion of county students."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M03_011.jpg" width="420"/></media></figure></solution>
 </exercise>
@@ -1070,5 +1071,5 @@ teenager is reminded</entry>
 </figure>
 </item>
 </list></solution>
-</exercise></section> </content>
+</exercise></section></content>
 </document>

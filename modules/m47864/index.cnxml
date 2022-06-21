@@ -59,7 +59,7 @@
 
 <para id="fs-idp160280112"><emphasis effect="italics">Use the following information to answer the next two exercises:</emphasis> Thirty people spent two weeks around Mardi Gras in New Orleans. Their two-week weight gain is below. (Note: a loss is shown by a negative weight gain.)</para>
 <table id="fs-idp142908256" summary="..">
- 
+<title/>
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -137,7 +137,7 @@
 
 <para id="fs-idp126256128"><emphasis effect="italics">Use the following information to answer the next two exercises:</emphasis> The next two questions refer to the following: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.</para>
 <table id="fs-idp74177072" summary="..">
- 
+<title/>
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -305,7 +305,7 @@
 </figure><para id="fs-idp50611808"><emphasis>36.</emphasis> Find the approximate number of responses that were three.</para>
 
 <para id="fs-idp146630896"><emphasis>37.</emphasis> Find the first, second and third quartiles. Use them to construct a box plot of the data.</para><para id="fs-idp25394960"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> <link target-id="fs-idp29366416" document=""/> shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.</para><table id="fs-idp29366416" summary="..">
- 
+<title/>
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -357,7 +357,7 @@
 </m:math>, 3 ≤ <emphasis effect="italics">x</emphasis> ≤ 13</item>
 <item>There is no mode</item>
 <item>The median is less than the mean.</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 10) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 6)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 10) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 6)</item>
 </list><newline/></para>
 
 <para id="fs-idp72328976"><emphasis>42.</emphasis> Calculate:
@@ -486,7 +486,7 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math><list id="fs-idp275532752" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1).</item>
+</m:math><list id="fs-idp275532752" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 1).</item>
 <item>Calculate the minimum value for the upper quartile.</item>
 <item>Find <emphasis effect="italics">P</emphasis><m:math>
 <m:mrow>
@@ -744,7 +744,7 @@ minutes.<list id="fs-idp13227984" list-type="enumerated" number-style="lower-alp
 
 <para id="fs-idp5846736"><emphasis>74.</emphasis> Construct a histogram of the IPO data (see <link document="m47873"/>).</para><para id="fs-idp194530592"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let <emphasis effect="italics">X</emphasis> = the number of estimates.</para>
 <table id="fs-idp187952032" summary="..">
- 
+<title/>
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -789,7 +789,7 @@ minutes.<list id="fs-idp13227984" list-type="enumerated" number-style="lower-alp
 
 <para id="fs-idp222511392"><emphasis>78.</emphasis> The middle 50% of the data are between _____ and _____.</para><para id="fs-idp3595632"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> Seventy 5<sup>th</sup> and 6<sup>th</sup> graders were asked their favorite dinner.</para>
 <table id="fs-idp73514720" summary="..">
- 
+<title/>
 <tgroup cols="5">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -997,14 +997,14 @@ minutes.<list id="fs-idp13227984" list-type="enumerated" number-style="lower-alp
 
 <para id="fs-idp84121392"><emphasis>87.</emphasis> Given: uniform, exponential, normal distributions. Match each to a statement below.<list id="fs-idm16052880" list-type="enumerated" number-style="lower-alpha">
 <item>mean = median ≠ mode</item>
-<item>mean > median > mode</item>
+<item>mean &gt; median &gt; mode</item>
 <item>mean = median = mode</item>
 </list><newline/></para></section>
 <section id="fs-idm150557568">
 <title>Chapter 10</title>
 <para id="fs-idp130914496"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> In a survey at Kirkwood Ski Resort the following information was recorded:</para>
 <table id="fs-idp51990160" summary="..">
- 
+<title/>
 <tgroup cols="5">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1283,7 +1283,7 @@ is normal with the same mean but a smaller standard deviation than the distribut
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math>. Sketch the graph that depicts: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1).
+</m:math>. Sketch the graph that depicts: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 1).
 </para><para id="fs-idp110758256"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the mean amount of money a customer spends in one trip to the supermarket is $72.</para>
 
 
@@ -1297,7 +1297,7 @@ is normal with the same mean but a smaller standard deviation than the distribut
 
 <para id="fs-idp103485776"><emphasis>130.</emphasis> Out of the years with water rationing, find the probability that there is a drought.</para><para id="fs-idp72963152"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis></para>
 <table id="fs-idp83656832" summary="..">
- 
+<title/>
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1395,7 +1395,7 @@ is normal with the same mean but a smaller standard deviation than the distribut
 
 <para id="fs-idp565104"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> 120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.</para>
 <table id="fs-idp53311952" summary="..">
- 
+<title/>
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -2120,5 +2120,5 @@ of the data are at most five.</item>
 
 </section><section id="fs-idp74334080" class="references"><title>References</title><para id="eip-idm59499712">Data from the <emphasis effect="italics">San Jose Mercury News</emphasis>.</para>
 <para id="eip-idm56401280">Baran, Daya. “20 Percent of Americans Have Never Used Email.” Webguild.org, 2010. Available online at: http://www.webguild.org/20080519/20-percent-of-americans-have-never-used-email (accessed October 17, 2013).</para>
-<para id="fs-idp4890128">Data from <emphasis effect="italics">Parade Magazine</emphasis>.</para></section> </content>
+<para id="fs-idp4890128">Data from <emphasis effect="italics">Parade Magazine</emphasis>.</para></section></content>
 </document>

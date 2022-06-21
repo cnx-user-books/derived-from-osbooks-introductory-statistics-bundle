@@ -8,10 +8,10 @@
 </metadata>
 
 <content>
-    <para id="element-3819">In some data sets, there are values <emphasis>(observed data points)</emphasis> called <term id="term-00001">outliers</term>. <emphasis>Outliers are observed data points that are far from the least squares line.</emphasis> They have large "errors", where the "error" or residual is the vertical distance from the line to the point. </para>
+    <para id="delete_me">In some data sets, there are values <emphasis>(observed data points)</emphasis> called <term>outliers</term>. <emphasis>Outliers are observed data points that are far from the least squares line.</emphasis> They have large "errors", where the "error" or residual is the vertical distance from the line to the point. </para>
 <para id="eip-502">Outliers need to be examined closely. Sometimes, for some reason or another, they should not be included in the analysis of the data. It is possible that an outlier is a result of erroneous data. Other times, an outlier may
 hold valuable information about the population under study and should remain included in the data. The key is to examine carefully what causes a data point to be an outlier.</para>
-<para id="eip-224">Besides outliers, a sample may contain one or a few points that are called <term id="term-00002">influential points</term>. Influential points are observed data points that are far from the other observed data points in the horizontal direction. These points may have a big effect on the slope of the regression line. To begin to identify an influential point, you can remove it from the data set and see if the slope of the regression line is changed significantly.</para>
+<para id="eip-224">Besides outliers, a sample may contain one or a few points that are called <term>influential points</term>. Influential points are observed data points that are far from the other observed data points in the horizontal direction. These points may have a big effect on the slope of the regression line. To begin to identify an influential point, you can remove it from the data set and see if the slope of the regression line is changed significantly.</para>
 <para id="eip-755">Computers and many calculators can be used to identify outliers from the data. Computer output for regression analysis will often identify both outliers and influential points so that you can examine them.</para>
 
 
@@ -19,12 +19,12 @@ hold valuable information about the population under study and should remain inc
 <title>Identifying Outliers</title>
 <para id="eip-511">We could guess at outliers by looking at a graph of the scatterplot and best fit-line. However, we would like some guideline as to how far away a point needs to be in order to be considered an outlier. <emphasis> As a rough rule of thumb, we can flag any point that is located further than two standard deviations above or below the best-fit line as an outlier</emphasis>. The standard deviation used is the standard deviation of the residuals or errors.</para>
 
-<para id="eip-526">We can do this visually in the scatter plot by drawing an extra pair of lines that are two standard deviations above and below the best-fit line. Any data points that are outside this extra pair of lines are flagged as potential outliers. Or we can do this numerically by calculating each residual and comparing it to twice the standard deviation. On the TI-83, 83+, or 84+, the graphical approach is easier. The graphical procedure is shown first, followed by the numerical calculations. You would generally need to use only one of these methods.</para><example id="eip-837"><exercise id="element-12987">
+<para id="eip-526" class="finger">We can do this visually in the scatter plot by drawing an extra pair of lines that are two standard deviations above and below the best-fit line. Any data points that are outside this extra pair of lines are flagged as potential outliers. Or we can do this numerically by calculating each residual and comparing it to twice the standard deviation. On the TI-83, 83+, or 84+, the graphical approach is easier. The graphical procedure is shown first, followed by the numerical calculations. You would generally need to use only one of these methods.</para><example id="eip-837"><exercise id="element-12987">
 <problem id="id1170949520848">
 <para id="element-631">In the <link document="m47117" target-id="element-22">third exam/final exam example</link>, you can determine if there is an outlier or not. If there is an outlier, as an exercise, delete it and fit the remaining data to a new line. For this example, the new line ought to fit the remaining data better. This means the <emphasis>SSE</emphasis> should be smaller and the correlation coefficient ought to be closer to 1 or –1.</para></problem>
 
 <solution id="id1170917505276">
-<para id="element-435">
+<para id="element-435" class="finger">
 <title>Graphical Identification of Outliers</title>With the TI-83, 83+, 84+ graphing calculators, it is easy to  identify the outliers graphically and visually.  If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance were equal to 2<emphasis effect="italics">s</emphasis> or more, then we would consider the data point to be "too far" from the line of best fit. We need to find and graph the lines that are two standard deviations below and above the regression line.  Any points that are outside these two lines are outliers. We will call these lines Y2 and Y3:</para>
 
 <para id="element-20965">As we did with the equation of the regression line and the correlation coefficient, we will use technology to calculate this standard deviation for us.  Using the <emphasis>LinRegTTest</emphasis> with this data, scroll down through the output screens to find <emphasis><emphasis effect="italics">s</emphasis> = 16.412</emphasis>.</para>
@@ -81,7 +81,7 @@ hold valuable information about the population under study and should remain inc
 <title>Note</title>
 <para id="fs-idp95645280">We divide by (<emphasis effect="italics">n</emphasis> – 2) because the regression model involves two estimates.</para></note>
 
-<para id="element-42">Rather than calculate the value of <emphasis effect="italics">s</emphasis> ourselves, we can find <emphasis effect="italics">s</emphasis> using the computer or calculator. For this example, the calculator function LinRegTTest found <emphasis effect="italics">s</emphasis> = 16.4 as the standard deviation of the residuals <list id="set-list2" list-type="labeled-item" display="inline"><item>35</item>
+<para id="element-42" class="finger">Rather than calculate the value of <emphasis effect="italics">s</emphasis> ourselves, we can find <emphasis effect="italics">s</emphasis> using the computer or calculator. For this example, the calculator function LinRegTTest found <emphasis effect="italics">s</emphasis> = 16.4 as the standard deviation of the residuals <list id="set-list2" list-type="labeled-item" display="inline"><item>35</item>
 <item>–17</item>
 <item>16</item>
 <item>–6</item>
@@ -192,7 +192,7 @@ hold valuable information about the population under study and should remain inc
 <title>How does the outlier affect the best fit line?</title>
 <para id="element-8021">Numerically and graphically, we have identified the point (65, 175) as an outlier. We should re-examine the data for this point to see if there are any problems with the data. If there is an error, we should fix the error if possible, or delete the data. If the data is correct, we would leave it in the data set. For this problem, we will suppose that we examined the data and found that this outlier data was an error. Therefore we will continue on and delete the outlier, so that we can explore how it affects the results, as a learning experience.</para>
 
-<para id="element-6691"><title>Compute a new best-fit line and correlation coefficient using the ten remaining points:</title>
+<para id="element-6691" class="finger"><title>Compute a new best-fit line and correlation coefficient using the ten remaining points:</title>
 On the TI-83, TI-83+, TI-84+ calculators, delete the outlier from L1 and L2. Using the LinRegTTest, the new line of best fit and the correlation coefficient are:</para>
 <para id="element-669"><emphasis effect="italics">ŷ</emphasis> = –355.19 + 7.39<emphasis effect="italics">x</emphasis> and <emphasis effect="italics">r</emphasis> = 0.9121</para><para id="element-101">The new line with <emphasis effect="italics">r</emphasis> = 0.9121 is a stronger correlation than the original (<emphasis effect="italics">r</emphasis> = 0.6631) because <emphasis effect="italics">r</emphasis> = 0.9121 is closer to one. This means that the new line is a better fit to the ten remaining data values. The line can better predict the final exam score given the third exam score.</para>
 </section>
@@ -306,7 +306,7 @@ First, <emphasis>square each |<emphasis effect="italics">y</emphasis> – <empha
 
 <para id="eip-799">Next, multiply <emphasis effect="italics">s</emphasis> by 2:
 <newline/>(2)(16.47) = 32.94
-<newline/>32.94 is 2 standard deviations away from the mean of the <emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis> values.</para><para id="eip-28">If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance is at least 2<emphasis effect="italics">s</emphasis>, then we would consider the data point to be "too far" from the line of best fit. We call that point a <term id="term-00003">potential outlier</term>.</para><para id="eip-130">For the example, if any of the |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| values are <emphasis>at least</emphasis> 32.94, the corresponding (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) data point is a potential outlier.</para><para id="eip-696">For the third exam/final exam problem, all the |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>|'s are less than 31.29 except for the first one which is 35.</para><para id="eip-994">35 > 31.29 That is, |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| ≥ (2)(s)</para><para id="eip-980">The point which corresponds to |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| = 35 is (65, 175). <emphasis>Therefore, the data point (65,175) is a potential outlier.</emphasis> For this example, we will delete it. (Remember, we do not always delete an outlier.)</para>
+<newline/>32.94 is 2 standard deviations away from the mean of the <emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis> values.</para><para id="eip-28">If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance is at least 2<emphasis effect="italics">s</emphasis>, then we would consider the data point to be "too far" from the line of best fit. We call that point a <term>potential outlier</term>.</para><para id="eip-130">For the example, if any of the |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| values are <emphasis>at least</emphasis> 32.94, the corresponding (<emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>) data point is a potential outlier.</para><para id="eip-696">For the third exam/final exam problem, all the |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>|'s are less than 31.29 except for the first one which is 35.</para><para id="eip-994">35 &gt; 31.29 That is, |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| ≥ (2)(s)</para><para id="eip-980">The point which corresponds to |<emphasis effect="italics">y</emphasis> – <emphasis effect="italics">ŷ</emphasis>| = 35 is (65, 175). <emphasis>Therefore, the data point (65,175) is a potential outlier.</emphasis> For this example, we will delete it. (Remember, we do not always delete an outlier.)</para>
 
 <note id="fs-idp12863088"><label/><title>Note</title>
 <para id="fs-idp101044864">When outliers are deleted, the researcher should either record that data was deleted, and why, or the researcher should provide results both with and without the deleted data. If data is erroneous and the correct values are known (e.g., student one actually scored a 70 instead of a 65), then this correction can be made to the data.</para></note>
@@ -409,7 +409,7 @@ The original line predicted <emphasis effect="italics">ŷ</emphasis> = –173.51
   <list id="element-298" list-type="enumerated" number-style="lower-alpha"><item>See <link target-id="eip-idp35936320"/>.</item>
 <item><emphasis effect="italics">ŷ</emphasis> = –3204 + 1.662<emphasis effect="italics">x</emphasis> is the equation of the line of best fit.</item>
 <item><emphasis effect="italics">r</emphasis> = 0.8694</item>
-<item>The number of data points is <emphasis effect="italics">n</emphasis> = 14. Use the 95% Critical Values of the Sample Correlation Coefficient table at the end of Chapter 12. <emphasis effect="italics">n</emphasis> – 2 = 12. The corresponding critical value is 0.532. Since 0.8694 > 0.532, <emphasis effect="italics">r</emphasis> is significant.
+<item>The number of data points is <emphasis effect="italics">n</emphasis> = 14. Use the 95% Critical Values of the Sample Correlation Coefficient table at the end of Chapter 12. <emphasis effect="italics">n</emphasis> – 2 = 12. The corresponding critical value is 0.532. Since 0.8694 &gt; 0.532, <emphasis effect="italics">r</emphasis> is significant.
 <newline/><emphasis effect="italics">ŷ</emphasis> = –3204 + 1.662(1990) = 103.4 CPI</item>
 <item>Using the calculator LinRegTTest, we find that <emphasis effect="italics">s</emphasis> = 25.4 ; graphing the lines Y2 = –3204 + 1.662X – 2(25.4) and Y3 = –3204 + 1.662X + 2(25.4) shows that no data values are outside those lines, identifying no outliers. (Note that the year 1999 was very close to the upper line, but still inside it.)</item>
 </list><figure id="eip-idp35936320">
@@ -667,7 +667,7 @@ The original line predicted <emphasis effect="italics">ŷ</emphasis> = –173.51
 <para id="eip-idm84868944">Data from the Physician’s Handbook, 1990.</para>
 <para id="eip-idm84868560">Data from the United States Department of Labor, the Bureau of Labor Statistics.</para></section><section id="eip-380" class="summary"><title>Chapter Review</title><para id="eip-idm88717792">
 To determine if a point is an outlier, do one of the following:
-        <list id="eip-idp16278896" list-type="enumerated" number-style="arabic"><item>Input the following equations into the TI 83, 83+,84, 84+:
+        <list id="eip-idp16278896" list-type="enumerated" number-style="arabic"><item class="finger">Input the following equations into the TI 83, 83+,84, 84+:
         <para id="eip-idp42255472"><m:math>
          <m:mrow>
           <m:mtable columnalign="left">
@@ -728,7 +728,7 @@ To determine if a point is an outlier, do one of the following:
 <para id="eip-idm34700448">What effect did the potential outlier have on the line of best fit?</para>
 </problem>
 <solution id="eip-idp31085872">
-<para id="eip-idm21136688">The potential outlier flattened the slope of the line of best fit because it was below the data set. It made the line of best fit less accurate as a predictor for the data.</para>
+<para id="eip-idm21136688">The potential outlier flattened the slope of the line of best fit because it was below the data set. It made the line of best fit less accurate is a predictor for the data.</para>
 </solution></exercise>
 
 <exercise id="eip-955"><problem id="eip-idm16518592">
@@ -888,6 +888,7 @@ To determine if a point is an outlier, do one of the following:
 </list></problem></exercise><exercise id="fs-idp2751904"><problem id="fs-idp2752160">
 <para id="fs-idp140738592">The following table consists of one student athlete’s time (in minutes) to swim 2000 yards and the student’s heart rate (beats per minute) after swimming on a random sample of 10 days:</para>
 <table id="fs-idp167616288" summary="..">
+<title/>
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -957,7 +958,7 @@ To determine if a point is an outlier, do one of the following:
 <item>Since only 1.5% of the heart rate variation is explained by this regression equation, we must conclude that this association is not explained with a linear relationship.</item>
 <item>The point (34.72, 124) generates the largest residual of –11.82. This means that our observed heart rate is almost 12 beats less than our predicted rate of 136 beats per minute. When this point is removed, the slope becomes –2.953 with the y-intercept changing to 247.1616. While the linear association is still very weak, we see that the removed data pair can be considered an influential point in the sense that the <emphasis effect="italics">y</emphasis>-intercept becomes more meaningful.</item>
 </list></solution></exercise><exercise id="fs-idp111074400"><problem id="fs-idp111074656">
-<para id="fs-idm34344064">A researcher is investigating whether population impacts homicide rate. He uses demographic data from Detroit, MI to compare homicide rates and the number of the population that are White males.</para><table id="fs-idp10781040" summary="..">
+<para id="fs-idm34344064">A researcher is investigating whether population impacts homicide rate. He uses demographic data from Detroit, MI to compare homicide rates and the number of the population that are white males.</para><table id="fs-idp10781040" summary="..">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <thead>
@@ -1035,7 +1036,7 @@ To determine if a point is an outlier, do one of the following:
 <item>Do the data provide convincing evidence that there is a linear relationship between population size and homicide rate? Carry out an appropriate test at a significance level of 0.05 to help answer this question.</item>
 </list></problem></exercise><exercise id="fs-idm81379472"><problem id="fs-idm81379216">
 <table id="fs-idm81378960" summary="..">
-
+<title/>
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1105,9 +1106,7 @@ To determine if a point is an outlier, do one of the following:
 </problem>
 <solution id="fs-idm6636208">
 <para id="fs-idp167245664">If we remove the two service academies (the tuition is $0.00), we construct a new regression equation of <emphasis effect="italics">y</emphasis> = –0.0009x + 160 with a correlation coefficient of 0.71397 and a coefficient of determination of 0.50976. This allows us to say there is a fairly strong linear association between tuition costs and salaries if the service academies are removed from the data set.</para></solution>
-</exercise></section>
-
-<section id="fs-idm85401472" class="bring-together-homework">
+</exercise><section id="fs-idm85401472" class="bring-together-homework">
 <title>Bring It Together</title>
 <exercise id="element-793"><problem id="id44885338">
   <para id="element-815">The average number of people in a family that attended college for various years is given in <link target-id="id1034sdfa0215"/>.</para><table id="id1034sdfa0215" summary="--">
@@ -1318,7 +1317,7 @@ To determine if a point is an outlier, do one of the following:
 <solution id="eip-idm171665760">
 <list id="eip-idm171665504" list-type="enumerated" number-style="lower-alpha"><item>
 <table id="eip-idm171664512" summary="..">
-
+<title/>
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1556,7 +1555,7 @@ To determine if a point is an outlier, do one of the following:
 </exercise><exercise id="element-133">
 <problem id="id44851052">
 <table id="fs-idp62448384" summary="..">
-
+<title/>
 <tgroup cols="5">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1784,8 +1783,8 @@ To determine if a point is an outlier, do one of the following:
 
 
 </section>
-
-   </content>
+</section>
+  </content>
   <glossary>
 <definition id="outlier">
     <term>Outlier</term>

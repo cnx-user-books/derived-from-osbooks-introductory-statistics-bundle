@@ -8,9 +8,9 @@
 </metadata>
 
 <content>
-    <para id="element-3818">Linear regression for two variables is based on a linear equation with one independent
+    <para id="delete_me">Linear regression for two variables is based on a linear equation with one independent
 variable. The equation has the form:</para>
-<equation class="unnumbered" id="element-987"><label/><m:math>
+<equation id="element-987"><m:math>
 <m:mi>y</m:mi>
 <m:mo>=</m:mo>
 <m:mi>a</m:mi>
@@ -22,8 +22,8 @@ variable. The equation has the form:</para>
 
 <example id="element-906">
 <para id="element-12">The following examples are linear equations.</para>
-<equation class="unnumbered" id="element-12495"><label/><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mtext>2x</m:mtext></m:math></equation>
-<equation class="unnumbered" id="element-357238"><label/><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>–0.01</m:mn><m:mo>+</m:mo><m:mtext>1.2x</m:mtext></m:math></equation></example>
+<equation id="element-12495"><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mtext>2x</m:mtext></m:math></equation>
+<equation id="element-357238"><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>–0.01</m:mn><m:mo>+</m:mo><m:mtext>1.2x</m:mtext></m:math></equation></example>
 <note id="fs-idp88007136" class="statistics try">
 <label/>
 <title>Try It</title>
@@ -37,7 +37,7 @@ variable. The equation has the form:</para>
 </note>
 <para id="eip-498">The graph of a linear equation of the form <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis> is a <emphasis>straight line</emphasis>. Any line that is not vertical can be described by this equation.</para><example id="element-44">
 <para id="eip-153">Graph the equation <emphasis effect="italics">y</emphasis> = –1 + 2<emphasis effect="italics">x</emphasis>.</para><figure id="linrgs_lineq1"><media id="idp38882144" alt="Graph of the equation y = -1 + 2x.  This is a straight line that crosses the y-axis at -1 and is sloped up and to the right, rising 2 units for every one unit of run.">
-<image src="../../media/fig-ch12_02_01-58c6.jpg" mime-type="image/jpeg" width="380"/>
+<image src="../../media/fig-ch12_02_01.jpg" mime-type="image/jpeg" width="380"/>
 </media>
 
 </figure></example>
@@ -78,7 +78,7 @@ variable. The equation has the form:</para>
 
 </note>
 
-<section id="fs-idm35899664"><title>Slope and <emphasis effect="italics">Y</emphasis>-Intercept of a Linear Equation</title><para id="fs-idp15969440">For the linear equation <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>, <emphasis effect="italics">b</emphasis> = slope and <emphasis effect="italics">a</emphasis> = <emphasis effect="italics">y</emphasis>-intercept. From algebra recall that the slope is a number that describes the steepness of a line, and the <emphasis effect="italics">y</emphasis>-intercept is the <emphasis effect="italics">y</emphasis> coordinate of the point (0, <emphasis effect="italics">a</emphasis>) where the line crosses the <emphasis effect="italics">y</emphasis>-axis.</para><figure id="linrgs_slope1"><media id="idp66522560a" alt="Three possible graphs of the equation y = a + bx. For the first graph, (a), b > 0 and so the line slopes upward to the right. For the second, b = 0 and the graph of the equation is a horizontal line. In the third graph, (c), b &lt; 0 and the line slopes downward to the right."><image src="../../media/fig-ch12_03_01-917c.jpg" mime-type="image/jpg" width="480"/></media><caption>Three possible graphs of <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>. (a) If <emphasis effect="italics">b</emphasis> > 0, the line slopes upward to the right. (b) If <emphasis effect="italics">b</emphasis> = 0, the line is horizontal. (c) If <emphasis effect="italics">b</emphasis> &lt; 0, the line slopes downward to the right.</caption></figure><example id="element-201">
+<section id="fs-idm35899664"><title>Slope and <emphasis effect="italics">Y</emphasis>-Intercept of a Linear Equation</title><para id="fs-idp15969440">For the linear equation <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>, <emphasis effect="italics">b</emphasis> = slope and <emphasis effect="italics">a</emphasis> = <emphasis effect="italics">y</emphasis>-intercept. From algebra recall that the slope is a number that describes the steepness of a line, and the <emphasis effect="italics">y</emphasis>-intercept is the <emphasis effect="italics">y</emphasis> coordinate of the point (0, <emphasis effect="italics">a</emphasis>) where the line crosses the <emphasis effect="italics">y</emphasis>-axis.</para><figure id="linrgs_slope1"><media id="idp66522560a" alt="Three possible graphs of the equation y = a + bx. For the first graph, (a), b &gt; 0 and so the line slopes upward to the right. For the second, b = 0 and the graph of the equation is a horizontal line. In the third graph, (c), b &lt; 0 and the line slopes downward to the right."><image src="../../media/fig-ch12_03_01.jpg" mime-type="image/jpg" width="480"/></media><caption>Three possible graphs of <emphasis effect="italics">y</emphasis> = <emphasis effect="italics">a</emphasis> + <emphasis effect="italics">bx</emphasis>. (a) If <emphasis effect="italics">b</emphasis> &gt; 0, the line slopes upward to the right. (b) If <emphasis effect="italics">b</emphasis> = 0, the line is horizontal. (c) If <emphasis effect="italics">b</emphasis> &lt; 0, the line slopes downward to the right.</caption></figure><example id="element-201">
 <para id="element-693">Svetlana tutors to make extra money for college. For each tutoring session, she charges a one-time fee of $25 plus $15 per hour of tutoring. A linear equation that expresses the total amount of money Svetlana earns for each session she tutors is <emphasis effect="italics">y</emphasis> = 25 + 15<emphasis effect="italics">x</emphasis>.</para>
 
 <exercise id="element-00112">
@@ -106,8 +106,7 @@ variable. The equation has the form:</para>
 </section><section id="eip-746" class="references"><title>References</title><para id="eip-idp123435600">Data from the Centers for Disease Control and Prevention.</para>
 <para id="eip-idp89356864">Data from the National Center for agency reporting flu cases and TB Prevention.</para></section><section id="eip-645" class="summary">
 <title>Chapter Review</title>
-<para id="fs-idm110721248">The most basic type of association is a linear association. This type of relationship can be defined algebraically by the equations used, numerically with actual or predicted data values, or graphically from a plotted curve. (Lines are classified as straight curves.) Algebraically, a linear equation typically takes the form <emphasis><emphasis effect="italics">y = mx + b</emphasis></emphasis>, where <emphasis><emphasis effect="italics">m</emphasis></emphasis> and <emphasis><emphasis effect="italics">b</emphasis></emphasis> are constants, <emphasis><emphasis effect="italics">x</emphasis></emphasis> is the independent variable, <emphasis><emphasis effect="italics">y</emphasis></emphasis> is the dependent variable. In a statistical context, a linear equation is written in the form <emphasis><emphasis effect="italics">y = a + bx</emphasis></emphasis>, where <emphasis><emphasis effect="italics">a</emphasis></emphasis> and <emphasis><emphasis effect="italics">b</emphasis></emphasis> are the constants. This form is used to help readers distinguish the statistical context from the algebraic context. In the equation <emphasis effect="italics">y = a + bx</emphasis>, the constant <emphasis effect="italics">b</emphasis>, called a coefficient, represents the <emphasis>slope</emphasis>. The constant a is called the <emphasis effect="italics">y</emphasis>-intercept.</para>
-<para id="eip-957">The <emphasis>slope of a line</emphasis> is a value that describes the rate of change between the independent and dependent variables. The <emphasis>slope</emphasis> tells us how the dependent variable (<emphasis effect="italics">y</emphasis>) changes for every one unit increase in the independent (<emphasis effect="italics">x</emphasis>) variable, on average. The <emphasis><emphasis effect="italics">y</emphasis>-intercept</emphasis> is used to describe the dependent variable when the independent variable equals zero.</para>
+<para id="fs-idm110721248">The most basic type of association is a linear association. This type of relationship can be defined algebraically by the equations used, numerically with actual or predicted data values, or graphically from a plotted curve. (Lines are classified as straight curves.) Algebraically, a linear equation typically takes the form <emphasis><emphasis effect="italics">y = mx + b</emphasis></emphasis>, where <emphasis><emphasis effect="italics">m</emphasis></emphasis> and <emphasis><emphasis effect="italics">b</emphasis></emphasis> are constants, <emphasis><emphasis effect="italics">x</emphasis></emphasis> is the independent variable, <emphasis><emphasis effect="italics">y</emphasis></emphasis> is the dependent variable. In a statistical context, a linear equation is written in the form <emphasis><emphasis effect="italics">y = a + bx</emphasis></emphasis>, where <emphasis><emphasis effect="italics">a</emphasis></emphasis> and <emphasis><emphasis effect="italics">b</emphasis></emphasis> are the constants. This form is used to help readers distinguish the statistical context from the algebraic context. In the equation <emphasis effect="italics">y = a + bx</emphasis>, the constant <emphasis effect="italics">b</emphasis> that multiplies the <emphasis><emphasis effect="italics">x</emphasis></emphasis> variable (<emphasis effect="italics">b</emphasis> is called a coefficient) is called as the <emphasis>slope</emphasis>. The slope describes the rate of change between the independent and dependent variables; in other words, the rate of change describes the change that occurs in the dependent variable as the independent variable is changed. In the equation <emphasis effect="italics">y = a + bx</emphasis>, the constant a is called as the <emphasis effect="italics">y</emphasis>-intercept. Graphically, the <emphasis effect="italics">y</emphasis>-intercept is the <emphasis effect="italics">y</emphasis> coordinate of the point where the graph of the line crosses the <emphasis effect="italics">y</emphasis> axis.  At this point <emphasis effect="italics">x</emphasis> = 0.</para><para id="eip-957">The <emphasis>slope of a line</emphasis> is a value that describes the rate of change between the independent and dependent variables. The <emphasis>slope</emphasis> tells us how the dependent variable (<emphasis effect="italics">y</emphasis>) changes for every one unit increase in the independent (<emphasis effect="italics">x</emphasis>) variable, on average. The <emphasis><emphasis effect="italics">y</emphasis>-intercept</emphasis> is used to describe the dependent variable when the independent variable equals zero. Graphically, the slope is represented by three line types in elementary statistics.</para>
 </section>
 
 <section id="eip-190" class="formula-review">
@@ -383,6 +382,7 @@ variable. The equation has the form:</para>
 <exercise id="fs-idm114941024"><problem id="fs-idm130118464">
 <para id="fs-idm128829552">Piece-rate systems are widely debated incentive payment plans. In a recent study of loan officer effectiveness, the following piece-rate system was examined:</para>
 <table id="fs-idm107180912" summary="..">
+<title/>
 <tgroup cols="5">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -408,5 +408,5 @@ variable. The equation has the form:</para>
 </tgroup>
 </table>
 <para id="fs-idm114950432">If a loan officer makes 95% of his or her goal, write the linear function that applies based on the incentive plan table. In context, explain the <emphasis effect="italics">y</emphasis>-intercept and slope.</para></problem></exercise></section>
- </content>
+</content>
 </document>

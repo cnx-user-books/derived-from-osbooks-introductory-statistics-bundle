@@ -9,19 +9,16 @@
 
 <content>
 <para id="element-848">The "center" of a data set is also a way of describing location.
-The two most widely used measures of the "center" of the data are the <term id="term-00001">mean</term> (average) and the <term id="term-00002">median</term>. To calculate the <emphasis>mean weight</emphasis> of 50 people, add the 50 weights together and divide by 50. To find the <emphasis> median weight</emphasis> of the 50 people, order the data and find the number that splits the data into two equal parts. The median is generally a better measure of the center when there are extreme values or outliers because it is not affected by the precise numerical values of the outliers. The mean is the most common measure of the center.</para>
+The two most widely used measures of the "center" of the data are the <term>mean</term> (average) and the <term>median</term>. To calculate the <emphasis>mean weight</emphasis> of 50 people, add the 50 weights together and divide by 50. To find the <emphasis> median weight</emphasis> of the 50 people, order the data and find the number that splits the data into two equal parts. The median is generally a better measure of the center when there are extreme values or outliers because it is not affected by the precise numerical values of the outliers. The mean is the most common measure of the center.</para>
 
 <note id="eip-13"><label/>
 <title>NOTE</title>
 <para id="fs-idp62684352">The words “mean” and “average” are often used interchangeably. The substitution of one word for the other is common practice. The technical term is “arithmetic mean” and “average” is technically a center location. However, in practice among non-statisticians, “average" is commonly accepted for “arithmetic mean.”</para></note>
 
-<para id="element-44">When each value in the data set is not unique, the mean can be calculated by multiplying each distinct value by its frequency and then dividing the sum by the total number of data values. The letter used to represent the <emphasis>sample mean</emphasis> is an <emphasis effect="italics">x</emphasis> with a bar over it (pronounced “<emphasis effect="italics">x</emphasis> bar”): <m:math><m:mover accent="true">
-  <m:mi>x</m:mi>
-  <m:mo>–</m:mo>
- </m:mover></m:math>.</para><para id="element-705">The Greek letter <emphasis effect="italics">μ</emphasis> (pronounced "mew") represents the <emphasis>population mean</emphasis>. One of the requirements for the <emphasis>sample mean</emphasis> to be a good estimate of the <emphasis>population mean</emphasis> is for the sample taken to be truly random.</para>
+<para id="element-44">When each value in the data set is not unique, the mean can be calculated by multiplying each distinct value by its frequency and then dividing the sum by the total number of data values. The letter used to represent the <emphasis>sample mean</emphasis> is an <emphasis effect="italics">x</emphasis> with a bar over it (pronounced “<emphasis effect="italics">x</emphasis> bar”): <m:math><m:apply><m:conjugate/><m:ci>x</m:ci></m:apply></m:math>.</para><para id="element-705">The Greek letter <emphasis effect="italics">μ</emphasis> (pronounced "mew") represents the <emphasis>population mean</emphasis>. One of the requirements for the <emphasis>sample mean</emphasis> to be a good estimate of the <emphasis>population mean</emphasis> is for the sample taken to be truly random.</para>
 
 <para id="element-228">To see that both ways of calculating the mean are the same, consider the sample:
-<newline/>1; 1; 1; 2; 2; 3; 4; 4; 4; 4; 4</para><equation class="unnumbered" id="element-46"><label/><m:math>
+<newline/>1; 1; 1; 2; 2; 3; 4; 4; 4; 4; 4</para><equation id="element-46"><m:math>
 <m:mover>
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -57,7 +54,7 @@ The two most widely used measures of the "center" of the data are the <term id="
 <m:mn>2.7</m:mn>
 </m:math>
 </equation>
-<equation class="unnumbered" id="element-662"><label/><m:math>
+<equation id="element-662"><m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>x</m:mi>
@@ -260,7 +257,7 @@ The two most widely used measures of the "center" of the data are the <term id="
 <label/><title>Try It</title>
 <exercise id="fs-idm28353888"><problem id="fs-idm72704208">
 <para id="fs-idm46796800">The following data show the number of months patients typically wait on a transplant list before getting surgery. The data are ordered from smallest to largest. Calculate the mean and median.</para><para id="fs-idm114142640">
-<list list-type="labeled-item" display="inline" id="list-00001">
+<list list-type="labeled-item" display="inline">
 <item>3</item>
 <item>4</item>
 <item>5</item>
@@ -334,11 +331,11 @@ The two most widely used measures of the "center" of the data are the <term id="
 
 <note id="fs-idp18783360" class="statistics try">
 <label/><title>Try It</title>
-<exercise id="fs-idm79009152"><problem id="fs-idm79009024"><para id="fs-idm10019504">In a sample of 60 households, one house is worth $2,500,000. Twenty-nine houses are worth $280,000, and all the others are worth $315,000. Which is the better measure of the “center”: the mean or the median?</para></problem>
+<exercise id="fs-idm79009152"><problem id="fs-idm79009024"><para id="fs-idm10019504">In a sample of 60 households, one house is worth $2,500,000. Half of the rest are worth $280,000, and all the others are worth $315,000. Which is the better measure of the “center”: the mean or the median?</para></problem>
 
 </exercise></note>
 
-<para id="element-584">Another measure of the center is the mode. The <term id="term-00003">mode</term> is the most frequent value. There can be more than one mode in a data set as long as those values have the same frequency and that frequency is the highest. A data set with two modes is called bimodal.</para>
+<para id="element-584">Another measure of the center is the mode. The <term>mode</term> is the most frequent value. There can be more than one mode in a data set as long as those values have the same frequency and that frequency is the highest. A data set with two modes is called bimodal.</para>
 
 <example id="element-114"><para id="element-639">Statistics exam scores for 20 students are as follows:</para>
 <para id="element-104"><list id="set-536" list-type="labeled-item" display="inline">
@@ -356,7 +353,7 @@ The two most widely used measures of the "center" of the data are the <term id="
 <note id="fs-idp45793968" class="statistics try">
 <label/><title>Try It</title>
 <exercise id="fs-idm24402032"><problem id="fs-idm24643648"><para id="fs-idp74555792">The number of books checked out from the library from 25 students are as follows:</para>
-<para id="fs-idm901328"><list list-type="labeled-item" display="inline" id="list-00002"><item>0</item><item>0</item><item>0</item><item>1</item><item>2</item><item>3</item><item>3</item><item>4</item><item>4</item><item>5</item><item>5</item><item>7</item><item>7</item><item>7</item><item>7</item><item>8</item><item>8</item><item>8</item><item>9</item><item>10</item><item>10</item><item>11</item><item>11</item><item>12</item><item>12</item></list>
+<para id="fs-idm901328"><list list-type="labeled-item" display="inline"><item>0</item><item>0</item><item>0</item><item>1</item><item>2</item><item>3</item><item>3</item><item>4</item><item>4</item><item>5</item><item>5</item><item>7</item><item>7</item><item>7</item><item>7</item><item>8</item><item>8</item><item>8</item><item>9</item><item>10</item><item>10</item><item>11</item><item>11</item><item>12</item><item>12</item></list>
 <newline/>Find the mode.
 </para>
 </problem>
@@ -368,7 +365,7 @@ The two most widely used measures of the "center" of the data are the <term id="
 <note id="eip-146"><label/><title>NOTE</title>
 <para id="fs-idm78257648">The mode can be calculated for qualitative data as well as for quantitative data. For example, if the data set is: red, red, red, green, green, yellow, purple, black, blue, the mode is red.</para></note>
 
-<para id="element-660">Statistical software will easily calculate the mean, the median, and the mode. Some graphing calculators can also make these calculations.  In the real world, people make these calculations using software.</para>
+<para id="element-660" class="finger">Statistical software will easily calculate the mean, the median, and the mode. Some graphing calculators can also make these calculations.  In the real world, people make these calculations using software.</para>
 </example>
 
 <note id="fs-idp55881696" class="statistics try"><label/><title>Try It</title>
@@ -377,12 +374,12 @@ The two most widely used measures of the "center" of the data are the <term id="
 </exercise>
 </note><section id="element-282">
 <title>The Law of Large Numbers and the Mean</title>
-<para id="element-41">The Law of Large Numbers says that if you take samples of larger and larger size from any population, then the mean <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> of the sample is very likely to get closer and closer to <emphasis effect="italics">µ</emphasis>. This is discussed in more detail later in the text.</para>
+<para id="element-41">The Law of Large Numbers says that if you take samples of larger and larger size from any population, then the mean <m:math><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> of the sample is very likely to get closer and closer to <emphasis effect="italics">µ</emphasis>. This is discussed in more detail later in the text.</para>
 </section>
 
 <section id="eip-529">
 <title>Sampling Distributions and Statistic of a Sampling Distribution</title>
-<para id="eip-568">You can think of a <term id="term-00004">sampling distribution</term> as a <emphasis> relative frequency distribution</emphasis> with a great many samples. (See <emphasis>Sampling and Data</emphasis> for a review of relative frequency). Suppose thirty randomly selected students were asked the number of movies they watched the previous week. The results are in the <emphasis>relative frequency table</emphasis> shown below.</para>
+<para id="eip-568">You can think of a <term>sampling distribution</term> as a <emphasis> relative frequency distribution</emphasis> with a great many samples. (See <emphasis>Sampling and Data</emphasis> for a review of relative frequency). Suppose thirty randomly selected students were asked the number of movies they watched the previous week. The results are in the <emphasis>relative frequency table</emphasis> shown below.</para>
 <table id="rel_freq_table" summary="The table presents the number of movies 30 students watched in the previous week. The first column lists the number of movies from 0-4 and the second column lists the relative frequencies.">
 <tgroup cols="2"><thead>
 <row>
@@ -471,7 +468,7 @@ The two most widely used measures of the "center" of the data are the <term id="
 
 </tgroup>
 </table><para id="eip-7"><emphasis>If you let the number of samples get very large (say, 300 million or more), the relative frequency table becomes a relative frequency distribution</emphasis>.</para>
-<para id="eip-309">A <emphasis>statistic</emphasis> is a number calculated from a sample. Statistic examples include the mean, the median and the mode as well as others.  The sample mean <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> is an example of a statistic which estimates the population mean <emphasis effect="italics">μ</emphasis>.</para></section>
+<para id="eip-309">A <emphasis>statistic</emphasis> is a number calculated from a sample. Statistic examples include the mean, the median and the mode as well as others.  The sample mean <m:math><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> is an example of a statistic which estimates the population mean <emphasis effect="italics">μ</emphasis>.</para></section>
 
 <section id="fs-idp28527728">
 <title>Calculating the Mean of Grouped Frequency Tables</title>
@@ -571,6 +568,7 @@ The two most widely used measures of the "center" of the data are the <term id="
   </m:mrow>
 </m:math></item>
 <item><m:math>
+ <m:semantics>
   <m:mrow>
    <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
     <m:mrow>
@@ -596,6 +594,7 @@ The two most widely used measures of the "center" of the data are the <term id="
    </m:mfrac>
    <m:mo>=</m:mo><m:mn>76.86</m:mn>
   </m:mrow>
+ </m:semantics>
 </m:math></item>
 </list></solution>
 </exercise>
@@ -707,7 +706,7 @@ The two most widely used measures of the "center" of the data are the <term id="
 </exercise>
 
 <para id="eip-193"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:
-<list list-type="labeled-item" display="inline" id="list-00003">
+<list list-type="labeled-item" display="inline">
 <item>16</item><item>17</item><item>19</item><item>20</item><item>20</item><item>21</item><item>23</item><item>24</item><item>25</item><item>25</item><item>25</item><item>26</item><item>26</item><item>27</item><item>27</item><item>27</item><item>28</item><item>29</item><item>30</item><item>32</item><item>33</item><item>33</item><item>34</item><item>35</item><item>37</item><item>39</item><item>40</item></list></para><exercise id="fs-idp3713376">
 <problem id="fs-idp45051248">
 <para id="fs-idp72372672">Calculate the mean.</para>
@@ -738,7 +737,12 @@ The two most widely used measures of the "center" of the data are the <term id="
 
 <para id="fs-idp43142960"><newline/><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:</para><exercise id="exercisefour">
 <problem id="id5461618">
-<para id="prob_4">sample mean = <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> = _______
+<para id="prob_4">sample mean = <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math> = _______
 </para></problem>
 </exercise>
 
@@ -896,7 +900,12 @@ The two most widely used measures of the "center" of the data are the <term id="
 </thead>
 <tbody>
   <row>
-    <entry><m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math></entry>
+    <entry><m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math></entry>
     <entry>6.0 miles</entry>
     <entry>6.0 miles</entry>
   </row>
@@ -937,6 +946,14 @@ The two most widely used measures of the "center" of the data are the <term id="
 <entry>Frequency</entry>
 </row>
 </thead>
+<tfoot>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>Total = 20</entry>
+</row>
+</tfoot>
      <tbody>
         <row>
           <entry>7</entry>
@@ -974,12 +991,6 @@ The two most widely used measures of the "center" of the data are the <term id="
           <entry/>
           <entry/>
         </row>
-        <row>
-        <entry/>
-        <entry/>
-        <entry/>
-        <entry>Total = 20</entry>
-        </row>
       </tbody>
 
 </tgroup>
@@ -1016,7 +1027,7 @@ The two most widely used measures of the "center" of the data are the <term id="
   <para id="element-366">b</para></solution>
 </exercise>
 </section>
- </content>
+</content>
 
 
 <glossary>
@@ -1027,7 +1038,7 @@ The two most widely used measures of the "center" of the data are the <term id="
 
 <definition id="mean">
 <term>Mean</term>
-<meaning id="id10578364"> a number that measures the central tendency of the data; a common name for mean is 'average.' The term 'mean' is a shortened form of 'arithmetic mean.' By definition, the mean for a sample (denoted by <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math>) is <m:math>
+<meaning id="id10578364"> a number that measures the central tendency of the data; a common name for mean is 'average.' The term 'mean' is a shortened form of 'arithmetic mean.' By definition, the mean for a sample (denoted by <m:math><m:apply><m:conjugate/><m:ci>x</m:ci></m:apply></m:math>) is <m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>x</m:mi>

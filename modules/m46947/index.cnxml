@@ -11,7 +11,7 @@
 <para id="fs-idp70908880">When calculating probability, there are two rules to consider when determining if two events are independent or dependent and if they are mutually exclusive or not.</para>
 <section id="element-860">
 <title>The Multiplication Rule</title>
-<para id="element-288">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are two events defined on a <term id="term-00001">sample space</term>, then: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>).</para>
+<para id="element-288">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are two events defined on a <term>sample space</term>, then: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>).</para>
 
 <para id="element-423">This rule may also be written as: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <m:math>
 <m:mrow>
@@ -26,14 +26,14 @@
 </m:mrow>
 </m:math></para>
 
-<para id="element-800">(The probability of <emphasis effect="italics">A</emphasis> given <emphasis effect="italics">B</emphasis> equals the probability of <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> divided by the probability of <emphasis effect="italics">B</emphasis>.)</para><para id="element-607">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term id="term-00002">independent</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>). Then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) becomes <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</para>
+<para id="element-800">(The probability of <emphasis effect="italics">A</emphasis> given <emphasis effect="italics">B</emphasis> equals the probability of <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> divided by the probability of <emphasis effect="italics">B</emphasis>.)</para><para id="element-607">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term>independent</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>). Then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>|<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) becomes <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</para>
 </section>
 
 <section id="element-56">
 <title>The Addition Rule</title>
 <para id="element-306">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are defined on a sample space, then: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>).</para>
 
-<para id="element-212">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term id="term-00003">mutually exclusive</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = 0. Then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) becomes <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</para>
+<para id="element-212">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are <term>mutually exclusive</term>, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = 0. Then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) becomes <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>).</para>
 
 <example id="element-898">
 <para id="fs-idm51279344">Klaus is trying to choose where to go on vacation. His two choices are: <emphasis effect="italics">A</emphasis> = New Zealand and <emphasis effect="italics">B</emphasis> = Alaska</para>
@@ -46,23 +46,39 @@
 <exercise id="element-639">
 <problem id="id20946894">
 <para id="element-639p">a. What is the probability that he makes both goals?</para>
-<para id="element-101p">b. What is the probability that Carlos makes either the first goal or the second goal?</para>
-<para id="element-356">c. Are <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> independent?</para>
-<para id="element-102p">d. Are <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> mutually exclusive?</para>
 </problem>
 <solution id="id20946912">
 <para id="element-639s">a. The problem is asking you to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">A</emphasis>). Since <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">A</emphasis>) = 0.90: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">A</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>|<emphasis effect="italics">A</emphasis>) <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = (0.90)(0.65) = 0.585</para>
 <para id="fs-idm26792640">Carlos makes the first and second goals with probability 0.585.<newline count="2"/></para>
+</solution>
+</exercise>
 
+<exercise id="element-101">
+<problem id="id20947019">
+<para id="element-101p">b. What is the probability that Carlos makes either the first goal or the second goal?</para>
+</problem>
+<solution id="id20947037">
 <para id="element-101s">b. The problem is asking you to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>).</para>
 <para id="fs-idm17573264"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) = 0.65 + 0.65 - 0.585 = 0.715</para>
 <para id="element-101s2">Carlos makes either the first goal or the second goal with probability 0.715.<newline count="2"/></para>
-
-<para id="element-471">c. No, they are not, because <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">A</emphasis>) = 0.585.</para><para id="fs-idm36249792"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = (0.65)(0.65) = 0.423</para><para id="fs-idp6892608">0.423 ≠ 0.585 = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">A</emphasis>)</para>
-<para id="element-990">So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">A</emphasis>) is <emphasis>not</emphasis> equal to <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>).<newline count="2"/></para>
-
-<para id="element-102s">d. No, they are not because <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis>) = 0.585.</para><para id="element-102s2">To be mutually exclusive, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) must equal zero.</para>
 </solution>
+</exercise>
+
+<exercise id="element-444">
+<problem id="id20946309">
+<para id="element-356">c. Are <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> independent?</para>
+</problem>
+<solution id="id20946336">
+<para id="element-471">c. No, they are not, because <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">A</emphasis>) = 0.585.</para><para id="fs-idm36249792"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = (0.65)(0.65) = 0.423</para><para id="fs-idp6892608">0.423 ≠ 0.585 = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">A</emphasis>)</para>
+<para id="element-990">So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">A</emphasis>) is <emphasis>not</emphasis> equal to <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>).<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-102">
+<problem id="id20946487">
+<para id="element-102p">d. Are <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> mutually exclusive?</para>
+</problem>
+<solution id="id20946514">
+<para id="element-102s">d. No, they are not because <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis>) = 0.585.</para><para id="element-102s2">To be mutually exclusive, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> AND <emphasis effect="italics">B</emphasis>) must equal zero.</para></solution>
 </exercise>
 </example>
 
@@ -80,21 +96,45 @@
 <exercise id="element-201">
 <problem id="id21150090">
 <para id="element-201p">a. What is the probability that the member is a novice swimmer?</para>
-<para id="element-202p">b. What is the probability that the member practices four times a week?</para>
-<para id="element-203p">c. What is the probability that the member is an advanced swimmer and practices four times a week?</para>
-<para id="element-204p">d. What is the probability that a member is an advanced swimmer and an intermediate swimmer? Are being an advanced swimmer and an intermediate swimmer mutually exclusive? Why or why not?</para>
-<para id="eip-idm154998256">e. Are being a novice swimmer and practicing four times a week independent events? Why or why not?</para>
 </problem>
 <solution id="id21150108">
 <para id="element-201s">a. <m:math><m:mfrac><m:mn>28</m:mn><m:mn>150</m:mn></m:mfrac></m:math><newline count="2"/></para>
+</solution>
+</exercise>
+
+<exercise id="element-202">
+<problem id="id21150144">
+<para id="element-202p">b. What is the probability that the member practices four times a week?</para>
+</problem>
+<solution id="id21150162">
 <para id="element-202s">b. <m:math><m:mfrac><m:mn>80</m:mn><m:mn>150</m:mn></m:mfrac></m:math><newline count="2"/></para>
-<para id="element-203s">c. <m:math><m:mfrac><m:mn>40</m:mn><m:mn>150</m:mn></m:mfrac></m:math><newline count="2"/></para>
-<para id="element-204s">d. <emphasis effect="italics">P</emphasis>(advanced AND intermediate) = 0, so these are mutually exclusive events. A swimmer cannot be an advanced swimmer and an intermediate swimmer at the same time.<newline count="2"/></para>
+</solution>
+</exercise>
+
+<exercise id="element-203">
+<problem id="id21150198">
+<para id="element-203p">c. What is the probability that the member is an advanced swimmer and practices four times a week?</para>
+</problem>
+<solution id="id21150218">
+<para id="element-203s">c. <m:math><m:mfrac><m:mn>40</m:mn><m:mn>150</m:mn></m:mfrac></m:math><newline count="2"/>
+</para></solution>
+</exercise>
+
+<exercise id="element-204">
+<problem id="id21150254">
+<para id="element-204p">d. What is the probability that a member is an advanced swimmer and an intermediate swimmer? Are being an advanced swimmer and an intermediate swimmer mutually exclusive? Why or why not?</para></problem>
+<solution id="id21150274">
+<para id="element-204s">d. <emphasis effect="italics">P</emphasis>(advanced AND intermediate) = 0, so these are mutually exclusive events. A swimmer cannot be an advanced swimmer and an intermediate swimmer at the same time.<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-205"><problem id="id21163993">
+<para id="eip-idm154998256">e. Are being a novice swimmer and practicing four times a week independent events? Why or why not?</para>
+</problem>
+<solution id="id21164012">
 <para id="element-205s">e. No, these are not independent events.
 <newline/><emphasis effect="italics">P</emphasis>(novice AND practices four times per week) = 0.0667
 <newline/><emphasis effect="italics">P</emphasis>(novice)<emphasis effect="italics">P</emphasis>(practices four times per week) = 0.0996
-<newline/>0.0667 ≠ 0.0996</para>
-</solution>
+<newline/>0.0667 ≠ 0.0996</para></solution>
 </exercise>
 </example>
 
@@ -131,7 +171,7 @@
 <title>Try It</title>
 <exercise id="fs-idm68914864">
 <problem id="fs-idm57353328">
-<para id="fs-idm50508672">A student goes to the library. Let events <emphasis effect="italics">B</emphasis> = the student checks out a book and <emphasis effect="italics">D</emphasis> = the student checks out a DVD. Suppose that <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = 0.40, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>) = 0.30 and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>|<emphasis effect="italics">B</emphasis>) = 0.5.</para><list id="fs-idm35504336" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">D</emphasis>).</item>
+<para id="fs-idm50508672">A student goes to the library. Let events <emphasis effect="italics">B</emphasis> = the student checks out a book and <emphasis effect="italics">D</emphasis> = the student check out a DVD. Suppose that <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = 0.40, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>) = 0.30 and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">D</emphasis>|<emphasis effect="italics">B</emphasis>) = 0.5.</para><list id="fs-idm35504336" list-type="enumerated" number-style="lower-alpha"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">D</emphasis>).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> OR <emphasis effect="italics">D</emphasis>).</item>
 </list></problem>
 </exercise>
@@ -142,23 +182,44 @@
 <exercise id="element-301">
 <problem id="id21164153">
 <para id="element-301p">a. What is the probability that the woman develops breast cancer? What is the probability that woman tests negative?</para>
-<para id="element-302p">b. Given that the woman has breast cancer, what is the probability that she tests negative?</para>
-<para id="element-307p">c. What is the probability that the woman has breast cancer AND tests negative?</para>
-<para id="element-303p">d. What is the probability that the woman has breast cancer or tests negative?</para>
-<para id="element-304p">e. Are having breast cancer and testing negative independent events?</para>
-<para id="element-305p">f. Are having breast cancer and testing negative mutually exclusive?</para>
-
 </problem>
 <solution id="id21164172">
 <para id="element-301s">a. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = 0.143; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>) = 0.85<newline count="2"/></para>
-<para id="element-302s">b. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>|<emphasis effect="italics">B</emphasis>) = 0.02<newline count="2"/></para>
-<para id="element-307s">c. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">N</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>|<emphasis effect="italics">B</emphasis>) = (0.143)(0.02) = 0.0029<newline count="2"/></para>
-<para id="element-303s">d. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> OR <emphasis effect="italics">N</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">N</emphasis>) = 0.143 + 0.85 - 0.0029 = 0.9901<newline count="2"/></para>
-<para id="element-304s">e. No. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>) = 0.85; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>|<emphasis effect="italics">B</emphasis>) = 0.02. So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>|<emphasis effect="italics">B</emphasis>) does not equal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>).<newline count="2"/></para>
-<para id="element-305s">f. No. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">N</emphasis>) = 0.0029. For <emphasis effect="italics">B</emphasis> and <emphasis effect="italics">N</emphasis> to be mutually exclusive, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">N</emphasis>) must be zero.</para>
 </solution>
 </exercise>
-</example>
+
+<exercise id="element-302">
+<problem id="id21164224">
+<para id="element-302p">b. Given that the woman has breast cancer, what is the probability that she tests negative?</para>
+</problem>
+<solution id="id21164243">
+<para id="element-302s">b. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>|<emphasis effect="italics">B</emphasis>) = 0.02<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-307">
+<problem id="id21164283">
+<para id="element-307p">c. What is the probability that the woman has breast cancer AND tests negative?</para></problem>
+<solution id="id21164302">
+<para id="element-307s">c. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">N</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>|<emphasis effect="italics">B</emphasis>) = (0.143)(0.02) = 0.0029<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-303"><problem id="id21164367">
+<para id="element-303p">d. What is the probability that the woman has breast cancer or tests negative?</para>
+</problem>
+<solution id="id21164385">
+<para id="element-303s">d. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> OR <emphasis effect="italics">N</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">N</emphasis>) = 0.143 + 0.85 - 0.0029 = 0.9901<newline count="2"/></para></solution></exercise><exercise id="element-304">
+<problem id="id21164462">
+<para id="element-304p">e. Are having breast cancer and testing negative independent events?</para></problem>
+<solution id="id21164481">
+<para id="element-304s">e. No. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>) = 0.85; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>|<emphasis effect="italics">B</emphasis>) = 0.02. So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>|<emphasis effect="italics">B</emphasis>) does not equal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>).<newline count="2"/></para></solution>
+</exercise>
+<exercise id="element-305">
+<problem id="id21001185">
+<para id="element-305p">f. Are having breast cancer and testing negative mutually exclusive?</para>
+</problem>
+<solution id="id21001204">
+<para id="element-305s">f. No. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">N</emphasis>) = 0.0029. For <emphasis effect="italics">B</emphasis> and <emphasis effect="italics">N</emphasis> to be mutually exclusive, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> AND <emphasis effect="italics">N</emphasis>) must be zero.</para></solution>
+</exercise></example>
 <note id="fs-idp45632144" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm57543872">
 <problem id="fs-idm69233152">
@@ -689,7 +750,7 @@
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">E</emphasis>) = 0.56</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">O</emphasis>) = 0.31</item>
 <item>No, whether the money is returned is not independent of which class the money was placed in. There are several ways to justify this mathematically, but one is that the money placed in economics classes is not returned at the same overall rate; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">E</emphasis>) ≠ <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>).</item>
-<item>No, this study definitely does not support that notion; <emphasis effect="italics"><emphasis effect="underline">in fact</emphasis></emphasis>, it suggests the opposite. The money placed in the economics classrooms was returned at a higher rate than the money place in all classes collectively; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">E</emphasis>) > <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>).</item>
+<item>No, this study definitely does not support that notion; <emphasis effect="italics"><emphasis effect="underline">in fact</emphasis></emphasis>, it suggests the opposite. The money placed in the economics classrooms was returned at a higher rate than the money place in all classes collectively; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>|<emphasis effect="italics">E</emphasis>) &gt; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">R</emphasis>).</item>
 </list></solution>
 </exercise><exercise id="fs-idm127904"><problem id="fs-idm56833280">
 <para id="fs-idm27818464">The following table of data obtained from www.baseball-almanac.com shows hit information for four players. Suppose that one hit from the table is randomly selected.</para><table id="fs-idp54590480" summary="">
@@ -790,7 +851,7 @@
 </list>
 </problem>
 </exercise><exercise id="eip-913"><problem id="eip-id1164887148050">
-<para id="eip-id1164882729280">In a box of assorted cookies, 36% contain chocolate and 12% contain nuts. In the box, 8% contain both chocolate and nuts. Sean is allergic to both chocolate and nuts.</para>
+<para id="eip-id1164882729280">In a box of assorted cookies, 36% contain chocolate and 12% contain nuts. Of those, 8% contain both chocolate and nuts. Sean is allergic to both chocolate and nuts.</para>
 <list id="eip-id1164895994519" list-type="enumerated" number-style="lower-alpha">
 <item>Find the probability that a cookie contains chocolate or nuts (he can't eat it).</item>
 <item>Find the probability that a cookie does not contain chocolate or nuts (he can eat it).</item></list>
@@ -811,7 +872,7 @@
 <item>Using an appropriate test, show whether <emphasis effect="italics">D</emphasis> and <emphasis effect="italics">E</emphasis> are mutually exclusive.</item>
 </list></problem>
 </exercise>
-</section> </content>
+</section></content>
 
 <glossary>
 <definition id="indevents">

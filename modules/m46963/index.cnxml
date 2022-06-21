@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <para id="element-1652">A discrete <term id="term-00001">probability distribution function</term> has two characteristics:</para>
+    <para id="delete_me">A discrete <term>probability distribution function</term> has two characteristics:</para>
 
 <list id="element-yu2" list-type="enumerated" number-style="arabic"><item>Each probability is between zero and one, inclusive.</item>
 <item>The sum of the probabilities is one.</item>
@@ -124,7 +124,7 @@
 <item>The sum of the probabilities is one, that is, </item></list>
 
 <para id="fs-idm17614256">
-<equation class="unnumbered" id="fifsum"><label/><m:math>
+<equation id="fifsum"><m:math>
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
@@ -183,7 +183,7 @@
 <colspec colname="c2" colnum="2"/>
 <thead>
 <row>
-<entry><emphasis effect="italics">x</emphasis></entry>
+<entry><emphasis effect="italics">X</emphasis></entry>
 <entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>)</entry>
 </row>
 </thead>
@@ -210,7 +210,7 @@
 </row>
 <row>
 <entry>5</entry>
-<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5) = <m:math><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>50</m:mn></m:mrow></m:mfrac></m:mrow></m:math></entry>
+<entry><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5) = <m:math><m:semantics><m:mrow><m:mfrac><m:mn>2</m:mn><m:mrow><m:mn>50</m:mn></m:mrow></m:mfrac></m:mrow></m:semantics></m:math></entry>
 </row>
 </tbody>
 
@@ -218,19 +218,29 @@
 </table></problem>
 
 </exercise>
-</note><example id="element-852"><para id="element-500">Suppose Nancy has classes <emphasis>three days</emphasis> a week. She attends classes three days a week <emphasis>80%</emphasis> of the time, <emphasis>two days 15%</emphasis> of the time, <emphasis>one day 4%</emphasis> of the time, and <emphasis>no days 1%</emphasis> of the time. Suppose one week is randomly selected.</para>
+</note><example id="element-852"><para id="element-500">Suppose Nancy has classes <emphasis>three days</emphasis> a week. She attends classes three days a week <emphasis>80%</emphasis> of the time, <emphasis>two days 15%</emphasis> of the time, <emphasis>one day 4%</emphasis> of the time, and <emphasis>no days 1%</emphasis> of the time. Suppose one week is randomly selected.<newline count="2"/></para>
 
 <exercise id="eip-466">
 <problem id="eip-idp158961632">
   <para id="eip-idp110729456">a. Let <emphasis effect="italics">X</emphasis> = the number of days Nancy ____________________.</para>
-<para id="eip-idm52442560">b. <emphasis effect="italics">X</emphasis> takes on what values?</para>
-  <para id="eip-idm2356304">c. Suppose one week is randomly chosen. Construct a probability distribution table (called a PDF table) like the one in <link target-id="example1" document=""/>. The table should have two columns labeled <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). What does the <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) column sum to?</para>
 </problem>
 
 <solution id="eip-idp214323360">
 <para id="eip-idp133021120">a. Let <emphasis effect="italics">X</emphasis> = the number of days Nancy attends class per week.<newline count="2"/></para>
-  <para id="eip-idm11988624">b. 0, 1, 2, and 3<newline count="2"/></para>
-  <para id="eip-idp146953184">c.
+</solution>
+</exercise>
+
+<exercise id="eip-694">
+<problem id="eip-idp2555296">
+  <para id="eip-idm52442560">b. <emphasis effect="italics">X</emphasis> takes on what values?</para></problem>
+<solution id="eip-idm30850864">
+  <para id="eip-idm11988624">b. 0, 1, 2, and 3<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="eip-439"><problem id="eip-idp58531312">
+  <para id="eip-idm2356304">c. Suppose one week is randomly chosen. Construct a probability distribution table (called a PDF table) like the one in <link target-id="example1" document=""/>. The table should have two columns labeled <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>). What does the <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) column sum to?</para></problem>
+
+<solution id="eip-idp64718704"><para id="eip-idp146953184">c.
   <table id="eip-idp64719200" summary="PDF table of the number of times Nancy attends class per week and probabilities.">
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
@@ -279,6 +289,7 @@
 </section>
 
 <section id="fs-idp69020960" class="practice">
+<title/>
 <para id="fs-idm83247344"><emphasis effect="italics">Use the following information to answer the next five exercises:</emphasis> A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.</para>
 
 <para id="fs-idm71612400">Let <emphasis effect="italics">X</emphasis> = the number of years a new hire will stay with the company.</para>
@@ -372,7 +383,7 @@
 <!-- <solution id="fs-idm3118640"><para id="fs-idm66349888">Let <emphasis effect="italics">X</emphasis> = the number of batches that the baker will sell.</para></solution> -->
 </exercise><exercise id="fs-idm14204160">
 <problem id="fs-idp91033728">
-<para id="fs-idp57653024">What is the probability the baker will sell more than one batch? <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 1) =  _______</para></problem>
+<para id="fs-idp57653024">What is the probability the baker will sell more than one batch? <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 1) =  _______</para></problem>
 <solution id="fs-idm77654992">
 <para id="fs-idp67916960">0.35 + 0.40 + 0.10 = 0.85</para>
 </solution>
@@ -474,7 +485,7 @@ batch? <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emp
 <para id="fs-idm17855008">0.05 + 0.05 + 0.10 = 0.20</para>
 </solution> --></exercise><exercise id="fs-idm38193104">
 <problem id="fs-idm1831824">
-<para id="fs-idp54225264">Find the probability that Javier volunteers for at least one event each month. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 0) = _______</para>
+<para id="fs-idp54225264">Find the probability that Javier volunteers for at least one event each month. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 0) = _______</para>
 </problem>
 <solution id="fs-idm39812848">
 <para id="fs-idp75344688">1 – 0.05 = 0.95</para></solution>
@@ -525,7 +536,7 @@ batch? <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emp
 </table><list id="element-99" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
 <item>What does it mean that the values zero, one, and two are not included for <emphasis effect="italics">x</emphasis> in the PDF?</item>
 </list></problem>
-</exercise></section> </content>
+</exercise></section></content>
 
   <glossary>
  <definition id="pdfelab">

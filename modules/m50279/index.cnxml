@@ -23,46 +23,46 @@
       <tgroup cols="5">
        <tbody>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
        </tbody>
       </tgroup>
@@ -155,9 +155,10 @@
       <m:mn>1</m:mn>
      </m:mrow>
      <m:mrow>
-      
-      <m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover>
-      
+      <m:apply>
+       <m:conjugate/>
+       <m:ci>x</m:ci>
+      </m:apply>
      </m:mrow>
     </m:mfrac>
    </m:math>.</para>
@@ -243,6 +244,6 @@
     <item>Did your data fit either distribution? If so, which?</item>
     <item>In general, do you think it’s likely that data could fit more than one distribution? In complete sentences, explain why or why not.</item>
    </list>
- </note> </content>
+ </note></content>
 
 </document>

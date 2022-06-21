@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <para id="element-38110">Before we take up the discussion of linear regression and correlation, we need to examine a way to display the relation between two variables <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>. The most common and easiest way is a <emphasis>scatter plot</emphasis>. The following example illustrates a scatter plot.</para>
+    <para id="delete_me">Before we take up the discussion of linear regression and correlation, we need to examine a way to display the relation between two variables <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis>. The most common and easiest way is a <emphasis>scatter plot</emphasis>. The following example illustrates a scatter plot.</para>
 
 <example id="element-777"><para id="element-622">In Europe and Asia, m-commerce is popular. M-commerce users have special mobile phones that work like electronic wallets as well as provide phone and Internet services. Users can do everything from paying for parking to buying a TV set or soda from a machine to banking to checking sports scores on the Internet. For the years 2000 through 2004, was
 there a relationship between the year and the number of m-commerce users? Construct a scatter plot. Let <emphasis effect="italics">x</emphasis> = the year and let <emphasis effect="italics">y</emphasis> = the number of m-commerce users, in millions.</para>
@@ -101,7 +101,7 @@ or to some other type of function.  For a linear relationship there is an except
 <figure id="lingrgs30"><media id="id1171454842074" alt="The first graph is a scatter plot of 7 points in an exponential pattern. The pattern of the points begins along the x-axis and curves steeply upward to the right side of the quadrant. The second graph shows a scatter plot with many points scattered everywhere, exhibiting no pattern.">
 <image src="../../media/fig-ch12_04_04.jpg" mime-type="image/jpeg" width="380"/>
 </media></figure>
-<para id="element-243">In this chapter, we are interested in scatter plots that show a linear pattern. Linear patterns are quite common. The linear relationship is strong if the points are close to a straight line,  except in the case of a horizontal line where there is no relationship. If we think that the points show a linear relationship, we would like to draw a line on the scatter plot. This line can be calculated through a process called <term id="term-00001">linear regression</term>. However, we only calculate a regression line if one of the variables helps to explain or predict the other variable. If <emphasis effect="italics">x</emphasis> is the independent variable and <emphasis effect="italics">y</emphasis> the dependent variable,
+<para id="element-243">In this chapter, we are interested in scatter plots that show a linear pattern. Linear patterns are quite common. The linear relationship is strong if the points are close to a straight line,  except in the case of a horizontal line where there is no relationship. If we think that the points show a linear relationship, we would like to draw a line on the scatter plot. This line can be calculated through a process called <term>linear regression</term>. However, we only calculate a regression line if one of the variables helps to explain or predict the other variable. If <emphasis effect="italics">x</emphasis> is the independent variable and <emphasis effect="italics">y</emphasis> the dependent variable,
 then we can use a regression line to predict <emphasis effect="italics">y</emphasis> for a given value of <emphasis effect="italics">x</emphasis></para><section id="eip-407" class="summary">
 <title>Chapter Review</title>
 <para id="fs-idm18585216">Scatter plots are particularly helpful graphs when we want to see if there is a linear relationship among data points. They indicate both the direction of the relationship between the <emphasis effect="italics">x</emphasis> variables and the <emphasis effect="italics">y</emphasis> variables, and the strength of the relationship. We calculate the strength of the relationship between an independent variable and a dependent variable using linear regression.</para></section>
@@ -143,7 +143,7 @@ then we can use a regression line to predict <emphasis effect="italics">y</empha
 <exercise id="fs-idp128138576">
 <problem id="fs-idp35640784">
 <para id="fs-idp63162736">The Gross Domestic Product Purchasing Power Parity is an indication of a country’s currency value compared to another country. <link target-id="fs-idm59733200"/> shows the GDP PPP of Cuba as compared to US dollars. Construct a scatter plot of the data.</para><table id="fs-idm59733200" summary="..">
- 
+<title/>
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -246,7 +246,7 @@ then we can use a regression line to predict <emphasis effect="italics">y</empha
 <problem id="fs-idp127740240">
 <para id="fs-idm35544512">Does the higher cost of tuition translate into higher-paying jobs? The table lists the top ten colleges based on mid-career salary and the associated yearly tuition costs. Construct a scatter plot of the data.</para>
 <table id="fs-idp39411984" summary="..">
- 
+<title/>
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -328,5 +328,5 @@ If the level of significance is 0.05 and the <emphasis effect="italics">p</empha
   <para id="eip-idp17840640">13</para>
 </solution></exercise>
 </section>
- </content>
+</content>
 </document>

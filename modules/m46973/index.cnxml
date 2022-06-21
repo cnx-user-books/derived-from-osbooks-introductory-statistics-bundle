@@ -8,74 +8,74 @@
 </metadata>
 
 <content>
-<para id="fs-idm68176912">The shaded area in the following graph indicates the area to the left of <emphasis effect="italics">x</emphasis>. This area is represented by the probability <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>). Normal tables, computers, and calculators provide or calculate the probability <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>).</para><figure id="fs-idm109348848"><media id="fs-idm158141984" alt="This diagram shows a bell-shaped curve with uppercase X at the extreme right end of the X axis. The X axis also contains a lowercase x about one-quarter of the way across the X axis from the right. The area under the bell curve to the right of the lowercase x is shaded. The label states: shaded area represents probability P(X &lt; x).">
+<para id="fs-idm68176912" class="finger">The shaded area in the following graph indicates the area to the left of <emphasis effect="italics">x</emphasis>. This area is represented by the probability <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>). Normal tables, computers, and calculators provide or calculate the probability <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">x</emphasis>).</para><figure id="fs-idm109348848"><media id="fs-idm158141984" alt="This diagram shows a bell-shaped curve with uppercase X at the extreme right end of the X axis. The X axis also contains a lowercase x about one-quarter of the way across the X axis from the right. The area under the bell curve to the right of the lowercase x is shaded. The label states: shaded area represents probability P(X &lt; x).">
 <image mime-type="image/jpg" src="../../media/fig-ch_06_04_01.jpg" width="420"/>
 </media>
-</figure><para id="fs-idm95835008">The area to the right is then
+</figure><para id="fs-idm95835008">The area to the right is then 
 <emphasis effect="italics">P
 </emphasis>(
 <emphasis effect="italics">X
-</emphasis> >
+</emphasis> &gt; 
 <emphasis effect="italics">x
-</emphasis>) = 1 –
+</emphasis>) = 1 – 
 <emphasis effect="italics">P
 </emphasis>(
 <emphasis effect="italics">X
-</emphasis> &lt;
+</emphasis> &lt; 
 <emphasis effect="italics">x
-</emphasis>). Remember,
+</emphasis>). Remember, 
 <emphasis effect="italics">P
 </emphasis>(
 <emphasis effect="italics">X
-</emphasis> &lt;
+</emphasis> &lt; 
 <emphasis effect="italics">x
-</emphasis>) =
-<term id="term-00001">Area to the left
-</term> of the vertical line through
+</emphasis>) = 
+<term>Area to the left
+</term> of the vertical line through 
 <emphasis effect="italics">x
-</emphasis>.
+</emphasis>. 
 <emphasis effect="italics">P
 </emphasis>(
 <emphasis effect="italics">X
-</emphasis> >
+</emphasis> &gt; 
 <emphasis effect="italics">x
-</emphasis>) = 1 –
+</emphasis>) = 1 – 
 <emphasis effect="italics">P
 </emphasis>(
 <emphasis effect="italics">X
-</emphasis> &lt;
+</emphasis> &lt; 
 <emphasis effect="italics">x
-</emphasis>) =
-<term id="term-00002">Area to the right
-</term> of the vertical line through
+</emphasis>) = 
+<term>Area to the right
+</term> of the vertical line through 
 <emphasis effect="italics">x
-</emphasis>.
+</emphasis>. 
 <emphasis effect="italics">P
 </emphasis>(
 <emphasis effect="italics">X
-</emphasis> &lt;
+</emphasis> &lt; 
 <emphasis effect="italics">x
-</emphasis>) is the same as
+</emphasis>) is the same as 
 <emphasis effect="italics">P
 </emphasis>(
 <emphasis effect="italics">X
-</emphasis> ≤
+</emphasis> ≤ 
 <emphasis effect="italics">x
-</emphasis>) and
+</emphasis>) and 
 <emphasis effect="italics">P
 </emphasis>(
 <emphasis effect="italics">X
-</emphasis> >
+</emphasis> &gt; 
 <emphasis effect="italics">x
-</emphasis>) is the same as
+</emphasis>) is the same as 
 <emphasis effect="italics">P
 </emphasis>(
 <emphasis effect="italics">X
-</emphasis> ≥
+</emphasis> ≥ 
 <emphasis effect="italics">x
-</emphasis>) for continuous distributions.</para><section id="fs-idm123993536">
+</emphasis>) for continuous distributions.</para><section id="fs-idm123993536" class="finger">
 <title>Calculations of Probabilities</title>
-<para id="eip-idp126141922">Probabilities are calculated using technology. There are instructions given as necessary for the TI-83+ and TI-84 calculators.</para>
+<para id="delete_me" class="finger">Probabilities are calculated using technology. There are instructions given as necessary for the TI-83+ and TI-84 calculators.</para>
 
 <note id="id1168986691838"><label/><title>NOTE</title>
 <para id="eip-idp12614192">To calculate the probability, use the probability tables provided in <link document="m47875"/>  without the use of technology. The tables include instructions for how to use them.</para></note><example id="element-375">
@@ -98,11 +98,11 @@
 <solution id="id1168986723026">
 <para id="element-83">a. Let <emphasis effect="italics">X</emphasis> = a score on the final exam. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(63, 5), where <emphasis effect="italics">μ</emphasis> = 63 and <emphasis effect="italics">σ</emphasis> = 5.</para><para id="element-449">Draw a graph.</para>
 
-<para id="element-389">Then, find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 65).</para>
+<para id="element-389">Then, find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 65).</para>
 
-<para id="element-294"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 65) = 0.3446</para>
+<para id="element-294"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 65) = 0.3446</para>
 
-<figure id="fs-idm5159232"><media id="id1168988266495" alt="TThis diagram shows a bell-shaped curve with 63 located at the center of the X axis and 65 located a short distance to the right of 63. The area under the bell curve to the right of 65 is shaded. The label states: shaded area represents probability uppercase P(X > 65) = 0.3446">
+<figure id="fs-idm5159232"><media id="id1168988266495" alt="TThis diagram shows a bell-shaped curve with 63 located at the center of the X axis and 65 located a short distance to the right of 63. The area under the bell curve to the right of 65 is shaded. The label states: shaded area represents probability uppercase P(X &gt; 65) = 0.3446">
 <image src="../../media/fig-ch_06_05_01.jpg" mime-type="image/png" width="380"/>
 </media>
 </figure><para id="element-45">The probability that any student selected at random scores more than 65 is 0.3446.
@@ -130,7 +130,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 </m:math> = 0.4</para>
 
 <para id="fs-idm33523184">Area to the left is 0.6554.</para>
-<para id="fs-idm125027840"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 65) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> > 0.4) = 1 – 0.6554 = 0.3446</para></solution>
+<para id="fs-idm125027840"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 65) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> &gt; 0.4) = 1 – 0.6554 = 0.3446</para></solution>
 </exercise>
 
 <note id="fs-idm98690992" class="statistics calculator"><label/>
@@ -141,8 +141,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 <newline/>For this Example, the steps are
 <newline/><code>2nd Distr</code>
 <newline/><code>2:normalcdf</code>(65,1,2nd EE,99,63,5) <code>ENTER</code>
-<newline/><newline/>The probability that a selected student scored more than 65 is 0.3446.<newline/>To find the probability that a selected student scored <emphasis effect="italics">more than</emphasis> 65, subtract the percentile from 1.</para></note>
-<exercise id="element-243">
+<newline/>The probability that a selected student scored more than 65 is 0.3446.</para></note><exercise id="element-243">
 <problem id="id1168986705169">
 <para id="element-950">b. Find the probability that a randomly selected student scored less than 85.</para>
 </problem>
@@ -160,7 +159,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 <solution id="id1168986688427">
 <para id="element-815">c. Find the 90<sup>th</sup> percentile. For each problem or part of a problem, draw a new graph. Draw the <emphasis effect="italics">x</emphasis>-axis. Shade the area that corresponds to the 90<sup>th</sup> percentile.</para>
 
-<para id="element-582"><emphasis>Let <emphasis effect="italics">k</emphasis> = the 90<sup>th</sup> percentile.</emphasis> The variable <emphasis effect="italics">k</emphasis> is located on the <emphasis effect="italics">x</emphasis>-axis. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">k</emphasis>) is the area to the left of <emphasis effect="italics">k</emphasis>. The 90<sup>th</sup> percentile <emphasis effect="italics">k</emphasis> separates the exam scores into those that are the same or lower than <emphasis effect="italics">k</emphasis> and those that are the same or higher. Ninety percent of the test scores are the same or lower than <emphasis effect="italics">k</emphasis>, and ten percent are the same or higher. The variable <emphasis effect="italics">k</emphasis> is often called a <term id="term-00003">critical value</term>.</para><para id="element-58"><emphasis effect="italics">k</emphasis> = 69.4</para>
+<para id="element-582"><emphasis>Let <emphasis effect="italics">k</emphasis> = the 90<sup>th</sup> percentile.</emphasis> The variable <emphasis effect="italics">k</emphasis> is located on the <emphasis effect="italics">x</emphasis>-axis. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">k</emphasis>) is the area to the left of <emphasis effect="italics">k</emphasis>. The 90<sup>th</sup> percentile <emphasis effect="italics">k</emphasis> separates the exam scores into those that are the same or lower than <emphasis effect="italics">k</emphasis> and those that are the same or higher. Ninety percent of the test scores are the same or lower than <emphasis effect="italics">k</emphasis>, and ten percent are the same or higher. The variable <emphasis effect="italics">k</emphasis> is often called a <term>critical value</term>.</para><para id="element-58"><emphasis effect="italics">k</emphasis> = 69.4</para>
 
 <figure id="fs-idm38798848"><media id="id1168986688569" alt="This is a normal distribution curve. The peak of the curve coincides with the point 63 on the horizontal axis. A point, k, is labeled to the right of 63. A vertical line extends from k to the curve. The area under the curve to the left of k is shaded. This represents the probability that x is less than k: P(x &lt; k) = 0.90">
 <image mime-type="jpg/png" src="../../media/fig-ch06_05_02.jpg" width="450"/>
@@ -238,14 +237,22 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 <example id="eip-562">
 <para id="eip-idm115363904">In the United States the ages 13 to 55+ of smartphone users approximately follow a normal distribution with approximate mean and standard deviation of 36.9 years and 13.9 years, respectively.<newline count="2"/></para><exercise id="eip-idm99631296">
 <problem id="eip-idm93440352">
-<para id="fs-idm218603968">a. Determine the probability that a random smartphone user in the age range 13 to 55+ is between 23 and 64.7 years old.</para>
-<para id="fs-idm1234448">b. Determine the probability that a randomly selected smartphone user in the age range 13 to 55+ is at most 50.8 years old.</para>
-<para id="fs-idm159232112">c. Find the 80<sup>th</sup> percentile of this distribution, and interpret it in a complete sentence.</para>
-
-</problem>
+<para id="fs-idm218603968">a. Determine the probability that a random smartphone user in the age range 13 to 55+ is between 23 and 64.7 years old.</para></problem>
 <solution id="eip-idm151027840">
-<para id="eip-idm169219344">a. normalcdf(23,64.7,36.9,13.9) = 0.8186<newline count="2"/></para>
-<para id="eip-idm21130928">b. normalcdf(–10<sup>99</sup>,50.8,36.9,13.9) = 0.8413<newline count="2"/></para>
+<para id="eip-idm169219344">a. normalcdf(23,64.7,36.9,13.9) = 0.8186<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="eip-idm35763936">
+<problem id="eip-idm100019648">
+<para id="fs-idm1234448">b. Determine the probability that a randomly selected smartphone user in the age range 13 to 55+ is at most 50.8 years old.</para></problem>
+<solution id="eip-idm92673856">
+<para id="eip-idm21130928">b. normalcdf(–10<sup>99</sup>,50.8,36.9,13.9) = 0.8413<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="eip-idm12998192">
+<problem id="eip-idm107995648">
+<para id="fs-idm159232112">c. Find the 80<sup>th</sup> percentile of this distribution, and interpret it in a complete sentence.</para></problem>
+<solution id="eip-idm20250224">
 <para id="fs-idm194380112">c.
 <list id="fs-idm90633168" list-type="labeled-item"><item>invNorm(0.80,36.9,13.9) = 48.6</item>
 <item>The 80<sup>th</sup> percentile is 48.6 years.</item>
@@ -266,14 +273,9 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 </note>
 
 <example id="fs-idm50441184">
-<para id="fs-idm59646256">In the United States the ages 13 to 55+ of smartphone users approximately follow a normal distribution with approximate mean and standard deviation of 36.9 years and 13.9 years respectively. Using this information, answer the following questions (round answers to one decimal place).<newline count="2"/></para>
-<exercise id="fs-idm100093408">
+<para id="fs-idm59646256">In the United States the ages 13 to 55+ of smartphone users approximately follow a normal distribution with approximate mean and standard deviation of 36.9 years and 13.9 years respectively. Using this information, answer the following questions (round answers to one decimal place).<newline count="2"/></para><exercise id="fs-idm100093408">
 <problem id="fs-idm43971024">
 <para id="fs-idm56871120">a. Calculate the interquartile range (<emphasis effect="italics">IQR</emphasis>).</para>
-<para id="eip-270">b. Forty percent of the smartphone users from 13 to 55+ are at least what age?</para>
-
-
-
 </problem>
 <solution id="fs-idm66621456">
 <para id="fs-idm197260048">a. <list id="fs-idm183339056" list-type="labeled-item"><item><emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub></item>
@@ -281,15 +283,18 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 <item>invNorm(0.75,36.9,13.9) = <emphasis effect="italics">Q</emphasis><sub>3</sub> = 46.2754</item>
 <item>invNorm(0.25,36.9,13.9) = <emphasis effect="italics">Q</emphasis><sub>1</sub> = 27.5246</item>
 <item><emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub> = 18.8</item>
-</list><newline count="2"/></para>
-
+</list><newline count="2"/></para></solution>
+</exercise><exercise id="eip-133"><problem id="eip-940">
+  <para id="eip-270">b. Forty percent of the ages that range from 13 to 55+ are at least what age?</para>
+</problem>
+<solution id="eip-304">
 <para id="fs-idm196458064">b. <list id="fs-idm125660800" list-type="labeled-item"><item>Find <emphasis effect="italics">k</emphasis> where <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ <emphasis effect="italics">k</emphasis>) = 0.40 ("At least" translates to "greater than or equal to.")</item>
 <item>0.40 = the area to the right.</item>
 <item>Area to the left = 1 – 0.40 = 0.60.</item>
 <item>The area to the left of <emphasis effect="italics">k</emphasis> = 0.60.</item>
 <item>invNorm(0.60,36.9,13.9) = 40.4215.</item>
 <item><emphasis effect="italics">k</emphasis> = 40.4.</item>
-<item>Forty percent of the smartphone users from 13 to 55+ are at least 40.4 years.</item>
+<item>Forty percent of the ages that range from 13 to 55+ are at least 40.4 years.</item>
 </list></para>
 </solution>
 </exercise>
@@ -313,9 +318,6 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 <example id="eip-662">
 <para id="eip-496">A citrus farmer who grows mandarin oranges finds that the diameters of mandarin oranges harvested on his farm follow a normal distribution with a mean diameter of 5.85 cm and a standard deviation of 0.24 cm.<newline count="2"/></para><exercise id="eip-704"><problem id="eip-586">
 <para id="eip-idm49628176">a. Find the probability that a randomly selected mandarin orange from this farm has a diameter larger than 6.0 cm. Sketch the graph.</para>
-<para id="eip-975">b. The middle 20% of mandarin oranges from this farm have diameters between ______ and ______.</para>
-<para id="eip-733">c.	Find the 90<sup>th</sup> percentile for the diameters of mandarin oranges, and interpret it in a complete sentence.</para>
-
 </problem>
 
 <solution id="eip-744">
@@ -326,11 +328,27 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 </media>
 
 </figure>
+</solution>
+</exercise>
+
+<exercise id="eip-922">
+<problem id="eip-869">
+<para id="eip-975">b. The middle 20% of mandarin oranges from this farm have diameters between ______ and ______.</para>
+</problem>
+
+<solution id="eip-999">
 <para id="fs-idm172823344">b. <list id="fs-idm131986640" list-type="labeled-item"><item>1 – 0.20 = 0.80</item>
 <item>The tails of the graph of the normal distribution each have an area of 0.40.</item>
 <item>Find <emphasis effect="italics">k1</emphasis>, the 40<sup>th</sup> percentile, and <emphasis effect="italics">k2</emphasis>, the 60<sup>th</sup> percentile (0.40 + 0.20 = 0.60).</item>
 <item><emphasis effect="italics">k1</emphasis> = invNorm(0.40,5.85,0.24) = 5.79 cm</item>
-<item><emphasis effect="italics">k2</emphasis> = invNorm(0.60,5.85,0.24) = 5.91 cm</item></list><newline count="2"/></para>
+<item><emphasis effect="italics">k2</emphasis> = invNorm(0.60,5.85,0.24) = 5.91 cm</item></list><newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="eip-607">
+<problem id="eip-91">
+<para id="eip-733">c.	Find the 90<sup>th</sup> percentile for the diameters of mandarin oranges, and interpret it in a complete sentence.</para></problem>
+
+<solution id="eip-0">
 <para id="eip-451">c. 6.16: Ninety percent of the diameter of the mandarin oranges is at most 6.16 cm.</para></solution>
 </exercise>
 </example>
@@ -418,7 +436,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 </media></figure>
 </problem>
 <solution id="fs-idp5045104">
-<para id="fs-idp110734480">1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) or <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 3)</para></solution>
+<para id="fs-idp110734480">1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) or <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 3)</para></solution>
 </exercise><exercise id="fs-idp880816"><problem id="fs-idp154035488">
 <para id="fs-idm221600">If the area to the left of <emphasis effect="italics">x</emphasis> in a normal distribution is 0.123, what is the area to the right of <emphasis effect="italics">x</emphasis>?</para></problem>
 
@@ -436,7 +454,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 <para id="eip-926"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(54, 8)</para>
 
 <exercise id="fs-idp83610000"><problem id="fs-idp149250384">
-<para id="fs-idp151137280">Find the probability that <emphasis effect="italics">x</emphasis> > 56.</para></problem>
+<para id="fs-idp151137280">Find the probability that <emphasis effect="italics">x</emphasis> &gt; 56.</para></problem>
 
 <!-- <solution id="fs-idp74510448">
 <para id="fs-idp25510144">0.4013</para>
@@ -512,7 +530,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10<sup>99</s
 </exercise><exercise id="element-889"><problem id="id44024075">
 <para id="element-528">Find the 70<sup>th</sup> percentile of the distribution for the time a CD player lasts.
 </para><list id="element-664" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Sketch the situation. Label and scale the axes. Shade the region corresponding to the lower 70%.
-<figure id="fig-241552"><media id="id44403356" alt="Empty normal distribution curve."><image src="../../media/fig-ch06_07_03-1c1e.jpg" mime-type="image/jpg" print-width="3in"/></media></figure></item>
+<figure id="fig-241552"><media id="id44403356" alt="Empty normal distribution curve."><image src="../../media/fig-ch06_07_03.jpg" mime-type="image/jpg" print-width="3in"/></media></figure></item>
 
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = __________ Therefore, <emphasis effect="italics">k</emphasis> = _________</item></list></problem>
 
@@ -1009,7 +1027,7 @@ approximation.</item>
 </list>
 </problem>
 <solution id="eip-916">
-<list id="xeip" list-type="labeled-item"><item><emphasis effect="italics">n</emphasis> = 190; <emphasis effect="italics">p</emphasis> = <m:math>
+<list id="xeip" list-type="labeled-item"><item><emphasis effect="italics">n</emphasis> = 190; <emphasis effect="italics">p</emphasis> = <m:math display="">
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
@@ -1040,7 +1058,7 @@ approximation.</item>
 </m:math> = 5.5136</item>
 </list><list id="eip-idp139727617865536s" list-type="enumerated" number-style="lower-alpha"><item>For this problem: <emphasis effect="italics">P</emphasis>(34 &lt; <emphasis effect="italics">x</emphasis> &lt; 54) = normalcdf(34,54,48,5.5136) = 0.7641</item>
 <item>For this problem: <emphasis effect="italics">P</emphasis>(54 &lt; <emphasis effect="italics">x</emphasis> &lt; 64) = normalcdf(54,64,48,5.5136) = 0.0018</item>
-<item>For this problem: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 64) = normalcdf(64,10<sup>99</sup>,48,5.5136) = 0.0000012 (approximately 0)</item>
+<item>For this problem: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 64) = normalcdf(64,10<sup>99</sup>,48,5.5136) = 0.0000012 (approximately 0)</item>
 </list></solution></exercise>
 
 <exercise id="eip-291"><problem id="eip-455">
@@ -1059,5 +1077,5 @@ approximation.</item>
 <item><para id="eip-idm7864096"><emphasis effect="italics">P</emphasis>(25 &lt; <emphasis effect="italics">x</emphasis> &lt; 55).</para>
 <para id="eip-idm16259024"><emphasis effect="italics">P</emphasis>(25 &lt; <emphasis effect="italics">x</emphasis> &lt; 55) = normalcdf(25,55,28,5) = 0.7257(0.7257)(400) = 290.28</para></item>
 </list></solution> -->
-</exercise></section> </content>
+</exercise></section></content>
 </document>

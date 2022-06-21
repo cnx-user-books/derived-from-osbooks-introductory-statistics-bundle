@@ -12,7 +12,7 @@
 <list id="element-591" list-type="enumerated"><item>There are a fixed number of trials. Think of trials as repetitions of an experiment. The letter <emphasis effect="italics">n</emphasis> denotes the number of trials.</item>
 <item>There are only two possible outcomes, called "success" and "failure," for each trial. The letter <emphasis effect="italics">p</emphasis> denotes the probability of a success on one trial, and <emphasis effect="italics">q</emphasis> denotes the probability of a failure on one trial. <emphasis effect="italics">p</emphasis> + <emphasis effect="italics">q</emphasis> = 1.</item>
 <item>The <emphasis effect="italics">n</emphasis> trials are independent and are repeated using identical conditions. Because the <emphasis effect="italics">n</emphasis> trials are independent, the outcome of one trial does not help in predicting the outcome of another trial. Another way of saying this is that for each individual trial, the probability, <emphasis effect="italics">p</emphasis>, of a success and probability, <emphasis effect="italics">q</emphasis>, of a failure remain the same. For example, randomly guessing at a true-false statistics question has only two outcomes. If a success is guessing correctly, then a failure is guessing incorrectly. Suppose Joe always guesses correctly on any statistics true-false question with probability <emphasis effect="italics">p</emphasis> = 0.6. Then, <emphasis effect="italics">q</emphasis> = 0.4. This means that for every true-false statistics question Joe answers, his probability of success (<emphasis effect="italics">p</emphasis> = 0.6) and his probability of failure (<emphasis effect="italics">q</emphasis> = 0.4) remain the same.</item>
-</list></para><para id="element-229">The outcomes of a binomial experiment fit a <term id="term-00001">binomial probability distribution</term>. The random variable <emphasis effect="italics">X</emphasis> = the number of successes obtained in the <emphasis effect="italics">n</emphasis> independent trials.</para><para id="element-108">The mean, <emphasis effect="italics">μ</emphasis>, and variance, <emphasis effect="italics">σ</emphasis><sup>2</sup>, for the binomial probability distribution are <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">σ</emphasis><sup>2</sup> = <emphasis effect="italics">npq</emphasis>. The standard deviation, <emphasis effect="italics">σ</emphasis>, is then <emphasis effect="italics">σ</emphasis> = <m:math>
+</list></para><para id="element-229">The outcomes of a binomial experiment fit a <term>binomial probability distribution</term>. The random variable <emphasis effect="italics">X</emphasis> = the number of successes obtained in the <emphasis effect="italics">n</emphasis> independent trials.</para><para id="element-108">The mean, <emphasis effect="italics">μ</emphasis>, and variance, <emphasis effect="italics">σ</emphasis><sup>2</sup>, for the binomial probability distribution are <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">σ</emphasis><sup>2</sup> = <emphasis effect="italics">npq</emphasis>. The standard deviation, <emphasis effect="italics">σ</emphasis>, is then <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow>
   <m:msqrt>
    <m:mrow>
@@ -21,7 +21,7 @@
   </m:msqrt>
 
  </m:mrow>
-</m:math>.</para><para id="element-612">Any experiment that has characteristics two and three and where <emphasis effect="italics">n</emphasis> = 1 is called a <term id="term-00002">Bernoulli Trial</term> (named after Jacob Bernoulli who, in the late 1600s, studied them extensively). A binomial experiment takes place when the number of successes is counted in one or more Bernoulli Trials.</para>
+</m:math>.</para><para id="element-612">Any experiment that has characteristics two and three and where <emphasis effect="italics">n</emphasis> = 1 is called a <term>Bernoulli Trial</term> (named after Jacob Bernoulli who, in the late 1600s, studied them extensively). A binomial experiment takes place when the number of successes is counted in one or more Bernoulli Trials.</para>
 
 <example id="element-375">
 <para id="element-545">At ABC College, the withdrawal rate from an elementary physics course is 30% for any given term. This implies that, for any given term, 70% of the students stay in the class for the entire term. A "success" could be defined as an individual who withdrew. The random variable <emphasis effect="italics">X</emphasis> = the number of students who withdraw from the randomly selected elementary physics class.</para></example>
@@ -51,21 +51,39 @@
 </exercise>
 </note><example id="element-807">
 <para id="element-175">Approximately 70% of statistics students do their homework in time for it to be collected and graded. Each student does homework independently. In a statistics class of 50 students, what is the probability that at least 40 will do their homework on time? Students are selected randomly.<newline count="2"/></para><exercise id="element-1751"><problem id="id5317083">
-<para id="element-732">a. This is a binomial problem because there is only a success or a __________, there are a fixed number of trials, and the probability of a success is 0.70 for each trial.</para>
-<para id="element-73124">b. If we are interested in the number of students who do their homework on time, then how do we define <emphasis effect="italics">X</emphasis>?</para>
-<para id="element-732324">c. What values does <emphasis effect="italics">x</emphasis> take on?</para>
-<para id="element-7324">d. What is a "failure," in words?</para>
-<para id="element-74">e. If <emphasis effect="italics">p</emphasis> + <emphasis effect="italics">q</emphasis> = 1, then what is <emphasis effect="italics">q</emphasis>?</para>
-<para id="element-70">f. The words "at least" translate as what kind of inequality for the probability question <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ____ 40).</para>
-
-</problem>
+<para id="element-732">a. This is a binomial problem because there is only a success or a __________, there are a fixed number of trials, and the probability of a success is 0.70 for each trial.</para></problem>
 <solution id="id5321627">
- <para id="element-23523">a. failure</para>
- <para id="element-235352">b. <emphasis effect="italics">X</emphasis> = the number of statistics students who do their homework on time<newline count="2"/></para>
- <para id="element-23352">c. 0, 1, 2, …, 50<newline count="2"/></para>
+ <para id="element-23523">a. failure<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-1752"><problem id="id5318862">
+<para id="element-73124">b. If we are interested in the number of students who do their homework on time, then how do we define <emphasis effect="italics">X</emphasis>?</para></problem>
+<solution id="id5318289">
+ <para id="element-235352">b. <emphasis effect="italics">X</emphasis> = the number of statistics students who do their homework on time<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-17530"><problem id="id5318085">
+<para id="element-732324">c. What values does <emphasis effect="italics">x</emphasis> take on?</para></problem>
+<solution id="id5318055">
+ <para id="element-23352">c. 0, 1, 2, …, 50<newline count="2"/></para></solution>
+</exercise><exercise id="element-1753"><problem id="id5317581">
+<para id="element-7324">d. What is a "failure," in words?</para>
+</problem>
+<solution id="id5317186">
  <para id="element-232">d. Failure is defined as a student who does not complete his or her homework on time.</para>
 <para id="element-8865">The probability of a success is <emphasis effect="italics">p</emphasis> = 0.70. The number of trials is <emphasis effect="italics">n</emphasis> = 50.<newline count="2"/></para>
- <para id="element-5352">e. <emphasis effect="italics">q</emphasis> = 0.30<newline count="2"/></para>
+</solution>
+</exercise><exercise id="element-1753232">
+<problem id="id5317836">
+<para id="element-74">e. If <emphasis effect="italics">p</emphasis> + <emphasis effect="italics">q</emphasis> = 1, then what is <emphasis effect="italics">q</emphasis>?</para>
+</problem>
+<solution id="id5317308">
+ <para id="element-5352">e. <emphasis effect="italics">q</emphasis> = 0.30<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-13"><problem id="id5317006">
+<para id="element-70">f. The words "at least" translate as what kind of inequality for the probability question <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ____ 40).</para></problem>
+<solution id="id5319380">
  <para id="element-23532">f. greater than or equal to (≥)
 <newline count="1"/>The probability question is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 40).</para></solution>
 </exercise></example>
@@ -75,15 +93,13 @@
 <problem id="fs-idm386096">
 <para id="fs-idm59210304">Sixty-five percent of people pass the state driver’s exam on the first try. A group of 50 individuals who have taken the driver’s exam is randomly selected. Give two reasons why this is a binomial problem.</para></problem>
 </exercise>
-</note>
-
-<section id="element-501"><title>Notation for the Binomial: <emphasis effect="italics">B</emphasis> = Binomial Probability Distribution Function</title><para id="element-715"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>)</para>
+</note><section id="element-501"><title>Notation for the Binomial: <emphasis effect="italics">B</emphasis> = Binomial Probability Distribution Function</title><para id="element-715"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>)</para>
 <para id="element-276">Read this as "<emphasis effect="italics">X</emphasis> is a random variable with a binomial distribution." The parameters are <emphasis effect="italics">n</emphasis> and <emphasis effect="italics">p</emphasis>; <emphasis effect="italics">n</emphasis> = number of trials, <emphasis effect="italics">p</emphasis> = probability of a success on each trial.</para>
 </section><example id="example5"><para id="fs-idp328960">It has been stated that about 41% of adult workers have a high school diploma but do not pursue any further education. If 20 adult workers are randomly selected, find the probability that at most 12 of them have a high school diploma but do not pursue any further education. How many adult workers do you expect to have a high school diploma but do not pursue any further education?</para>
 
 <para id="element-992">Let <emphasis effect="italics">X</emphasis> = the number of workers who have a high school diploma but do not pursue any further education.</para>
 
-<para id="element-570"><emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, ..., 20 where <emphasis effect="italics">n</emphasis> = 20, <emphasis effect="italics">p</emphasis> = 0.41, and <emphasis effect="italics">q</emphasis> = 1 – 0.41 = 0.59. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, 0.41)</para><para id="fs-idm48754320">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12) = 0.9738. (calculator or computer)</para>
+<para id="element-570"><emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, ..., 20 where <emphasis effect="italics">n</emphasis> = 20, <emphasis effect="italics">p</emphasis> = 0.41, and <emphasis effect="italics">q</emphasis> = 1 – 0.41 = 0.59. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, 0.41)</para><para id="fs-idm48754320" class="finger">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12) = 0.9738. (calculator or computer)</para>
 
 
 <note id="fs-idm73072400" class="statistics calculator"><label/>
@@ -96,7 +112,7 @@ if "number" is left out, the result is the binomial probability table.
 </note><note id="id5442988">
 <label/>
 <title>NOTE</title>
-<para id="fs-idm93661872">If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12), use the pdf (binompdf). If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12), use 1 - binomcdf(20,0.41,12).</para></note>
+<para id="fs-idm93661872">If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12), use the pdf (binompdf). If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 12), use 1 - binomcdf(20,0.41,12).</para></note>
 
 <para id="element-442">The probability that at most 12 workers have a high school diploma but do not pursue any further education is 0.9738.</para>
 
@@ -134,7 +150,7 @@ if "number" is left out, the result is the binomial probability table.
  </m:mrow>
 </m:math> = 2.20.</para></example>
 
-<note id="fs-idm83776992" class="statistics try "><label/><title>Try It</title>
+<note id="fs-idm83776992" class="statistics try finger"><label/><title>Try It</title>
 <exercise id="fs-idm41424160">
 <problem id="fs-idp5897264">
 <para id="fs-idm41014848">About 32% of students participate in a community volunteer program outside of school. If 30 students are selected at random, find the probability that at most 14 of them participate in a community volunteer program outside of school. Use the TI-83+ or TI-84 calculator to find the answer.</para></problem>
@@ -202,7 +218,7 @@ if "number" is left out, the result is the binomial probability table.
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = 0.9994</item>
-  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 3) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 – binomcdf<m:math>
+  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 3) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 – binomcdf<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -316,7 +332,7 @@ if "number" is left out, the result is the binomial probability table.
 <list id="fs-idm74773968" list-type="enumerated" number-style="lower-alpha">
 <item>What is the probability distribution for <emphasis effect="italics">X</emphasis>?</item>
 <item>Using the formulas, calculate the (i) mean and (ii) standard deviation of <emphasis effect="italics">X</emphasis>.</item>
-<item>Use your calculator to find the probability that at most eight people develop pancreatic cancer</item>
+<item class="finger">Use your calculator to find the probability that at most eight people develop pancreatic cancer</item>
 <item>Is it more likely that five or six people will develop pancreatic cancer? Justify your answer numerically.</item>
 </list></problem>
 
@@ -333,7 +349,7 @@ if "number" is left out, the result is the binomial probability table.
 <list id="fs-idm69954960" list-type="enumerated" number-style="lower-alpha">
 <item>What is the probability distribution for <emphasis effect="italics">X</emphasis>?</item>
 <item>Using the formulas, calculate the (i) mean and (ii) standard deviation of <emphasis effect="italics">X</emphasis>.</item>
-<item>Use your calculator to find the probability that DeAndre scored with 60 of these shots.</item>
+<item class="finger">Use your calculator to find the probability that DeAndre scored with 60 of these shots.</item>
 <item>Find the probability that DeAndre scored with more than 50 of these shots.</item>
 </list>
 </problem>
@@ -756,7 +772,7 @@ if "number" is left out, the result is the binomial probability table.
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></item>
-<item>We are interested in MORE THAN 75% of 32 questions correct. 75% of 32 is 24. We want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 24). The event "more than 24" is the complement of "less than or equal to 24."</item>
+<item>We are interested in MORE THAN 75% of 32 questions correct. 75% of 32 is 24. We want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 24). The event "more than 24" is the complement of "less than or equal to 24."</item>
 <item>Using your calculator's distribution menu: 1 – binomcdf<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -770,7 +786,7 @@ if "number" is left out, the result is the binomial probability table.
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 24) = 0</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 24) = 0</item>
 <item>The probability of getting more than 75% of the 32 questions correct when randomly guessing is very small and practically zero.</item>
 </list></solution>
 </exercise>
@@ -942,7 +958,7 @@ if "number" is left out, the result is the binomial probability table.
  </m:mrow>
 </m:math></item>
 <item>In dollars: −1, 1, 2, 3</item>
-<item><m:math>
+<item><m:math display="">
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
@@ -1027,14 +1043,14 @@ if "number" is left out, the result is the binomial probability table.
  </m:mrow>
 </m:math> = 1.7409</item>
 </list></item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 5) = 1 – binomcdf(15, 0.281, 5) = 1 – 0.7754 = 0.2246
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 5) = 1 – binomcdf(15, 0.281, 5) = 1 – 0.7754 = 0.2246
 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = binompdf(15, 0.281, 3) = 0.1927
 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = binompdf(15, 0.281, 4) = 0.2259
 <newline/>It is more likely that four people are literate that three people are.</item>
 </list></solution>
 </exercise>
 
-</section> </content>
+</section></content>
 
 
   <glossary>

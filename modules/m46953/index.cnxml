@@ -95,16 +95,28 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
 </exercise></note><example id="element-616">
 <para id="element-741">Suppose that you are looking for a student at your college who lives within five miles of you. You know that 55% of the 25,000 students do live within five miles of you. You randomly contact students from the college <emphasis>until</emphasis> one says he or she lives within five miles of you. What is the probability that you need to contact four people?</para><para id="element-724">This is a geometric problem because you may have a number of failures before you have the one success you desire. Also, the probability of a success stays the same each time you ask a student if he or she lives within five miles of you. There is no definite number of trials (number of times you ask a student).<newline count="2"/></para><exercise id="element-823">
 <problem id="id27319141">
-  <para id="element-4422">a. Let <emphasis effect="italics">X</emphasis> = the number of ____________ you must ask ____________ one says yes.</para>
-  <para id="element-789">b. What values does <emphasis effect="italics">X</emphasis> take on?</para>
-<para id="element-884">c. What are <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis>?</para>
-<para id="element-458">d. The probability question is <emphasis effect="italics">P</emphasis>(_______).</para>
-
-</problem>
+  <para id="element-4422">a. Let <emphasis effect="italics">X</emphasis> = the number of ____________ you must ask ____________ one says yes.</para></problem>
 <solution id="id27319163">
-  <para id="element-153">a. Let <emphasis effect="italics">X</emphasis> = the number of <emphasis>students</emphasis> you must ask <emphasis>until</emphasis> one says yes.</para>
-<para id="element-140">b. 1, 2, 3, …, (total number of students)</para>
-  <para id="fs-idm85251472">c. <emphasis effect="italics">p</emphasis> = 0.55; <emphasis effect="italics">q</emphasis> = 0.45<newline count="2"/></para>
+  <para id="element-153">a. Let <emphasis effect="italics">X</emphasis> = the number of <emphasis>students</emphasis> you must ask <emphasis>until</emphasis> one says yes.<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-766"><problem id="id27319211">
+<para id="element-789">b. What values does <emphasis effect="italics">X</emphasis> take on?</para>
+</problem>
+<solution id="id27319232">
+<para id="element-140">b. 1, 2, 3, …, (total number of students)<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-208"><problem id="id27319259">
+  <para id="element-884">c. What are <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis>?</para></problem>
+
+<solution id="id27319284">
+  <para id="fs-idm85251472">c. <emphasis effect="italics">p</emphasis> = 0.55; <emphasis effect="italics">q</emphasis> = 0.45<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-413"><problem id="id27319331">
+  <para id="element-458">d. The probability question is <emphasis effect="italics">P</emphasis>(_______).</para></problem>
+<solution id="id27319348">
   <para id="element-996">d. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4)</para></solution>
 </exercise></example>
 
@@ -116,7 +128,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
 </problem>
 </exercise></note><section id="element-125">
 <title>Notation for the Geometric: G = Geometric Probability Distribution Function</title>
-<para id="element-156"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(<emphasis effect="italics">p</emphasis>)</para><para id="element-953">Read this as "<emphasis effect="italics">X</emphasis> is a random variable with a <term id="term-00001">geometric distribution</term>." The parameter is <emphasis effect="italics">p</emphasis>; <emphasis effect="italics">p</emphasis> = the probability of a success for each trial.</para></section>
+<para id="element-156"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(<emphasis effect="italics">p</emphasis>)</para><para id="element-953">Read this as "<emphasis effect="italics">X</emphasis> is a random variable with a <term>geometric distribution</term>." The parameter is <emphasis effect="italics">p</emphasis>; <emphasis effect="italics">p</emphasis> = the probability of a success for each trial.</para></section>
 <example id="element-340">
 <para id="element-38">Assume that the probability of a defective computer component is 0.02. Components are randomly selected. Find the probability that the first defect is caused by the seventh component tested. How many components do you expect to test until one is found to be defective?</para><para id="element-20">Let <emphasis effect="italics">X</emphasis> = the number of computer components tested until the first defect is found.</para>
 <para id="element-857"><emphasis effect="italics">X</emphasis> takes on the values 1, 2, 3, ... where <emphasis effect="italics">p</emphasis> = 0.02. <emphasis effect="italics">X</emphasis> ~ G(0.02)</para>
@@ -263,7 +275,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
  </m:mrow>
 </m:math> = 49.5</para></example>
 
-<note id="fs-idm16727632" class="statistics try "><label/><title>Try It</title>
+<note id="fs-idm16727632" class="statistics try finger"><label/><title>Try It</title>
 <exercise id="fs-idm153734704"><problem id="fs-idm2610224">
 <para id="fs-idm122642640">The probability of a defective steel rod is 0.01. Steel rods are selected at random. Find the probability that the first defect occurs on the ninth steel rod. Use the TI-83+ or TI-84 calculator to find the answer.</para>
 </problem>
@@ -897,7 +909,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
   <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 5) = geometcdf(0.25, 5) = 0.7627</item>
 </list></solution>
 </exercise>
-</section> </content>
+</section></content>
 
 <glossary>
 <definition id="geodist">

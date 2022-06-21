@@ -8,11 +8,11 @@
 </metadata>
 
 <content>
-<para id="fs-idm10364336">The purpose of a one-way ANOVA test is to determine the existence of a statistically significant difference among several group means. The test actually uses <term id="term-00001">variances</term> to help determine if the means are equal or not. In order to perform a one-way ANOVA test, there are five basic <emphasis>assumptions</emphasis> to be fulfilled:</para>
+<para id="fs-idm10364336">The purpose of a one-way ANOVA test is to determine the existence of a statistically significant difference among several group means. The test actually uses <term>variances</term> to help determine if the means are equal or not. In order to perform a one-way ANOVA test, there are five basic <emphasis>assumptions</emphasis> to be fulfilled:</para>
 <list id="list-786879" list-type="enumerated">
 <item>Each population from which a sample is taken is assumed to be normal.</item>
 <item>All samples are randomly selected and independent.</item>
-<item> The populations are assumed to have <term id="term-00002">equal standard deviations</term> <emphasis>(or variances)</emphasis>.</item>
+<item> The populations are assumed to have <term>equal standard deviations</term> <emphasis>(or variances)</emphasis>.</item>
 <item>The factor is a categorical variable.</item>
 <item>The response is a numerical variable.</item>
 </list>
@@ -24,7 +24,7 @@
 <para id="fs-idp14626496">If the null hypothesis is false, then the variance of the combined data is larger which is caused by the different means as shown in the second graph (green box plots).</para>
 
 <figure id="fs-idp110803872"><media id="eip-idp18347248" alt="The first illustration shows three vertical boxplots with equal means. The second illustration shows three vertical boxplots with unequal means.">
-<image src="../../media/CNX_Stats_C13_M02_001N.jpg" mime-type="image/jpeg" width="380"/>
+<image src="../../media/CNX_Stats_C13_M02_001n.jpg" mime-type="image/jpeg" width="380"/>
 </media>
 <caption>(a) <emphasis effect="italics">H<sub>0</sub></emphasis> is true. All means are the same; the differences are due to random variation. (b) <emphasis effect="italics">H<sub>0</sub></emphasis> is not true. All means are not the same; the differences are too large to be due to random variation.</caption></figure></section>
 
@@ -108,7 +108,7 @@
 
 <exercise id="eip-213">
 <problem id="eip-272">
-<para id="eip-950">Three different traffic routes are tested for mean driving time. The entries in the <link target-id="eip-24" document=""/> are the driving times in minutes on the three different routes.
+<para id="eip-950">Three different traffic routes are tested for mean driving time. The entries in the <link target-id="eip-24" document=""/> are the driving times in minutes on the three different routes. 
 <table id="eip-24" summary="..">
 <tgroup cols="3">
 <thead>
@@ -155,7 +155,7 @@
 <entry>East</entry>
 </row>
 </thead>
-<tbody>
+<tbody>         
 
 <row>
 <entry/>
@@ -200,11 +200,11 @@
 <m:mo>=</m:mo>
 </m:mrow>
 </m:math> </entry>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
 </row>
 <row>
 <entry>
@@ -217,11 +217,11 @@
 <m:mo>=</m:mo>
 </m:mrow>
 </m:math> </entry>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
 </row>
 </tbody>
 </tgroup>
@@ -232,14 +232,14 @@
 </problem>
 </exercise>
 </section>
- </content>
+</content>
 
 
 
   <glossary>
   <definition id="anova">
     <term>Analysis of Variance</term>
-    <meaning id="id1164594558494">also referred to as ANOVA, is a method of testing whether or not the means of three or more populations are equal. The method is applicable if:
+    <meaning id="id1164594558494">also referred to as ANOVA, is a method of testing whether or not the means of three or more populations are equal. The method is applicable if: 
 <list id="gllist1" list-type="bulleted">
 <item>all populations of interest are normally distributed.</item>
 <item>the populations have equal standard deviations.</item>
@@ -272,7 +272,7 @@
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
     </m:mover>
-
+    
   </m:math> is the sample mean. The sample variance is equal to the sum of the squares of the deviations divided by the difference of the sample size and one.</meaning>
   </definition>
 

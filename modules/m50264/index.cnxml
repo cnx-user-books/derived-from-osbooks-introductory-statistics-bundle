@@ -26,46 +26,46 @@ Measure the length of your pinky finger (in centimeters).</para>
 <tgroup cols="5">
 <tbody>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
 </row>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
 </row>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
 </row>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
 </row>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
 </row>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
+<entry>_______</entry>
 </row></tbody>
 </tgroup>
 </table>
@@ -116,6 +116,6 @@ Using the theoretical distribution, complete the following statements. Use a nor
 <item>What is the theoretical probability that a randomly chosen pinky length is more than 6.5 cm? </item>
 <item>Explain the meaning of the 85<sup>th</sup> percentile of this data.</item>
 </list><para id="eip-idp56724736"><title>Discussion Questions</title>Do the data you collected give a close approximation to the theoretical distribution? In complete sentences and comparing the results in the sections titled <link target-id="DescData2" document="">Describe the Data</link> and <link target-id="TheoDist2" document="">Theoretical Distribution</link>, explain why or why not.
-</para></note> </content>
+</para></note></content>
 
 </document>

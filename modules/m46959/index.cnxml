@@ -8,13 +8,9 @@
 </metadata>
 
 <content>
-<para id="s-idm1221053442">The <term id="term-00001">expected value</term> is often referred to as the <emphasis>"long-term" average or mean</emphasis>. This means that over the long term of doing an experiment over and over, you would <emphasis>expect</emphasis> this average.</para>
+<para id="delete_me">The <term>expected value</term> is often referred to as the <emphasis>"long-term" average or mean</emphasis>. This means that over the long term of doing an experiment over and over, you would <emphasis>expect</emphasis> this average.</para>
 
-<para id="fs-idm122105344">You toss a coin and record the result. What is the probability that the result is heads? If you flip a coin two times, does probability tell you that these flips will result in one heads and one tail? You might toss a fair coin ten times and record nine heads. As you learned in <link document="m46938"/>, probability does not describe the short-term results of an experiment. It gives information about what can be expected in the long term. To demonstrate this, Karl Pearson once tossed a fair coin 24,000 times! He recorded the results of each toss, obtaining heads 12,012 times. <emphasis effect="bold">In his experiment, Pearson illustrated the Law of Large Numbers</emphasis>.</para><para id="fs-idm32245968"><emphasis effect="bold">The Law of Large Numbers</emphasis> states that, as the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency approaches zero <emphasis effect="bold">(the theoretical probability and the relative frequency get closer and closer together)</emphasis>. When evaluating the long-term results of statistical experiments, we often want to know the “average” outcome. This “long-term average” is known as the <term id="term-00002">mean</term> or <term id="term-00003">expected value</term> of the experiment and is denoted by the Greek letter <emphasis effect="italics">μ</emphasis>. In other words, after conducting many trials of an experiment, you would expect this average value.</para>
-
-<para id="eip-332">The mean, <emphasis effect="italics">μ</emphasis>, of a discrete probability function is the expected value. </para>
-<equation class="unnumbered" id="eip-226"><label/>
-<m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>∙</m:mo><m:mi>P</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation><para id="eip-436">The standard deviation, Σ, of the PDF is the square root of the variance.</para><equation class="unnumbered" id="eip-365"><m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>[</m:mo><m:msup><m:mrow><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi><m:mi> </m:mi><m:mo>–</m:mo><m:mi> </m:mi><m:mi>μ</m:mi></m:mrow></m:mfenced></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi> </m:mi><m:mo>∙</m:mo><m:mi> </m:mi><m:mi>Ρ</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>]</m:mo><m:mi> </m:mi></m:mrow></m:mrow></m:msqrt></m:math></equation><para id="eip-988">When all outcomes in the probability distribution are equally likely, these formulas coincide with the mean and standard deviation of the set of possible outcomes.</para>
+<para id="fs-idm122105344">You toss a coin and record the result. What is the probability that the result is heads? If you flip a coin two times, does probability tell you that these flips will result in one heads and one tail? You might toss a fair coin ten times and record nine heads. As you learned in <link document="m46938"/>, probability does not describe the short-term results of an experiment. It gives information about what can be expected in the long term. To demonstrate this, Karl Pearson once tossed a fair coin 24,000 times! He recorded the results of each toss, obtaining heads 12,012 times. <emphasis effect="bold">In his experiment, Pearson illustrated the Law of Large Numbers</emphasis>.</para><para id="fs-idm32245968"><emphasis effect="bold">The Law of Large Numbers</emphasis> states that, as the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency approaches zero <emphasis effect="bold">(the theoretical probability and the relative frequency get closer and closer together)</emphasis>. When evaluating the long-term results of statistical experiments, we often want to know the “average” outcome. This “long-term average” is known as the <term>mean</term> or <term>expected value</term> of the experiment and is denoted by the Greek letter <emphasis effect="italics">μ</emphasis>. In other words, after conducting many trials of an experiment, you would expect this average value.</para>
 
 <note id="id8737934"><label/><title>NOTE</title>
 <para id="eip-idp95250624">To find the expected value or long term average, <emphasis effect="italics">μ</emphasis>, simply multiply each value of the random variable by its probability and add the products.</para></note>
@@ -340,9 +336,7 @@
   </m:msqrt>
  </m:mrow>
 </m:math> ≈ 1.0247
-</para>
-
-</example>
+</para><para id="eip-332">The mean, <emphasis effect="italics">μ</emphasis>, of a discrete probability function is the expected value. </para><equation id="eip-226"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>∙</m:mo><m:mi>P</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>)</m:mo></m:mrow></m:mrow></m:math></equation><para id="eip-436">The standard deviation, Σ, of the PDF is the square root of the variance.</para><equation id="eip-365"><m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mrow><m:mo stretchy="false">∑</m:mo><m:mrow><m:mo>[</m:mo><m:msup><m:mrow><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi><m:mi> </m:mi><m:mo>–</m:mo><m:mi> </m:mi><m:mi>μ</m:mi></m:mrow></m:mfenced></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi> </m:mi><m:mo>∙</m:mo><m:mi> </m:mi><m:mi>Ρ</m:mi><m:mfenced separators="|"><m:mrow><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo>]</m:mo><m:mi> </m:mi></m:mrow></m:mrow></m:msqrt></m:math></equation><para id="eip-988">When all outcomes in the probability distribution are equally likely, these formulas coincide with the mean and standard deviation of the set of possible outcomes.</para></example>
 
 
 <note id="fs-idm80414512" class="statistics try"><label/><title>Try It</title>
@@ -448,7 +442,7 @@
 
 <para id="element-996">To win, you must get all five numbers correct, in order. The probability of choosing one correct number is <m:math><m:mfrac><m:mn>1</m:mn><m:mn>10</m:mn></m:mfrac></m:math> because there are ten numbers. You may choose a number more than once. The probability of choosing all five numbers correctly and in order is</para>
 
-<equation class="unnumbered" id="eip-10"><label/><m:math>
+<equation id="eip-10"><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -513,7 +507,7 @@
 </m:math></equation>
 
 <para id="element-800">Therefore, the probability of winning is 0.00001 and the probability of losing is</para>
-<equation class="unnumbered" id="eip-755"><label/><m:math>
+<equation id="eip-755"><m:math>
  <m:mrow>
   <m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.00001</m:mn><m:mo>=</m:mo><m:mn>0.99999.</m:mn>
  </m:mrow>
@@ -572,10 +566,15 @@
   </m:mfrac>
  </m:mrow>
 </m:math>. If you toss a head, you pay $6. If you toss a tail, you win $10. If you play this game many times, will you come out ahead?<newline count="2"/>
-</para>
-<exercise id="element-193">
+</para><exercise id="element-193">
 <problem id="id14631763">
 <para id="element-653">a. Define a random variable <emphasis effect="italics">X</emphasis>.</para>
+</problem>
+<solution id="id14631784">
+  <para id="element-548">a. <emphasis effect="italics">X</emphasis> = amount of profit<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-483"><problem id="id14631817">
 <para id="element-597">b. Complete the following expected value table.</para><table id="element-644" summary="Problem 2 Table">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -585,8 +584,8 @@
   <row>
     <entry/>
     <entry><emphasis effect="italics">x</emphasis></entry>
-    <entry/>
-    <entry/>
+    <entry>____</entry>
+    <entry>____</entry>
   </row>
 </thead>
 <tbody>
@@ -594,23 +593,21 @@
     <entry>WIN</entry>
     <entry>10</entry>
     <entry><m:math><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
-    <entry/>
+    <entry>____</entry>
   </row>
   <row>
     <entry>LOSE</entry>
-    <entry/>
-    <entry/>
+    <entry>____</entry>
+    <entry>____</entry>
     <entry><m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
   </row>
-</tbody></tgroup>
-</table>
-<para id="element-847">c. What is the expected value, <emphasis effect="italics">μ</emphasis>? Do you come out ahead?</para>
+</tbody>
 
 
-</problem>
-<solution id="id14631784">
-  <para id="element-548">a. <emphasis effect="italics">X</emphasis> = amount of profit</para>
-  <para id="fs-idm44109456">b.
+</tgroup>
+</table></problem>
+
+<solution id="id7273882"><para id="fs-idm44109456">b.
 <table id="element-644s" summary="In the PDF table, the outcomes (money you win or lose) of a game played with a biased coin are recorded. There is a column to record the probability and a column to record the outcome multiplied by its probability.">
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -635,8 +632,20 @@
     <entry>–6</entry>
     <entry><m:math><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
     <entry><m:math><m:mfrac><m:mn>–12</m:mn><m:mn>3</m:mn></m:mfrac></m:math></entry>
-  </row></tbody></tgroup>
-</table></para>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table>
+<newline count="2"/></para></solution>
+</exercise><exercise id="element-737">
+<problem id="id10943564">
+  <para id="element-847">c. What is the expected value, <emphasis effect="italics">μ</emphasis>? Do you come out ahead?</para>
+</problem>
+
+<solution id="id10943588">
   <para id="element-535">c. Add the last column of the table. The expected value <emphasis effect="italics">μ</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -778,7 +787,7 @@
    </m:mrow>
   </m:msqrt>
  </m:mrow>
-</m:math> = 0.7</para><para id="element-873">Generally for probability distributions, we use a calculator or a computer to calculate <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis> to reduce roundoff error. For some probability distributions, there are short-cut formulas for calculating <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis>.</para><example id="fs-idp4384592"><exercise id="fs-idm87291728"><problem id="fs-idm69882560">
+</m:math> = 0.7</para><para id="element-873" class="finger">Generally for probability distributions, we use a calculator or a computer to calculate <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis> to reduce roundoff error. For some probability distributions, there are short-cut formulas for calculating <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis>.</para><example id="fs-idp4384592"><exercise id="fs-idm87291728"><problem id="fs-idm69882560">
 
 <para id="fs-idm82328592">Toss a fair, six-sided die twice. Let <emphasis effect="italics">X</emphasis> = the number of faces that show an even number. Construct a table like <link target-id="fs-idm71508016" document=""/> and calculate the mean <emphasis effect="italics">μ</emphasis> and standard deviation <emphasis effect="italics">σ</emphasis> of <emphasis effect="italics">X</emphasis>.</para></problem>
 <solution id="fs-idm46332752">
@@ -2683,7 +2692,7 @@
 </solution>
 </exercise>
 
-</section> </content>
+</section></content>
 <glossary>
 <definition id="expectedv">
 <term>Expected Value</term>

@@ -15,12 +15,12 @@
 </list>
 <para id="fs-idm4523440">If you draw random samples of size <emphasis effect="italics">n</emphasis>, then as <emphasis effect="italics">n</emphasis> increases, the random variable <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> which consists of sample means, tends to be <term id="term-00001">normally distributed</term> and</para><para id="element-810"><m:math>
+</m:math> which consists of sample means, tends to be <term>normally distributed</term> and</para><para id="element-810"><m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
@@ -33,7 +33,7 @@
 </m:msub>
 <m:mtext>, </m:mtext><m:mfrac>
 <m:mrow>
-<m:mi>σ</m:mi><m:mi>X</m:mi>
+<m:mi>σ</m:mi><m:mi>x</m:mi>
 </m:mrow>
 <m:mrow>
 <m:msqrt>
@@ -46,16 +46,16 @@
 </m:mrow>
 </m:math>.</para>
 
-<para id="element-489">The <term id="term-00002">central limit theorem</term> for sample means says that if you repeatedly draw samples of a given size (such as repeatedly rolling ten dice) and calculate their means, those means tend to follow a normal distribution (the sampling distribution). As sample sizes increase, the distribution of means more closely follows the normal distribution. The normal distribution has the same mean as the original distribution and a variance that equals the original variance divided by the sample size. Standard deviation is the square root of variance, so the standard deviation of the sampling distribution is the standard deviation of the original distribution divided by the square root of <emphasis effect="italics">n</emphasis>. The variable <emphasis effect="italics">n</emphasis> is the number of values that are averaged together, not the number of times the experiment is done.</para><para id="fs-idm26555216">To put it more formally, if you draw random samples of size <emphasis effect="italics">n</emphasis>, the distribution of the random variable <m:math>
+<para id="element-489">The <term>central limit theorem</term> for sample means says that if you keep drawing larger and larger samples (such as rolling one, two, five, and finally, ten dice) and <emphasis>calculating their means,</emphasis> the sample means form their own <emphasis>normal distribution</emphasis> (the sampling distribution). The normal distribution has the same mean as the original distribution and a variance that equals the original variance divided by the sample size. Standard deviation is the square root of variance, so the standard deviation of the sampling distribution is the standard deviation of the original distribution divided by the square root of <emphasis effect="italics">n</emphasis>. The variable <emphasis effect="italics">n</emphasis> is the number of values that are averaged together, not the number of times the experiment is done.</para><para id="fs-idm26555216">To put it more formally, if you draw random samples of size <emphasis effect="italics">n</emphasis>, the distribution of the random variable <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math>, which consists of sample means, is called the <emphasis>sampling distribution of the mean</emphasis>. The sampling distribution of the mean approaches a normal distribution as <emphasis effect="italics">n</emphasis>, the <term id="term-00003">sample size</term>, increases. </para>
+</m:math>, which consists of sample means, is called the <emphasis>sampling distribution of the mean</emphasis>. The sampling distribution of the mean approaches a normal distribution as <emphasis effect="italics">n</emphasis>, the <term>sample size</term>, increases. </para>
 
 <para id="element-54">The random variable <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math> has a different <emphasis effect="italics">z</emphasis>-score associated with it from that of the random variable <emphasis effect="italics">X</emphasis>. The mean <m:math>
@@ -65,10 +65,10 @@
 </m:mover>
 </m:math> is the value of <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> in one sample.</para><equation class="unnumbered" id="element-684"><label/><m:math>
+</m:math> in one sample.</para><equation id="element-684"><m:math>
 <m:mrow>
 <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -88,7 +88,7 @@
 <m:mrow>
 <m:msub>
 <m:mi>σ</m:mi>
-<m:mi>X</m:mi>
+<m:mi>x</m:mi>
 </m:msub>
 </m:mrow>
 <m:mrow>
@@ -106,16 +106,35 @@
 
 <para id="element-686"><emphasis effect="italics">μ</emphasis><sub><emphasis effect="italics">X</emphasis></sub> is the average of both <emphasis effect="italics">X</emphasis> and <m:math>
 <m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:math>.</para><para id="element-455"><m:math>
+<m:mrow>
+<m:mi>σ</m:mi><m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math>.</para><para id="element-455"><m:math><m:msub><m:mi>σ</m:mi><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:msub><m:mtext> = </m:mtext><m:mfrac><m:mrow><m:mi>σ</m:mi><m:mi>X</m:mi></m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math> = standard deviation of <m:math>
+<m:mtext> = </m:mtext><m:mfrac>
+<m:mrow>
+<m:mi>σ</m:mi><m:mi>x</m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mi>n</m:mi>
+</m:msqrt>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math> = standard deviation of <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
-</m:math> and is called the <term id="term-00004">standard error of the mean.</term></para>
+</m:math> and is called the <term>standard error of the mean.</term></para>
 
 <note id="fs-idm74236704" class="statistics calculator">
 <label/>
@@ -155,13 +174,13 @@
 <para id="element-961">An unknown distribution has a mean of 90 and a standard deviation of 15. Samples of size <emphasis effect="italics">n</emphasis> = 25 are drawn randomly from the population.</para>
 <exercise id="element-705">
 <problem id="id5873867">
-<para id="element-704"><newline/>a. Find the probability that the <term id="term-00005">sample mean</term> is between 85 and 92.</para></problem>
+<para id="element-704"><newline/>a. Find the probability that the <term>sample mean</term> is between 85 and 92.</para></problem>
 <solution id="id5873893">
 <para id="fs-idp14520352">a. Let <emphasis effect="italics">X</emphasis> = one value from the original unknown population. The probability question asks you to find a probability for the <emphasis>sample mean</emphasis>.</para>
 
 <para id="element-126">Let <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
@@ -169,7 +188,7 @@
 
 <para id="element-756"><m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
@@ -363,8 +382,14 @@
 Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to play one soccer match.</para>
 <para id="element-302">The probability question asks you to find a probability for the <emphasis>sample mean time, in hours</emphasis>, it takes to play one soccer match.</para>
 
-<para id="element-849">Let <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> = the <term id="term-00006">mean</term> time, in hours, it takes to play one soccer match.</para>
-<para id="fs-idm28701424">If <emphasis effect="italics">μ<sub>X</sub></emphasis> = _________, <emphasis effect="italics">σ<sub>X</sub></emphasis> = __________, and <emphasis effect="italics">n</emphasis> =  ___________, then <m:math><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:math> ~ <emphasis effect="italics">N</emphasis>(______, ______) by the <term id="term-00007">central limit theorem for means</term>.</para>
+<para id="element-849">Let <m:math>
+<m:mover accent="true">
+<m:mi>X</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+
+</m:math> = the <term>mean</term> time, in hours, it takes to play one soccer match.</para>
+<para id="fs-idm28701424">If <emphasis effect="italics">μ<sub>X</sub></emphasis> = _________, <emphasis effect="italics">σ<sub>X</sub></emphasis> = __________, and <emphasis effect="italics">n</emphasis> =  ___________, then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(______, ______) by the <term>central limit theorem for means</term>.</para>
 
 <para id="fs-idm68643920"><emphasis effect="italics">μ<sub>X</sub></emphasis> = 2, <emphasis effect="italics">σ<sub>X</sub></emphasis> = 0.5, <emphasis effect="italics">n</emphasis> = 50, and <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis><m:math>
  <m:mrow>
@@ -403,7 +428,7 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
 </m:mover>
 </m:math> &lt; 2.3) = 0.9977</para>
 
-<para id="element-290"><code>normalcdf</code><m:math>
+<para id="element-290" class="finger"><code>normalcdf</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -525,7 +550,7 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
 </m:mrow>
 </m:math> = 1.5</item>
 <item>The central limit theorem states that for large sample sizes(<emphasis effect="italics">n</emphasis>), the sampling distribution will be approximately normal.</item>
-<item>The probability that the sample mean age is more than 30 is given by <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo> </m:mo><m:mo>></m:mo><m:mo> </m:mo><m:mn>30</m:mn><m:mo>)</m:mo></m:math> = <code>normalcdf</code>(30,E99,34,1.5) = 0.9962</item>
+<item>The probability that the sample mean age is more than 30 is given by <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Χ</emphasis> &gt; 30) = <code>normalcdf</code>(30,E99,34,1.5) = 0.9962</item>
 <item>Let <emphasis effect="italics">k</emphasis> = the 95<sup>th</sup> percentile.
 <newline count="1"/><emphasis effect="italics">k</emphasis> = invNorm<m:math>
  <m:mrow>
@@ -573,101 +598,6 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
 <item>Find the 90<sup>th</sup> percentile for the sample mean time for app engagement for a tablet user. Interpret this value in a complete sentence.</item>
 <item>Find the probability that the sample mean is between eight minutes and 8.5 minutes.</item>
 </list></problem>
-<solution id="fs-idp4823088">
-<list id="fs-idm38233840" list-type="enumerated" number-style="lower-alpha"><item><m:math>
-<m:mrow>
-<m:msub>
-<m:mi>μ</m:mi>
-<m:mrow>
-<m:mover accent="true">
-<m:mi>x</m:mi>
-<m:mo stretchy="true">¯</m:mo>
-</m:mover>
-</m:mrow>
-</m:msub>
-<m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>8.2</m:mn><m:mtext> </m:mtext><m:msub>
-<m:mi>σ</m:mi>
-<m:mrow>
-<m:mover accent="true">
-<m:mi>x</m:mi>
-<m:mo stretchy="true">¯</m:mo>
-</m:mover>
-
-</m:mrow>
-</m:msub>
-<m:mo>=</m:mo><m:mfrac>
-<m:mi>σ</m:mi>
-<m:mrow>
-<m:msqrt>
-<m:mi>n</m:mi>
-</m:msqrt>
-
-</m:mrow>
-</m:mfrac>
-<m:mo>=</m:mo><m:mfrac>
-<m:mn>1</m:mn>
-<m:mrow>
-<m:msqrt>
-<m:mrow>
-<m:mn>60</m:mn>
-</m:mrow>
-</m:msqrt>
-
-</m:mrow>
-</m:mfrac>
-<m:mo>=</m:mo><m:mn>0.13</m:mn>
-</m:mrow>
-</m:math></item>
-<item>This allows us to calculate the probability of sample means of a particular distance from the mean, in repeated samples of size 60.</item>
-<item>Let <emphasis effect="italics">k</emphasis> = the 90<sup>th</sup> percentile
-<newline/>
-<emphasis effect="italics">k</emphasis> = <code>invNorm</code><m:math>
- <m:mrow>
-  <m:mrow><m:mo>(</m:mo>
-   <m:mrow>
-    <m:mn>0.</m:mn><m:mtext>90,8</m:mtext><m:mtext>.2,</m:mtext><m:mfrac>
-     <m:mn>1</m:mn>
-     <m:mrow>
-      <m:msqrt>
-       <m:mrow>
-        <m:mn>60</m:mn>
-       </m:mrow>
-      </m:msqrt>
-
-     </m:mrow>
-    </m:mfrac>
-
-   </m:mrow>
-  <m:mo>)</m:mo></m:mrow>
- </m:mrow>
-</m:math> = 8.37. This values indicates that 90 percent of the average app engagement time for table users is less than 8.37 minutes.</item>
-<item><emphasis effect="italics">P</emphasis>(8 &lt; <m:math>
-<m:mover accent="true">
-<m:mi>x</m:mi>
-<m:mo>¯</m:mo>
-</m:mover>
-
-</m:math> &lt; 8.5) = <code>normalcdf</code><m:math>
- <m:mrow>
-  <m:mrow><m:mo>(</m:mo>
-   <m:mrow>
-    <m:mtext>8,8</m:mtext><m:mtext>.5,8</m:mtext><m:mtext>.2,</m:mtext><m:mfrac>
-     <m:mn>1</m:mn>
-     <m:mrow>
-      <m:msqrt>
-       <m:mrow>
-        <m:mn>60</m:mn>
-       </m:mrow>
-      </m:msqrt>
-
-     </m:mrow>
-    </m:mfrac>
-
-   </m:mrow>
-  <m:mo>)</m:mo></m:mrow>
- </m:mrow>
-</m:math> = 0.9293</item>
-</list></solution>
 </exercise>
 </example>
 
@@ -704,7 +634,7 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
 <title>Formula Review</title>
 <para id="fs-idm43969232">The Central Limit Theorem for Sample Means: <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
@@ -801,7 +731,7 @@ Let <emphasis effect="italics">X</emphasis> = the time, in hours, it takes to pl
 <section id="fs-idm23437024" class="practice">
 <para id="fs-idm21552528"><emphasis effect="italics">Use the following information to answer the next six exercises:</emphasis> Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let <emphasis effect="italics">Χ</emphasis> be the random variable representing the time it takes her to complete one review. Assume <emphasis effect="italics">Χ</emphasis> is normally distributed. Let <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
@@ -947,7 +877,7 @@ b. 3.5, 4.25, 0.2441</para></solution>
 </m:math> = ____________</item>
 <item><m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math> ~ ______ (______, ______)</item>
@@ -960,13 +890,13 @@ b. 3.5, 4.25, 0.2441</para></solution>
 <item><emphasis effect="italics">Χ</emphasis> ~ <emphasis effect="italics">E</emphasis>(0.88, 0.88)</item>
 <item><m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math> = average amount of change carried by a sample of 25 sstudents.</item>
 <item><m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
@@ -980,20 +910,20 @@ b. 3.5, 4.25, 0.2441</para></solution>
 <exercise id="element-51"><problem id="id6273949">
 <para id="element-365">Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet. We randomly sample 49 fly balls.</para><list id="element-530" list-type="enumerated" number-style="lower-alpha"><item>If <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
 </m:math> = average distance in feet for 49 fly balls, then <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
 </m:math> ~ _______(_______,_______)</item>
 <item>What is the probability that the 49 balls traveled an average of less than 240 feet? Sketch the graph. Scale the horizontal axis for <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math>. Shade the region corresponding to the probability. Find the probability.</item>
@@ -1069,7 +999,7 @@ b. 3.5, 4.25, 0.2441</para></solution>
 <exercise id="element-133"><problem id="id6533652">
 <para id="element-243">Suppose that a category of world-class runners are known to run a marathon (26 miles) in an average of 145 minutes with a standard deviation of 14 minutes. Consider 49 of the races. Let <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
@@ -1175,7 +1105,7 @@ b. 3.5, 4.25, 0.2441</para></solution>
 </m:math> ~ _____(_____,_____)</item>
 <item>The IQR for <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math> is from _______ acres to _______ acres.</item>
@@ -1222,14 +1152,14 @@ b. 3.5, 4.25, 0.2441</para></solution>
 </m:math> is approximately equal to the mean of <emphasis effect="italics">Χ</emphasis>.</item>
 <item>When the sample size is large, <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
 </m:math> is approximately normally distributed.</item>
 <item>When the sample size is large, the standard deviation of <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
@@ -1243,7 +1173,7 @@ b. 3.5, 4.25, 0.2441</para></solution>
 <exercise id="element-169"><problem id="id6272391">
 <para id="element-76">The percent of fat calories that a person in America consumes each day is normally distributed with a mean of about 36 and a standard deviation of about ten. Suppose that 16 individuals are randomly chosen. Let <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
@@ -1251,7 +1181,7 @@ b. 3.5, 4.25, 0.2441</para></solution>
 <list id="eip-idm27753728" list-type="enumerated" number-style="lower-alpha">
 <item><m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 
@@ -1344,13 +1274,13 @@ b. 3.5, 4.25, 0.2441</para></solution>
 <item>The distribution of the sample mean will have higher probabilities closer to the population mean.
 <newline/><emphasis effect="italics">P</emphasis>(2000 &lt; <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math> &lt; 2100) = 0.1537
 <newline/><emphasis effect="italics">P</emphasis>(2100 &lt; <m:math>
 <m:mover accent="true">
-<m:mi>x</m:mi>
+<m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math> &lt; 2200) = 0.1317
@@ -1465,7 +1395,7 @@ b. 3.5, 4.25, 0.2441</para></solution>
 </section>
 
 
- </content>
+</content>
 
 <glossary>
   <definition id="average">

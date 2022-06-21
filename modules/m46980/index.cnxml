@@ -9,7 +9,7 @@
 </metadata>
 
 <content>
-<para id="fs-idp71600">The <term id="term-00001">standard normal distribution</term> is a normal distribution of <emphasis>standardized values called</emphasis> <term id="term-00002"><emphasis effect="italics">z</emphasis>-scores</term>. <emphasis>A <emphasis effect="italics">z</emphasis>-score is measured in units of the standard deviation.</emphasis> For example, if the mean of a normal distribution is five and the standard deviation is two, the value 11 is three standard deviations above (or to the right of) the mean. The calculation is as follows:</para>
+<para id="fs-idp71600">The <term>standard normal distribution</term> is a normal distribution of <emphasis>standardized values called</emphasis> <term><emphasis effect="italics">z</emphasis>-scores</term>. <emphasis>A <emphasis effect="italics">z</emphasis>-score is measured in units of the standard deviation.</emphasis> For example, if the mean of a normal distribution is five and the standard deviation is two, the value 11 is three standard deviations above (or to the right of) the mean. The calculation is as follows:</para>
 
 <para id="fs-idp80744096"><emphasis effect="italics">x</emphasis> = <emphasis effect="italics">μ</emphasis> + (<emphasis effect="italics">z</emphasis>)(<emphasis effect="italics">σ</emphasis>) = 5 + (3)(2) = 11</para>
 
@@ -26,8 +26,7 @@
  </m:mrow>
 </m:math> produces the distribution <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1). The value <emphasis effect="italics">x</emphasis> in the given equation comes from a normal distribution with mean <emphasis effect="italics">μ</emphasis> and standard deviation <emphasis effect="italics">σ</emphasis>.</para><section id="fs-idp52480624">
 <title><emphasis effect="italics">Z</emphasis>-Scores</title>
- <para id="fs-idm81546736">If <emphasis effect="italics">X</emphasis> is a normally distributed random variable and <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(μ, σ)</emphasis>, then the <emphasis effect="italics">z</emphasis>-score is:</para>
- <equation id="element-521" class="unnumbered"><label/><m:math>
+ <para id="fs-idm81546736">If <emphasis effect="italics">X</emphasis> is a normally distributed random variable and <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(μ, σ)</emphasis>, then the <emphasis effect="italics">z</emphasis>-score is:</para><equation id="element-521"><m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -40,8 +39,7 @@
 </m:math></equation><para id="element-272"><emphasis>The <emphasis effect="italics">z</emphasis>-score tells you how many standard deviations the value <emphasis effect="italics">x</emphasis> is above (to the right of) or below (to the left of) the mean, <emphasis effect="italics">μ</emphasis>.</emphasis> Values of <emphasis effect="italics">x</emphasis> that are larger than the mean have positive <emphasis effect="italics">z</emphasis>-scores, and values of <emphasis effect="italics">x</emphasis> that are smaller than the mean have negative <emphasis effect="italics">z</emphasis>-scores. If <emphasis effect="italics">x</emphasis> equals the mean, then <emphasis effect="italics">x</emphasis> has a <emphasis effect="italics">z</emphasis>-score of zero.</para>
 
 <example id="element-49">
-<para id="element-161">Suppose <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(5, 6)</emphasis>. This says that <emphasis effect="italics">X</emphasis> is a normally distributed random variable with mean <emphasis effect="italics">μ</emphasis> = 5 and standard deviation <emphasis effect="italics">σ</emphasis> = 6. Suppose <emphasis effect="italics">x</emphasis> = 17. Then:</para>
-<equation id="element-160" class="unnumbered"><label/><m:math>
+<para id="element-161">Suppose <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N(5, 6)</emphasis>. This says that <emphasis effect="italics">X</emphasis> is a normally distributed random variable with mean <emphasis effect="italics">μ</emphasis> = 5 and standard deviation <emphasis effect="italics">σ</emphasis> = 6. Suppose <emphasis effect="italics">x</emphasis> = 17. Then:</para><equation id="element-160"><m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -148,7 +146,7 @@
 </note>
 
 
-<para id="eip-113"><title>The Empirical Rule</title>If <emphasis effect="italics">X</emphasis> is a random variable and has a normal distribution with mean <emphasis effect="italics">µ</emphasis> and standard deviation <emphasis effect="italics">σ</emphasis>, then the <term id="term-00003">Empirical Rule</term> states the following:</para><list id="fs-idp54135840" list-type="bulleted"><item>About 68% of the <emphasis effect="italics">x</emphasis> values lie between –1<emphasis effect="italics">σ</emphasis> and +1<emphasis effect="italics">σ</emphasis> of the mean <emphasis effect="italics">µ</emphasis> (within one standard deviation of the mean).</item>
+<para id="eip-113"><title>The Empirical Rule</title>If <emphasis effect="italics">X</emphasis> is a random variable and has a normal distribution with mean <emphasis effect="italics">µ</emphasis> and standard deviation <emphasis effect="italics">σ</emphasis>, then the <term>Empirical Rule</term> states the following:</para><list id="fs-idp54135840" list-type="bulleted"><item>About 68% of the <emphasis effect="italics">x</emphasis> values lie between –1<emphasis effect="italics">σ</emphasis> and +1<emphasis effect="italics">σ</emphasis> of the mean <emphasis effect="italics">µ</emphasis> (within one standard deviation of the mean).</item>
 <item>About  95% of the <emphasis effect="italics">x</emphasis> values lie between –2<emphasis effect="italics">σ</emphasis> and +2<emphasis effect="italics">σ</emphasis> of the mean <emphasis effect="italics">µ</emphasis> (within two standard deviations of the mean).</item>
 
 <item>About 99.7% of the <emphasis effect="italics">x</emphasis> values lie between –3<emphasis effect="italics">σ</emphasis> and +3<emphasis effect="italics">σ</emphasis> of the mean <emphasis effect="italics">µ</emphasis> (within three standard deviations of the mean). Notice that almost all the <emphasis effect="italics">x</emphasis> values lie within three standard deviations of the mean.</item>
@@ -171,14 +169,20 @@
 <example id="eip-736">
  <para id="eip-892">The mean height of 15 to 18-year-old males from Chile from 2009 to 2010 was 170 cm with a standard deviation of 6.28 cm. Male heights are known to follow a normal distribution. Let <emphasis effect="italics">X</emphasis> = the height of a 15 to 18-year-old male from Chile in 2009 to 2010. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(170, 6.28).<newline count="2"/></para><exercise id="eip-231">
 <problem id="eip-633">
-<para id="eip-idp457728">a. Suppose a 15 to 18-year-old male from Chile was 168 cm tall from 2009 to 2010. The <emphasis effect="italics">z</emphasis>-score when <emphasis effect="italics">x</emphasis> = 168 cm is <emphasis effect="italics">z</emphasis> = _______. This <emphasis effect="italics">z</emphasis>-score tells you that <emphasis effect="italics">x</emphasis> = 168 is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</para>
-<para id="eip-249">b. Suppose that the height of a 15 to 18-year-old male from Chile from 2009 to 2010 has a <emphasis effect="italics">z</emphasis>-score of <emphasis effect="italics">z</emphasis> = 1.27. What is the male’s height? The <emphasis effect="italics">z</emphasis>-score (<emphasis effect="italics">z</emphasis> = 1.27) tells you that the male’s height is ________ standard deviations to the __________ (right or left) of the mean.</para>
-
-</problem>
+<para id="eip-idp457728">a. Suppose a 15 to 18-year-old male from Chile was 168 cm tall from 2009 to 2010. The <emphasis effect="italics">z</emphasis>-score when <emphasis effect="italics">x</emphasis> = 168 cm is <emphasis effect="italics">z</emphasis> = _______. This <emphasis effect="italics">z</emphasis>-score tells you that <emphasis effect="italics">x</emphasis> = 168 is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</para></problem>
 <solution id="eip-518">
-  <para id="eip-134">a. –0.32, 0.32, left, 170<newline count="2"/></para>
+  <para id="eip-134">a. –0.32, 0.32, left, 170<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="eip-703">
+<problem id="eip-147">
+  <para id="eip-249">b. Suppose that the height of a 15 to 18-year-old male from Chile from 2009 to 2010 has a <emphasis effect="italics">z</emphasis>-score of <emphasis effect="italics">z</emphasis> = 1.27. What is the male’s height? The <emphasis effect="italics">z</emphasis>-score (<emphasis effect="italics">z</emphasis> = 1.27) tells you that the male’s height is ________ standard deviations to the __________ (right or left) of the mean.</para>
+</problem>
+
+<solution id="eip-205">
   <para id="eip-741">b. 177.98 cm, 1.27, right</para></solution>
 </exercise>
+
 </example>
 
 <note id="fs-idp103857616" class="statistics try">
@@ -226,7 +230,7 @@
 <para id="eip-692">Suppose <emphasis effect="italics">x</emphasis> has a normal distribution with mean 50 and standard deviation 6.</para>
 <list id="eip-id1168769509491" list-type="bulleted"><item>About 68% of the <emphasis effect="italics">x</emphasis> values lie within one standard deviation of the mean. Therefore, about 68% of the <emphasis effect="italics">x</emphasis> values lie between –1<emphasis effect="italics">σ</emphasis> = (–1)(6) = –6 and 1<emphasis effect="italics">σ</emphasis> = (1)(6) = 6 of the mean 50. The values 50 – 6 = 44 and 50 + 6 = 56 are within one standard deviation from the mean 50. The <emphasis effect="italics">z</emphasis>-scores are –1 and +1 for 44 and 56, respectively.</item>
 <item>About 95% of the <emphasis effect="italics">x</emphasis> values lie within two standard deviations of the mean. Therefore, about 95% of the <emphasis effect="italics">x</emphasis> values lie between –2<emphasis effect="italics">σ</emphasis> = (–2)(6) = –12 and 2<emphasis effect="italics">σ</emphasis> = (2)(6) = 12. The values 50 – 12 = 38 and 50 + 12 = 62 are within two standard deviations from the mean 50. The <emphasis effect="italics">z</emphasis>-scores are –2 and +2 for 38 and 62, respectively.</item>
-<item>About 99.7% of the <emphasis effect="italics">x</emphasis> values lie within three standard deviations of the mean. Therefore, about 99.7% of the <emphasis effect="italics">x</emphasis> values lie between –3<emphasis effect="italics">σ</emphasis> = (–3)(6) = –18 and 3<emphasis effect="italics">σ</emphasis> = (3)(6) = 18 from the mean 50. The values 50 – 18 = 32 and 50 + 18 = 68 are within three standard deviations of the mean 50. The <emphasis effect="italics">z</emphasis>-scores are –3 and +3 for 32 and 68, respectively.</item>
+<item>About 99.7% of the <emphasis effect="italics">x</emphasis> values lie within three standard deviations of the mean. Therefore, about 95% of the <emphasis effect="italics">x</emphasis> values lie between –3<emphasis effect="italics">σ</emphasis> = (–3)(6) = –18 and 3<emphasis effect="italics">σ</emphasis> = (3)(6) = 18 from the mean 50. The values 50 – 18 = 32 and 50 + 18 = 68 are within three standard deviations of the mean 50. The <emphasis effect="italics">z</emphasis>-scores are –3 and +3 for 32 and 68, respectively.</item>
 </list></example>
 
 <note id="fs-idp63750176" class="statistics try">
@@ -291,7 +295,7 @@
 <para id="eip-155"><emphasis effect="italics">z</emphasis> = a standardized value (<emphasis effect="italics">z</emphasis>-score)</para>
 <para id="eip-547">mean = 0; standard deviation = 1</para>
 
-<para id="fs-idp101194144">To find the observed value, <emphasis effect="italics">x</emphasis>, when the <emphasis effect="italics">z</emphasis>-scores is known:<newline/><emphasis effect="italics">x</emphasis> = <emphasis effect="italics">μ</emphasis> + (<emphasis effect="italics">z</emphasis>)<emphasis effect="italics">σ</emphasis></para><para id="fs-idp50699312"><emphasis effect="italics">z</emphasis>-score: <emphasis effect="italics">z</emphasis> = <m:math>
+<para id="fs-idp101194144">To find the <emphasis effect="italics">k</emphasis><sup>th</sup> percentile of <emphasis effect="italics">X</emphasis> when the <emphasis effect="italics">z</emphasis>-scores is known:<newline/><emphasis effect="italics">k</emphasis> = <emphasis effect="italics">μ</emphasis> + (<emphasis effect="italics">z</emphasis>)<emphasis effect="italics">σ</emphasis></para><para id="fs-idp50699312"><emphasis effect="italics">z</emphasis>-score: <emphasis effect="italics">z</emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -594,7 +598,8 @@
 </exercise>
 
 <exercise id="fs-idp72804864"><problem id="fs-idp72805120">
-<para id="fs-idp193808192">About what percent of <emphasis effect="italics">x</emphasis> values lie between the first and third standard deviations(both sides)?</para></problem>
+<para id="fs-idp193808192">About what percent of <emphasis effect="italics">x</emphasis> values lie betwween the first and third standard deviations(both sides)?</para>
+</problem>
 
 <!-- <solution id="fs-idp56159920">
 <para id="fs-idp56160176">about 34.46%</para>
@@ -651,7 +656,7 @@
 
 
 <exercise id="fs-idm62385744"><problem id="fs-idm56430320">
-<para id="eip-156">The length of time to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes. If the mean is significantly greater than the standard deviation, which of the following statements is true?</para>
+<para id="eip-156">The length of time to find it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes. If the mean is significantly greater than the standard deviation, which of the following statements is true?</para>
 <list id="fs-idm68354864" list-type="enumerated" number-style="upper-roman">
 <item>The data cannot follow the uniform distribution.</item>
 <item>The data cannot follow the exponential distribution..</item>
@@ -868,7 +873,7 @@
 <para id="fs-idp192539552"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(3, 13)</para> -->
 </section>
 
- </content>
+</content>
 
 <glossary>
 <definition id="nrmdist">
