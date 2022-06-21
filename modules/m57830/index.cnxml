@@ -1,0 +1,176 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Preface -- RRC MATH1020 adaptation -- Version 2015 Revision A</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m57830</md:content-id>
+  <md:title>Preface -- RRC MATH1020 adaptation -- Version 2015 Revision A</md:title>
+  <md:abstract>Introductory Statistics is intended for the one-semester introduction to statistics course for students who are not mathematics or engineering majors. It focuses on the interpretation of statistical results, especially in real world settings, and assumes that students have an understanding of intermediate algebra. In addition to end of section practice and homework sets, examples of each topic are explained step-by-step throughout the text and followed by a Try It problem that is designed as extra practice for students. This book also includes collaborative exercises and statistics labs designed to give students the opportunity to work together and explore key concepts.</md:abstract>
+  <md:uuid>c408d859-cb65-4fc6-95d0-dd509362ad54</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-663"><title>About <emphasis effect="italics">Introductory Statistics</emphasis></title><para id="eip-890">The original text <emphasis effect="italics">Introductory Statistics</emphasis> has been adapted specifically for MATH1020 at Red River College. 
+
+It is designed for the one-semester, introduction to statistics course and is geared toward students majoring in business, or fields other than math or engineering. This text assumes students have been exposed to intermediate algebra, and it focuses on the applications of statistical knowledge rather than the theory behind it. 
+</para><para id="eip-55">The foundation of this textbook is <emphasis effect="italics">Collaborative Statistics</emphasis>, by Barbara Illowsky and Susan Dean. Additional topics, examples, and ample opportunities for practice have been added to each chapter. The development choices for this textbook were made with the guidance of many faculty members who are deeply involved in teaching this course. These choices led to innovations in art, terminology, and practical applications, all with a goal of increasing relevance and accessibility for students. We strove to make the discipline meaningful, so that students can draw from it a working knowledge that will enrich their future studies and help them make sense of the world around them. </para><section id="eip-570"><title>Coverage and Scope</title><para id="eip-291">Chapter 1 Sampling and Data<newline/>
+Chapter 2 Descriptive Statistics<newline/>
+Chapter 3 Probability Topics<newline/>
+Chapter 4 Discrete Random Variables<newline/>
+Chapter 5 The Normal Distribution<newline/>
+Chapter 6 The Central Limit Theorem<newline/>
+Chapter 7 Confidence Intervals<newline/>
+Chapter 8 Hypothesis Testing with One Sample<newline/>
+Chapter 9 Hypothesis Testing with Two Samples<newline/>
+
+</para></section><section id="eip-678"><title>Pedagogical Foundation and Features</title><list id="eip-303"><item><emphasis>Examples</emphasis> are placed strategically throughout the text to show students the step-by-step process of interpreting and solving statistical problems.  To keep the text relevant for students, the examples are drawn from a broad spectrum of practical topics; these include examples about college life and learning, health and medicine, retail and business, and sports and entertainment. </item>
+<item><emphasis>Try It</emphasis> practice problems immediately follow many examples and give students the opportunity to practice as they read the text. <emphasis>They are usually based on practical and familiar topics, like the Examples themselves</emphasis>.</item>
+<item><emphasis>Collaborative Exercises</emphasis> provide an in-class scenario for students to work together to explore presented concepts.</item>
+<item><emphasis>The Technology Icon</emphasis> indicates where the use of a calculator or computer software is recommended.</item>
+<item><emphasis>Practice, Homework, and Bringing It Together</emphasis> problems give the students problems at various degrees of difficulty while also including real-world scenarios to engage students.</item></list></section><section id="eip-165"><title>Statistics Labs</title><para id="eip-48">
+These innovative activities were developed by Barbara Illowsky and Susan Dean in order to offer students the experience of designing, implementing, and interpreting statistical analyses.  They are drawn from actual experiments and data-gathering processes, and offer a unique hands-on and collaborative experience.  The labs provide a foundation for further learning and classroom interaction that will produce a meaningful application of statistics.  
+</para>
+<para id="eip-id1166298040766">Statistics Labs appear at the end of each chapter, and begin with student learning outcomes, general estimates for time on task, and any global implementation notes.  Students are then provided step-by-step guidance, including sample data tables and calculation prompts.  The detailed assistance will help the students successfully apply the concepts in the text and lay the groundwork for future collaborative or individual work.  </para></section></section><section id="eip-441"><title>About Our Team</title><section id="eip-id1165226216199"><title>Senior Contributing Authors</title><table id="eip-407" frame="none" summary="original authors"><label/>
+<tgroup colsep="0" rowsep="0" cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+  <row>
+    <entry>Barbara Illowsky </entry>
+    <entry>De Anza College</entry>
+  </row>
+  <row>
+    <entry>Susan Dean</entry>
+    <entry>De Anza College</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table></section><section id="eip-id1165231659584"><title>Contributors</title><table id="eip-id1171181093536" frame="none" summary="original authors"><label/>
+<tgroup colsep="0" rowsep="0" cols="2"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<tbody>
+  <row>
+    <entry>Abdulhamid Sukar</entry>
+    <entry>Cameron University</entry>
+  </row>
+  <row>
+    <entry>Abraham Biggs</entry>
+    <entry>Broward Community College</entry>
+  </row>
+
+  <row>
+    <entry>Adam Pennell</entry>
+    <entry>Greensboro College</entry>
+  </row>
+
+  <row>
+    <entry>Alexander Kolovos</entry>
+    <entry/>
+  </row>
+
+  <row>
+    <entry>Andrew Wiesner</entry>
+    <entry>Pennsylvania State University</entry>
+  </row>
+
+  <row>
+    <entry>Ann Flanigan</entry>
+    <entry>Kapiolani Community College</entry>
+  </row>
+
+  <row>
+    <entry>Benjamin Ngwudike</entry>
+    <entry>Jackson State University</entry>
+  </row>
+
+  <row>
+    <entry>Birgit Aquilonius</entry>
+    <entry>West Valley College</entry>
+  </row>
+
+  <row>
+    <entry>Bryan Blount</entry>
+    <entry>Kentucky Wesleyan College</entry>
+  </row>
+
+  <row>
+    <entry>Carol Olmstead</entry>
+    <entry>De Anza College</entry>
+  </row>
+
+  <row>
+    <entry>Carol Weideman</entry>
+    <entry>St. Petersburg College</entry>
+  </row>
+  <row>
+    <entry>Charles Ashbacher</entry>
+    <entry>Upper Iowa University, Cedar Rapids</entry>
+  </row>
+  <row>
+    <entry>Charles Klein</entry>
+    <entry>De Anza College</entry>
+  </row>
+<row><entry> Cheryl Wartman </entry>	<entry> University of Prince Edward Island </entry></row>
+<row><entry> Cindy Moss </entry>		<entry> Skyline College </entry></row>
+<row><entry> Daniel Birmajer	</entry>	<entry> Nazareth College </entry></row>
+<row><entry> David Bosworth</entry> 	<entry>	Hutchinson Community College </entry></row>
+<row><entry> David French </entry>		<entry> Tidewater Community College </entry></row>
+<row><entry> Dennis Walsh	</entry>	<entry> Middle Tennessee State University </entry></row>
+<row><entry> Diane Mathios  	</entry>	<entry> De Anza College </entry></row>
+<row><entry> Ernest Bonat	</entry>	<entry> Portland Community College </entry></row>
+<row><entry> Frank Snow	</entry>	<entry> De Anza College </entry></row>
+<row><entry> George Bratton	</entry>	<entry> University of Central Arkansas </entry></row>
+<row><entry> Inna Grushko   	</entry>	<entry> De Anza College </entry></row>
+<row><entry> Janice Hector	</entry>	<entry> De Anza College </entry></row>
+<row><entry> Javier Rueda	</entry>	<entry> De Anza College </entry></row>
+<row><entry> Jeffery Taub	</entry>	<entry> Maine Maritime Academy </entry></row>
+<row><entry> Jim Helmreich	</entry>	<entry> Marist College </entry></row>
+<row><entry> Jim Lucas	</entry>	<entry> De Anza College </entry></row>
+<row><entry> Jing Chang	</entry>	<entry> College of Saint Mary </entry></row>
+<row><entry> John Thomas	</entry>	<entry> College of Lake County </entry></row>
+<row><entry> Jonathan Oaks </entry>		<entry> Macomb Community College </entry></row>
+<row><entry> Kathy Plum   	</entry>	<entry> De Anza College </entry></row>
+<row><entry> Larry Green	</entry>	<entry> Lake Tahoe Community College </entry></row>
+<row><entry> Laurel Chiappetta </entry>	<entry> University of Pittsburgh </entry></row>
+<row><entry> Lenore Desilets </entry>	<entry>	De Anza College </entry></row>
+<row><entry> Lisa Markus	</entry>	<entry> De Anza College </entry></row>
+<row><entry> Lisa Rosenberg	</entry>	<entry> Elon University		</entry></row>
+<row><entry> Lynette Kenyon	</entry>	<entry> Collin County Community College </entry></row>
+<row><entry> Mark Mills	</entry>	<entry> Central College </entry></row>
+<row><entry> Mary Jo Kane </entry>		<entry> De Anza College </entry></row>
+<row><entry> Mary Teegarden </entry>	<entry> San Diego Mesa College </entry></row>
+<row><entry> Matthew Einsohn </entry>	<entry> Prescott College </entry></row>
+<row><entry> Mel Jacobsen	</entry>	<entry> Snow College </entry></row>
+<row><entry> Michael Greenwich </entry>	<entry> College of Southern Nevada </entry></row>
+<row><entry> Miriam Masullo	</entry>	<entry> SUNY Purchase </entry></row> 
+<row><entry> Mo Geraghty </entry>		<entry> De Anza College </entry></row>
+<row><entry> Nydia Nelson </entry>		<entry> St. Petersburg College </entry></row>
+<row><entry> Philip J. Verrecchia </entry>	<entry> York College of Pennsylvania </entry></row>
+<row><entry> Robert Henderson </entry>	<entry> Stephen F. Austin State University </entry></row>
+<row><entry> Robert McDevitt </entry>	<entry> Germanna Community College </entry></row>
+<row><entry> Roberta Bloom 	</entry>	<entry> De Anza College </entry></row>
+<row><entry> Rupinder Sekhon </entry>	<entry> De Anza College </entry></row>
+<row><entry> Sara Lenhart	</entry>	<entry> Christopher Newport University </entry></row>
+<row><entry> Sarah Boslaugh	</entry>	<entry> Kennesaw State University </entry></row>
+<row><entry> Sheldon Lee </entry>		<entry> Viterbo University </entry></row>
+<row><entry> Sheri Boyd </entry>		<entry> Rollins College </entry></row>
+<row><entry> Sudipta Roy </entry>		<entry> Kankakee Community College </entry></row>
+<row><entry> Travis Short </entry>		<entry> St. Petersburg College </entry></row>
+<row><entry> Valier Hauber	</entry>	<entry> De Anza College </entry></row>
+<row><entry> Vladimir Logvenenko </entry>	<entry> De Anza College </entry></row>
+<row><entry> Wendy Lightheart </entry>	<entry> Lane Community College </entry></row>
+<row><entry> Yvonne Sandoval </entry>	<entry> Pima Community College </entry></row>
+
+
+</tbody>
+
+
+
+
+
+
+</tgroup>
+</table></section></section></content>
+
+</document>

@@ -240,6 +240,6 @@
 <item>Explain why it does not make sense to count data values that lie in a confidence interval. Think about the random variable that is being used in the problem.</item>
 <item>Suppose you obtained the heights of ten women and calculated a confidence interval from this information. Without knowing the population mean <emphasis effect="italics">μ</emphasis>, would you have any way of knowing <emphasis>for certain</emphasis> if your interval actually contained the value of <emphasis effect="italics">μ</emphasis>? Explain.</item>
 </list>
-</note> </content>
+</note></content>
 
 </document>

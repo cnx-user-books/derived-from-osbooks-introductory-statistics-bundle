@@ -1,14 +1,14 @@
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="appendix">
 
-<title>Mathematical Phrases, Symbols, and Formulas</title>
+<title>Appendix B: Mathematical Phrases, Symbols, and Formulas</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m47891</md:content-id>
-  <md:title>Mathematical Phrases, Symbols, and Formulas</md:title>
+  <md:title>Appendix B: Mathematical Phrases, Symbols, and Formulas</md:title>
   <md:abstract/>
   <md:uuid>c3ec4163-4f7d-4d43-becd-08688ae16ed7</md:uuid>
 </metadata>
 
-<content class="appendix">
+<content>
 <section id="fs-id1168975964661">
       <title>English Phrases Written Mathematically</title><table id="id7514633" summary="A mathematical translation of English phrases (for example, X is at least 4)."><tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
@@ -59,15 +59,15 @@
  
  <row>
  <entry><emphasis effect="italics">X</emphasis> is greater than 4.</entry>
- <entry><emphasis effect="italics">X</emphasis> > 4 </entry>
+ <entry><emphasis effect="italics">X</emphasis> &gt; 4 </entry>
  </row>
  <row>
  <entry><emphasis effect="italics">X</emphasis> is more than 4.</entry>
- <entry><emphasis effect="italics">X</emphasis> > 4 </entry>
+ <entry><emphasis effect="italics">X</emphasis> &gt; 4 </entry>
  </row>
  <row>
  <entry><emphasis effect="italics">X</emphasis> exceeds 4.</entry>
- <entry><emphasis effect="italics">X</emphasis> > 4 </entry>
+ <entry><emphasis effect="italics">X</emphasis> &gt; 4 </entry>
  </row>
  
  <row>
@@ -370,7 +370,7 @@
     <m:mo>−</m:mo><m:mi>m</m:mi><m:mi>x</m:mi>
    </m:mrow>
   </m:msup>
-  <m:mi>m</m:mi><m:mo>></m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn>
+  <m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn>
  </m:mrow>
 </m:math>
 <newline count="2"/></para><para id="normdist1"><title>Formula 9: Normal Distribution</title><m:math>
@@ -450,7 +450,7 @@
   </m:msup>
   <m:mi>d</m:mi><m:mi>x</m:mi>
  </m:mrow>
-</m:math> <m:math><m:mi>z</m:mi><m:mo>></m:mo><m:mi>0</m:mi></m:math>
+</m:math> <m:math><m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mi>0</m:mi></m:math>
 </para><para id="gammafn2">
 <m:math>
 <m:mi>Γ</m:mi>
@@ -654,7 +654,7 @@
 </m:mrow>
 </m:mfrac>
 </m:math>,
-<m:math><m:mi>x</m:mi><m:mo>></m:mo><m:mi>0</m:mi></m:math> , <m:math><m:mi>n</m:mi></m:math> = positive integer and degrees of freedom
+<m:math><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>0</m:mi></m:math> , <m:math><m:mi>n</m:mi></m:math> = positive integer and degrees of freedom
 <newline count="2"/></para></section><section id="eip-idm696624960"><title>Formula 13: F Distribution</title><para id="fdis1"><m:math>
  <m:mrow>
   <m:mi>X</m:mi><m:mspace width="2px"/><m:mo>~</m:mo><m:mspace width="2px"/><m:msub><m:mi>F</m:mi>
@@ -1522,5 +1522,5 @@
 
 </tgroup>
 </table></section>
-   </content>
+  </content>
 </document>
