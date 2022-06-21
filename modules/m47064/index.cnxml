@@ -9,7 +9,7 @@
 
 <content>
 <para id="element-112">In this type of hypothesis test, you determine whether the data <emphasis>"fit"</emphasis> a particular distribution or not. For example, you may suspect your unknown data fit a binomial distribution. You use a chi-square test (meaning the distribution for the hypothesis test is chi-square) to determine if there is a fit or not. <emphasis>The null and the alternative hypotheses for this test may be written in sentences or may be stated as equations or inequalities.</emphasis></para><para id="element-908">The test statistic for a goodness-of-fit test is:</para>
-<equation id="element-252" class="unnumbered"><label/><m:math>
+<equation id="element-252"><m:math>
  <m:mrow>
   <m:munder>
    <m:mi>Σ</m:mi>
@@ -23,16 +23,16 @@
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
    <m:mi>E</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></equation>
 <para id="element-248">where:</para>
-<list id="fs-idm37230752" list-type="bulleted"><item><emphasis effect="italics">O</emphasis> = <term id="term-00001">observed values</term> (data)</item>
-<item id="element-481"><emphasis effect="italics">E</emphasis> = <term id="term-00002">expected values</term> (from theory)</item>
+<list id="fs-idm37230752" list-type="bulleted"><item><emphasis effect="italics">O</emphasis> = <term>observed values</term> (data)</item>
+<item id="element-481"><emphasis effect="italics">E</emphasis> = <term>expected values</term> (from theory)</item>
 <item id="element-402"><emphasis effect="italics">k</emphasis> = the number of different data cells or categories</item>
 </list><para id="element-512"><emphasis>The observed values are the data values and the expected values are the values you would expect to get if the null hypothesis were true.</emphasis> There are <emphasis effect="italics">n</emphasis> terms of the form <m:math>
  <m:mrow>
@@ -44,14 +44,14 @@
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
    <m:mi>E</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.</para>
-<para id="element-304">The number of degrees of freedom is <emphasis effect="italics">df</emphasis> = (number of categories – 1).</para><para id="element-838"><emphasis>The <term id="term-00003">goodness-of-fit test</term> is almost always right-tailed.</emphasis> If the observed values and the corresponding expected values are not close to each other, then the test statistic can get very large and will be way out in the right tail of the chi-square curve.</para><note id="eip-587"><label/><title>Note</title>
+<para id="element-304">The number of degrees of freedom is <emphasis effect="italics">df</emphasis> = (number of categories – 1).</para><para id="element-838"><emphasis>The <term>goodness-of-fit test</term> is almost always right-tailed.</emphasis> If the observed values and the corresponding expected values are not close to each other, then the test statistic can get very large and will be way out in the right tail of the chi-square curve.</para><note id="eip-587"><label/><title>Note</title>
 <para id="fs-idm98728224">The expected value for each cell needs to be at least five in order for you to use this test.</para></note><example id="element-719"><para id="element-615">Absenteeism of college students from math classes is a major concern to math instructors because missing class appears to increase the drop rate. Suppose that a study was done to determine if the actual student absenteeism rate follows faculty perception. The faculty expected that a group of 100 students would miss class according to <link target-id="M03_Ch03_tbl001"/>.</para><table id="M03_Ch03_tbl001" summary="The table consists of two columns with headings Number of absences and Expected number of students. There are 5 entries under each heading. Under Number of absences are the entries 0 to 2, 3 to 5, 6 to 8, 9 to 11, 12 plus. Under Expected number of students are the entries 50, 30, 12, 6, 2.">
 <tgroup cols="2"><thead>
   <row>
@@ -148,7 +148,7 @@
     <entry>9+</entry>
     <entry>8</entry>
   </row>
-
+  
 </tbody>
 </tgroup>
 </table><table id="M03_Ch03_tbl004" summary="The table consists of two columns with headings Number of absences per term and Actual number of students. There are 5 entries under each heading. Under Number of absences per term are the entries 0 to 2, 3 to 5, 6 to 8, 9+ plus. Under Actual number of students are the entries 35, 40, 20, 5.">
@@ -177,7 +177,7 @@
     <entry>9+</entry>
     <entry>5</entry>
   </row>
-
+  
 </tbody>
 </tgroup>
 </table></para></solution>
@@ -240,6 +240,9 @@
 </table>
 <para id="eip-idp74195536">State the null and alternative hypotheses needed to conduct a goodness-of-fit test, and state the degrees of freedom.</para>
 </problem>
+<solution id="eip-idm142768544">
+<label/>
+<para id="eip-412"><emphasis effect="italics">H<sub>0</sub></emphasis>:The number of defaults fits expectations.</para><para id="eip-idp65453568"><emphasis effect="italics">H<sub>a</sub></emphasis>:The number of defaults does not fit expectations.<newline/><emphasis effect="italics">df</emphasis> = 4</para></solution>
 </exercise></note><example id="element-962"><exercise id="element-811"><problem id="id6215628">
 <para id="element-733">Employers want to know which days of the week employees are absent in a five-day work week. Most employers would like to believe that employees are absent equally during the week. Suppose a random sample of 60 managers were asked on which day of the week they had the highest number of employee absences. The results were distributed as in <link target-id="M03_Ch03_tbl007"/>. For the population of employees, do the days for the highest number of absences occur with equal frequencies during a five-day work week? Test at a 5% significance level.</para>
 <table id="M03_Ch03_tbl007" summary="This table presents the number of students absent by days of the week. Monday is in the second column, Tuesday is in the third column, Wednesday is in the fourth column, Thursday is in the fifth column, and Friday is in the sixth column. There is only one row of data for the number of students absent."><title>Day of the Week Employees were Most Absent</title>
@@ -290,15 +293,15 @@
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
    <m:mi>E</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 </list><para id="element-231">Now add (sum) the last column. The sum is three. This is the <emphasis effect="italics">χ<sup>2</sup></emphasis> test statistic.</para>
-<para id="element-290">To find the <emphasis effect="italics">p</emphasis>-value, calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ</emphasis><sup>2</sup> > 3). This test is right-tailed. (Use a computer or calculator to find the <emphasis effect="italics">p</emphasis>-value. You should get <emphasis effect="italics">p</emphasis>-value = 0.5578.)</para><para id="element-894">The <emphasis effect="italics">dfs</emphasis> are the number of cells – 1 = 5 – 1 = 4</para><note id="fs-idm116498656" class="statistics calculator"><label/>
+<para id="element-290">To find the <emphasis effect="italics">p</emphasis>-value, calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ</emphasis><sup>2</sup> &gt; 3). This test is right-tailed. (Use a computer or calculator to find the <emphasis effect="italics">p</emphasis>-value. You should get <emphasis effect="italics">p</emphasis>-value = 0.5578.)</para><para id="element-894">The <emphasis effect="italics">dfs</emphasis> are the number of cells – 1 = 5 – 1 = 4</para><note id="fs-idm116498656" class="statistics calculator"><label/>
 <para id="fs-idm110710848">Press <code>2nd DISTR</code>. Arrow down to <code>χ<sup>2</sup>cdf</code>. Press <code>ENTER</code>. Enter <code>(3,10^99,4)</code>. Rounded to four decimal places, you should see 0.5578, which is the p-value.</para></note><para id="element-724">Next, complete a graph like the following one with the proper labeling and shading. (You should shade the right tail.)</para>
 <figure id="eip-idm102621328"><media id="id6207852" alt="This is a blank nonsymmetrical chi-square curve for the test statistic of the days of the week absent." display="block"><image src="../../media/fig-ch11_04_01.jpg" mime-type="image/jpg" width="380"/></media></figure>
 <para id="element-545">The decision is not to reject the null hypothesis.</para>
@@ -313,6 +316,10 @@
 </tgroup>
 </table>
 <para id="eip-idm100475616">From the population of students, do the nights for the highest number of students doing the majority of their homework occur with equal frequencies during a week? What type of hypothesis test should you use?</para></problem>
+<solution id="eip-idm3076880">
+  <para id="eip-475"><emphasis effect="italics">df</emphasis> = 6</para>
+  <para id="eip-idp249187184"><emphasis effect="italics">p</emphasis>-value = 0.6093
+<newline/>We decline to reject the null hypothesis. There is not enough evidence to support that students do not do the majority of their homework equally throughout the week.</para></solution>
 </exercise></note><example id="example3"><para id="element-59">One study indicates that the number of televisions that American families have is distributed (this is the <emphasis>given</emphasis> distribution for the American population) as in <link target-id="M03_Ch03_tbl009"/>.</para><table id="M03_Ch03_tbl009" summary="This table presents the number of televisions that American families have is in the first column, and the expected percentage is in the second column.">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -357,6 +364,12 @@
 <entry>Frequency</entry>
 </row>
 </thead>
+<tfoot>
+<row>
+<entry/>
+<entry>Total = 600</entry>
+</row>
+</tfoot>
 <tbody>
 <row>
 <entry>0</entry>
@@ -377,10 +390,6 @@
 <row>
 <entry>4+</entry>
 <entry>15</entry>
-</row>
-<row>
-<entry/>
-<entry>Total = 600</entry>
 </row>
 </tbody>
 </tgroup>
@@ -429,14 +438,14 @@
 </tbody>
 </tgroup>
 </table>
-<para id="element-whatever">Therefore, the expected frequencies are 60, 96, 330, 66, and 48. In the TI calculators, you can let the calculator do the math. For example, instead of 60, enter 0.10*600.</para><para id="element-239"><emphasis effect="italics">H<sub>0</sub></emphasis>: The "number of televisions" distribution of far western United States families is the same as the "number of televisions" distribution of the American population.</para><para id="element-2"><emphasis effect="italics">H<sub>a</sub></emphasis>: The "number of televisions" distribution of far western United States families is different from the "number of televisions" distribution of the American population.</para><para id="element-228">Distribution for the test: <m:math>
+<para id="element-whatever" class="finger">Therefore, the expected frequencies are 60, 96, 330, 66, and 48. In the TI calculators, you can let the calculator do the math. For example, instead of 60, enter 0.10*600.</para><para id="element-239"><emphasis effect="italics">H<sub>0</sub></emphasis>: The "number of televisions" distribution of far western United States families is the same as the "number of televisions" distribution of the American population.</para><para id="element-2"><emphasis effect="italics">H<sub>a</sub></emphasis>: The "number of televisions" distribution of far western United States families is different from the "number of televisions" distribution of the American population.</para><para id="element-228">Distribution for the test: <m:math>
  <m:mrow>
   <m:msubsup>
    <m:mi>χ</m:mi>
    <m:mn>4</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> where <emphasis effect="italics">df</emphasis> = (the number of cells) – 1 = 5 – 1 = 4.</para><note id="id6229977">
 <label/>
@@ -445,16 +454,16 @@
 <para id="element-65"><emphasis>Calculate the test statistic:</emphasis> <emphasis effect="italics">χ</emphasis>2 = 29.65</para>
 <para id="element-280"><emphasis>Graph:</emphasis></para>
 <figure id="eip-idm60132512"><media id="id6230034" alt="This is a nonsymmetric chi-square curve with values of 0, 4, and 29.65 labeled on the horizontal axis. The value 4 coincides with the peak of the curve. A vertical upward line extends from 29.65 to the curve, and the region to the right of this line is shaded. The shaded area is equal to the p-value." display="block">
-<image src="../../media/fig-ch11_04_002.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-635"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ</emphasis><sup>2</sup> > 29.65) = 0.000006</para><para id="element-42"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis>
+<image src="../../media/fig-ch11_04_002.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-635"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ</emphasis><sup>2</sup> &gt; 29.65) = 0.000006</para><para id="element-42"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis>
 <list id="list-whatever3" list-type="bulleted">
 <item><emphasis effect="italics">α</emphasis> = 0.01</item>
 <item><emphasis effect="italics">p</emphasis>-value = 0.000006</item>
 </list>
-So, <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value.</para><para id="element-251"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>o</sub></emphasis>.</para>
+So, <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value.</para><para id="element-251"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>o</sub></emphasis>.</para>
 <para id="element-717">This means you reject the belief that the distribution for the far western states is the same as that of the American population as a whole.</para><para id="element-387"><emphasis>Conclusion:</emphasis> At the 1% significance level, from the data, there is sufficient evidence to conclude that the "number of televisions" distribution for the far western United States is different from the "number of televisions" distribution for the American population as a whole.</para><note id="fs-idm137892176" class="statistics calculator"><label/>
-<para id="fs-idm136592240">Press <code>STAT</code> and <code>ENTER</code>. Make sure to clear lists <code>L1</code>, <code>L2</code>, and <code>L3</code> if they have data in them (see the note at the end of <link target-id="element-962"/>). Into <code>L1</code>, put the observed frequencies <code>66</code>, <code>119</code>, <code>340</code>, <code>60</code>, <code>15</code>. Into <code>L2</code>, put the expected frequencies <code>.10*600, .16*600</code>, <code>.55*600</code>, <code>.11*600</code>, <code>.08*600</code>. Arrow over to list <code>L3</code> and up to the name area <code>"L3"</code>. Enter <code>(L1-L2)^2/L2</code> and <code>ENTER</code>. Press <code>2nd QUIT</code>. Press <code>2nd LIST</code> and arrow over to <code>MATH</code>. Press <code>5</code>. You should see <code>"sum" (Enter L3)</code>. Rounded to 2 decimal places, you should see <code>29.65</code>. Press <code>2nd DISTR</code>. Press <code>7</code> or Arrow down to <code>7:χ2cdf</code> and press <code>ENTER</code>. Enter <code>(29.65,1E99,4)</code>. Rounded to four places, you should see <code>5.77E-6 = .000006</code> (rounded to six decimal places), which is the p-value.</para><para id="fs-idm63894800">The newer TI-84 calculators have in <code>STAT TESTS</code> the test <code>Chi2 GOF</code>. To run the test, put the observed values (the data) into a first list and the expected values (the values you expect if the null hypothesis is true) into a second list. Press <code>STAT TESTS</code> and <code>Chi2 GOF</code>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <code>calculate</code> or <code>draw</code>. Make sure you clear any lists before you start.</para></note></solution>
+<para id="fs-idm136592240">Press <code>STAT</code> and <code>ENTER</code>. Make sure to clear lists <code>L1</code>, <code>L2</code>, and <code>L3</code> if they have data in them (see the note at the end of <link target-id="element-962"/>). Into <code>L1</code>, put the observed frequencies <code>66</code>, <code>119</code>, <code>349</code>, <code>60</code>, <code>15</code>. Into <code>L2</code>, put the expected frequencies <code>.10*600, .16*600</code>, <code>.55*600</code>, <code>.11*600</code>, <code>.08*600</code>. Arrow over to list <code>L3</code> and up to the name area <code>"L3"</code>. Enter <code>(L1-L2)^2/L2</code> and <code>ENTER</code>. Press <code>2nd QUIT</code>. Press <code>2nd LIST</code> and arrow over to <code>MATH</code>. Press <code>5</code>. You should see <code>"sum" (Enter L3)</code>. Rounded to 2 decimal places, you should see <code>29.65</code>. Press <code>2nd DISTR</code>. Press <code>7</code> or Arrow down to <code>7:χ2cdf</code> and press <code>ENTER</code>. Enter <code>(29.65,1E99,4)</code>. Rounded to four places, you should see <code>5.77E-6 = .000006</code> (rounded to six decimal places), which is the p-value.</para><para id="fs-idm63894800">The newer TI-84 calculators have in <code>STAT TESTS</code> the test <code>Chi2 GOF</code>. To run the test, put the observed values (the data) into a first list and the expected values (the values you expect if the null hypothesis is true) into a second list. Press <code>STAT TESTS</code> and <code>Chi2 GOF</code>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <code>calculate</code> or <code>draw</code>. Make sure you clear any lists before you start.</para></note></solution>
 </exercise></example><note id="fs-idm99666800" class="statistics try"><label/><title>Try It</title>
-
+  
     <exercise id="eip-521">
       <problem id="eip-211">
         <para id="eip-938">The expected percentage of the number of pets students have in their homes is distributed (this is the given distribution for the student population of the United States) as in <link target-id="fs-idm147763264"/>.</para><table id="fs-idm147763264" summary="">
@@ -484,13 +493,17 @@ So, <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emp
 </tgroup>
 </table>
 <para id="eip-idp27106912">At the 1% significance level, does it appear that the distribution “number of pets” of students in the Eastern United States is different from the distribution for the United States student population as a whole? What is the <emphasis effect="italics">p</emphasis>-value?</para></problem>
+<solution id="eip-idm61016960">
+<label/>
+  <para id="eip-64"><emphasis effect="italics">p</emphasis>-value = 0.0036</para>
+  <para id="eip-idp66134304">We reject the null hypothesis that the distributions are the same. There is sufficient evidence to conclude that the distribution “number of pets” of students in the Eastern United States is different from the distribution for the United States student population as a whole.</para></solution>
   </exercise>
-
+  
   </note><example id="element-866">
     <exercise id="element-221"><problem id="id6230511">
   <para id="element-95">Suppose you flip two coins 100 times. The results are 20 <emphasis effect="italics">HH</emphasis>, 27 <emphasis effect="italics">HT</emphasis>, 30 <emphasis effect="italics">TH</emphasis>, and 23 <emphasis effect="italics">TT</emphasis>. Are the coins fair? Test at a 5% significance level.</para></problem>
 <solution id="id6230530">
-  <para id="element-929">This problem can be set up as a goodness-of-fit problem. The sample space for flipping two fair coins is {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>}. Out of 100 flips, you would expect 25 <emphasis effect="italics">HH</emphasis>, 25 <emphasis effect="italics">HT</emphasis>, 25 <emphasis effect="italics">TH</emphasis>, and 25 <emphasis effect="italics">TT</emphasis>. This is the expected distribution. The question, "Are the coins fair?" is the same as saying, "Does the distribution of the coins (20 <emphasis effect="italics">HH</emphasis>, 27 <emphasis effect="italics">HT</emphasis>, 30 <emphasis effect="italics">TH</emphasis>, 23 <emphasis effect="italics">TT</emphasis>) fit the expected distribution?"</para><para id="element-570"><emphasis>Random Variable:</emphasis> Let <emphasis effect="italics">X</emphasis> = the number of heads in one flip of the two coins. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2. (There are 0, 1, or 2 heads in the flip of two coins.) Therefore, the <emphasis>number of cells is three</emphasis>. Since <emphasis effect="italics">X</emphasis> = the number of heads, the observed frequencies are 20 (for two heads), 57 (for one head), and 23 (for zero heads or both tails). The expected frequencies are 25 (for two heads), 50 (for one head), and 25 (for zero heads or both tails). This test is right-tailed.</para><para id="element-774"><emphasis><emphasis effect="italics">H<sub>0</sub></emphasis></emphasis>: The coins are fair.
+  <para id="element-929">This problem can be set up as a goodness-of-fit problem. The sample space for flipping two fair coins is {<emphasis effect="italics">HH</emphasis>, <emphasis effect="italics">HT</emphasis>, <emphasis effect="italics">TH</emphasis>, <emphasis effect="italics">TT</emphasis>}. Out of 100 flips, you would expect 25 <emphasis effect="italics">HH</emphasis>, 25 <emphasis effect="italics">HT</emphasis>, 25 <emphasis effect="italics">TH</emphasis>, and 25 <emphasis effect="italics">TT</emphasis>. This is the expected distribution. The question, "Are the coins fair?" is the same as saying, "Does the distribution of the coins (20 <emphasis effect="italics">HH</emphasis>, 27 <emphasis effect="italics">HT</emphasis>, 30 <emphasis effect="italics">TH</emphasis>, 23 <emphasis effect="italics">TT</emphasis>) fit the expected distribution?"</para><para id="element-570"><emphasis>Random Variable:</emphasis> Let <emphasis effect="italics">X</emphasis> = the number of heads in one flip of the two coins. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2. (There are 0, 1, or 2 heads in the flip of two coins.) Therefore, the <emphasis>number of cells is three</emphasis>. Since <emphasis effect="italics">X</emphasis> = the number of heads, the observed frequencies are 20 (for two heads), 57 (for one head), and 23 (for zero heads or both tails). The expected frequencies are 25 (for two heads), 50 (for one head), and 25 (for zero heads or both tails). This test is right-tailed.</para><para id="element-774"><emphasis><emphasis effect="italics">H<sub>0</sub></emphasis></emphasis>: The coins are fair. 
  </para><para id="element-734"><emphasis><emphasis effect="italics">H<sub>a</sub></emphasis></emphasis>: The coins are not fair.
  </para><para id="element-136"><emphasis>Distribution for the test:</emphasis>
 <m:math>
@@ -500,19 +513,19 @@ So, <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emp
 <m:mn>2</m:mn>
 </m:msubsup>
 </m:math>
-where
+where 
     <emphasis effect="italics">df</emphasis> = 3 – 1 = 2.</para><para id="element-380"><emphasis>Calculate the test statistic:</emphasis> <emphasis effect="italics">χ</emphasis><sup>2</sup> = 2.14</para><para id="element-973"><emphasis>Graph:</emphasis></para>
-  <figure id="eip-idm189345712"><media id="id6230739" alt="This is a nonsymmetrical chi-square curve with values of 0 and 2.14 labeled on the horizontal axis. A vertical upward line extends from 2.14 to the curve and the region to the right of this line is shaded. The shaded area is equal to the p-value." display="block"><image src="../../media/fig-ch11_04_003.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-490"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ</emphasis><sup>2</sup> > 2.14) = 0.3430
-
-</para><para id="element-817"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis>
+  <figure id="eip-idm189345712"><media id="id6230739" alt="This is a nonsymmetrical chi-square curve with values of 0 and 2.14 labeled on the horizontal axis. A vertical upward line extends from 2.14 to the curve and the region to the right of this line is shaded. The shaded area is equal to the p-value." display="block"><image src="../../media/fig-ch11_04_003.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-490"><emphasis>Probability statement:</emphasis> <emphasis effect="italics">p</emphasis>-value = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">χ</emphasis><sup>2</sup> &gt; 2.14) = 0.3430
+  
+</para><para id="element-817"><emphasis>Compare <emphasis effect="italics">α</emphasis> and the <emphasis effect="italics">p</emphasis>-value:</emphasis> 
 <list id="element-xyz" list-type="bulleted"><item><emphasis effect="italics">α</emphasis> = 0.05</item>
 <item><emphasis effect="italics">p</emphasis>-value = 0.3430</item>
 </list><emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value.</para>
   <para id="element-58"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &lt; <emphasis effect="italics">p</emphasis>-value, do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>.
   </para><para id="element-995"><emphasis>Conclusion:</emphasis> There is insufficient evidence to conclude that the coins are not fair.</para>
-
+  
   <note id="fs-idm114779376" class="statistics calculator"><label/>
-
+    
     <para id="eip-idm32430496">Press <code>STAT</code> and <code>ENTER</code>. Make sure you
 clear lists <code>L1</code>, <code>L2</code>, and <code>L3</code> if they have data in them. Into <code>L1</code>, put the observed
 frequencies <code>20</code>, <code>57</code>, <code>23</code>. Into <code>L2</code>, put the expected frequencies <code>25</code>, <code>50</code>, <code>25</code>. Arrow
@@ -524,8 +537,8 @@ should see <code>2.14</code>. Press <code>2nd DISTR</code>. Arrow down to <code>
 is the p-value.</para><para id="eip-idp7978272">The newer TI-84 calculators have in <code>STAT TESTS</code> the test <code>Chi2 GOF</code>. To run the test, put the observed values (the data) into a first list and the expected values (the values you expect if the null hypothesis is true) into a second list. Press <code>STAT TESTS</code> and <code>Chi2 GOF</code>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <code>calculate</code> or <code>draw</code>. Make
 sure you clear any lists before you start.</para></note></solution>
     </exercise></example>
-  <note id="fs-idm153122384" class="statistics try "><label/><title>Try It</title>
-
+  <note id="fs-idm153122384" class="statistics try finger"><label/><title>Try It</title>
+    
     <exercise id="eip-860"><problem id="eip-476">
         <para id="eip-907">Students in a social studies class hypothesize that the literacy rates across the world for every region are 82%. <link target-id="fs-idm84960960"/> shows the actual literacy rates across the world broken down by region. What are the test statistic and the degrees of freedom?</para><table id="fs-idm84960960" summary="">
 <tgroup cols="2">
@@ -547,6 +560,13 @@ sure you clear any lists before you start.</para></note></solution>
 </tgroup>
 </table>
 </problem>
+<solution id="eip-idm38888864">
+<label/>
+  <para id="eip-306">degrees of freedom = 9</para>
+  <para id="eip-idp94879552">chi<sup>2</sup> test statistic = 26.38</para><figure id="eip-idm50682624"><media id="eip-idp33020080" alt="This is a nonsymmetric chi-square curve with df = 9. The values 0, 9, and 26.38 are labeled on the horizontal axis. The value 9 coincides with the peak of the curve. A vertical upward line extends from 26.38 to the curve, and the region to the right of this line is shaded. The shaded area is equal to the p-value." display="block"><image src="../../media/CNX_Stats_C11_M04_tryit001.jpg" mime-type="image/jpg" width="380"/></media></figure>
+    
+    <para id="eip-idp901200">Press <code>STAT</code> and <code>ENTER</code>. Make sure you clear lists <code>L1, L2,</code> and <code>L3</code> if they have data in them. Into L1, put the observed frequencies <code>99, 99.5, 67.3, 62.5, 91, 93.8, 61.9, 91.9, 84.5, 66.4</code>. Into <code>L2</code>, put the expected frequencies <code>82, 82, 82, 82, 82, 82, 82, 82, 82, 82</code>. Arrow over to list <code>L3</code> and up to the name area <code>"L3"</code>. Enter <code>(L1-L2)^2/L2</code> and <code>ENTER</code>. Press <code>2nd QUIT</code>. Press <code>2nd LIST</code> and arrow over to <code>MATH</code>. Press <code>5</code>. You should see <code>"sum"</code>. <code>Enter L3</code>. Rounded to two decimal places, you should see <code>26.38</code>. Press <code>2nd DISTR</code>. Arrow down to <code>7:χ2cdf</code> (or press <code>7</code>). Press <code>ENTER</code>. Enter <code>26.38,1E99,9)</code>. Rounded to four places, you should see <code>.0018</code>, which is the <emphasis effect="italics">p</emphasis>-value.</para><para id="eip-idm43793680">The newer TI-84 calculators have in <code>STAT TESTS</code> the test <code>Chi2 GOF</code>. To run the test, put the observed values (the data) into a first list and the expected values (the values you expect if the null hypothesis is true) into a second list. Press <code>STAT TESTS</code> and <code>Chi2 GOF</code>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <code>calculate</code> or <code>draw</code>. Make sure you clear any lists before you start.
+</para></solution>
 </exercise></note><section id="fs-idp190810816" class="references">
 <title>References</title>
 <para id="eip-335">Data from the U.S. Census Bureau</para><para id="fs-idp129813488">Data from the College Board. Available online at http://www.collegeboard.com.</para>
@@ -561,6 +581,7 @@ sure you clear any lists before you start.</para></note></solution>
   <section id="fs-idp15590400" class="formula-review">
 <title>Formula Review</title>
 <para id="eip-28"><m:math>
+ <m:semantics>
   <m:mrow>
    <m:mstyle displaystyle="true">
     <m:munder>
@@ -576,23 +597,25 @@ sure you clear any lists before you start.</para></note></solution>
         </m:mrow>
         <m:mn>2</m:mn>
        </m:msup>
-
+       
       </m:mrow>
       <m:mi>E</m:mi>
      </m:mfrac>
-
+     
     </m:mrow>
    </m:mstyle>
   </m:mrow>
+  
+ </m:semantics>
 </m:math>
  goodness-of-fit test statistic where:
-
+    
     <newline count="2"/><emphasis effect="italics">O</emphasis>: observed values
 <newline/><emphasis effect="italics">E</emphasis>: expected values
 <newline/>
 <newline/><emphasis effect="italics">k</emphasis>: number of different data cells or categories
 <newline/></para><para id="eip-590"><emphasis effect="italics">df</emphasis> = <emphasis effect="italics">k</emphasis> − 1 degrees of freedom</para></section>
-
+  
 <section id="fs-idp3921920" class="practice">
 <para id="eip-401"><emphasis effect="italics">Determine the appropriate test to be used  in the next three exercises.</emphasis></para><exercise id="eip-594"><problem id="eip-126">
   <para id="eip-517">An archeologist is calculating the distribution of the frequency of the number of artifacts she finds in a dig site. Based on previous digs, the archeologist creates an expected distribution broken down by grid sections in the dig site. Once the site has been fully excavated, she compares the actual number of artifacts found in each grid section to see if her expectation was accurate.
@@ -610,21 +633,21 @@ sure you clear any lists before you start.</para></note></solution>
     <tgroup cols="2">
       <thead>
         <row>
-          <entry>Grade</entry>
+          <entry>Grade</entry>	
           <entry>Proportion</entry>
         </row>
       </thead>
-
+      
       <tbody>
         <row><entry>A</entry>	<entry>0.25</entry></row>
         <row><entry>B</entry>	<entry>0.30</entry></row>
         <row><entry>C</entry>	<entry>0.35</entry></row>
         <row><entry>D</entry>	<entry>0.10</entry></row>
       </tbody>
-
+      
     </tgroup>
   </table>
-
+  
   <para id="eip-idm224726288">The actual distribution for a class of 20 is in <link target-id="fs-idp30286112"/>.</para><table id="fs-idp30286112" summary="">
     <tgroup cols="2">
       <thead><row><entry>Grade</entry>	<entry>Frequency</entry></row></thead>
@@ -636,7 +659,7 @@ sure you clear any lists before you start.</para></note></solution>
       </tbody>
     </tgroup>
   </table>
-
+  
   <exercise id="eip-760">
     <problem id="eip-368">
   <para id="eip-idp101712960"><m:math>
@@ -648,7 +671,7 @@ sure you clear any lists before you start.</para></note></solution>
   <para id="eip-609">3</para>
 </solution>
   </exercise>
-
+  
   <exercise id="eip-503"><problem id="eip-738">
   <para id="eip-642">State the null and alternative hypotheses.</para>
 </problem>
@@ -658,7 +681,7 @@ sure you clear any lists before you start.</para></note></solution>
   <para id="eip-905">2.04</para>
 </solution>
   </exercise>
-
+  
   <exercise id="eip-823"><problem id="eip-233">
     <para id="eip-219"><emphasis effect="italics">p</emphasis>-value = ______</para>
   </problem>
@@ -682,7 +705,7 @@ sure you clear any lists before you start.</para></note></solution>
             </entry>
           </row>
 </thead>
-<tbody>
+<tbody>  
         <row>
             <entry>White</entry>
             <entry>2,229</entry>
@@ -703,7 +726,7 @@ sure you clear any lists before you start.</para></note></solution>
 <entry/>
 <entry>Total = 4,075</entry></row>
         </tbody>
-
+      
 </tgroup>
 </table><para id="element-726">The percentage of each ethnic group in Santa Clara County is as in <link target-id="element-174"/>.</para>
 <table id="element-174" summary="This is a partially filled table with ethnicity in the first column, percentage of total county population in the second column, and expected number in the third column. Only the first row of the third column is filled up.">
@@ -750,9 +773,9 @@ sure you clear any lists before you start.</para></note></solution>
       <entry>Total = 100%</entry>
       <entry/>
     </row>
-
+  
               </tbody>
-
+      
 
 </tgroup>
 </table><exercise id="fs-idm118784352"><problem id="fs-idm118784096">
@@ -771,27 +794,27 @@ sure you clear any lists before you start.</para></note></solution>
   <exercise id="element-619"><problem id="id45907696">
       <para id="element-422">degrees of freedom = _______</para>
   </problem>
-
-
+ 
+  
   </exercise><exercise id="element-575">
     <problem id="id42755491">
       <para id="element-840"><emphasis effect="italics">χ<sup>2</sup></emphasis> test statistic = _______</para></problem>
     <solution id="id42755538">
     <para id="element-448">2016.136</para></solution>
   </exercise>
-
+  
   <exercise id="element-64"><problem id="id42755565">
     <para id="element-836"><emphasis effect="italics">p</emphasis>-value = _______</para>
   </problem>
-
-
+  
+  
   </exercise><exercise id="fs-idp52863376"><problem id="id42755611">
     <para id="element-947">Graph the situation. Label and scale the horizontal axis. Mark the mean and test statistic. Shade in the region corresponding to the <emphasis effect="italics">p</emphasis>-value.</para>
     <figure id="eip-idm27194112"><media id="id42755639" alt="This is a blank graph template. The vertical and horizontal axes are unlabeled." display="block"><image src="../../media/fig-ch11_10_01.jpg" mime-type="image/png" width="380"/></media></figure>
-
+    
     <para id="element-996">Let <emphasis effect="italics">α</emphasis> = 0.05</para>
     <para id="element-369">Decision: ________________</para><para id="element-116">Reason for the Decision: ________________</para><para id="fs-idp57373104">Conclusion (write out in complete sentences): ________________</para></problem>
-
+    
     <solution id="fs-idm23466992">
 <para id="fs-idm23466736">Graph: Check student’s solution.</para>
 <para id="fs-idm57235728">Decision: Reject the null hypothesis.</para>
@@ -847,7 +870,7 @@ sure you clear any lists before you start.</para></note></solution>
             <entry/>
           </row>
         </tbody>
-
+      
 </tgroup>
 </table>
 </problem>
@@ -886,7 +909,7 @@ sure you clear any lists before you start.</para></note></solution>
             <entry/>
           </row>
         </tbody>
-
+      
 </tgroup>
 </table>
       <para id="id7879714">Suppose that a random sample of 400 U.S. young adult males, 18 to 24 years old, yielded the following frequency distribution. We are interested in whether this age group of males fits the distribution of the U.S. adult population. Calculate the frequency one would expect when surveying 400 people. Fill in <link target-id="id7856744"/>, rounding to two decimal places.</para><table id="id6962175" summary="This table presents the marital status in the first column and the frequency in the second column. There are 4 rows.">
@@ -916,13 +939,13 @@ sure you clear any lists before you start.</para></note></solution>
             <entry>20</entry>
           </row>
         </tbody>
-
+      
 </tgroup>
 </table>
 </problem>
 <solution id="id20567362">
   <table id="fs-idm91494592" summary="..">
-
+    
     <tgroup cols="3"><colspec colnum="1" colname="c1"/>
       <colspec colnum="2" colname="c2"/>
       <colspec colnum="3" colname="c3"/>
@@ -955,10 +978,10 @@ sure you clear any lists before you start.</para></note></solution>
           <entry>40.4</entry>
         </row>
       </tbody>
-
+      
     </tgroup>
   </table>
-
+  
   <list id="element-539" list-type="enumerated" number-style="lower-alpha"><item>The data fits the distribution.</item>
 <item>The data does not fit the distribution.</item>
 <item>3</item>
@@ -1031,7 +1054,7 @@ sure you clear any lists before you start.</para></note></solution>
     <exercise id="element-683"><problem id="id20664613">
   <para id="element-223">Perform a goodness-of-fit test to determine whether the local results follow the distribution of the U.S. overall student population based on ethnicity.</para></problem>
     </exercise><exercise id="element-849"><problem id="id19495994">
-  <para id="element-444">Perform a goodness-of-fit test to determine whether the local results follow the distribution of U.S. AP examinee population, based on ethnicity.
+  <para id="element-444">Perform a goodness-of-fit test to determine whether the local results follow the distribution of U.S. AP examinee population, based on ethnicity. 
   </para></problem>
 <solution id="id19496016">
   <list id="fs-idm163553216" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: The local results follow the distribution of the U.S. AP examinee population</item>
@@ -1053,7 +1076,7 @@ sure you clear any lists before you start.</para></note></solution>
 </item>
   </list></solution>
 </exercise>
-
+    
     <exercise id="element-371"><problem id="id19496210">
       <para id="element-268">The City of South Lake Tahoe, CA, has an Asian population of 1,419 people, out of a total population of 23,609. Suppose that a survey of 1,419 self-reported Asians in the Manhattan, NY, area yielded the data in <link target-id="id7017535"/>. Conduct a goodness-of-fit test to determine if the self-reported sub-groups of Asians in the Manhattan area fit that of the Lake Tahoe area.</para><table id="id7017535" summary="The table shows race in the first column, Lake Tahoe frequency in the second column, and Manhattan frequency in the blank third column. There are 7 rows."><tgroup cols="3">
         <colspec colnum="1" colname="c1"/>
@@ -1103,12 +1126,12 @@ sure you clear any lists before you start.</para></note></solution>
             <entry>66</entry>
             </row>
         </tbody>
-
+      
 </tgroup>
 </table>
 </problem>
 </exercise>
-  <para id="eip-715"><emphasis effect="italics">Use the following information to answer the next two exercises:</emphasis> UCLA conducted a survey of more than 263,000 college freshmen from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in <cite id="cite-00001"><cite-title>The Chronicle of Higher Education (2/2/2006)</cite-title></cite>. Suppose a survey of 5,000 graduating females and 5,000 graduating males was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for <link target-id="element-465"/> and <link target-id="element-100"/>. The second column in each table does not add to 100% because of rounding.</para><exercise id="element-465">
+  <para id="eip-715"><emphasis effect="italics">Use the following information to answer the next two exercises:</emphasis> UCLA conducted a survey of more than 263,000 college freshmen from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in <cite><cite-title>The Chronicle of Higher Education (2/2/2006)</cite-title></cite>. Suppose a survey of 5,000 graduating females and 5,000 graduating males was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for <link target-id="element-465"/> and <link target-id="element-100"/>. The second column in each table does not add to 100% because of rounding.</para><exercise id="element-465">
   <problem id="id20689459">
     <para id="fs-idm7756464">Conduct a goodness-of-fit test to determine if the actual college majors of graduating females fit the distribution of their expected majors.
   </para>
@@ -1180,7 +1203,7 @@ sure you clear any lists before you start.</para></note></solution>
             <entry>420</entry>
           </row>
         </tbody>
-
+      
 </tgroup>
 </table>
 </problem>
@@ -1192,10 +1215,10 @@ sure you clear any lists before you start.</para></note></solution>
 <item>test statistic = 11.48</item>
 <item><emphasis effect="italics">p</emphasis>-value = 0.3211</item>
 <item>Check student’s solution.</item>
-<item>
+<item> 
 <list id="eip-idp78081520" list-type="enumerated" number-style="lower-roman"><item>Alpha = 0.05</item>
 <item>Decision: Do not reject null when <emphasis effect="italics">a</emphasis> = 0.05 and <emphasis effect="italics">a</emphasis> = 0.01</item>
-<item>Reason for decision: <emphasis effect="italics">p</emphasis>-value > alpha</item>
+<item>Reason for decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</item>
 <item>Conclusion: There is insufficient evidence to conclude that the distribution of actual college majors of graduating females do not fit the distribution of their expected majors.</item>
 </list></item></list></solution>
 </exercise>
@@ -1292,7 +1315,7 @@ sure you clear any lists before you start.</para></note></solution>
 </problem>
 </exercise><exercise id="element-473"><problem id="id21088594">
   <para id="fs-idm28021808">
-    Use a goodness-of-fit test to determine if high school principals believe that students are absent equally during the week or not.
+    Use a goodness-of-fit test to determine if high school principals believe that students are absent equally during the week or not. 
   </para>
 </problem>
 <solution id="id21088615">
@@ -1302,7 +1325,7 @@ sure you clear any lists before you start.</para></note></solution>
 </solution>
 </exercise>
 <exercise id="element-266"><problem id="id21088742">
-  <para id="element-556">The test to use to determine if a six-sided die is fair is a goodness-of-fit test.
+  <para id="element-556">The test to use to determine if a six-sided die is fair is a goodness-of-fit test. 
   </para>
 </problem>
 </exercise><exercise id="element-516"><problem id="id21088842">
@@ -1315,7 +1338,7 @@ sure you clear any lists before you start.</para></note></solution>
   </para>
 </solution>
 </exercise>
-
+  
         <exercise id="eip-173"><problem id="eip-295">
         <para id="eip-267">A sample of 212 commercial businesses was surveyed for recycling one commodity; a commodity here means any one type of recyclable material such as plastic or aluminum. <link target-id="fs-idm103073456"/> shows the business categories in the survey, the sample size of each category, and the number of businesses in each category that recycle one commodity. Based on the study, on average half of the businesses were expected to be recycling one commodity. As a result, the last column shows the expected number of businesses in each category that recycle one commodity. At the 5% significance level, perform a hypothesis test to determine if the observed number of businesses that recycle one commodity follows the uniform distribution of the expected values.</para><table id="fs-idm103073456" summary="">
           <tgroup cols="4">
@@ -1343,64 +1366,66 @@ sure you clear any lists before you start.</para></note></solution>
             </tbody>
           </tgroup>
         </table>
-
-
+        
+        
       </problem>
-
-
+      
+      
     </exercise><exercise id="eip-152">
       <problem id="eip-655">
         <para id="eip-134"><link target-id="fs-idm106414640"/> contains information from a survey among 499 participants classified according to their age groups. The second column shows the percentage of obese people per age class among the study participants. The last column comes from a different study at the national level that shows the corresponding percentages of obese people in the same age classes in the USA. Perform a hypothesis test at the 5% significance level to determine whether the survey participants are a representative sample of the USA obese population.</para><table id="fs-idm106414640" summary=""><tgroup cols="4">
             <thead>
               <row>
-                <entry>Age class (years)</entry>
-                <entry>Obese (percentage)</entry>
-                <entry>Expected USA average (percentage)</entry>
+                <entry>Age Class (Years)</entry>
+                <entry>Obese Expected (Percentage)</entry>
+                <entry>Obese-Observed (Frequencies)</entry>
               </row>
             </thead>
             <tbody>
               <row>
                 <entry>20–30</entry>
-                <entry>15.0</entry>
-                <entry>32.6</entry>
+                <entry>22.4</entry>
+                <entry>122</entry>
               </row>
               <row>
                 <entry>31–40</entry>
-                <entry>26.5</entry>
-                <entry>32.6</entry>
+                <entry>18.6</entry>
+                <entry>104</entry>
               </row>
               <row>
                 <entry>41–50</entry>
-                <entry>13.6</entry>
-                <entry>36.6</entry>
+                <entry>12.8</entry>
+                <entry>78</entry>
               </row>
               <row>
                 <entry>51–60</entry>
-                <entry>21.9</entry>
-                <entry>36.6</entry>
+                <entry>10.4</entry>
+                <entry>64</entry>
               </row>
               <row>
                 <entry>61–70</entry>
-                <entry>21.0</entry>
-                <entry>39.7</entry>
+                <entry>35.8</entry>
+                <entry>168</entry>
               </row>
             </tbody>
           </tgroup>
         </table></problem>
       <solution id="fs-idm107661440">
-        <para id="fs-idm175304322">The hypotheses for the goodness-of-fit test are:</para>
-        <list id="fs-idm17530432" list-type="enumerated" number-style="lower-alpha">
-          <item><emphasis effect="italics">H<sub>0</sub></emphasis>: Surveyed obese fit the distribution of expected obese</item>
+        <list id="fs-idm17530432" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: Surveyed obese fit the distribution of expected obese</item> 
           <item><emphasis effect="italics">H<sub>a</sub></emphasis>: Surveyed obese do not fit the distribution of expected obese</item>
-        </list>
-          <para id="fs-idm175304323">Use a chi-square distribution with <emphasis effect="italics">df</emphasis> = 4 to evaluate the data.</para>
-          <para id="fs-idm175304324">The test statistic is <emphasis effect="italics">X<sup>2</sup></emphasis> = 9.85</para>
-          <para id="fs-idm175304325">The <emphasis effect="italics">P</emphasis>-value = 0.0431</para>
-              <para id="fs-idm175304328">At 5% significance level, α = 0.05. For this data, <emphasis effect="italics">P</emphasis> &lt; α. Reject the null hypothesis.</para>
-              <para id="fs-idm175304329">At the 5% level of significance, from the data, there is sufficient evidence to conclude that the surveyed obese do not fit the distribution of expected obese.</para>
-      </solution>
+          <item><emphasis effect="italics">df</emphasis> = 4</item>
+          <item>chi-square distribution with <emphasis effect="italics">df</emphasis> = 4</item>
+          <item>test statistic = 507.6</item>
+          <item><emphasis effect="italics">p</emphasis>-value = 0</item>
+          <item>Check student’s solution.</item>
+          <item>
+            <list id="fs-idm108441232" list-type="enumerated" number-style="lower-roman"><item>Alpha: 0.05</item>
+              <item>Decision: Reject the null hypothesis.</item>
+              <item>Reason for decision: <emphasis effect="italics">p</emphasis>-value &lt; alpha</item>
+              <item>Conclusion: At the 5% level of significance, from the data, there is sufficient evidence to conclude that the surveyed obese do not fit the distribution of expected obese.</item>
+            </list></item></list></solution>
     </exercise>
 </section>
- </content>
-
+</content>
+  
 </document>

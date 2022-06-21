@@ -9,7 +9,7 @@
 </metadata>
 
 <content>
- <para id="element-3814">You have seen the <emphasis effect="italics">χ</emphasis><sup>2</sup> test statistic used in three different circumstances. The following bulleted list is a summary that will help you decide which <emphasis effect="italics">χ</emphasis><sup>2</sup> test is the appropriate one to use.</para>
+ <para id="delete_me">You have seen the <emphasis effect="italics">χ</emphasis><sup>2</sup> test statistic used in three different circumstances. The following bulleted list is a summary that will help you decide which <emphasis effect="italics">χ</emphasis><sup>2</sup> test is the appropriate one to use.</para>
 <list id="eip-id8185633"><item><emphasis>Goodness-of-Fit:</emphasis> Use the goodness-of-fit test to decide whether a population with an unknown distribution "fits" a known distribution. In this case there will be a single qualitative survey question or a single outcome of an experiment from a single population. Goodness-of-Fit is typically used to see if the population is uniform (all outcomes occur with equal frequency), the population is normal, or the population is the same as another population with a known distribution. The null and alternative hypotheses are:
 <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: The population fits the given distribution.
 <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: The population does not fit the given distribution.</item>
@@ -28,7 +28,7 @@
  <para id="eip-666">a goodness-of-fit test</para>
 </solution>
  </exercise>
-
+ 
  <exercise id="eip-610"><problem id="eip-684">
  <para id="eip-753">What is the null hypothesis for the type of test from <link target-id="eip-117"/>?</para>
 </problem>
@@ -41,7 +41,7 @@
  <para id="eip-848">a test for independence</para>
 </solution>
  </exercise>
-
+ 
  <exercise id="eip-795"><problem id="eip-81">
  <para id="eip-733">Which test would you use to decide if two populations have the same distribution?</para>
  </problem>
@@ -65,11 +65,11 @@
  </m:mrow>
  <m:mn>2</m:mn>
  </m:msup>
-
+ 
  </m:mrow>
  <m:mi>E</m:mi>
  </m:mfrac>
-
+ 
  </m:mrow>
  </m:math>. In addition, all values must be greater than or equal to five. </para></solution>
 </exercise><exercise id="eip-206"><problem id="eip-34">
@@ -110,7 +110,7 @@
  <item>Explain why a goodness-of-fit test and a test of independence are generally right-tailed tests.</item>
  <item>If you did a left-tailed test, what would you be testing?</item>
  </list>
-
+ 
  </problem>
  <solution id="fs-idm144548544">
  <list id="fs-idm11228640" list-type="enumerated" number-style="lower-alpha">
@@ -119,5 +119,5 @@
  </list>
  </solution>
 </exercise>
-</section> </content>
+</section></content>
 </document>

@@ -8,7 +8,7 @@
   <md:uuid>c0449c55-aa47-4f1c-bd5f-0521652f0e82</md:uuid>
 </metadata>
 
-<content class="appendix"><section id="fs-id1168979367091">
+<content><section id="fs-id1168979367091">
     <title>Hypothesis Testing with One Sample </title><para id="id46712476">Class Time: __________________________<newline/>
 Name: _____________________________________</para><list id="id46712495" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: _______</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: _______</item>
@@ -149,5 +149,5 @@ Name: ____________________________________</para><list id="id3582263" list-type=
 <item>Decision: _______</item>
 <item>Reason for decision: _______</item>
 <item>Conclusion: _______</item></list></item>
-</list></section> </content>
+</list></section></content>
 </document>

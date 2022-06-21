@@ -28,46 +28,46 @@ Record the number of pairs of shoes you own.</para>
 <title>Survey Results</title>
 <tgroup cols="5"><tbody>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
 </row>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
 </row>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
 </row>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
 </row>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
 </row>
 <row>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
+<entry>_____</entry>
 </row>
 </tbody>
 
@@ -127,6 +127,6 @@ Record the number of pairs of shoes you own.</para>
 <item>above the mean.</item>
 <item>below the mean.</item>
 </list></item>
-</list></note> </content>
+</list></note></content>
 
 </document>
