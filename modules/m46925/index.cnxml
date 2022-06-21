@@ -1,8 +1,8 @@
 <document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
-  <title>Introduction</title>
+  <title>Lecture video</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m46925</md:content-id>
-  <md:title>Introduction</md:title>
+  <md:title>Lecture video</md:title>
   <md:abstract/>
   <md:uuid>67ff0f10-8867-4852-85f6-0f0be2257ed4</md:uuid>
 </metadata>
@@ -28,5 +28,5 @@
 <label/>
 <title>NOTE</title>
 <para id="fs-idm1055600">This book contains instructions for constructing a histogram and a box plot for the TI-83+ and TI-84 calculators. The <link url="http://education.ti.com/educationportal/sites/US/sectionHome/support.html">Texas Instruments (TI) website</link> provides additional instructions for using these calculators.</para></note>
- </content>
+</content>
 </document>

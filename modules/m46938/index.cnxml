@@ -1,8 +1,8 @@
 <document xmlns="http://cnx.rice.edu/cnxml" class="introduction">
-  <title>Introduction</title>
+  <title>Lecture video</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m46938</md:content-id>
-  <md:title>Introduction</md:title>
+  <md:title>Lecture video</md:title>
   <md:abstract/>
   <md:uuid>326ee2e0-0ccd-46ae-a776-f8857a5dad4c</md:uuid>
 </metadata>
@@ -32,7 +32,7 @@ Rules.</item>
 <para id="element-209">You have, more than likely, used probability. In fact, you probably have an intuitive sense of probability. Probability deals with the chance of an event occurring. Whenever you weigh the odds of whether or not to do your homework or to study for an exam, you are using probability. In this chapter, you will learn how to solve probability problems using a systematic approach. </para>
 <note id="fs-idm8566848" class="statistics collab">
 <label/>
- 
+<title>Collaborative Exercise</title>
 <para id="element-663">Your instructor will survey your class. Count the number of students in the class today.</para>
 <list id="element-577" list-type="bulleted">
 <item>Raise your hand if you have any change in your pocket or purse. Record the number of raised hands.</item>
@@ -46,5 +46,5 @@ Rules.</item>
 <item>Find <emphasis effect="italics">P</emphasis>(change|bus). Find the probability that a randomly chosen student has change given that he or she rode a bus within the last month. Count all the students that rode a bus. From the group of students who rode a bus, count those who have change. The probability is equal to those who have change and rode a bus divided by those who rode a bus.</item>
 </list>
 </note>
- </content> 
+</content> 
 </document>

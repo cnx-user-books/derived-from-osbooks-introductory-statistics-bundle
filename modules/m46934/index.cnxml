@@ -75,10 +75,28 @@
 <newline/>
  32; 32; 33; 34; 38; 40; 42; 42; 43; 44; 46; 47; 47; 48; 48; 48; 49; 50; 50; 51; 52; 52; 52; 53; 54; 56; 57; 57; 60; 61
 <newline/>Construct a stem plot for the data.</para></problem>
+<solution id="fs-idm41489584" class="solutions">
+<label/>
+<table id="fs-idm19851440" summary="">
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry>Stem</entry><entry>Leaf</entry></row>
+</thead>
+<tbody>
+<row><entry>3</entry><entry>2 2 3 4 8</entry></row>
+<row><entry>4</entry><entry>0 2 2 3 4 6 7 7 8 8 8 9</entry></row>
+<row><entry>5</entry><entry>0 0 1 2 2 2 3 4 6 7 7</entry></row>
+<row><entry>6</entry><entry>0 1</entry></row>
+</tbody>
+</tgroup>
+</table>
+</solution>
 </exercise></note>
 
 
-<para id="eip-522">The stemplot is a quick way to graph data and gives an exact picture of the data. You want to look for an overall pattern and any outliers. An <term id="term-00001">outlier</term> is an observation of data that does not fit the rest of the data. It is sometimes called an <emphasis>extreme value.</emphasis> When you graph an outlier, it will appear not to fit the pattern of the graph. Some outliers are due to mistakes (for example, writing down 50 instead of 500) while others may indicate that something unusual is happening. It takes some background information to explain outliers, so we will cover them in more detail later.</para><example id="element-798">
+<para id="eip-522">The stemplot is a quick way to graph data and gives an exact picture of the data. You want to look for an overall pattern and any outliers. An <term>outlier</term> is an observation of data that does not fit the rest of the data. It is sometimes called an <emphasis>extreme value.</emphasis> When you graph an outlier, it will appear not to fit the pattern of the graph. Some outliers are due to mistakes (for example, writing down 50 instead of 500) while others may indicate that something unusual is happening. It takes some background information to explain outliers, so we will cover them in more detail later.</para><example id="element-798">
 <para id="element-534">The data are the distances (in kilometers) from a home to local supermarkets. Create a stemplot using the data:
 <newline/>1.1; 1.5; 2.3; 2.5; 2.7; 3.2; 3.3; 3.3; 3.5; 3.8; 4.0; 4.2; 4.5; 4.5; 4.7; 4.8; 5.5; 5.6; 6.5; 6.7; 12.3</para><exercise id="element-6923"><problem id="id8567884">
 <para id="fs-idp11807920">Do the data seem to have any concentration of values?</para>
@@ -147,6 +165,30 @@
 <para id="fs-idp73770272">The following data show the distances (in miles) from the homes of off-campus statistics students to the college. Create a stem plot using the data and identify any outliers:</para>
 <para id="fs-idp20460656">0.5; 0.7; 1.1; 1.2; 1.2; 1.3; 1.3; 1.5; 1.5; 1.7; 1.7; 1.8; 1.9; 2.0; 2.2; 2.5; 2.6; 2.8; 2.8; 2.8; 3.5; 3.8; 4.4; 4.8; 4.9; 5.2; 5.5; 5.7; 5.8; 8.0
 </para></problem>
+<solution id="fs-idp22705856" class="solutions">
+<label/>
+<table id="fs-idm52067568" summary="">
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row><entry>Stem</entry><entry>Leaf</entry></row>
+</thead>
+<tbody>
+<row><entry>0</entry><entry>5 7</entry></row>
+<row><entry>1</entry><entry>1 2 2 3 3 5 5 7 7 8 9</entry></row>
+<row><entry>2</entry><entry>0 2 5 6 8 8 8</entry></row>
+<row><entry>3</entry><entry>5 8</entry></row>
+<row><entry>4</entry><entry>4 8 9</entry></row>
+<row><entry>5</entry><entry>2 5 7 8</entry></row>
+<row><entry>6</entry><entry/></row>	
+<row><entry>7</entry><entry/></row>	
+<row><entry>8</entry><entry>0</entry></row>
+</tbody>
+</tgroup>
+</table>
+<para id="fs-idp21819520">The value 8.0 may be an outlier. Values appear to concentrate at one and two miles.</para>
+</solution>
 </exercise>
 </note>
 
@@ -188,8 +230,9 @@
 </tbody>
 
 </tgroup>
-</table></solution></exercise>
-<table id="M01_Ch02_tbl005" summary="">
+</table></solution>
+</exercise></example>
+<para id="eip-431"><table id="M01_Ch02_tbl005" summary="">
 <title>Presidential Ages at Inauguration</title>
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
@@ -216,7 +259,7 @@
 <row><entry>Taylor</entry><entry>64</entry><entry>Taft</entry><entry>51</entry><entry>Clinton</entry><entry>47</entry></row>
 <row><entry>Fillmore</entry><entry>50</entry><entry>Wilson</entry><entry>56</entry><entry>G. W. Bush</entry><entry>54</entry></row>
 <row><entry>Pierce</entry><entry>48</entry><entry>Harding</entry><entry>55</entry><entry>Obama</entry><entry>47</entry></row>
-<row><entry>Buchanan</entry><entry>65</entry><entry>Coolidge</entry><entry>51</entry><entry/><entry/></row>
+<row><entry>Buchanan</entry><entry>65</entry><entry>Coolidge</entry><entry>51</entry><entry/><entry/></row>	 	 
 </tbody>
 </tgroup>
 </table>
@@ -252,15 +295,13 @@
 <row><entry>Buchanan</entry><entry>77</entry><entry>Coolidge</entry><entry>60</entry><entry/><entry/></row>
 </tbody>
 </tgroup>
-</table>
-</example>
-<note id="fs-idp9770768" class="statistics try">
+</table></para><note id="fs-idp9770768" class="statistics try">
 <label/>
 <exercise id="fs-idp35107968">
 <problem id="fs-idm2063072">
 <para id="fs-idm4586448">The table shows the number of wins and losses the Atlanta Hawks have had in 42 seasons. Create a side-by-side stem-and-leaf plot of these wins and losses.</para>
 <table id="fs-idm25873440" summary="..">
-
+<title/>
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -451,6 +492,56 @@
 </tgroup>
 </table>
 </problem>
+<solution id="fs-idp103634144">
+<table id="fs-idp103634400" summary="..">
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<thead>
+<row>
+<entry namest="c1" nameend="c3">Atlanta Hawks Wins and Losses</entry>
+</row>
+<row>
+<entry>Number of Wins</entry>
+<entry/>
+<entry>Number of Losses</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>3</entry>
+<entry>1</entry>
+<entry>9</entry>
+</row>
+<row>
+<entry>9  8  8  6  5 </entry>
+<entry>2</entry>
+<entry>5  5  9</entry>
+</row>
+<row>
+<entry>8  7  6  6  5  5  4  3  1  1  1  1  0</entry>
+<entry>3</entry>
+<entry>0  2  2  2  2  4  4  5  6  6  6  9  9  9</entry>
+</row>
+<row>
+<entry>8  8  7  6  6  6  3  3  3  2  2  1  1  0</entry>
+<entry>4</entry>
+<entry>0  0  1  1  2  4  5  6  6  7  7  8  9</entry>
+</row>
+<row>
+<entry>7  7  6  3  2  0  0  0  0</entry>
+<entry>5</entry>
+<entry>1  1  1  2  3  4  4  6  7</entry>
+</row>
+<row>
+<entry/>
+<entry>6</entry>
+<entry>9</entry>
+</row>
+</tbody>
+
+</tgroup>
+</table></solution>
 </exercise>
 </note>
 
@@ -463,9 +554,9 @@
 <colspec colnum="2" colname="c2"/>
 <thead>
 <row>
-<entry>Number of times
+<entry>Number of times 
 teenager is reminded</entry>
-<entry>Frequency</entry>
+<entry>Frequency</entry> 
 </row>
 </thead>
 
@@ -487,14 +578,14 @@ teenager is reminded</entry>
 </row>
 <row>
 <entry>5</entry><entry>4</entry>
-</row>
+</row> 
 
 </tbody>
 </tgroup>
 </table>
 
 <figure id="M01_Ch02_fig001">
-<media id="fs-idp107902784" display="block" alt="A line graph showing the number of times a teenager needs to be reminded to do chores on the x-axis and  frequency on the y-axis.">
+<media id="fs-idp107902784" display="block" alt="A line graph showing the number of times a teenager needs to be reminded to do chores on the x-axis and  frequency on the y-axis.">	   
 <image src="../../media/fig-ch_02_03_01.jpg" mime-type="image/jpg" width="380" print-width="4in"/></media>
 </figure>
 </example>
@@ -523,6 +614,12 @@ teenager is reminded</entry>
 </tgroup>
 </table>
 </problem>
+<solution id="fs-idp56781792" class="solutions">
+<label/>
+<figure id="eip-idp32593792"><media id="fs-idp61812880" alt="" display="block">
+<image src="../../media/CNX_Stats_C02_M03_tryit003.png" mime-type="image/png" width="380"/>
+</media>
+</figure></solution>
 </exercise></note>
 
 <para id="eip-136"><emphasis>Bar graphs</emphasis> consist of bars that are separated from each other. The bars can be rectangles or they can be rectangular boxes (used in three-dimensional plots), and they can be vertical or horizontal. The <emphasis>bar graph</emphasis> shown in <link target-id="example5"/> has age groups represented on the <emphasis><emphasis effect="italics">x</emphasis>-axis</emphasis> and proportions on the <emphasis><emphasis effect="italics">y</emphasis>-axis</emphasis>.</para><example id="example5">
@@ -590,6 +687,13 @@ teenager is reminded</entry>
 </tgroup>
 </table>
 </problem>
+
+<solution id="fs-idm119263088" class="solutions">
+<label/>
+<figure id="eip-idm94855488"><media id="fs-idm4405616" alt="This is a bar graph that matches the supplied data. The x-axis shows age groups, and the y-axis shows the percentages of Park City's population." display="block">
+<image src="../../media/CNX_Stats_C02_M03_tryit004.png" width="350" mime-type="image/png"/>
+</media>
+</figure></solution>
 </exercise>
 </note>
 
@@ -672,6 +776,13 @@ teenager is reminded</entry>
 </tgroup>
 </table>
 </problem>
+
+<solution id="fs-idm7917072" class="solutions">
+<label/>
+<figure id="M01_Ch02_fig004"><media id="fs-idm63847024" display="block" alt="This is a bar graph that matches the supplied data. The x-axis shows Park City voting districts, and the y-axis shows the percentages of the registered voter population.">
+<image src="../../media/CNX_Stats_C02_M03_tryit005.png" mime-type="image/png" width="400"/>
+</media>
+</figure></solution>
 </exercise>
 </note>
 
@@ -686,6 +797,7 @@ teenager is reminded</entry>
 <para id="fs-idp5119792">A <emphasis>stem-and-leaf plot</emphasis> is a way to plot data and look at the distribution. In a stem-and-leaf plot, all data values within a class are visible. The advantage in a stem-and-leaf plot is that all values are listed, unlike a histogram, which gives classes of data values. A <emphasis>line graph</emphasis> is often used to represent a set of data values in which a quantity varies with time. These graphs are useful for finding trends. That is, finding a general pattern in data sets including temperature, sales, employment, company profit or cost over a period of time. A <emphasis>bar graph</emphasis> is a chart that uses either horizontal or vertical bars to show comparisons among categories. One axis of the chart shows the specific categories being compared, and the other axis represents a discrete value. Some bar graphs present bars clustered in groups of more than one (grouped bar graphs), and others show the bars divided into subparts to show cumulative effect (stacked bar graphs). Bar graphs are especially useful when categorical data is being used.</para></section>
 
 <section id="fs-idp51353072" class="practice">
+<title/>
 <para id="fs-idp2088992"><emphasis effect="italics">For each of the following data sets, create a stem plot and identify any outliers.</emphasis></para>
 
 <exercise id="fs-idp77965776">
@@ -695,13 +807,13 @@ teenager is reminded</entry>
 <solution id="fs-idm37847504">
 <table id="fs-idp96212464" summary="The miles per gallon rating for 30 cars">
 <tgroup cols="2"><colspec colnum="1" colname="c1" align="center"/>
-<colspec colnum="2" colname="c2" align="left"/>
+<colspec colnum="2" colname="c2" align="left"/> 
 <thead><row><entry>Stem</entry><entry align="center">Leaf</entry></row></thead>
 <tbody>
 <row><entry>1</entry><entry>9 9 9</entry></row>
 <row><entry>2</entry><entry>0 1 1 5 5 5 6 6 8 9</entry></row>
 <row><entry>3</entry><entry>1 1 2 2 3 4 5 6 7 7 8 8 8 8</entry></row>
-<row><entry>4</entry><entry>1 3  3</entry></row>
+<row><entry>4</entry><entry>1 3  3</entry></row> 
 </tbody>
 
 </tgroup>
@@ -716,7 +828,7 @@ teenager is reminded</entry>
 
 <exercise id="exercise8">
 <problem id="fs-idp105863648">
-<para id="fs-idp8584400">The data are the prices of different laptops at an electronics store. Round each value to the nearest ten.
+<para id="fs-idp8584400">The data are the prices of different laptops at an electronics store. Round each value to the nearest ten. 
 <newline/>249, 249, 260, 265, 265, 280, 299, 299, 309, 319, 325, 326, 350, 350, 350, 365, 369, 389, 409, 459, 489, 559, 569, 570, 610</para></problem>
 
 <solution id="fs-idp114380816">
@@ -837,7 +949,7 @@ teenager is reminded</entry>
 </exercise>
 
 <exercise id="fs-idp114173136">
-<problem id="fs-idp114173392"><para id="fs-idp114173520">Using the data from Mrs. Ramirez’s math class supplied in <link target-id="M01_Ch02_tbl021"/>, construct a bar graph showing the percentages.</para></problem>
+<problem id="fs-idp114173392"><para id="fs-idp114173520">Using the data from Mrs. Ramirez’s math class supplied in <link target-id="exercise13"/>, construct a bar graph showing the percentages.</para></problem>
 <solution id="fs-idp107574416">
 <figure id="fs-idp48344576"><media id="fs-idp74133360" display="block" alt="This is a bar graph that matches the supplied data. The x-axis shows the seasons of the year, and the y-axis shows the proportion of birthdays."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M03_009.jpg" width="350"/></media></figure></solution>
 </exercise>
@@ -868,7 +980,7 @@ teenager is reminded</entry>
 
 <exercise id="fs-idp107146752">
 <problem id="fs-idp107568048">
-<para id="fs-idp107568176">Use the data from the David County science competition supplied in <link target-id="M01_Ch02_tbl022"/>. Construct a bar graph that shows the county-wide population percentage of students at each school.</para></problem>
+<para id="fs-idp107568176">Use the data from the David County science competition supplied in <link target-id="exercise10"/>. Construct a bar graph that shows the county-wide population percentage of students at each school.</para></problem>
 <solution id="fs-idp4118704">
 <figure id="fs-idp86744448"><media id="fs-idp112012640" display="block" alt="This is a bar graph that matches the supplied data. The x-axis shows the county high schools, and the y-axis shows the proportion of county students."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M03_011.jpg" width="420"/></media></figure></solution>
 </exercise>
@@ -1070,5 +1182,5 @@ teenager is reminded</entry>
 </figure>
 </item>
 </list></solution>
-</exercise></section> </content>
+</exercise></section></content>
 </document>
