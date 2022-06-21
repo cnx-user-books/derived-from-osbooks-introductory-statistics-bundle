@@ -1,4 +1,4 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="appendix">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
 <title>Practice Tests (1-4) and Final Exams</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m47865</md:content-id>
@@ -7,7 +7,7 @@
   <md:uuid>908c48b3-75fe-403d-98ef-9e68c3150587</md:uuid>
 </metadata>
 
-<content class="appendix"><section id="fs-id1167205437366">
+<content><section id="fs-id1167205437366">
 <title>Practice Test 1</title><section id="fs-idm70683648"><title>1.1: Definitions of Statistics, Probability, and Key Terms</title><para id="fs-idm115358880"><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> A grocery store is interested in how much money, on average, their customers spend each visit in the produce department. Using their store records, they draw a sample of 1,000 visits and calculate each customer’s average spending on produce.</para>
 
 <para id="fs-idm129508032"><emphasis>1</emphasis>. Identify the population, sample, parameter, statistic, variable, and data for this example.<list id="fs-idm11789248" list-type="enumerated" number-style="lower-alpha">
@@ -79,7 +79,7 @@
 <entry/>
 </row>
 <row>
-<entry>> 10</entry>
+<entry>&gt; 10</entry>
 <entry>empty</entry>
 <entry/>
 <entry/>
@@ -171,7 +171,7 @@
 <title>3.4: Contingency Tables</title>
 <para id="fs-idp43926960"><emphasis effect="italics">Use the following information to answer the next three exercises.</emphasis> The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.</para>
 <table id="fs-idm22192560" summary="..">
- 
+<title/>
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -230,7 +230,7 @@
 <para id="fs-idp13909776"><emphasis>4</emphasis>. d</para><para id="fs-idp9093680"><emphasis>5</emphasis>. c</para><para id="fs-idp45789488"><emphasis>6</emphasis>. Answers will vary.
 <newline/>Sample Answer: Any solution in which you use data from the entire population is acceptable. For instance, a professor might calculate the average exam score for her class: because the scores of all members of the class were used in the calculation, the average is a parameter.</para><para id="fs-idp164316736"><emphasis>7</emphasis>. b</para><para id="fs-idp186482976"><emphasis>8</emphasis>. a</para><para id="fs-idp15623168"><emphasis>9</emphasis>. 
 <table id="fs-idp43286224" summary="..">
- 
+<title/>
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -258,7 +258,7 @@
 <entry>0.55</entry>
 </row>
 <row>
-<entry>> 10</entry>
+<entry>&gt; 10</entry>
 <entry>45</entry>
 <entry>0.45</entry>
 <entry>1.00</entry>
@@ -358,7 +358,7 @@
 <para id="fs-idp95565424"><emphasis>52</emphasis>. Mean: 15
 <newline/>Standard deviation: 4.3
 <newline count="2"/>
-<m:math>
+<m:math display="">
 <m:mrow>
 <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -478,7 +478,7 @@
 <title>3.4: Contingency Tables</title>
 <para id="fs-idm55857632"><emphasis>65</emphasis>.
 <table id="fs-idp59830304" summary="..">
- 
+<title/>
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -558,7 +558,7 @@
 
 <para id="fs-idp25521120"><emphasis>1.</emphasis> If <emphasis effect="italics">X</emphasis> = student’s major, then what is the domain of <emphasis effect="italics">X</emphasis>?</para><para id="fs-idm6399360"><emphasis>2.</emphasis> If <emphasis effect="italics">Y</emphasis> = the number of classes taken in the previous semester, what is the domain of <emphasis effect="italics">Y</emphasis>?</para><para id="fs-idp139788032"><emphasis>3</emphasis>. If <emphasis effect="italics">Z</emphasis> = the amount of money spent on books in the previous semester, what is the domain of <emphasis effect="italics">Z</emphasis>?</para><para id="fs-idp59222160"><emphasis>4</emphasis>. Why are <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">Y</emphasis>, and <emphasis effect="italics">Z</emphasis> in the previous example random variables?</para><para id="fs-idm54542480"><emphasis>5</emphasis>. After collecting data, you find that for one case, <emphasis effect="italics">z</emphasis> = –7. Is this a possible value for <emphasis effect="italics">Z</emphasis>?</para><para id="fs-idm40473488"><emphasis>6</emphasis>. What are the two essential characteristics of a discrete probability distribution?</para><para id="eip-585"><emphasis effect="italics">Use this discrete probability distribution represented in this table to answer the following six  questions.</emphasis> The university library records the number of books checked out by each patron over the course of one day, with the following result:
 <table id="fs-idp41340176" summary="..">
- 
+<title/>
 <tgroup cols="2">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -594,11 +594,14 @@
 </table>
 </para>
 
-<para id="fs-idm28586176"><emphasis>7</emphasis>. Define the random variable <emphasis effect="italics">X</emphasis> for this example. </para><para id="fs-idp112086544"><emphasis>8</emphasis>. What is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2)?</para><para id="fs-idm49038096"><emphasis>9</emphasis>. What is the probability that a patron will check out at least one book?</para><para id="fs-idm70482864"><emphasis>10</emphasis>. What is the probability a patron will take out no more than three books?</para><para id="fs-idp20259712"><emphasis>11</emphasis>. If the table listed <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) as 0.15, how would you know that there was a mistake?</para><para id="fs-idm27978688"><emphasis>12</emphasis>. What is the average number of books taken out by a patron?</para></section>
+<para id="fs-idm28586176"><emphasis>7</emphasis>. Define the random variable <emphasis effect="italics">X</emphasis> for this example. </para><para id="fs-idp112086544"><emphasis>8</emphasis>. What is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2)?</para><para id="fs-idm49038096"><emphasis>9</emphasis>. What is the probability that a patron will check out at least one book?</para><para id="fs-idm70482864"><emphasis>10</emphasis>. What is the probability a patron will take out no more than three books?</para><para id="fs-idp20259712"><emphasis>11</emphasis>. If the table listed <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>) as 0.15, how would you know that there was a mistake?</para><para id="fs-idm27978688"><emphasis>12</emphasis>. What is the average number of books taken out by a patron?</para></section>
 
 <section id="fs-idp168828704">
-<title>4.2: Mean or Expected Value and Standard Deviation</title><para id="fs-idm76696976"><emphasis effect="italics">Use the following information to answer the next four exercises.</emphasis> Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the human resources and sales department receives 60 applicants.</para><para id="fs-idp89420144"><emphasis>13</emphasis>. If <emphasis effect="italics">X</emphasis> = the number of applications for a job, use this information to fill in <link target-id="fs-idm40199072"/>.</para><table id="fs-idm40199072" summary="..">
- 
+<title>4.2: Mean or Expected Value and Standard Deviation</title><para id="fs-idm76696976"><emphasis effect="italics">Use the following information to answer the next four exercises.</emphasis> Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, and the human resources and sales department 60 applicants.</para>
+
+
+<para id="fs-idp89420144"><emphasis>13</emphasis>. If <emphasis effect="italics">X</emphasis> = the number of applications for a job, use this information to fill in <link target-id="fs-idm40199072"/>.</para><table id="fs-idm40199072" summary="..">
+<title/>
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -629,7 +632,7 @@
 </tbody>
 </tgroup>
 </table>
-<para id="fs-idm63124784"><emphasis>14</emphasis>. What is the mean number of applicants per department?</para><para id="fs-idm98052416"><emphasis>15</emphasis>. What is the PDF for <emphasis effect="italics">X</emphasis>?</para><para id="fs-idm41276512"><emphasis>16</emphasis>. Add a fourth column to the table, for (<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>).</para><para id="fs-idm39755984"><emphasis>17</emphasis>. What is the standard deviation of <emphasis effect="italics">X</emphasis>?</para></section>
+<para id="fs-idm63124784"><emphasis>14</emphasis>. What is the mean number of applicants?</para><para id="fs-idm98052416"><emphasis>15</emphasis>. What is the PDF for <emphasis effect="italics">X</emphasis>?</para><para id="fs-idm41276512"><emphasis>16</emphasis>. Add a fourth column to the table, for (<emphasis effect="italics">x</emphasis> – <emphasis effect="italics">μ</emphasis>)<sup>2</sup><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis>).</para><para id="fs-idm39755984"><emphasis>17</emphasis>. What is the standard deviation of <emphasis effect="italics">X</emphasis>?</para></section>
 
 <section id="fs-idp96951968">
 <title>4.3: Binomial Distribution</title>
@@ -662,7 +665,7 @@
 <section id="fs-idp28692928">
 <title>5.1: Continuous Probability Functions</title>
 
-<para id="fs-idp146102224"><emphasis>41</emphasis>. You conduct a survey of students to see how many books they purchased the previous semester, the total amount they paid for those books, the number they sold after the semester was over, and the amount of money they received for the books they sold. Which variables in this survey are discrete, and which are continuous?</para><para id="fs-idm100254096"><emphasis>42</emphasis>. With continuous random variables, we never calculate the probability that <emphasis effect="italics">X</emphasis> has a particular value, but always speak in terms of the probability that <emphasis effect="italics">X</emphasis> has a value within a particular range. Why is this?</para><para id="fs-idm68047280"><emphasis>43</emphasis>. For a continuous random variable, why are <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">c</emphasis>) and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">c</emphasis>) equivalent statements?</para><para id="fs-idp32220256"><emphasis>44</emphasis>. For a continuous probability function, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 5) = 0.35. What is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5), and how do you know?</para><para id="fs-idm47762432"><emphasis>45</emphasis>. Describe how you would draw the continuous probability distribution described by the function <m:math>
+<para id="fs-idp146102224"><emphasis>41</emphasis>. You conduct a survey of students to see how many books they purchased the previous semester, the total amount they paid for those books, the number they sold after the semester was over, and the amount of money they received for the books they sold. Which variables in this survey are discrete, and which are continuous?</para><para id="fs-idm100254096"><emphasis>42</emphasis>. With continuous random variables, we never calculate the probability that <emphasis effect="italics">X</emphasis> has a particular value, but always speak in terms of the probability that <emphasis effect="italics">X</emphasis> has a value within a particular range. Why is this?</para><para id="fs-idm68047280"><emphasis>43</emphasis>. For a continuous random variable, why are <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">c</emphasis>) and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">c</emphasis>) equivalent statements?</para><para id="fs-idp32220256"><emphasis>44</emphasis>. For a continuous probability function, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 5) = 0.35. What is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5), and how do you know?</para><para id="fs-idm47762432"><emphasis>45</emphasis>. Describe how you would draw the continuous probability distribution described by the function <m:math>
 <m:mrow>
 <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mn>1</m:mn>
@@ -755,7 +758,7 @@
 
 <para id="fs-idp9773504"><emphasis>90</emphasis>. If <emphasis effect="italics">X</emphasis> = the diameter of one screw, what is the distribution of <emphasis effect="italics">X</emphasis>?</para><para id="fs-idp144580800"><emphasis>91</emphasis>. Suppose you repeatedly draw samples of size 100 and calculate their mean. Applying the central limit theorem, what is the distribution of these sample means?</para><para id="fs-idp70463456"><emphasis>92</emphasis>. Suppose you repeatedly draw samples of 60 and calculate their sum. Applying the central limit theorem, what is the distribution of these sample sums?</para></section></section><section id="eip-730"><title>Practice Test 2 Solutions</title><section id="fs-idp163165600">
 <title>Probability Distribution Function (PDF) for a Discrete Random Variable</title>
-<para id="fs-idm100052240"><emphasis>1</emphasis>. The domain of <emphasis effect="italics">X</emphasis> = {English, Mathematics,….], i.e., a  list of all the majors offered at the university, plus “undeclared.”</para><para id="fs-idm155456032"><emphasis>2</emphasis>. The domain of <emphasis effect="italics">Y</emphasis> = {0, 1, 2, …}, i.e., the integers from 0 to the upper limit of classes allowed by the university.</para><para id="fs-idm140079904"><emphasis>3</emphasis>. The domain of <emphasis effect="italics">Z</emphasis> = any amount of money from 0 upwards.</para><para id="fs-idm139654144"><emphasis>4</emphasis>. Because they can take any value within their domain, and their value for any particular case is not known until the survey is completed.</para><para id="fs-idm32271600"><emphasis>5</emphasis>. No, because the domain of <emphasis effect="italics">Z</emphasis> includes only positive numbers (you can’t spend a negative amount of money). Possibly the value –7 is a data entry error, or a special code to indicated that the student did not answer the question.</para><para id="fs-idm36113440"><emphasis>6</emphasis>. The probabilities must sum to 1.0, and the probabilities of each event must be between 0 and 1, inclusive.</para><para id="fs-idm170973824"><emphasis>7</emphasis>. Let <emphasis effect="italics">X</emphasis> = the number of books checked out by a patron.</para><para id="fs-idm40816608"><emphasis>8</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2) = 0.10 + 0.05 = 0.15</para><para id="fs-idm159092688"><emphasis>9</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 0) = 1 – 0.20 = 0.80</para><para id="fs-idp100516752"><emphasis>10</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 – 0.05 = 0.95</para><para id="fs-idm83289552"><emphasis>11</emphasis>. The probabilities would sum to 1.10, and the total probability in a distribution must always equal 1.0.</para><para id="fs-idm10171072"><emphasis>12</emphasis>. <m:math>
+<para id="fs-idm100052240"><emphasis>1</emphasis>. The domain of <emphasis effect="italics">X</emphasis> = {English, Mathematics,….], i.e., a  list of all the majors offered at the university, plus “undeclared.”</para><para id="fs-idm155456032"><emphasis>2</emphasis>. The domain of <emphasis effect="italics">Y</emphasis> = {0, 1, 2, …}, i.e., the integers from 0 to the upper limit of classes allowed by the university.</para><para id="fs-idm140079904"><emphasis>3</emphasis>. The domain of <emphasis effect="italics">Z</emphasis> = any amount of money from 0 upwards.</para><para id="fs-idm139654144"><emphasis>4</emphasis>. Because they can take any value within their domain, and their value for any particular case is not known until the survey is completed.</para><para id="fs-idm32271600"><emphasis>5</emphasis>. No, because the domain of <emphasis effect="italics">Z</emphasis> includes only positive numbers (you can’t spend a negative amount of money). Possibly the value –7 is a data entry error, or a special code to indicated that the student did not answer the question.</para><para id="fs-idm36113440"><emphasis>6</emphasis>. The probabilities must sum to 1.0, and the probabilities of each event must be between 0 and 1, inclusive.</para><para id="fs-idm170973824"><emphasis>7</emphasis>. Let <emphasis effect="italics">X</emphasis> = the number of books checked out by a patron.</para><para id="fs-idm40816608"><emphasis>8</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2) = 0.10 + 0.05 = 0.15</para><para id="fs-idm159092688"><emphasis>9</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 0) = 1 – 0.20 = 0.80</para><para id="fs-idp100516752"><emphasis>10</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 – 0.05 = 0.95</para><para id="fs-idm83289552"><emphasis>11</emphasis>. The probabilities would sum to 1.10, and the total probability in a distribution must always equal 1.0.</para><para id="fs-idm10171072"><emphasis>12</emphasis>. <m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
@@ -766,7 +769,9 @@
 <title>Mean or Expected Value and Standard Deviation</title>
 <para id="fs-idm42931344"><emphasis>13</emphasis>. 
 <table id="fs-idp125583072" summary="..">
-<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<title/>
+<tgroup cols="3">
+<colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
 <thead>
@@ -779,33 +784,35 @@
 <tbody>
 <row>
 <entry>30</entry>
-<entry>30/130</entry>
-<entry>6.92</entry>
+<entry>0.33</entry>
+<entry>9.90</entry>
 </row>
 <row>
 <entry>40</entry>
-<entry>40/130</entry>
-<entry>12.31</entry>
+<entry>0.33</entry>
+<entry>13.20</entry>
 </row>
 <row>
 <entry>60</entry>
-<entry>60/130</entry>
-<entry>27.69</entry>
+<entry>0.33</entry>
+<entry>19.80</entry>
 </row>
 </tbody>
-
 </tgroup>
-</table></para><para id="fs-idm93524240"><emphasis>14</emphasis>. <m:math>
+</table>
+</para><para id="fs-idm93524240"><emphasis>14</emphasis>. <m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> = 6.92 + 12.31 + 27.69 = 46.92</para><para id="fs-idm100542096"><emphasis>15</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 30) = 0.23
-<newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 40) = 0.31
-<newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 60) = 0.46
+</m:math> = 9.90 + 13.20 + 19.80 = 42.90</para><para id="fs-idm100542096"><emphasis>15</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 30) = 0.33
+<newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 40) = 0.33
+<newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 60) = 0.33
 </para><para id="fs-idp32746176"><emphasis>16</emphasis>. 
 <table id="fs-idp8797824" summary="..">
-<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+<title/>
+<tgroup cols="4">
+<colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
 <colspec colnum="4" colname="c4"/>
@@ -820,26 +827,39 @@
 <tbody>
 <row>
 <entry>30</entry>
-<entry>0.23</entry>
-<entry>6.92</entry>
-<entry>(30 – 46.92)<sup>2</sup>(0.23) = 66.09</entry>
+<entry>0.33</entry>
+<entry>9.90</entry>
+<entry>(30 – 42.90)<sup>2</sup>(0.33) = 54.91</entry>
 </row>
 <row>
 <entry>40</entry>
-<entry>0.31</entry>
-<entry>12.31</entry>
-<entry>(40 – 46.92)<sup>2</sup>(0.31) = 14.75</entry>
+<entry>0.33</entry>
+<entry>13.20</entry>
+<entry>(40 – 42.90)<sup>2</sup>(0.33) = 2.78</entry>
 </row>
 <row>
 <entry>60</entry>
-<entry>0.46</entry>
-<entry>46.92</entry>
-<entry>(60 – 46.92)<sup>2</sup>(0.46) = 78.93</entry>
+<entry>0.33</entry>
+<entry>19.90</entry>
+<entry>(60 – 42.90)<sup>2</sup>(0.33) = 96.49</entry>
 </row>
 </tbody>
-
 </tgroup>
-</table></para><para id="fs-idm41042752"><m:math><m:mrow><m:msub><m:mo stretchy="false">∑</m:mo><m:mrow><m:mi>x</m:mi></m:mrow></m:msub><m:mrow><m:mo>=</m:mo><m:msqrt><m:mo>(</m:mo><m:mn>66.09</m:mn><m:mo>+</m:mo><m:mn>14.75</m:mn><m:mo>+</m:mo><m:mn>78.93</m:mn><m:mo>)</m:mo></m:msqrt><m:mo>=</m:mo><m:mn>12.64</m:mn></m:mrow></m:mrow></m:math></para></section>
+</table>
+</para><para id="fs-idm41042752"><emphasis>17</emphasis>. <m:math>
+<m:mrow>
+<m:msub>
+<m:mi>σ</m:mi>
+<m:mi>x</m:mi>
+</m:msub>
+<m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:mn>54.91</m:mn><m:mo>+</m:mo><m:mn>2.78</m:mn><m:mo>+</m:mo><m:mn>96.49</m:mn>
+</m:mrow>
+</m:msqrt>
+<m:mo>=</m:mo><m:mn>12.42</m:mn>
+</m:mrow>
+</m:math></para></section>
 
 <section id="fs-idp95313088"><title>Binomial Distribution</title><para id="fs-idm116865776"><emphasis>18</emphasis>. <emphasis effect="italics">q</emphasis> = 1 – 0.65 = 0.35</para>
 <para id="fs-idm55606800"><emphasis>19</emphasis>. 
@@ -977,7 +997,7 @@
 </section><section id="fs-idm12735136"><title>5.1: Continuous Probability Functions</title><para id="fs-idm5037072"><emphasis>41</emphasis>. The discrete variables are the number of books purchased, and the number of books sold after the end of the semester. The continuous variables are the amount of money spent for the books, and the amount of money received when they were sold.</para>
 <para id="fs-idm164236176"><emphasis>42</emphasis>. Because for a continuous random variable, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = <emphasis effect="italics">c</emphasis>) = 0, where <emphasis effect="italics">c</emphasis> is any single value. Instead, we calculate <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">c</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">d</emphasis>), i.e., the probability that the value of <emphasis effect="italics">x</emphasis> is between the values <emphasis effect="italics">c</emphasis> and <emphasis effect="italics">d</emphasis>.</para>
 <para id="fs-idm38949328"><emphasis>43</emphasis>. Because <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = <emphasis effect="italics">c</emphasis>) = 0 for any continuous random variable.</para>
-<para id="fs-idm159193280"><emphasis>44</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5) = 1 – 0.35 = 0.65, because the total probability of a continuous probability function is always 1.</para>
+<para id="fs-idm159193280"><emphasis>44</emphasis>. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5) = 1 – 0.35 = 0.65, because the total probability of a continuous probability function is always 1.</para>
 <para id="fs-idm77733440"><emphasis>45</emphasis>. This is a uniform probability distribution. You would draw it as a rectangle with the vertical sides at 0 and 20, and the horizontal sides at <m:math>
 <m:mrow>
 <m:mfrac>
@@ -1044,7 +1064,7 @@
 </m:mfrac>
 
 </m:mrow>
-</m:math> for <m:math>
+</m:math> for <m:math display="">
 <m:mrow>
 <m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mtext> so </m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mn>1</m:mn>
@@ -1053,7 +1073,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> for <m:math>
+</m:math> for <m:math display="">
 <m:mrow>
 <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>30</m:mn><m:mo stretchy="false">)</m:mo>
 </m:mrow>
@@ -1535,7 +1555,7 @@
 </m:math> so you would expect 68 percent of the sample means to be between 69.1 and 70.9. Note that this is a narrower interval due to the increased sample size.</para>
 </section><section id="fs-idp9921552"><title>7.2: The Central Limit Theorem for Sums</title><para id="fs-idm32049712"><emphasis>81</emphasis>. For a random variable <emphasis effect="italics">X</emphasis>, the random variable <emphasis effect="italics">ΣX</emphasis> will tend to become normally distributed as the size n of the samples used to compute the sum increases.</para>
 <para id="fs-idm155707904"><emphasis>82</emphasis>. Both rules state that the distribution of a quantity (the mean or the sum) calculated on samples drawn from a population will tend to have a normal distribution, as the sample size increases, regardless of the distribution of population from which the samples are drawn.</para>
-<para id="fs-idm143218272"><emphasis>83</emphasis>. <m:math>
+<para id="fs-idm143218272"><emphasis>83</emphasis>. <m:math display="">
 <m:mrow>
 <m:mi>Σ</m:mi><m:mi>X</m:mi><m:mo>∼</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -1558,7 +1578,7 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math> so <m:math>
+</m:math> so <m:math display="">
 <m:mrow>
 <m:mi>Σ</m:mi><m:mi>X</m:mi><m:mo>∼</m:mo><m:mi>N</m:mi><m:mo stretchy="false">(</m:mo><m:mn>4000</m:mn><m:mo>,</m:mo><m:mn>28.3</m:mn><m:mo stretchy="false">)</m:mo>
 </m:mrow>
@@ -1795,7 +1815,7 @@
 <section id="fs-idm22071744"><title>11.2: Goodness-of-Fit Test</title><para id="fs-idm146964128"><emphasis effect="italics">Use the following information to answer the next four exercises.</emphasis> Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.</para>
 
 <para id="fs-idp46569472"><emphasis>73</emphasis>. What are the expected numbers of students from your high school graduating class enrolled and not enrolled in higher education?</para><para id="fs-idp57748208"><emphasis>74</emphasis>. Fill out the rest of this table.</para><table id="fs-idm167551056" summary="..">
- 
+<title/>
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1855,7 +1875,7 @@
 <title>11.3: Test of Independence</title><para id="fs-idm15595648"><emphasis effect="italics">Use the following information to answer the next four exercises.</emphasis> You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for freshman and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.</para>
 
 <para id="fs-idp91226912"><emphasis>79</emphasis>. Compute the expected values for the cells.</para><table id="fs-idp79824896" summary="..">
- 
+<title/>
 <tgroup cols="3">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -1906,7 +1926,7 @@
 <section id="fs-idm114147792">
 <title>11.5: Comparison Summary of the Chi-Square Tests: Goodness-of-Fit, Independence and Homogeneity</title>
 <para id="fs-idm16391264"><emphasis>84</emphasis>. A 2013 poll in the State of California surveyed people about taxing sugar-sweetened beverages. The results are presented in the following table, and are classified by ethnic group and response type.  Are the poll responses independent of the participants’ ethnic group? Conduct a hypothesis test at the 5% significance level.</para><table id="fs-idm112728704" summary="..">
- 
+<title/>
 <tgroup cols="5">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -2168,7 +2188,7 @@
   <m:mo>=</m:mo><m:mn>2.861.</m:mn>
  </m:mrow>
 </m:math> The calculator function is invT(0.995, 19).<newline/>
-<m:math>
+<m:math display="block">
  <m:mrow>
   <m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi><m:mo>=</m:mo><m:msub>
    <m:mi>t</m:mi>
@@ -2884,7 +2904,7 @@
 </m:msub>
 
 </m:mrow>
-</m:math> > 0
+</m:math> &gt; 0
 <newline/>This could also be written as:
 <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: <m:math>
 <m:mrow>
@@ -2917,7 +2937,7 @@
 
 <m:mn>1</m:mn>
 </m:msub>
-<m:mo>></m:mo><m:msub>
+<m:mo>&gt;</m:mo><m:msub>
 <m:mover accent="true">
 <m:mi>X</m:mi>
 <m:mo>¯</m:mo>
@@ -3027,7 +3047,7 @@
 <title>11.2: Goodness-of-Fit Test</title>
 <para id="fs-idm84813008"><emphasis>73</emphasis>. Enrolled = 200(0.66) = 132. Not enrolled = 200(0.34) = 68</para><para id="fs-idm14113952"><emphasis>74</emphasis>. 
 <table id="fs-idm93207968" summary="..">
- 
+<title/>
 <tgroup cols="6">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -3111,7 +3131,7 @@
 <title>11.3: Test of Independence</title>
 <para id="fs-idp59660992"><emphasis>79</emphasis>. 
 <table id="fs-idm138267872" summary="..">
- 
+<title/>
 <tgroup cols="4">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -3310,7 +3330,7 @@
 <title>11.6: Test of a Single Variance</title>
 
 <para id="fs-idp76278144"><emphasis>88</emphasis>. <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> ≤ 5
-<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> > 5</para></section></section><section id="eip-137"><title>Practice Test 4</title><section id="fs-idm36554224"><title>12.1 Linear Equations</title><para id="fs-idm44590912"><emphasis>1</emphasis>. Which of the following equations is/are linear?<list id="fs-idm161222288" list-type="enumerated" number-style="lower-alpha">
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis><sup>2</sup> &gt; 5</para></section></section><section id="eip-137"><title>Practice Test 4</title><section id="fs-idm36554224"><title>12.1 Linear Equations</title><para id="fs-idm44590912"><emphasis>1</emphasis>. Which of the following equations is/are linear?<list id="fs-idm161222288" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">y</emphasis> = –3<emphasis effect="italics">x</emphasis></item>
 <item><emphasis effect="italics">y</emphasis> = 0.2 + 0.74<emphasis effect="italics">x</emphasis></item>
 <item><emphasis effect="italics">y</emphasis> = –9.4 – 2<emphasis effect="italics">x</emphasis></item>
@@ -3579,7 +3599,7 @@
 <title>12.6: Testing the Significance of the Correlation Coefficient</title>
 
 <para id="fs-idp48207152"><emphasis>19</emphasis>. <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> = 0
-<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> ≠ 0</para><para id="fs-idp36904992"><emphasis>20</emphasis>. <m:math>
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">ρ</emphasis> ≠ 0</para><para id="fs-idp36904992"><emphasis>20</emphasis>. <m:math display="">
 <m:mrow>
 <m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -3714,7 +3734,7 @@
 <m:mo>^</m:mo>
 </m:mover>
 </m:math> = 2.3 – 0.1(4.1) = 1.89. The value of 2.32 is more than two standard deviations from the predicted value, so it qualifies as an outlier.
-<newline/>Residual for (4.1, 2.34): 2.32 – 1.89 = 0.43  (0.43 > 2(0.13))</para></section><section id="fs-idm1555552">
+<newline/>Residual for (4.1, 2.34): 2.32 – 1.89 = 0.43  (0.43 &gt; 2(0.13))</para></section><section id="fs-idm1555552">
 <title>13.1: One-Way ANOVA</title>
 
 <para id="fs-idm96207536"><emphasis>28</emphasis>.
@@ -3842,7 +3862,7 @@
 <m:mn>2</m:mn>
 </m:msubsup>
 </m:mrow>
-</m:math> > <m:math>
+</m:math> &gt; <m:math>
 <m:mrow>
 <m:msubsup>
 <m:mi>σ</m:mi>
@@ -4114,7 +4134,7 @@
       </list></para><para id="element-289"><newline/><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> De Anza College keeps statistics on the pass rate of students who enroll in math classes.  In a sample of 1,795 students enrolled in Math 1A (1st quarter calculus), 1,428 passed the course. In a sample of 856 students enrolled in Math 1B (2nd quarter calculus), 662 passed. In general, are the pass rates of Math 1A and Math 1B statistically the same? Let A = the subscript for Math 1A and B = the subscript for Math 1B. </para>
   <para id="element-739"><emphasis>11</emphasis>. If you were to conduct an appropriate hypothesis test, the alternate hypothesis would be:
 <list id="id8816942" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> = <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> > <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> &gt; <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
 <item><emphasis effect="italics">H<sub>o</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> = <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p<sub>A</sub></emphasis> ≠ <emphasis effect="italics">p<sub>B</sub></emphasis> </item>
  </list></para><para id="element-493"><emphasis>12</emphasis>. The Type I error is to:<list id="id8828449" list-type="enumerated" number-style="lower-alpha">
@@ -4471,7 +4491,7 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
         <item>There is a strong linear pattern. Therefore, it is most likely a good model to be used.</item>
         <item>The coefficient correlation is close to the limit. Therefore, it is hard to make a decision.</item>
         <item>We do not have the equation. Therefore, we cannot say anything about it.</item>
-      </list></para><para id="element-565"><newline/><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.</para><table id="id9181210" summary="No description given."><title>Does the data suggest that there is a relationship between the gender of students and their choice of major?</title>
+      </list></para><para id="element-565"><newline/><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.</para><table id="id9181210" summary="">
 <tgroup cols="3"><colspec colnum="1" colname="header_c1"/>
           <colspec colnum="2" colname="c2"/>
           <thead>
@@ -4503,9 +4523,11 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
     <entry>59</entry>
   </row>
 </tbody>
-  
-</tgroup>
-</table><para id="element-349"><emphasis>34</emphasis>. The distribution for the test is:<list id="id9895880" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+  </tgroup>
+<caption>Does the data suggest that there is a relationship between the gender of students and their choice of major?</caption>
+</table>
+
+  <para id="element-349"><emphasis>34</emphasis>. The distribution for the test is:<list id="id9895880" list-type="enumerated" number-style="lower-alpha"><item><m:math>
   <m:msub>
     <m:msup>
       <m:mi>Chi</m:mi>
@@ -5135,7 +5157,7 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
 </table>
 
 <para id="element-50"><emphasis>33</emphasis>. Conduct an appropriate test to determine if the distribution is uniform.<list id="id9269030" list-type="enumerated" number-style="lower-alpha">
-<item>The <emphasis effect="italics">p</emphasis>-value is > 0.10. There is insufficient information to conclude that the distribution is not uniform.</item>
+<item>The <emphasis effect="italics">p</emphasis>-value is &gt; 0.10. There is insufficient information to conclude that the distribution is not uniform.</item>
 <item>The <emphasis effect="italics">p</emphasis>-value is &lt; 0.01. There is sufficient information to conclude the distribution is not uniform.</item>
 <item>The <emphasis effect="italics">p</emphasis>-value is between 0.01 and 0.10, but without alpha (<emphasis effect="italics">α</emphasis>) there is not enough information</item>
 <item>There is no such test that can be conducted.</item>
@@ -5218,6 +5240,6 @@ The results of her survey are summarized in <link target-id="id9956470"/>.
  </m:mover></m:math> = 79.96<emphasis effect="italics">x</emphasis> – 0.0094</para>
 <para id="eip-idm76360448"><emphasis>31</emphasis>. d. We should not be estimating here.</para>
 <para id="eip-idm80692320"><emphasis>32</emphasis>. a.</para>
-<para id="eip-idm225978224"><emphasis>33</emphasis>. a. The <emphasis effect="italics">p</emphasis>-value is > 0.10. There is insufficient information to conclude that the distribution is not uniform.</para>
-<para id="eip-idm133463360"><emphasis>34</emphasis>. c. The test is to determine if the different groups have the same means.</para></section></section> </content>
+<para id="eip-idm225978224"><emphasis>33</emphasis>. a. The <emphasis effect="italics">p</emphasis>-value is &gt; 0.10. There is insufficient information to conclude that the distribution is not uniform.</para>
+<para id="eip-idm133463360"><emphasis>34</emphasis>. c. The test is to determine if the different groups have the same means.</para></section></section></content>
 </document>

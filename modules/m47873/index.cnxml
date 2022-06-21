@@ -8,7 +8,7 @@
   <md:uuid>3ef830bc-5247-460a-9007-e3fd762e5e93</md:uuid>
 </metadata>
 
-<content class="appendix">
+<content>
     <section id="element-244"><title>Lap Times</title>
 <para id="element-336">The following tables provide lap times from Terri Vogel's log book. Times are recorded in seconds for 2.5-mile laps completed in a series of races and practice runs.</para>
 
@@ -605,5 +605,5 @@
 </tgroup>
 </table>
 </section>
-<section id="fs-idp192653104" class="references"><title>References</title><para id="fs-idp188238272">Data compiled by Jay R. Ritter of University of Florida using data from <emphasis effect="italics">Securities Data Co.</emphasis> and <emphasis effect="italics">Bloomberg</emphasis>.</para></section> </content>
+<section id="fs-idp192653104" class="references"><title>References</title><para id="fs-idp188238272">Data compiled by Jay R. Ritter of University of Florida using data from <emphasis effect="italics">Securities Data Co.</emphasis> and <emphasis effect="italics">Bloomberg</emphasis>.</para></section></content>
 </document>
