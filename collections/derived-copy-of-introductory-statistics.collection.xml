@@ -1,0 +1,46 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11648</md:content-id>
+    <md:title>Derived copy of Introductory Statistics</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>f6068a18-396a-4c45-8bff-af75323b0c92</md:uuid>
+<md:slug>derived-copy-of-introductory-statistics</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m47830"/>
+    <col:subcollection>
+      <md:title>Sampling and Data</md:title>
+      <col:content>
+        <col:module document="m46913"/>
+        <col:module document="m46909"/>
+        <col:module document="m46885"/>
+        <col:module document="m46882"/>
+        <col:module document="m49947"/>
+        <col:module document="m49949"/>
+        <col:module document="m49945"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Descriptive Statistics</md:title>
+      <col:content>
+        <col:module document="m46925"/>
+        <col:module document="m46934"/>
+        <col:module document="m46924"/>
+        <col:module document="m46930"/>
+        <col:module document="m46920"/>
+        <col:module document="m46928"/>
+        <col:module document="m46931"/>
+        <col:module document="m46922"/>
+      </col:content>
+    </col:subcollection>
+    <col:module document="m47864"/>
+    <col:module document="m47865"/>
+    <col:module document="m47873"/>
+    <col:module document="m47874"/>
+    <col:module document="m47882"/>
+    <col:module document="m47891"/>
+    <col:module document="m47896"/>
+    <col:module document="m47875"/>
+  </col:content>
+</col:collection>
