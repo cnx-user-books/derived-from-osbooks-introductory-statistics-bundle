@@ -17,12 +17,10 @@
 </list>
 </item>
 </list>
-
-<note id="fs-idm107349216"><label/><title>NOTE</title><para id="fs-idm165699296">
-The test comparing two independent population means with unknown and possibly unequal population standard deviations is called the Aspin-Welch t-test.  The degrees of freedom formula was developed by Aspin-Welch.</para>
-</note>
-
-<para id="fs-idm1073492162">The comparison of two population means is very common. A difference between the two samples depends on both the means and the standard deviations. Very different means can occur by chance if there is great variation among the individual samples. In order to account for the variation, we take the difference of the sample means,
+<para id="fs-idm119151424">
+<note id="fs-idm107349216"><label>NOTE</label> The test comparing two independent population means with unknown and possibly unequal population standard deviations is called the Aspin-Welch t-test.  The degrees of freedom formula was developed by Aspin-Welch.</note>
+</para>
+<para id="delete_me">The comparison of two population means is very common. A difference between the two samples depends on both the means and the standard deviations. Very different means can occur by chance if there is great variation among the individual samples. In order to account for the variation, we take the difference of the sample means, 
 <m:math>
   <m:msub>
    <m:mover accent="true">
@@ -37,16 +35,16 @@ The test comparing two independent population means with unknown and possibly un
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>2</m:mn>
   </m:msub>
-</m:math>, and divide by the standard error in order to standardize the difference. The result is a t-score test statistic.</para><para id="element-254">Because we do not know the population standard deviations, we estimate them using the two sample standard deviations from our independent samples. For the hypothesis test, we calculate the estimated standard deviation, or <term id="term-00001">standard error</term>, of <emphasis>the difference in sample means</emphasis>, <m:math>
+</m:math>, and divide by the standard error in order to standardize the difference. The result is a t-score test statistic.</para><para id="element-254">Because we do not know the population standard deviations, we estimate them using the two sample standard deviations from our independent samples. For the hypothesis test, we calculate the estimated standard deviation, or <term>standard error</term>, of <emphasis>the difference in sample means</emphasis>, <m:math>
   <m:msub>
    <m:mover accent="true">
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>1</m:mn>
   </m:msub>
 </m:math> – <m:math>
@@ -55,11 +53,11 @@ The test comparing two independent population means with unknown and possibly un
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>2</m:mn>
   </m:msub>
-</m:math>.
-<equation class="unnumbered" id="std_err"><label/><title>The standard error is:</title><m:math>
+</m:math>. 
+<equation id="std_err"><title>The standard error is:</title><m:math>
 <m:msqrt>
 <m:mfrac>
 <m:mrow>
@@ -102,7 +100,7 @@ The test comparing two independent population means with unknown and possibly un
 </m:mfrac>
 </m:msqrt>
 </m:math></equation></para><para id="element-817">The test statistic (<emphasis effect="italics">t</emphasis>-score) is calculated as follows:
-  <equation class="unnumbered" id="t-score2"><label/><m:math>
+  <equation id="t-score2"><m:math display="block">
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -111,7 +109,7 @@ The test comparing two independent population means with unknown and possibly un
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
      </m:mover>
-
+     
      <m:mn>1</m:mn>
     </m:msub>
     <m:mo>–</m:mo><m:msub>
@@ -119,7 +117,7 @@ The test comparing two independent population means with unknown and possibly un
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
      </m:mover>
-
+     
      <m:mn>2</m:mn>
     </m:msub>
     <m:mtext>)</m:mtext><m:mo>–</m:mo><m:mtext>(</m:mtext><m:msub>
@@ -147,14 +145,14 @@ The test comparing two independent population means with unknown and possibly un
          </m:mrow>
          <m:mn>2</m:mn>
         </m:msup>
-
+        
        </m:mrow>
        <m:mrow>
         <m:msub>
          <m:mi>n</m:mi>
          <m:mn>1</m:mn>
         </m:msub>
-
+        
        </m:mrow>
       </m:mfrac>
       <m:mo>+</m:mo><m:mfrac>
@@ -169,53 +167,53 @@ The test comparing two independent population means with unknown and possibly un
          </m:mrow>
          <m:mn>2</m:mn>
         </m:msup>
-
+        
        </m:mrow>
        <m:mrow>
         <m:msub>
          <m:mi>n</m:mi>
          <m:mn>2</m:mn>
         </m:msub>
-
+        
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></equation>
 
 <list id="list1"><title>where:</title><item><emphasis effect="italics">s</emphasis><sub>1</sub> and <emphasis effect="italics">s</emphasis><sub>2</sub>, the sample standard deviations, are estimates of <emphasis effect="italics">σ</emphasis><sub>1</sub> and <emphasis effect="italics">σ</emphasis><sub>2</sub>, respectively.</item>
-  <item><emphasis effect="italics">σ</emphasis><sub>1</sub> and <emphasis effect="italics">σ</emphasis><sub>2</sub> are the unknown population standard deviations.</item>
+  <item><emphasis effect="italics">σ</emphasis><sub>1</sub> and <emphasis effect="italics">σ</emphasis><sub>1</sub> are the unknown population standard deviations.</item>
 <item><m:math>
   <m:msub>
    <m:mover accent="true">
     <m:mi>x</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>1</m:mn>
   </m:msub>
 </m:math>
-and
+and 
 <m:math>
   <m:msub>
    <m:mover accent="true">
     <m:mi>x</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>2</m:mn>
   </m:msub>
 </m:math>
 are the sample means. <emphasis effect="italics">μ</emphasis><sub>1</sub> and <emphasis effect="italics">μ</emphasis><sub>2</sub> are the population means.</item>
 </list></para>
-<para id="element-256">The number of <term id="term-00002">degrees of freedom (<emphasis effect="italics">df</emphasis>)</term> requires a somewhat complicated calculation. However, a computer or calculator calculates it easily. The <emphasis effect="italics">df</emphasis> are not always a whole number. The test statistic calculated previously is approximated by the Student's <emphasis effect="italics">t</emphasis>-distribution with <emphasis effect="italics">df</emphasis> as follows:
-<equation class="unnumbered" id="eq_df"><label/><title>Degrees of freedom</title><m:math>
+<para id="element-256" class="finger">The number of <term>degrees of freedom (<emphasis effect="italics">df</emphasis>)</term> requires a somewhat complicated calculation. However, a computer or calculator calculates it easily. The <emphasis effect="italics">df</emphasis> are not always a whole number. The test statistic calculated previously is approximated by the Student's <emphasis effect="italics">t</emphasis>-distribution with <emphasis effect="italics">df</emphasis> as follows:
+<equation id="eq_df"><title>Degrees of freedom</title><m:math display="block">
  <m:mrow>
   <m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -235,14 +233,14 @@ are the sample means. <emphasis effect="italics">μ</emphasis><sub>1</sub> and <
            </m:mrow>
            <m:mn>2</m:mn>
           </m:msup>
-
+          
          </m:mrow>
          <m:mrow>
           <m:msub>
            <m:mi>n</m:mi>
            <m:mn>1</m:mn>
           </m:msub>
-
+          
          </m:mrow>
         </m:mfrac>
         <m:mo>+</m:mo><m:mfrac>
@@ -257,23 +255,23 @@ are the sample means. <emphasis effect="italics">μ</emphasis><sub>1</sub> and <
            </m:mrow>
            <m:mn>2</m:mn>
           </m:msup>
-
+          
          </m:mrow>
          <m:mrow>
           <m:msub>
            <m:mi>n</m:mi>
            <m:mn>2</m:mn>
           </m:msub>
-
+          
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
    <m:mrow>
     <m:mrow><m:mo>(</m:mo>
@@ -288,7 +286,7 @@ are the sample means. <emphasis effect="italics">μ</emphasis><sub>1</sub> and <
         <m:mo>–</m:mo><m:mn>1</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     <m:mo>)</m:mo></m:mrow><m:msup>
      <m:mrow>
@@ -309,10 +307,10 @@ are the sample means. <emphasis effect="italics">μ</emphasis><sub>1</sub> and <
            <m:mi>n</m:mi>
            <m:mn>1</m:mn>
           </m:msub>
-
+          
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -330,7 +328,7 @@ are the sample means. <emphasis effect="italics">μ</emphasis><sub>1</sub> and <
         <m:mo>–</m:mo><m:mn>1</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     <m:mo>)</m:mo></m:mrow><m:msup>
      <m:mrow>
@@ -348,30 +346,30 @@ are the sample means. <emphasis effect="italics">μ</emphasis><sub>1</sub> and <
            </m:mrow>
            <m:mn>2</m:mn>
           </m:msup>
-
+          
          </m:mrow>
          <m:mrow>
           <m:msub>
            <m:mi>n</m:mi>
            <m:mn>2</m:mn>
           </m:msub>
-
+          
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
-</m:math></equation></para><para id="element-316">When both sample sizes <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasis effect="italics">n</emphasis><sub>2</sub> are five or larger, the Student's <emphasis effect="italics">t</emphasis> approximation is very good. Notice that the sample variances (<emphasis effect="italics">s</emphasis><sub>1</sub>)<sup>2</sup> and (<emphasis effect="italics">s</emphasis><sub>2</sub>)<sup>2</sup> are not pooled. (If the question comes up, do not pool the variances.)</para>
-<note id="fs-idm74088160"><label/><title>NOTE</title><para id="fs-idm378573120">It is not necessary to compute this by hand. A calculator or computer easily computes it.</para></note>
-<example id="element-208">
+</m:math></equation></para><para id="element-316">When both sample sizes <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasis effect="italics">n</emphasis><sub>2</sub> are five or larger, the Student's <emphasis effect="italics">t</emphasis> approximation is very good. Notice that the sample variances (<emphasis effect="italics">s</emphasis><sub>1</sub>)<sup>2</sup> and (<emphasis effect="italics">s</emphasis><sub>2</sub>)<sup>2</sup> are not pooled. (If the question comes up, do not pool the variances.)
+<note id="fs-idm74088160" class="finger"><label>NOTE</label>It is not necessary to compute this by hand. A calculator or computer easily computes it.</note>
+</para><example id="element-208">
 <title>Independent groups</title>
   <para id="element-687">The average amount of time boys and girls aged seven to 11 spend playing sports each day is believed to be the same. A study is done and data are collected, resulting in the data in <link target-id="uid888"/>. Each populations has a normal distribution.</para>
 
@@ -410,8 +408,8 @@ are the sample means. <emphasis effect="italics">μ</emphasis><sub>1</sub> and <
 <para id="element-939">Is there a difference in the mean amount of time boys and girls aged seven to 11 play sports each day? Test at the 5% level of significance.</para></problem>
 <solution id="id21329984">
   <para id="element-296"><emphasis>The population standard deviations are not known.</emphasis> Let <emphasis effect="italics">g</emphasis> be the subscript for girls and <emphasis effect="italics">b</emphasis> be the subscript for boys. Then, <emphasis effect="italics">μ<sub>g</sub></emphasis> is the population mean for girls and <emphasis effect="italics">μ<sub>b</sub></emphasis> is the population mean for boys. This is a test of two <emphasis>independent groups</emphasis>, two population <emphasis>means</emphasis>.</para>
-<para id="element-221"><term id="term-00003">Random variable</term>:
-  <m:math>
+<para id="element-221"><term>Random variable</term>:
+  <m:math display="">
  <m:mrow>
   <m:msub>
    <m:mrow>
@@ -419,7 +417,7 @@ are the sample means. <emphasis effect="italics">μ</emphasis><sub>1</sub> and <
      <m:mi>X</m:mi>
      <m:mo stretchy="true">¯</m:mo>
     </m:mover>
-
+    
    </m:mrow>
    <m:mi>g</m:mi>
   </m:msub>
@@ -429,11 +427,11 @@ are the sample means. <emphasis effect="italics">μ</emphasis><sub>1</sub> and <
      <m:mi>X</m:mi>
      <m:mo stretchy="true">¯</m:mo>
     </m:mover>
-
+    
    </m:mrow>
    <m:mi>b</m:mi>
   </m:msub>
-
+  
  </m:mrow>
 </m:math>
  = difference in the sample mean amount of time girls and boys play sports each day.
@@ -448,7 +446,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
 <para id="element-573"><emphasis>Calculate the <emphasis effect="italics">p</emphasis>-value using a Student's <emphasis effect="italics">t</emphasis>-distribution:</emphasis> <emphasis effect="italics">p</emphasis>-value = 0.0054</para><para id="element-90"><emphasis>Graph:</emphasis></para>
 <para id="element-210">
   <figure id="hyptest22_cmp1"><media id="id18963169" alt="This is a normal distribution curve representing the difference in the average amount of time girls and boys play sports all day. The mean is equal to zero, and the values -1.2, 0, and 1.2 are labeled on the horizontal axis. Two vertical lines extend from -1.2 and 1.2 to the curve. The region to the left of x = -1.2 and the region to the right of x = 1.2 are shaded to represent the p-value. The area of each region is 0.0028.">
-<image mime-type="image/jpg" src="../../media/fig-ch10_02_01-219d.jpg" width="380"/>
+<image mime-type="image/jpg" src="../../media/fig-ch10_02_01.jpg" width="380"/>
 </media>
 </figure></para>
 
@@ -463,7 +461,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
           <m:mn>0.866</m:mn>
         </m:mrow>
 
-
+      
     </m:mrow>
   </m:math>
 <newline/><m:math>
@@ -482,7 +480,7 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
     <m:mi>x</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mi>g</m:mi>
   </m:msub>
   <m:mo>–</m:mo><m:msub>
@@ -490,13 +488,13 @@ Use <emphasis effect="italics">t<sub>df</sub></emphasis> where <emphasis effect=
     <m:mi>x</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mi>b</m:mi>
   </m:msub>
-
+  
  </m:mrow>
 </m:math> = 2 – 3.2 = –1.2
-<newline/>Half the <emphasis effect="italics">p</emphasis>-value is below –1.2 and half is above 1.2.</para><para id="element-823"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> > <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>0</sub></emphasis>. This means you reject <emphasis effect="italics">μ<sub>g</sub></emphasis> = <emphasis effect="italics">μ<sub>b</sub></emphasis>. The means are different.</para>
+<newline/>Half the <emphasis effect="italics">p</emphasis>-value is below –1.2 and half is above 1.2.</para><para id="element-823"><emphasis>Make a decision:</emphasis> Since <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value, reject <emphasis effect="italics">H<sub>0</sub></emphasis>. This means you reject <emphasis effect="italics">μ<sub>g</sub></emphasis> = <emphasis effect="italics">μ<sub>b</sub></emphasis>. The means are different.</para>
 
 <note id="fs-idp61535456" class="statistics calculator">
 <label/>
@@ -552,6 +550,9 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
 </table>
 
 </problem>
+<solution id="fs-idm123264336">
+<para id="fs-idm106908640">The <emphasis effect="italics">p</emphasis>-value is 0.4125, which is much higher than 0.05, so we decline to reject the null hypothesis. There is not sufficient evidence to conclude that the means of the two populations are not the same.</para>
+</solution>
 </exercise>
 
 </note>
@@ -559,7 +560,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
 <note id="fs-idm50414208">
 <label/>
 <title>NOTE</title>
-<para id="fs-idm204425680">When the sum of the sample sizes is larger than 30 (<emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> > 30) you can use the normal distribution to approximate the Student's <emphasis effect="italics">t</emphasis>.</para></note>
+<para id="fs-idm204425680">When the sum of the sample sizes is larger than 30 (<emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> &gt; 30) you can use the normal distribution to approximate the Student's <emphasis effect="italics">t</emphasis>.</para></note>
 
 <example id="element-968"><para id="element-980">A study is done by a community group in two neighboring colleges to determine which one graduates students with more math classes. College A samples 11 graduates. Their average is four math classes with a standard deviation of 1.5 math classes. College B samples nine graduates. Their average is 3.5 math classes with a standard deviation of one math class. The community group believes that a student who graduates from college A <emphasis>has taken more math classes,</emphasis> on the average. Both populations have a normal distribution. Test at a 1% significance level. Answer the following questions.<newline count="2"/></para><exercise id="fs-idm178911728"><problem id="fs-idm177203296">
 <para id="fs-idm171395200">a. Is this a test of two means or two proportions?</para>
@@ -638,7 +639,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
         <m:mi>μ</m:mi>
         <m:mi>A</m:mi>
       </m:msub>
-      <m:mo>></m:mo><m:msub>
+      <m:mo>&gt;</m:mo><m:msub>
         <m:mi>μ</m:mi>
         <m:mi>B</m:mi>
       </m:msub>
@@ -650,7 +651,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
 <exercise id="fs-idm39370224">
 <problem id="fs-idm154517184">
 <para id="fs-idm154517056">f. Is this test right-, left-, or two-tailed?</para></problem>
-<solution id="fs-idm168558752"><para id="fs-idm168558624">f.
+<solution id="fs-idm168558752"><para id="fs-idm168558624">f. 
 <figure id="eip-idm29208032">
   <media id="eip-idm4786768" alt="This is a normal distribution curve with mean equal to 0. A vertical line near the tail of the curve to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded.">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M02_001anno.jpg" width="380"/>
@@ -683,7 +684,13 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <item>Conduct an appropriate hypothesis test. At the 5% significance level, what is your conclusion?</item>
 </list>
 </problem>
-</exercise></note><example id="fs-idm22935408">
+<solution id="eip-idp205575392">
+    <list id="fs-idp102022016" list-type="enumerated" number-style="lower-alpha">
+    <item>They are unknown.</item>
+  <item>The <emphasis effect="italics">p</emphasis>-value = 0.0878. At the 5% level of significance, there is insufficient evidence to conclude that the workers of Company A stay longer with the company.</item>
+    </list>
+
+</solution></exercise></note><example id="fs-idm22935408">
 
 <para id="fs-idm10086800">A professor at a large community college wanted to determine whether there is a difference in the means of final exam scores between students who took his statistics course online and the students who took his face-to-face statistics class.  He believed that the mean of the final exam scores for the online class would be lower than that of the face-to-face class.  Was the professor correct? The randomly selected 30 final exam scores from each group are listed in <link target-id="fs-idm34056944"/> and <link target-id="fs-idm124378288"/>.</para>
 
@@ -702,7 +709,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
 <entry>94.1</entry>
 <entry>64.7</entry>
 <entry>64.7</entry>
-</row>
+</row>    
 <row>
 <entry>70.6</entry>
 <entry>38.2</entry>
@@ -794,7 +801,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
 <para id="fs-idp169691824">(See the conclusion in <link target-id="element-968"/>, and write yours in a similar fashion)</para>
 
 <note id="fs-idm11616112" class="statistics calculator"><label/>
-<para id="fs-idm206958928">First put the data for each group into two lists (such as L1 and L2). Press STAT. Arrow over to TESTS and press 4:2SampTTest. Make sure Data is highlighted and press ENTER. Arrow down and enter L1 for the first list and L2 for the second list. Arrow down to <emphasis effect="italics">μ</emphasis><sub>1</sub>: and arrow to &lt; <emphasis effect="italics">μ</emphasis><sub>2</sub> (less than). Press ENTER. Arrow down to Pooled: No. Press ENTER. Arrow down to Calculate and press ENTER.</para>
+<para id="fs-idm206958928">First put the data for each group into two lists (such as L1 and L2). Press STAT. Arrow over to TESTS and press 4:2SampTTest. Make sure Data is highlighted and press ENTER. Arrow down and enter L1 for the first list and L2 for the second list. Arrow down to <emphasis effect="italics">μ</emphasis><sub>1</sub>: and arrow to ≠ <emphasis effect="italics">μ</emphasis><sub>2</sub> (does not equal). Press ENTER. Arrow down to Pooled: No. Press ENTER. Arrow down to Calculate and press ENTER.</para>
 </note><note id="fs-idm107478368"><label/><title>Note</title>
 <para id="fs-idm218153776">Be careful not to mix up the information for Group 1 and Group 2!</para>
 </note></problem>
@@ -810,7 +817,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>1</m:mn>
   </m:msub>
   <m:mo>–</m:mo><m:msub>
@@ -818,10 +825,10 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>2</m:mn>
   </m:msub>
-
+  
  </m:mrow>
 </m:math></item>
     <item><list id="fs-idm109578096" list-type="enumerated">
@@ -829,13 +836,13 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
       <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ<sub>1</sub></emphasis> &lt; <emphasis effect="italics">μ<sub>2</sub></emphasis> Alternative hypothesis: the mean of the final exam scores of the online class is less than the mean of the final exam scores of the face-to-face class.</item>
     </list>
     </item>
-
+    
     <item>left-tailed</item>
     <item><emphasis effect="italics">p</emphasis>-value = 0.0011
       <figure id="fs-idm98197120"><media id="fs-idp598000" alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.0011.">
       <image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M02_002annoN.jpg" width="380"/>
     </media>
-    </figure></item>
+    </figure></item> 
     <item>Reject the null hypothesis</item>
 
    <item>The professor was correct. The evidence shows that the mean of the final exam scores for the online class is lower than that of the face-to-face class.
@@ -845,7 +852,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
 </solution>
 </exercise>
 </example>
-<para id="eip-358"><title>Cohen's Standards for Small, Medium, and Large Effect Sizes</title><term id="term-00004">Cohen's <emphasis effect="italics">d</emphasis></term> is a measure of effect size based on the differences between two means. Cohen’s <emphasis effect="italics">d</emphasis>, named for United States statistician Jacob Cohen, measures the relative strength of the differences between the means of two populations based on sample data. The calculated value of effect size is then compared to Cohen’s standards of small, medium, and large effect sizes.</para><table id="fs-idp93235584" summary="">
+<para id="eip-358"><title>Cohen's Standards for Small, Medium, and Large Effect Sizes</title><term>Cohen's <emphasis effect="italics">d</emphasis></term> is a measure of effect size based on the differences between two means. Cohen’s <emphasis effect="italics">d</emphasis>, named for United States statistician Jacob Cohen, measures the relative strength of the differences between the means of two populations based on sample data. The calculated value of effect size is then compared to Cohen’s standards of small, medium, and large effect sizes.</para><table id="fs-idp93235584" summary="">
 <title>Cohen's Standard Effect Sizes</title>
 <tgroup cols="2">
 <thead>
@@ -966,7 +973,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
   </solution>
 </exercise>
 </example>
-
+  
 <example id="fs-idm112602048">
 <exercise id="fs-idm163588752">
 <problem id="fs-idm118829104"><para id="fs-idm174261728">Calculate Cohen’s <emphasis effect="italics">d</emphasis> for <link target-id="fs-idm22935408"/>. Is the size of the effect small, medium or large? Explain what the size of the effect means for this problem.</para></problem>
@@ -1078,12 +1085,54 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
 <item>At the ___ level of significance, from the sample data, there ______ (is/is not) sufficient evidence to conclude that ______.</item>
 <item>Calculate Cohen’s <emphasis effect="italics">d</emphasis> and interpret it.</item>
 </list></problem>
+  <solution id="fs-idm22340832">
+    <list id="fs-idp226249440" list-type="enumerated" number-style="lower-alpha"><item>two means</item>
+    <item>unknown</item>
+    <item>Student’s-t</item>
+      <item><m:math display="">
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+   
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mtext> - </m:mtext><m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+   
+   <m:mn>2</m:mn>
+  </m:msub>
+  
+ </m:mrow>
+</m:math>
+</item>
+    
+      <item><list id="fs-idm100282880" list-type="enumerated"><item><emphasis effect="italics">H</emphasis><sub>0</sub> : <emphasis effect="italics">μ</emphasis><sub>1</sub> = <emphasis effect="italics">μ</emphasis><sub>2</sub> Null hypothesis: the means of the weighted alphas are equal.</item>
+        <item><emphasis effect="italics">H</emphasis><sub>a</sub> :  <emphasis effect="italics">μ</emphasis><sub>1</sub> ≠ <emphasis effect="italics">μ</emphasis><sub>2</sub> Alternative hypothesis : the means of the weighted alphas are not equal.</item>
+      </list></item> 
+      <item>two-tailed</item>
+    <item><emphasis effect="italics">p</emphasis>-value = 0.8787</item>
+      <item>Do not reject the null hypothesis</item>
+    <item>This indicates that the trends in stocks are about the same in the top 30 banks in each region.
+      <figure id="fs-idm124645072"><media id="fs-idm240435584" alt="This is a normal distribution curve with mean equal to zero. Both the right and left tails of the curve are shaded. Each tail represents 1/2(p-value) = 0.4394.">
+      <image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M02_003annoN.jpg" width="380"/>
+    </media>
+      </figure><emphasis effect="underline">5%</emphasis> level of significance, from the sample data, there <emphasis effect="underline">is not</emphasis> sufficient evidence to conclude that <emphasis effect="underline">the mean weighted alphas for the banks in the northeast and the west are different</emphasis>
+    </item>
+     <item><emphasis effect="italics">d</emphasis> = 0.040, Very small, because 0.040 is less than Cohen’s value of 0.2 for small effect size.  The size of the difference of the means of the weighted alphas for the two regions of banks is small indicating that there is not a significant difference between their trends in stocks.</item>
+    </list></solution>
+  
 </exercise>
 </note>
 
 <section id="eip-137" class="references">
 <title>References</title>
-<para id="eip-204">Data from Graduating Engineer + Computer Careers. Available online at http://www.graduatingengineer.com</para><para id="fs-idp6735712">Data from <emphasis effect="italics">Microsoft Bookshelf</emphasis>.</para><para id="fs-idm54110288">Data from the United States Senate website, available online at www.Senate.gov (accessed June 17, 2013).</para>
+<para id="eip-204">Data from Graduating Engineer + Computer Careers. Available online at http://www.graduatingengineer.com</para><para id="fs-idp6735712">Data from <emphasis effect="italics">Microsoft Bookshelf</emphasis>.</para><para id="fs-idm54110288">Data from the United States Senate website, available online at www.Senate.gov (accessed June 17, 2013).</para> 
 <para id="fs-idp26924704">“List of current United States Senators by Age.” Wikipedia. Available online at http://en.wikipedia.org/wiki/List_of_current_United_States_Senators_by_age (accessed June 17, 2013).</para>
 
 <para id="fs-idp67778720">“Sectoring by Industry Groups.” Nasdaq. Available online at http://www.nasdaq.com/markets/barchart-sectors.aspx?page=sectors&amp;base=industry (accessed June 17, 2013).</para>
@@ -1101,7 +1150,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>1</m:mn>
   </m:msub>
   <m:mo>−</m:mo><m:msub>
@@ -1109,10 +1158,10 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>2</m:mn>
   </m:msub>
-
+  
  </m:mrow>
 </m:math> = the difference of the sampling means</item>
 <item>Distribution: Student's <emphasis effect="italics">t</emphasis>-distribution with degrees of freedom (variances not pooled)</item>
@@ -1135,14 +1184,14 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
                 </m:mrow>
                 <m:mn>2</m:mn>
               </m:msup>
-
+              
             </m:mrow>
             <m:mrow>
               <m:msub>
                 <m:mi>n</m:mi>
                 <m:mn>1</m:mn>
               </m:msub>
-
+              
             </m:mrow>
           </m:mfrac>
           <m:mo>+</m:mo><m:mfrac>
@@ -1157,20 +1206,20 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
                 </m:mrow>
                 <m:mn>2</m:mn>
               </m:msup>
-
+              
             </m:mrow>
             <m:mrow>
               <m:msub>
                 <m:mi>n</m:mi>
                 <m:mn>2</m:mn>
               </m:msub>
-
+              
             </m:mrow>
           </m:mfrac>
-
+          
         </m:mrow>
       </m:msqrt>
-
+      
     </m:mrow>
   </m:math>
     </para>
@@ -1183,7 +1232,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
      </m:mover>
-
+     
      <m:mn>1</m:mn>
     </m:msub>
     <m:mo>−</m:mo><m:msub>
@@ -1191,7 +1240,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
      </m:mover>
-
+     
      <m:mn>2</m:mn>
     </m:msub>
     <m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:msub>
@@ -1219,14 +1268,14 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
          </m:mrow>
          <m:mn>2</m:mn>
         </m:msup>
-
+        
        </m:mrow>
        <m:mrow>
         <m:msub>
          <m:mi>n</m:mi>
          <m:mn>1</m:mn>
         </m:msub>
-
+        
        </m:mrow>
       </m:mfrac>
       <m:mo>+</m:mo><m:mfrac>
@@ -1241,23 +1290,23 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
          </m:mrow>
          <m:mn>2</m:mn>
         </m:msup>
-
+        
        </m:mrow>
        <m:mrow>
         <m:msub>
          <m:mi>n</m:mi>
          <m:mn>2</m:mn>
         </m:msub>
-
+        
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para><para id="fs-idm96358640">Degrees of freedom:<newline/>
@@ -1281,14 +1330,14 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
            </m:mrow>
            <m:mn>2</m:mn>
           </m:msup>
-
+          
          </m:mrow>
          <m:mrow>
           <m:msub>
            <m:mi>n</m:mi>
            <m:mn>1</m:mn>
           </m:msub>
-
+          
          </m:mrow>
         </m:mfrac>
         <m:mo>+</m:mo><m:mo> </m:mo><m:mfrac>
@@ -1303,23 +1352,23 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
            </m:mrow>
            <m:mn>2</m:mn>
           </m:msup>
-
+          
          </m:mrow>
          <m:mrow>
           <m:msub>
            <m:mi>n</m:mi>
            <m:mn>2</m:mn>
           </m:msub>
-
+          
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
    <m:mrow>
     <m:mrow><m:mo>(</m:mo>
@@ -1334,7 +1383,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
         <m:mo>−</m:mo><m:mn>1</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     <m:mo>)</m:mo></m:mrow><m:msup>
      <m:mrow>
@@ -1354,10 +1403,10 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
            <m:mi>n</m:mi>
            <m:mn>1</m:mn>
           </m:msub>
-
+          
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -1375,7 +1424,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
         <m:mo>−</m:mo><m:mn>1</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     <m:mo>)</m:mo></m:mrow><m:msup>
      <m:mrow>
@@ -1393,26 +1442,26 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
            </m:mrow>
            <m:mn>2</m:mn>
           </m:msup>
-
+          
          </m:mrow>
          <m:mrow>
           <m:msub>
            <m:mi>n</m:mi>
            <m:mn>2</m:mn>
           </m:msub>
-
+          
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></para><para id="fs-idm98284352">where:</para>
 <para id="fs-idm92032864"><emphasis effect="italics">s</emphasis><sub>1</sub> and <emphasis effect="italics">s</emphasis><sub>2</sub> are the sample standard deviations, and <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasis effect="italics">n</emphasis><sub>2</sub> are the sample sizes.</para>
@@ -1447,7 +1496,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
      </m:mover>
-
+     
      <m:mn>1</m:mn>
     </m:msub>
     <m:mo>−</m:mo><m:msub>
@@ -1455,10 +1504,10 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
      </m:mover>
-
+     
      <m:mn>2</m:mn>
     </m:msub>
-
+    
    </m:mrow>
    <m:mrow>
     <m:msub>
@@ -1467,10 +1516,10 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
       <m:mi>p</m:mi><m:mi>o</m:mi><m:mi>o</m:mi><m:mi>l</m:mi><m:mi>e</m:mi><m:mi>d</m:mi>
      </m:mrow>
     </m:msub>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 
@@ -1504,7 +1553,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
        <m:mn>2</m:mn>
        <m:mn>2</m:mn>
       </m:msubsup>
-
+      
      </m:mrow>
      <m:mrow>
       <m:msub>
@@ -1518,10 +1567,10 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
       <m:mo>−</m:mo><m:mn>2</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math></para></section>
 
@@ -1662,7 +1711,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
 </problem>
 </exercise>
 
- <para id="eip-356"><emphasis effect="italics">Use the following information to answer the next 12 exercises:</emphasis> The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people.</para><exercise id="fs-idm77134224">
+ <para id="eip-356"><emphasis effect="italics">Use the following information to answer the next 12 exercises:</emphasis> The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for whites born in 1900 and 33.0 years for nonwhites. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 whites, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 nonwhites, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for whites and nonwhites.</para><exercise id="fs-idm77134224">
 <problem id="fs-idm77133968">
 <para id="fs-idm82811296">Is this a test of means or proportions?</para>
 </problem>
@@ -1701,7 +1750,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
 <para id="fs-idm147821728">In words, define the random variable of interest for this test.</para>
 </problem>
 <solution id="fs-idm2327840">
-<para id="fs-idm2327584">the difference between the mean life spans of White and non-White people</para>
+<para id="fs-idm2327584">the difference between the mean life spans of whites and nonwhites</para>
 </solution>
 </exercise>
 
@@ -1752,7 +1801,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
   <list id="fs-idp229240368" list-type="enumerated" number-style="lower-alpha">
     <item>Reject the null hypothesis</item>
       <item><emphasis effect="italics">p</emphasis>-value &lt; 0.05</item>
-      <item>There is not enough evidence at the 5% level of significance to support the claim that life expectancy in the 1900s is different between White and non-White people.</item>
+      <item>There is not enough evidence at the 5% level of significance to support the claim that life expectancy in the 1900s is different between whites and nonwhites.</item>
   </list>
   </solution>
 </exercise>
@@ -1787,7 +1836,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>1</m:mn>
   </m:msub>
   <m:mo>–</m:mo><m:msub>
@@ -1795,13 +1844,13 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>2</m:mn>
   </m:msub>
-
+  
  </m:mrow>
 </m:math> is the difference between the mean enrollments of the two-year colleges and the four-year colleges.</item>
-    <item>Student’s-<emphasis effect="italics">t</emphasis></item>
+    <item>Student’s-<emphasis effect="italics">t</emphasis></item> 
     <item>test statistic: -0.2480</item>
     <item><emphasis effect="italics">p</emphasis>-value: 0.4019</item>
     <item>Check student’s solution.</item>
@@ -1809,7 +1858,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
       <list id="fs-idp113692848" list-type="enumerated" number-style="lower-roman">
         <item>Alpha: 0.05</item>
         <item>Decision: Do not reject</item>
-        <item>Reason for Decision: <emphasis effect="italics">p</emphasis>-value > alpha</item>
+        <item>Reason for Decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</item>
         <item>Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean enrollment at four-year colleges is higher than at two-year colleges.</item>
       </list>
     </item>
@@ -1883,7 +1932,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>1</m:mn>
   </m:msub>
   <m:mo>−</m:mo><m:msub>
@@ -1891,10 +1940,10 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>2</m:mn>
   </m:msub>
-
+  
  </m:mrow>
 </m:math> is the difference between the mean entry level salaries of mechanical engineers and electrical engineers.</item>
     <item><emphasis effect="italics">t</emphasis><sub>108</sub></item>
@@ -1905,21 +1954,21 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <list id="fs-idp3469344" list-type="enumerated" number-style="lower-roman">
       <item>Alpha: 0.05</item>
       <item>Decision: Do not reject the null hypothesis.</item>
-      <item>Reason for Decision: <emphasis effect="italics">p</emphasis>-value > alpha</item>
+      <item>Reason for Decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</item>
       <item>Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the mean entry-level salaries of mechanical engineers is lower than that of electrical engineers.</item>
     </list>
     </item>
   </list></solution>
 </exercise>
-
+  
 
  <exercise id="fs-idm62206688">
 <problem id="fs-idm62206432">
 <para id="fs-idm105723088">Marketing companies have collected data implying that teenage girls use more ring tones on their cellular phones than teenage boys do. In one particular study of 40 randomly chosen teenage girls and boys (20 of each) with cellular phones, the mean number of ring tones for the girls was 3.2 with a standard deviation of 1.5. The mean for the boys was 1.7 with a standard deviation of 0.8. Conduct a hypothesis test to determine if the means are approximately the same or if the girls’ mean is higher than the boys’ mean.</para>
 </problem>
   </exercise>
-
-
+ 
+ 
 <para id="eip-21"><emphasis effect="italics">Use the information from <link document="m47873"/> to answer the next four exercises.</emphasis></para><exercise id="fs-idm50796704">
 <problem id="fs-idm50796448">
 <para id="fs-idm98236496">Using the data from Lap 1 only, conduct a hypothesis test to determine if the mean time for completing a lap in races is the same as it is in practices.</para>
@@ -1934,7 +1983,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>1</m:mn>
   </m:msub>
   <m:mo>−</m:mo><m:msub>
@@ -1942,10 +1991,10 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <m:mi>X</m:mi>
     <m:mo>¯</m:mo>
    </m:mover>
-
+   
    <m:mn>2</m:mn>
   </m:msub>
-
+  
  </m:mrow>
 </m:math> is the difference between the mean times for completing a lap in races and in practices.</item>
       <item><emphasis effect="italics">t</emphasis><sub>20.32</sub></item>
@@ -2065,23 +2114,42 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
     <item>There is insufficient evidence to conclude that there is a significant difference between the means of the statistics day students and night students on Exam 2.</item>
     <item>There is sufficient evidence to conclude that there is a significant difference between the means of the statistics day students and night students on Exam 2.</item>
   </list>
-
+  
 </problem>
   </exercise>
 
 <exercise id="fs-idm81478720">
       <problem id="fs-idp12884432">
-        <para id="fs-idp12884688">Elijah wants to know whether textbook costs are different for different courses of study. He selects a random sample of 33 sociology textbooks offered on a popular online site. The mean price of his sample is $74.64 with a standard deviation of $49.36. He then selects a random sample of 33 math and science textbooks from the same site. The mean price of this sample is $111.56 with a standard deviation of $66.90. Is the mean price of a sociology textbook lower than the mean price of a math or science textbook? Test at a 1% significance level.</para></problem>
+        <para id="fs-idp12884688">Researchers interviewed street prostitutes in Canada and the United States. The mean age of the 100 Canadian prostitutes upon entering prostitution was 18 with a standard deviation of six. The mean age of the 130 United States prostitutes upon entering prostitution was 20 with a standard deviation of eight. Is the mean age of entering prostitution in Canada lower than the mean age in the United States? Test at a 1% significance level.</para></problem>
       <solution id="fs-idm189266736">
         <para id="fs-idm189266480">Test: two independent sample means, population standard deviations unknown.</para>
-        <para id="fs-idm7792944"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub></m:math> = the the mean price of a sociology text on the selected site.</para>
-        <para id="fs-idm77929441"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math> = the mean price of a math/science text on the selected site.</para>
-        <para id="fs-idm77929442">Random variable: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mover><m:msub><m:mi>X</m:mi><m:mn>1</m:mn></m:msub><m:mo>¯</m:mo></m:mover><m:mo>-</m:mo><m:mover><m:msub><m:mi>X</m:mi><m:mn>1</m:mn></m:msub><m:mo>¯</m:mo></m:mover></m:math> = the difference in the sample mean textbook price between sociology texts and math/science texts.</para>
-        <para id="fs-idm77929443">Hypotheses: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo> </m:mo><m:mo>:</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo> </m:mo><m:mo>:</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub><m:mo> </m:mo><m:mo>-</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mo> </m:mo><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:math> which can be expressed as <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi mathvariant="normal">H</m:mi><m:mn>0</m:mn><m:mi mathvariant="normal">s</m:mi><m:mo>:</m:mo><m:mo> </m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>1</m:mn><m:mo>-</m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>2</m:mn><m:mo>,</m:mo><m:mo> </m:mo><m:mi>Ha</m:mi><m:mo> </m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>1</m:mn><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mo> </m:mo><m:mi mathvariant="normal">μ</m:mi><m:mn>2</m:mn></m:math>.</para>
-        <para id="fs-idm77929444">Distribution for the test: Use <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>t</m:mi><m:mrow><m:mi>d</m:mi><m:mi>f</m:mi></m:mrow></m:msub></m:math>; because each sample has more than 30 observations, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>33</m:mn><m:mo>+</m:mo><m:mn>33</m:mn><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>64</m:mn></m:math>.</para>
-        <para id="fs-idm77929445">Estimate the critical value on the <m:math><m:mi>t</m:mi></m:math>-table using the nearest available degrees of freedom, 60. The critical value, 2.660, is found in the .0005 column. </para>
-        <para id="fs-idm77929446">Calculate the test statistic: <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:msub><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mn>2</m:mn></m:msub><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>0</m:mn></m:mrow><m:msqrt><m:mstyle displaystyle="true"><m:mfrac><m:msup><m:msub><m:mi>s</m:mi><m:mn>1</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle displaystyle="true"><m:mfrac><m:msup><m:msub><m:mi>s</m:mi><m:mn>2</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub></m:mfrac></m:mstyle></m:msqrt></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>74</m:mn><m:mo>.</m:mo><m:mn>64</m:mn><m:mo>-</m:mo><m:mn>111</m:mn><m:mo>.</m:mo><m:mn>56</m:mn><m:mo>)</m:mo><m:mo>-</m:mo><m:mn>0</m:mn></m:mrow><m:msqrt><m:mstyle displaystyle="true"><m:mfrac><m:mrow><m:mn>49</m:mn><m:mo>.</m:mo><m:msup><m:mn>36</m:mn><m:mn>2</m:mn></m:msup></m:mrow><m:mn>33</m:mn></m:mfrac></m:mstyle><m:mo>+</m:mo><m:mstyle displaystyle="true"><m:mfrac><m:mrow><m:mn>66</m:mn><m:mo>.</m:mo><m:msup><m:mn>90</m:mn><m:mn>2</m:mn></m:msup></m:mrow><m:mn>33</m:mn></m:mfrac></m:mstyle></m:msqrt></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>55</m:mn></m:math>.</para>
-        <para id="fs-idm77929447">Using a calculator with <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>55</m:mn></m:math> and <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mi>d</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>64</m:mn></m:math>, the left-tailed <m:math><m:mi>p</m:mi></m:math>-value: Decision: Reject <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub></m:math>. Conclusion: At the 1% level of significance, from the sample data, there is sufficient evidence to conclude that the mean price of sociology textbooks is less than the mean price of textbooks for math/science.</para>
+        <para id="fs-idm7792944">Random variable: <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+   
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mover accent="true">
+    <m:mi>X</m:mi>
+    <m:mo>¯</m:mo>
+   </m:mover>
+   
+   <m:mn>2</m:mn>
+  </m:msub>
+  
+ </m:mrow>
+</m:math></para>
+
+<para id="fs-idm96995296">Distribution: <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> = <emphasis effect="italics">μ</emphasis><sub>2</sub> <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis><sub>1</sub> &lt; <emphasis effect="italics">μ</emphasis><sub>2</sub> The mean age of entering prostitution in Canada is lower than the mean age in the United States.</para><figure id="fs-idm122708400"><media id="fs-idm5558192" alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.0157.">
+          <image mime-type="image/jpg" src="../../media/CNX_Stats_C10_M02_005anno.jpg" width="380"/>
+        </media>
+        </figure><para id="fs-idm95276832">Graph: left-tailed</para>
+        <para id="fs-idm5467280"><emphasis effect="italics">p</emphasis>-value : 0.0151</para><para id="fs-idm171100928">Decision: Do not reject <emphasis effect="italics">H</emphasis><sub>0</sub>.</para><para id="fs-idm125542800">Conclusion: At the 1% level of significance, from the sample data, there is not sufficient evidence to conclude that the mean age of entering prostitution in Canada is lower than the mean age in the United States.</para>
       </solution>
     </exercise>
 
@@ -2090,13 +2158,13 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
         <para id="fs-idp44866512">A powder diet is tested on 49 people, and a liquid diet is tested on 36 different people. Of interest is whether the liquid diet yields a higher mean weight loss than the powder diet. The powder diet group had a mean weight loss of 42 pounds with a standard deviation of 12 pounds. The liquid diet group had a mean weight loss of 45 pounds with a standard deviation of 14 pounds.</para>
       </problem>
     </exercise>
-
+    
     <exercise id="eip-17">
       <problem id="eip-334">
         <para id="eip-853">Suppose a statistics instructor believes that there is no significant difference between the mean class scores of statistics day students on Exam 2 and statistics night students on Exam 2. She takes random samples from each of the populations. The mean and standard deviation for 35 statistics day students were 75.86 and 16.91, respectively. The mean and standard deviation for 37 statistics night students were 75.41 and 19.73. The “day” subscript refers to the statistics day students. The “night” subscript refers to the statistics night students. An appropriate alternative hypothesis for the hypothesis test is:</para>
 
         <list id="eip-idp47881856" list-type="enumerated" number-style="lower-alpha">
-          <item><emphasis effect="italics">μ</emphasis><sub>day</sub> > <emphasis effect="italics">μ</emphasis><sub>night</sub></item>
+          <item><emphasis effect="italics">μ</emphasis><sub>day</sub> &gt; <emphasis effect="italics">μ</emphasis><sub>night</sub></item>
           <item><emphasis effect="italics">μ</emphasis><sub>day</sub> &lt; <emphasis effect="italics">μ</emphasis><sub>night</sub></item>
           <item><emphasis effect="italics">μ</emphasis><sub>day</sub> = <emphasis effect="italics">μ</emphasis><sub>night</sub></item>
           <item><emphasis effect="italics">μ</emphasis><sub>day</sub> ≠ <emphasis effect="italics">μ</emphasis><sub>night</sub></item>
@@ -2104,9 +2172,9 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
       </problem>
       <solution id="eip-605"><para id="eip-279">d</para></solution>
     </exercise>
-
+  
 </section>
- </content>
+</content>
 
 
 <glossary>
@@ -2120,7 +2188,7 @@ second sample mean, <code>1</code> for Sx2, and <code>16</code> for n2. Arrow do
 </definition>
 <definition id="variable">
 <term>Variable (Random Variable)</term>
-<meaning id="id1167450448490">a characteristic of interest in a population being studied. Common notation for variables are upper-case Latin letters <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">Y</emphasis>, <emphasis effect="italics">Z</emphasis>,...  Common notation for a specific value from the domain (set of all possible values of a variable) are lower-case Latin letters <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>, <emphasis effect="italics">z</emphasis>,.... For example, if <emphasis effect="italics">X</emphasis> is the number of children in a family, then <emphasis effect="italics">x</emphasis> represents a specific integer 0, 1, 2, 3, .... Variables in statistics differ from variables in intermediate algebra in the two following ways.
+<meaning id="id1167450448490">a characteristic of interest in a population being studied. Common notation for variables are upper-case Latin letters <emphasis effect="italics">X</emphasis>, <emphasis effect="italics">Y</emphasis>, <emphasis effect="italics">Z</emphasis>,...  Common notation for a specific value from the domain (set of all possible values of a variable) are lower-case Latin letters <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>, <emphasis effect="italics">z</emphasis>,.... For example, if <emphasis effect="italics">X</emphasis> is the number of children in a family, then <emphasis effect="italics">x</emphasis> represents a specific integer 0, 1, 2, 3, .... Variables in statistics differ from variables in intermediate algebra in two following ways. 
     <list id="fs-idp40452080" list-type="bulleted">
       <item>The domain of the random variable (RV) is not necessarily a numerical set; the domain may be expressed in words; for example, if <emphasis effect="italics">X</emphasis> = hair color, then the domain is {black, blond, gray, green, orange}.</item>
     <item> We can tell what specific value <emphasis effect="italics">x</emphasis> of the random variable <emphasis effect="italics">X</emphasis> takes only after performing the experiment.</item>

@@ -12,7 +12,7 @@
 
 <para id="element-12498">Suppose you want to estimate, or predict, the mean final exam score of statistics students who received 73 on the third exam. The exam scores <emphasis>(<emphasis effect="italics">x</emphasis>-values)</emphasis> range from 65 to 75. <emphasis> Since 73 is between the <emphasis effect="italics">x</emphasis>-values 65 and 75</emphasis>, substitute <emphasis effect="italics">x</emphasis> = 73 into the equation. Then:</para>
 
-<equation class="unnumbered" id="element-735"><label/><m:math>
+<equation id="element-735"><m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>y</m:mi>
@@ -28,13 +28,21 @@
 <example id="element-438">
 <para id="element-546">Recall the <link document="m47117" target-id="element-22">third exam/final exam example</link>.<newline count="2"/></para><exercise id="element-770">
 <problem id="id1170592391444">
-  <para id="element-464">a. What would you predict the final exam score to be for a student who scored a 66 on the third exam?  </para>
+  <para id="element-464">a. What would you predict the final exam score to be for a student who scored a 66 on the third exam?  </para></problem>
+
+<solution id="id1170583280560">
+  <para id="element-444">a. 145.27<newline count="2"/></para></solution>
+</exercise>
+
+
+<exercise id="element-844">
+<problem id="id1170601334360">
   <para id="element-306">b. What would you predict the final exam score to be for a student who scored a 90 on the third exam?
   </para></problem>
-<solution id="id1170583280560">
-  <para id="element-444">a. 145.27</para>
+
+<solution id="id3981938" print-placement="end">
   <para id="element-380">b. The <emphasis effect="italics">x</emphasis> values in the data are between 65 and 75. Ninety is outside of the domain of the observed <emphasis effect="italics">x</emphasis> values in the data (independent variable), so you cannot reliably predict the final exam score for this student. (Even though it is possible to enter 90 into the equation for <emphasis effect="italics">x</emphasis> and calculate a corresponding <emphasis effect="italics">y</emphasis> value, the <emphasis effect="italics">y</emphasis> value that you get will not be reliable.)
-<newline/>
+<newline/><newline/>
 
 To understand really how unreliable the prediction can be outside of the observed <emphasis effect="italics">x</emphasis> values observed in the data, make the substitution <emphasis effect="italics">x</emphasis> = 90 into the equation.
 <newline/><newline/>
@@ -57,7 +65,7 @@ To understand really how unreliable the prediction can be outside of the observe
 The final-exam score is predicted to be 261.19.  The largest the final-exam score can be is 200.
 <newline/>
 <note id="eip-id1168998191288"><label/><title>Note</title>
-<para id="eip-idp117960960">The process of predicting inside of the observed <emphasis effect="italics">x</emphasis> values observed in the data is called <term id="term-00001">interpolation</term>. The process of predicting outside of the observed <emphasis effect="italics">x</emphasis> values observed in the data is called <term id="term-00002">extrapolation</term>.</para></note></para></solution>
+<para id="eip-idp117960960">The process of predicting inside of the observed <emphasis effect="italics">x</emphasis> values observed in the data is called <term>interpolation</term>. The process of predicting outside of the observed <emphasis effect="italics">x</emphasis> values observed in the data is called <term>extrapolation</term>.</para></note></para></solution>
 </exercise>
 </example>
 
@@ -69,6 +77,9 @@ The final-exam score is predicted to be 261.19.  The largest the final-exam scor
   <para id="eip-244">Data are collected on the relationship between the number of hours per week practicing a musical instrument and scores on a math test. The line of best fit is as follows:</para>
 <para id="eip-idp180607312"><emphasis effect="italics">ŷ</emphasis> = 72.5 + 2.8<emphasis effect="italics">x</emphasis>
 <newline/>What would you predict the score on a math test would be for a student who practices a musical instrument for five hours a week?</para></problem>
+
+<solution id="eip-397">
+  <para id="eip-214">86.5</para></solution>
 </exercise>
 </note>
 
@@ -262,7 +273,7 @@ How many hours will it take to mow all of the lawns? (When is <emphasis effect="
             </entry>
           </row>
         </tbody>
-
+      
 
 
 </tgroup>
@@ -302,7 +313,7 @@ How many hours will it take to mow all of the lawns? (When is <emphasis effect="
 <problem id="fs-idp87495152">
 <para id="fs-idp59562368">What does the correlation imply about the relationship between time (years) and the number of diagnosed flu cases reported in the U.S.?</para></problem>
 <solution id="fs-idp63232128">
-<para id="fs-idm19062048">Also, the correlation <emphasis effect="italics">r</emphasis> = 0.4526.  If <emphasis effect="italics">r</emphasis> is compared to the value in the 95% Critical Values of the Sample Correlation Coefficient Table, because <emphasis effect="italics">r</emphasis> > 0.423, <emphasis effect="italics">r</emphasis> is significant, and you would think that the line could be used for prediction. But the scatter plot indicates otherwise.</para></solution>
+<para id="fs-idm19062048">Also, the correlation <emphasis effect="italics">r</emphasis> = 0.4526.  If <emphasis effect="italics">r</emphasis> is compared to the value in the 95% Critical Values of the Sample Correlation Coefficient Table, because <emphasis effect="italics">r</emphasis> &gt; 0.423, <emphasis effect="italics">r</emphasis> is significant, and you would think that the line could be used for prediction. But the scatter plot indicates otherwise.</para></solution>
 </exercise>
 
 
@@ -328,7 +339,7 @@ How many hours will it take to mow all of the lawns? (When is <emphasis effect="
   <m:mi>y</m:mi>
   <m:mo>^</m:mo>
  </m:mover>
-</m:math> = –3,448,225 + 1750<emphasis effect="italics">x</emphasis></para></solution>
+</m:math> = 3,448,225 + 1750<emphasis effect="italics">x</emphasis></para></solution>
 </exercise>
 
 <exercise id="element-593"><problem id="id3281976">
@@ -368,7 +379,7 @@ How many hours will it take to mow all of the lawns? (When is <emphasis effect="
 <colspec colnum="2" colname="c2"/>
 <thead>
 <row>
-<entry/>
+<entry/> 
 <entry>Coefficients</entry>
 </row>
 </thead>
@@ -389,7 +400,7 @@ How many hours will it take to mow all of the lawns? (When is <emphasis effect="
 <para id="element-50234233422">Find the correlation coefficient.</para>
 <list id="list-234" list-type="enumerated" number-style="lower-alpha"><item>correlation = _____</item>
 </list>
-</problem></exercise></section>
+</problem></exercise></section> 
 
 
 <section id="fs-idp66999104" class="free-response"><title>Homework</title><exercise id="element-401"><problem id="id44884447">
@@ -683,7 +694,7 @@ How many hours will it take to mow all of the lawns? (When is <emphasis effect="
           </row>
 
         </tbody>
-
+      
 </tgroup>
 </table>
 <list id="element-81" list-type="enumerated" number-style="lower-alpha">
@@ -796,7 +807,7 @@ How many hours will it take to mow all of the lawns? (When is <emphasis effect="
             <entry>65,499</entry>
           </row>
         </tbody>
-
+      
 </tgroup>
 </table>
   <para id="element-336">We are interested in whether or not the number of letters in a state name depends upon the year the state entered the Union.</para>
@@ -821,5 +832,5 @@ How many hours will it take to mow all of the lawns? (When is <emphasis effect="
 <item>No, the relationship does not appear to be linear; the correlation is not significant.</item>
 
 </list></solution>
-</exercise></section> </content>
+</exercise></section></content>
 </document>

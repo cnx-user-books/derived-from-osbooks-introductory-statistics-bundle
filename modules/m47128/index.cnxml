@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="me001">The distribution used for the hypothesis test is a new one. It is called the <term id="term-00001"><emphasis effect="italics">F</emphasis> distribution</term>, named after Sir Ronald Fisher, an English statistician. The <emphasis effect="italics">F</emphasis> statistic is a ratio (a fraction). There are two sets of degrees of freedom; one for the numerator and one for the denominator.</para>
+<para id="me001">The distribution used for the hypothesis test is a new one. It is called the <term><emphasis effect="italics">F</emphasis> distribution</term>, named after Sir Ronald Fisher, an English statistician. The <emphasis effect="italics">F</emphasis> statistic is a ratio (a fraction). There are two sets of degrees of freedom; one for the numerator and one for the denominator.</para>
 
 <para id="element-674">For example, if <emphasis effect="italics">F</emphasis> follows an <emphasis effect="italics">F</emphasis> distribution and the number of degrees of freedom for the numerator is four, and the number of degrees of freedom for the denominator is ten, then <emphasis effect="italics">F</emphasis> ~ <emphasis effect="italics">F<sub>4,10</sub></emphasis>.</para>
 
@@ -17,21 +17,21 @@
 <title>Note</title>
 <para id="eip-idm170830672">The <emphasis effect="italics">F</emphasis> distribution is derived from the Student's t-distribution. The values of the <emphasis effect="italics">F</emphasis> distribution are squares of the corresponding values of the <emphasis effect="italics">t</emphasis>-distribution. One-Way ANOVA expands the <emphasis effect="italics">t</emphasis>-test for comparing more than two groups. The scope of that derivation is beyond the level of this course. It is preferable to use ANOVA when there are more than two groups instead of performing pairwise <emphasis effect="italics">t</emphasis>-tests because performing multiple tests introduces the likelihood of making a Type 1 error.</para></note>
 
-<para id="element-967">To calculate the <term id="term-00002"><emphasis effect="italics">F</emphasis> ratio</term>, two estimates of the variance are made.</para>
+<para id="element-967">To calculate the <term><emphasis effect="italics">F</emphasis> ratio</term>, two estimates of the variance are made.</para>
 
 <list id="element-236" list-type="enumerated">
-<item><term id="term-00003">Variance between samples</term><emphasis>:</emphasis> An estimate of <emphasis effect="italics">σ</emphasis><sup>2</sup> that is the variance of the sample means multiplied by <emphasis effect="italics">n</emphasis> (when the sample sizes are the same.). If the samples are different sizes, the variance between samples is weighted to account for the different sample sizes. The variance is also called <emphasis>variation due to treatment or explained variation.</emphasis></item>
-<item><term id="term-00004">Variance within samples</term><emphasis>:</emphasis> An estimate of <emphasis effect="italics">σ</emphasis><sup>2</sup> that is the average of the sample variances (also known as a pooled variance). When the sample sizes are different, the variance within samples is weighted. The variance is also called the <emphasis>variation due to error or unexplained variation.</emphasis></item>
+<item><term>Variance between samples</term><emphasis>:</emphasis> An estimate of <emphasis effect="italics">σ</emphasis><sup>2</sup> that is the variance of the sample means multiplied by <emphasis effect="italics">n</emphasis> (when the sample sizes are the same.). If the samples are different sizes, the variance between samples is weighted to account for the different sample sizes. The variance is also called <emphasis>variation due to treatment or explained variation.</emphasis></item>
+<item><term>Variance within samples</term><emphasis>:</emphasis> An estimate of <emphasis effect="italics">σ</emphasis><sup>2</sup> that is the average of the sample variances (also known as a pooled variance). When the sample sizes are different, the variance within samples is weighted. The variance is also called the <emphasis>variation due to error or unexplained variation.</emphasis></item>
 </list>
 
 <list id="eip-197">
-<item><emphasis effect="italics">SS</emphasis><sub>between</sub> = the <term id="term-00005">sum of squares</term> that represents the variation among the different samples</item>
+<item><emphasis effect="italics">SS</emphasis><sub>between</sub> = the <term>sum of squares</term> that represents the variation among the different samples</item>
 <item><emphasis effect="italics">SS</emphasis><sub>within</sub> = the sum of squares that represents the variation within samples that is due to chance.</item>
 </list>
 
 <para id="eip-668">To find a "sum of squares" means to add together squared quantities that, in some
 cases, may be weighted. We used sum of squares to calculate the sample variance and
-the sample standard deviation in <link document="m46925">Descriptive Statistics</link>.</para><para id="eip-39"><emphasis effect="italics">MS</emphasis> means "<term id="term-00006">mean square</term>." <emphasis effect="italics">MS</emphasis><sub>between</sub> is the variance between groups, and <emphasis effect="italics">MS</emphasis><sub>within</sub> is the variance within groups.</para>
+the sample standard deviation in <link document="m46925">Descriptive Statistics</link>.</para><para id="eip-39"><emphasis effect="italics">MS</emphasis> means "<term>mean square</term>." <emphasis effect="italics">MS</emphasis><sub>between</sub> is the variance between groups, and <emphasis effect="italics">MS</emphasis><sub>within</sub> is the variance within groups.</para>
 
 <para id="eip-12"><emphasis>Calculation of Sum of Squares and Mean Square</emphasis>
 <list id="eip-idm81361504" list-type="bulleted"><item><emphasis effect="italics">k</emphasis> = the number of different groups</item>
@@ -62,7 +62,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 
 </m:mrow>
-</m:math>
+</m:math> 
 </item>
 <item>Total sum of squares: ∑<emphasis effect="italics">x</emphasis><sup>2</sup> –  <m:math>
 <m:mrow>
@@ -84,7 +84,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 
 </m:mrow>
-</m:math>
+</m:math> 
 </item>
 <item>Explained variation: sum of squares representing variation among the different samples: <emphasis effect="italics">SS</emphasis><sub>between</sub> =  <m:math>
 <m:mrow>
@@ -129,7 +129,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 
 </m:mrow>
-</m:math>
+</m:math> 
 </item>
 
 <item>Unexplained variation: sum of squares representing variation within samples due to chance:  <m:math>
@@ -301,7 +301,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 
 </m:mrow>
-</m:math>
+</m:math> 
 </item>
 </list>
 <para id="element-138">The one-way ANOVA test depends on the fact that <emphasis effect="italics">MS</emphasis><sub>between</sub> can be influenced by population differences among means of the several groups. Since <emphasis effect="italics">MS</emphasis><sub>within</sub> compares values of each group to its own group mean, the fact that group means might be different does not affect <emphasis effect="italics">MS</emphasis><sub>within</sub>.</para>
@@ -337,7 +337,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 
 </m:mrow>
-</m:math>
+</m:math> 
 </para>
 <para id="element-712">If <emphasis effect="italics">MS</emphasis><sub>between</sub> and <emphasis effect="italics">MS</emphasis><sub>within</sub> estimate the same value (following the belief that <emphasis effect="italics">H<sub>0</sub></emphasis> is true), then the <emphasis effect="italics">F</emphasis>-ratio should be approximately equal to one. Mostly, just sampling errors would contribute to variations away from one. As it turns out, <emphasis effect="italics">MS</emphasis><sub>between</sub> consists of the population variance plus a variance produced from the differences between the samples. <emphasis effect="italics">MS</emphasis><sub>within</sub> is an estimate of the population variance. Since variances are always positive, if the null hypothesis is false, <emphasis effect="italics">MS</emphasis><sub>between</sub> will generally be larger than <emphasis effect="italics">MS</emphasis><sub>within</sub>.Then the <emphasis effect="italics">F</emphasis>-ratio will be larger than one. However, if the population effect is small, it is not unlikely that <emphasis effect="italics">MS</emphasis><sub>within</sub> will be larger in a given sample.</para>
 <para id="eip-611">The foregoing calculations were done with groups of different sizes. If the groups are the same size, the calculations simplify somewhat and the <emphasis effect="italics">F</emphasis>-ratio can be written as:</para>
@@ -435,7 +435,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 <entry align="center"><emphasis effect="italics">SS</emphasis>(Error)</entry>
 <entry align="center"><emphasis effect="italics">n</emphasis> – <emphasis effect="italics">k</emphasis></entry>
 <entry align="center"><emphasis effect="italics">MS</emphasis>(Error) = <emphasis effect="italics">SS</emphasis>(Error)/(<emphasis effect="italics">n</emphasis> – <emphasis effect="italics">k</emphasis>)</entry>
-<entry align="center"/>
+<entry align="center"/>   
 </row>
 <row>
 <entry align="center">Total</entry>
@@ -456,7 +456,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 <row>
 <entry>Plan 1: <emphasis effect="italics">n</emphasis><sub>1</sub> = 4</entry>
 <entry>Plan 2: <emphasis effect="italics">n</emphasis><sub>2</sub> = 3</entry>
-<entry>Plan 3: <emphasis effect="italics">n</emphasis><sub>3</sub> = 3</entry>
+<entry>Plan 3: <emphasis effect="italics">n</emphasis><sub>3</sub> = 3</entry> 
 </row>
 </thead>
 <tbody>
@@ -485,7 +485,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </table>
 
 <para id="fs-idp93901056"><emphasis effect="italics">s</emphasis><sub>1</sub> = 16.5, <emphasis effect="italics">s</emphasis><sub>2</sub> =15, <emphasis effect="italics">s</emphasis><sub>3</sub> = 15.5</para><para id="fs-idp76691888">Following are the calculations needed to fill in the one-way ANOVA table. The table is used to conduct a hypothesis test.</para>
-<equation class="unnumbered" id="fs-idp76692400"><label/> <m:math>
+<equation id="fs-idp76692400"> <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>e</m:mi><m:mi>t</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>∑</m:mo><m:mrow><m:mo>[</m:mo> <m:mrow>
 <m:mfrac>
@@ -535,9 +535,9 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 
 </m:mrow>
-</m:math>
+</m:math> 
 </equation>
-<equation class="unnumbered" id="fs-idm399264"><label/>
+<equation id="fs-idm399264">
  <m:math>
 <m:mrow>
 <m:mo>=</m:mo><m:mo> </m:mo><m:mfrac>
@@ -605,11 +605,10 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 
 </m:mrow>
-</m:math>
+</m:math> 
 </equation>
 
-<para id="eip-idp15158384">where <emphasis effect="italics">n</emphasis><sub>1</sub> = 4, <emphasis effect="italics">n</emphasis><sub>2</sub> = 3, <emphasis effect="italics">n</emphasis><sub>3</sub> = 3  and  <emphasis effect="italics">n</emphasis> = <emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> + <emphasis effect="italics">n</emphasis><sub>3</sub> = 10</para>
-<equation class="unnumbered" id="fs-idp1558352"><label/><m:math>
+<para id="eip-idp15158384">where <emphasis effect="italics">n</emphasis><sub>1</sub> = 4, <emphasis effect="italics">n</emphasis><sub>2</sub> = 3, <emphasis effect="italics">n</emphasis><sub>3</sub> = 3  and  <emphasis effect="italics">n</emphasis> = <emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> + <emphasis effect="italics">n</emphasis><sub>3</sub> = 10</para><equation id="fs-idp1558352"><m:math>
 <m:mrow>
 <m:mo> </m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -679,16 +678,16 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 
 </m:mrow>
-</m:math>
-</equation><equation class="unnumbered" id="fs-idp47211392"><label/>
+</m:math> 
+</equation><equation id="fs-idp47211392">
  <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>e</m:mi><m:mi>t</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2.2458</m:mn>
 </m:mrow>
-</m:math>
+</m:math> 
 </equation>
 
-<equation class="unnumbered" id="fs-idm43777664"><label/> <m:math>
+<equation id="fs-idm43777664"> <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mi>o</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>∑</m:mo><m:msup>
 <m:mi>x</m:mi>
@@ -712,8 +711,8 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 
 </m:mrow>
-</m:math>
-</equation><equation class="unnumbered" id="fs-idp28622176"><label/> <m:math>
+</m:math> 
+</equation><equation id="fs-idp28622176"> <m:math>
 <m:mrow>
 <m:mo> </m:mo><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -769,10 +768,10 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math>
+</m:math> 
 </equation>
 
-<equation class="unnumbered" id="fs-idp99714192"><label/> <m:math>
+<equation id="fs-idp99714192"> <m:math>
 <m:mrow>
 <m:mo>−</m:mo><m:mfrac>
 <m:mrow>
@@ -792,7 +791,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mrow>
 </m:math> </equation>
 
-<equation class="unnumbered" id="fs-idp13819792"><label/> <m:math>
+<equation id="fs-idp13819792"> <m:math>
 <m:mrow>
 <m:mo>=</m:mo><m:mn>244</m:mn><m:mo>−</m:mo><m:mfrac>
 <m:mrow>
@@ -810,37 +809,37 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 <m:mo>=</m:mo><m:mn>244</m:mn><m:mo>−</m:mo><m:mn>220.9</m:mn>
 </m:mrow>
-</m:math>
+</m:math> 
 </equation>
 
-<equation class="unnumbered" id="fs-idm45074976"><label/>
+<equation id="fs-idm45074976">
  <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mi>o</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>23.1</m:mn>
 </m:mrow>
 </m:math> </equation>
 
-<equation class="unnumbered" id="fs-idp85849072"><label/>
+<equation id="fs-idp85849072">
  <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>w</m:mi><m:mi>i</m:mi><m:mi>t</m:mi><m:mi>h</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mi>o</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mi>e</m:mi><m:mi>t</m:mi><m:mi>w</m:mi><m:mi>e</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
 </m:mrow>
 </m:math> </equation>
 
-<equation class="unnumbered" id="fs-idp97238064"><label/>
+<equation id="fs-idp97238064">
  <m:math>
 <m:mrow>
 <m:mo>=</m:mo><m:mo> </m:mo><m:mn>23.1</m:mn><m:mo>−</m:mo><m:mn>2.2458</m:mn>
 </m:mrow>
-</m:math>
+</m:math> 
 </equation>
 
-<equation class="unnumbered" id="fs-idp19006144"><label/>
+<equation id="fs-idp19006144">
  <m:math>
 <m:mrow>
 <m:mi>S</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>w</m:mi><m:mi>i</m:mi><m:mi>t</m:mi><m:mi>h</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>20.8542</m:mn>
 </m:mrow>
-</m:math>
+</m:math> 
 </equation>
 
 
@@ -877,7 +876,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 <entry align="center"><emphasis effect="italics">SS</emphasis>(Error) <newline/>= <emphasis effect="italics">SS</emphasis>(Within) <newline/>= 20.8542</entry>
 <entry align="center"><emphasis effect="italics">n</emphasis> – <emphasis effect="italics">k</emphasis> <newline/>= 10 total data – 3 groups <newline/>= 7</entry>
 <entry align="center"><emphasis effect="italics">MS</emphasis>(Error) <newline/>= <emphasis effect="italics">SS</emphasis>(Error)/(<emphasis effect="italics">n</emphasis> – <emphasis effect="italics">k</emphasis>) <newline/>= 20.8542/7 <newline/>= 2.9792</entry>
-<entry align="center"/>
+<entry align="center"/>   
 </row>
 <row>
 <entry align="center">Total</entry>
@@ -890,10 +889,10 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </tbody>
 
 </tgroup>
-</table>
+</table>  
 </example>
 
-<note id="fs-idp19091024" class="statistics try ">
+<note id="fs-idp19091024" class="statistics try finger">
 <label/>
 <title>Try It</title>
 <exercise id="fs-idm48661072">
@@ -927,6 +926,90 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </tgroup>
 </table>
 <para id="fs-idp30767328"><newline/>Create the one-way ANOVA table.</para></problem>
+
+<solution id="fs-idp130292784">
+<label/>
+<para id="fs-idp49360912">Enter the data into lists L1, L2, L3, L4 and L5. Press STAT and arrow over to TESTS. Arrow down to ANOVA. Press ENTER and enter L1, L2, L3, L4, L5). Press ENTER. The table was filled in with the results from the calculator.</para>
+
+
+<para id="fs-idp100345264">One-Way ANOVA table:</para>
+
+<table id="fs-idp5531824" summary="..">
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<colspec colnum="4" colname="c4"/>
+<colspec colnum="5" colname="c5"/>
+<thead>
+<row>
+<entry>Source of Variation</entry>
+<entry>Sum of Squares (<emphasis effect="italics">SS</emphasis>)</entry>
+<entry>Degrees of Freedom (<emphasis effect="italics">df</emphasis>)</entry>
+<entry>Mean Square (<emphasis effect="italics">MS</emphasis>)</entry>
+<entry><emphasis effect="italics">F</emphasis></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>Factor (Between)</entry>
+<entry>36,648,561</entry>
+<entry>5 – 1 = 4</entry>
+<entry> <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>36</m:mn><m:mo>,</m:mo><m:mn>648</m:mn><m:mo>,</m:mo><m:mn>561</m:mn>
+</m:mrow>
+<m:mn>4</m:mn>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>162</m:mn><m:mo>,</m:mo><m:mn>140</m:mn>
+</m:mrow>
+</m:math> 
+</entry>
+<entry> <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>9</m:mn><m:mo>,</m:mo><m:mn>162</m:mn><m:mo>,</m:mo><m:mn>140</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn><m:mo>,</m:mo><m:mn>044</m:mn><m:mo>,</m:mo><m:mn>672.6</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>4.4810</m:mn>
+</m:mrow>
+</m:math> 
+</entry>
+</row>
+<row>
+<entry>Error (Within)</entry>
+<entry>20,446,726</entry>
+<entry>15 – 5 = 10</entry>
+<entry> <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>20</m:mn><m:mo>,</m:mo><m:mn>446</m:mn><m:mo>,</m:mo><m:mn>726</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>10</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>044</m:mn><m:mo>,</m:mo><m:mn>672.6</m:mn>
+</m:mrow>
+</m:math> </entry>
+<entry/>
+</row>
+<row>
+<entry>Total</entry>
+<entry>57,095,287</entry>
+<entry>15 – 1 = 14</entry>
+<entry/>
+<entry/>
+</row>
+</tbody>
+</tgroup>
+</table></solution>
 </exercise>
 </note>
 
@@ -1071,7 +1154,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 
 </m:mrow>
-</m:math>
+</m:math> 
 </para>
 
 <para id="eip-19"> <m:math>
@@ -1206,7 +1289,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:mfrac>
 
 </m:mrow>
-</m:math>
+</m:math> 
 </para><para id="eip-8">Mean of the <emphasis effect="italics">F</emphasis> distribution:  <emphasis effect="italics">µ</emphasis> =  <m:math>
 <m:mrow>
 <m:mfrac>
@@ -1214,7 +1297,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 <m:mi>d</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>u</m:mi><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo>
 </m:mrow>
 <m:mrow>
-<m:mi>d</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mi>o</m:mi><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+<m:mi>d</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mi>o</m:mi><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
 </m:mrow>
 </m:mfrac>
 
@@ -1256,7 +1339,7 @@ the sample standard deviation in <link document="m46925">Descriptive Statistics<
 </m:msub>
 
 </m:mrow>
-</m:math>
+</m:math> 
 = the mean of the sample variances (pooled variance)</item>
 </list></para></section>
 
@@ -1452,13 +1535,13 @@ Suppose that the following data are randomly collected from five teenagers in ea
 </m:mover>
 <m:mo>=</m:mo>
 </m:mrow>
-</m:math>
+</m:math> 
 </entry>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
 </row>
 <row>
 <entry>
@@ -1471,11 +1554,11 @@ Suppose that the following data are randomly collected from five teenagers in ea
 <m:mo>=</m:mo>
 </m:mrow>
 </m:math> </entry>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
-<entry/>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
+<entry>________</entry>
 </row>
 </tbody>
 </tgroup>
@@ -1486,7 +1569,7 @@ Suppose that the following data are randomly collected from five teenagers in ea
 <para id="eip-idp81417168"><emphasis effect="italics">Hα</emphasis>: At least any two of the group means <emphasis effect="italics">µ</emphasis><sub>1</sub>, <emphasis effect="italics">µ</emphasis><sub>2</sub>, …, <emphasis effect="italics">µ</emphasis><sub>5</sub> are not equal.</para>
 
 
-<exercise id="fs-idm50760160"><problem id="id47643237">
+<exercise id="fs-idm50760160"><problem id="id47643237"> 
 <para id="element-341">degrees of freedom – numerator: <emphasis effect="italics">df</emphasis>(<emphasis effect="italics">num</emphasis>) = _________</para></problem></exercise>
 
 <exercise id="fs-idp124948560">
@@ -1501,6 +1584,6 @@ Suppose that the following data are randomly collected from five teenagers in ea
 <para id="element-677"><emphasis effect="italics">F</emphasis> statistic = ________</para></problem>
 </exercise>
 
-</section> </content>
+</section></content>
 
 </document>

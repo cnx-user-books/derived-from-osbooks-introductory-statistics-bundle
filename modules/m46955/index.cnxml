@@ -27,7 +27,7 @@
 
 <para id="introch04">A student takes a ten-question, true-false quiz. Because the student had such a busy schedule, he or she could not study and guesses randomly at each answer. What is the probability of the student passing the test with at least a 70%?</para><para id="element-804">Small companies might be interested in the number of long-distance phone calls their employees make during the peak time of the day. Suppose the average is 20 calls. What is the probability that the employees make more than 20 long-distance phone calls during the peak time?</para>
 
-<para id="element-919">These two examples illustrate two different types of probability problems involving discrete random variables. Recall that discrete data are data that you can count. A <term id="term-00001">random variable</term> describes the outcomes of a statistical experiment in words. The values of a random variable can vary with each repetition of an experiment.</para>
+<para id="element-919">These two examples illustrate two different types of probability problems involving discrete random variables. Recall that discrete data are data that you can count. A <term>random variable</term> describes the outcomes of a statistical experiment in words. The values of a random variable can vary with each repetition of an experiment.</para>
 
 
 <section id="randvarnot">
@@ -38,7 +38,7 @@
 
 <note id="fs-idp37582368" class="statistics collab">
 <label/>
- 
+<title>Collaborative Exercise</title>
 <para id="element-607">Toss a coin ten times and record the number of heads. After all members of the class have completed the experiment (tossed a coin ten times and counted the number of heads), fill in <link target-id="M01_Ch04_tbl001" document=""/>. Let <emphasis effect="italics">X</emphasis> = the number of heads in ten tosses of the coin.</para>
 
 <table id="M01_Ch04_tbl001" summary="Table showing x, frequency of x and relative frequency of x. x = the number of heads in 10 tosses of a fair coin.">
@@ -88,7 +88,7 @@
 <item>If you tossed the coin 1,000 times, what values could <emphasis effect="italics">x</emphasis> take on? Which value(s) of <emphasis effect="italics">x</emphasis> do you think would occur most frequently?</item>
 <item>What does the relative frequency column sum to?</item>
 </list></note>
-   </content>
+  </content>
   
 
 <glossary>
