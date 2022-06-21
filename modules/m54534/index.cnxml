@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="eip-125">The sampling distribution is a theoretical distribution. It is created by taking many samples of size n from a population. Each sample mean is then treated like a single observation of this new distribution, the sampling distribution. The genius of thinking this way is that it recognizes that when we sample we are creating an observation and that observation must come from some particular distribution. The Central Limit Theorem answers the question: from what distribution did a sample mean come? If this is discovered, then we can treat a sample mean just like any other observation and calculate probabilities about what values it might take on. We have effectively moved from the world of statistics where we know only what we have from the sample, to the world of probability where we know the distribution from which the sample mean came and the parameters of that distribution. </para><para id="eip-663">The reasons that one samples a population are obvious. The time and expense of checking every invoice to determine its validity or every shipment to see if it contains all the items may well exceed the cost of errors in billing or shipping. For some products, sampling would require destroying them, called destructive sampling. One such example is measuring the ability of a metal to withstand saltwater corrosion for parts on ocean going vessels.</para><para id="eip-500">Sampling thus raises an important question; just which sample was drawn. Even if the sample were randomly drawn, there are theoretically an almost infinite number of samples. With just 100 items, there are more than 75 million unique samples of size five that can be drawn. If six are in the sample, the number of possible samples increases to just more than one billion.  Of the 75 million possible samples, then, which one did you get? If there is variation in the items to be sampled, there will be variation in the samples. One could draw an "unlucky" sample and make very wrong conclusions concerning the population. This recognition that any sample we draw is really only one from a distribution of samples provides us with what is probably the single most important theorem is statistics: <term id="term-00001">the Central Limit Theorem</term>. Without the Central Limit Theorem it would be impossible to proceed to inferential statistics from simple probability theory. In its most basic form, the Central Limit Theorem states that <emphasis effect="bold">regardless</emphasis> of the underlying probability density function of the population data, the theoretical distribution of the means of samples from the population will be normally distributed. In essence, this says that the mean of a sample should be treated like an observation drawn from a normal distribution. The Central Limit Theorem only holds if the sample size is "large enough" which has been shown to be only 30 observations or more. </para><para id="eip-143"><link target-id="fs-id7367289"/> graphically displays this very important proposition. </para><figure id="fs-id7367289"><media id="fs-id1166512578484" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch07_01_01n.jpg" width="420"/></media></figure><para id="eip-30">Notice that the horizontal axis in the top panel is labeled X. These are the individual observations of the population. This is the <emphasis effect="bold">unknown</emphasis> distribution of the population values. The graph is purposefully drawn all squiggly to show that it does not matter just how odd ball it really is. Remember, we will never know what this distribution looks like, or its mean or standard deviation for that matter.</para><para id="eip-184">The horizontal axis in the bottom panel is labeled <m:math>
+<para id="eip-125">The sampling distribution is a theoretical distribution. It is created by taking many many samples of size n from a population. Each sample mean is then treated like a single observation of this new distribution, the sampling distribution. The genius of thinking this way is that it recognizes that when we sample we are creating an observation and that observation must come from some particular distribution. The Central Limit Theorem answers the question: from what distribution did a sample mean come? If this is discovered, then we can treat a sample mean just like any other observation and calculate probabilities about what values it might take on. We have effectively moved from the world of statistics where we know only what we have from the sample, to the world of probability where we know the distribution from which the sample mean came and the parameters of that distribution. </para><para id="eip-663">The reasons that one samples a population are obvious. The time and expense of checking every invoice to determine its validity or every shipment to see if it contains all the items may well exceed the cost of errors in billing or shipping. For some products, sampling would require destroying them, called destructive sampling. One such example is measuring the ability of a metal to withstand saltwater corrosion for parts on ocean going vessels.</para><para id="eip-500">Sampling thus raises an important question; just which sample was drawn. Even if the sample were randomly drawn, there are theoretically an almost infinite number of samples. With just 100 items, there are more than 75 million unique samples of size five that can be drawn. If six are in the sample, the number of possible samples increases to just more than one billion.  Of the 75 million possible samples, then, which one did you get? If there is variation in the items to be sampled, there will be variation in the samples. One could draw an "unlucky" sample and make very wrong conclusions concerning the population. This recognition that any sample we draw is really only one from a distribution of samples provides us with what is probably the single most important theorem is statistics: <term>the Central Limit Theorem</term>. Without the Central Limit Theorem it would be impossible to proceed to inferential statistics from simple probability theory. In its most basic form, the Central Limit Theorem states that <emphasis effect="bold">regardless</emphasis> of the underlying probability density function of the population data, the theoretical distribution of the means of samples from the population will be normally distributed. In essence, this says that the mean of a sample should be treated like an observation drawn from a normal distribution. The Central Limit Theorem only holds if the sample size is "large enough" which has been shown to be only 30 observations or more. </para><para id="eip-143"><link target-id="fs-id7367289"/> graphically displays this very important proposition. </para><figure id="fs-id7367289"><media id="fs-id1166512578484" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch07_01_01n.jpg" width="420"/></media></figure><para id="eip-30">Notice that the horizontal axis in the top panel is labeled X. These are the individual observations of the population. This is the <emphasis effect="bold">unknown</emphasis> distribution of the population values. The graph is purposefully drawn all squiggly to show that it does not matter just how odd ball it really is. Remember, we will never know what this distribution looks like, or its mean or standard deviation for that matter.</para><para id="eip-184">The horizontal axis in the bottom panel is labeled <m:math>
 <m:mover><m:mi>X</m:mi><m:mo>–</m:mo>
 </m:mover>
 </m:math>'s.  This is the theoretical distribution called the sampling distribution of the means. Each observation on this distribution is a sample mean. All these sample means were calculated from individual samples with the same sample size.  The theoretical sampling distribution contains all of the sample mean values from all the possible samples that could have been taken from the population. Of course, no one would ever actually take all of these samples, but if they did this is how they would look. And the Central Limit Theorem says that they will be normally distributed.</para><para id="eip-665">The Central Limit Theorem goes even further and tells us the mean and standard deviation of this theoretical distribution. </para><table id="eip-121" summary="Table">
@@ -29,14 +29,14 @@
   <row>
     <entry>Mean</entry>
     <entry>μ</entry>
-    <entry><m:math><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:math></entry>
-    <entry><m:math><m:msub><m:mi>μ</m:mi><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:msub><m:mspace width="1em"/><m:mtext>and E</m:mtext><m:mo>(</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:msub><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>μ</m:mi></m:math></entry>
+    <entry><m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math></entry>
+    <entry><m:math><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mspace width="1em"/><m:mtext>and E</m:mtext><m:mo>(</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>μ</m:mi></m:math></entry>
   </row>
   <row>
     <entry>Standard deviation</entry>
     <entry>σ</entry>
     <entry>s</entry>
-    <entry><m:math><m:msub><m:mi>σ</m:mi><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi></m:mrow><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac></m:math></entry>
+    <entry><m:math><m:msub><m:mi>σ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>σ</m:mi></m:mrow><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac></m:math></entry>
   </row>
 </tbody>
 
@@ -67,7 +67,7 @@
 <m:mo>–</m:mo>
 </m:mover>
 </m:math>, in just the same way as we did for drawing specific observations, X's, when we knew the population mean and standard deviation and that the population data were normally distributed.. The standardizing formula has to be amended to recognize that the mean and standard deviation of the sampling distribution, sometimes, called the standard error of the mean, are different from those of the population distribution, but otherwise nothing has changed. The new standardizing formula is
-</para><para id="eip-584"><equation class="unnumbered" id="eip-id1167359909290"><label/><m:math display="block">
+</para><para id="eip-584"><equation id="eip-id1167359909290"><m:math display="block">
 <m:mrow>
 <m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -212,8 +212,8 @@
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
-<m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:msub></m:math></para><para id="fs-idp59416400">Central Limit Theorem for Sample Means z-score <m:math>
+ 
+<m:mo>:</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub></m:math></para><para id="fs-idp59416400">Central Limit Theorem for Sample Means z-score <m:math>
 <m:mrow>
 <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -221,7 +221,7 @@
 <m:mi>x</m:mi>
 <m:mo>–</m:mo>
 </m:mover>
-<m:mo>−</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow></m:msub>
+<m:mo>−</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow></m:msub>
 </m:mrow>
 <m:mrow>
 <m:mrow><m:mo>(</m:mo>
@@ -248,26 +248,26 @@
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math>)): <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
-
+   
      <m:mi>σ</m:mi>
-
-
+     
+    
    </m:mrow>
    <m:mrow>
     <m:msqrt>
      <m:mi>n</m:mi>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
-</m:math></para><para id="eip-69">Finite Population Correction Factor for the sampling distribution of means: <m:math><m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>·</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>N</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:mrow></m:mfrac></m:math></para><para id="eip-225">Finite Population Correction Factor for the sampling distribution of proportions: <m:math><m:msub><m:mi>σ</m:mi><m:mi>p'</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:msqrt><m:mo>×</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>N</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math></para></section>
+</m:math></para><para id="eip-69">Finite Population Correction Factor for the sampling distribution of means: <m:math><m:mi>Z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:mi>μ</m:mi></m:mrow><m:mrow><m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>·</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>N</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:mrow></m:mfrac></m:math></para><para id="eip-225">Finite Population Correction Factor for the sampling distribution of proportions: <m:math><m:msub><m:mi>σ</m:mi><m:mi>p'</m:mi></m:msub><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:msqrt><m:mo>×</m:mo><m:msqrt><m:mfrac><m:mrow><m:mi>N</m:mi><m:mo>−</m:mo><m:mi>n</m:mi></m:mrow><m:mrow><m:mi>N</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math></para></section>
 
 
 <section id="fs-idp66376176" class="free-response">
@@ -283,7 +283,7 @@
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> = ____________</item>
 <item><m:math>
 <m:mover>
@@ -355,10 +355,10 @@
         <m:mn>49</m:mn>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -375,14 +375,14 @@
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> = _____________</item>
 <item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ _____(_____,_____)</item>
 <item>Would you be surprised if the 36 taxpayers finished their Form 1040s in an average of more than 12 hours? Explain why or why not in complete sentences.</item>
 <item>Would you be surprised if one taxpayer finished his or her Form 1040 in more than 12 hours? In a complete sentence, explain why.</item></list></problem>
@@ -397,7 +397,7 @@
      <m:mn>1</m:mn>
      <m:mn>3</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -421,7 +421,7 @@
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ _____(_____,_____)</item>
 <item>Find the probability that the runner will average between 142 and 146 minutes in these 49 marathons.</item>
 <item>Find the 80<sup>th</sup> percentile for the average of these 49 marathons.</item>
@@ -443,10 +443,10 @@
         <m:mn>49</m:mn>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -464,14 +464,14 @@
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> = _____________</item>
 <item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ _____(_____,_____)</item>
 <item>Find the first quartile for the average song length.</item>
 <item>The IQR(interquartile range) for the average song length is from _______–_______.</item></list></problem>
@@ -494,14 +494,14 @@
   <m:mi>X</m:mi>
   <m:mo>-</m:mo>
  </m:mover>
-
+ 
 </m:math> = _____________</item>
 <item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ _____(_____,_____)</item>
 <item>The IQR for <m:math>
 <m:mover accent="true">
@@ -548,7 +548,7 @@
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> is approximately equal to the mean of <emphasis effect="italics">Χ</emphasis>.</item>
 <item>When the sample size is large, <m:math>
 <m:mover accent="true">
@@ -606,10 +606,10 @@
         <m:mn>16</m:mn>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -628,14 +628,14 @@
   <m:mi>X</m:mi>
   <m:mo>-</m:mo>
  </m:mover>
-
+ 
 </m:math> = _____________</item>
 <item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>-</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ _____(_____,_____)</item>
 <item>How is it possible for the standard deviation to be greater than the average?</item>
 <item>Why is it more likely that the average of the 1,000 residents will be from $2,000 to $2,100 than from $2,100 to $2,200?</item></list></problem>
@@ -647,7 +647,7 @@
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> ∼ <emphasis effect="italics">N</emphasis><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -662,10 +662,10 @@
         <m:mtext>1000</m:mtext>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -706,14 +706,14 @@
   <m:mi>X</m:mi>
   <m:mo>-</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ <emphasis effect="italics">N</emphasis>(4.59, 0.10)</item>
 <item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>-</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -728,10 +728,10 @@
         <m:mn>16</m:mn>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -741,7 +741,7 @@
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -754,7 +754,7 @@
       <m:mn>0.10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -764,7 +764,7 @@
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -781,7 +781,7 @@
       <m:mn>0.10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -795,7 +795,7 @@
 </section>
 
 
- </content>
+</content>
 
 <glossary>
   <definition id="average">
@@ -809,13 +809,13 @@
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math>. If the size (<emphasis effect="italics">n</emphasis>) of the sample is sufficiently large, then <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">μ</emphasis>, <m:math>
  <m:mrow>
   <m:mfrac>
@@ -824,10 +824,10 @@
     <m:msqrt>
      <m:mi>n</m:mi>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>). If the size (<emphasis effect="italics">n</emphasis>) of the sample is sufficiently large, then the distribution of the sample means will approximate a normal distributions regardless of the shape of the population. The mean of the sample  means will equal the population mean. The standard deviation of the distribution of the sample means, <m:math>
  <m:mrow>
@@ -837,10 +837,10 @@
     <m:msqrt>
      <m:mi>n</m:mi>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, is called the standard error of the mean.</meaning>
   </definition>

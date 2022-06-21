@@ -12,7 +12,7 @@
     <list id="element-381" list-type="enumerated"><item>The two independent samples are random samples that are independent.</item>
 <item> The number of successes is at least five, and the number of failures is at least five, for each of the samples.</item>
 <item>Growing literature states that the population must be at least ten or even perhaps 20 times the size of the sample. This keeps each population from being over-sampled and causing biased results.</item>
-</list><para id="eip-8888">Comparing two proportions, like comparing two means, is common. If two estimated proportions are different, it may be due to a difference in the populations or it may be due to chance in the sampling. A hypothesis test can help determine if a difference in the estimated proportions reflects a difference in the two population proportions.</para><para id="fs-idm58849136">Like the case of differences in sample means, we construct a sampling distribution for differences in sample proportions: <m:math><m:mo>(</m:mo><m:msubsup><m:mi>p</m:mi><m:mi>A</m:mi><m:mo>'</m:mo></m:msubsup><m:mo>-</m:mo><m:msubsup><m:mi>p</m:mi><m:mi>B</m:mi><m:mo>'</m:mo></m:msubsup><m:mo>)</m:mo></m:math>where <m:math><m:msubsup>
+</list><para id="delete_me">Comparing two proportions, like comparing two means, is common. If two estimated proportions are different, it may be due to a difference in the populations or it may be due to chance in the sampling. A hypothesis test can help determine if a difference in the estimated proportions reflects a difference in the two population proportions.</para><para id="fs-idm58849136">Like the case of differences in sample means, we construct a sampling distribution for differences in sample proportions: <m:math><m:mo>(</m:mo><m:msubsup><m:mi>p</m:mi><m:mi>A</m:mi><m:mo>'</m:mo></m:msubsup><m:mo>-</m:mo><m:msubsup><m:mi>p</m:mi><m:mi>B</m:mi><m:mo>'</m:mo></m:msubsup><m:mo>)</m:mo></m:math>where <m:math><m:msubsup>
 <m:mi>p</m:mi>
 <m:mi>A</m:mi>
 <m:mo>'</m:mo>
@@ -52,23 +52,23 @@
 </m:mrow>
 </m:mfrac>
 </m:msub>
-</m:math> are the sample proportions for the two sets of data in question.  X<sub>A</sub> and X<sub>B</sub> are the number of successes in each sample group respectively, and n<sub>A</sub> and n<sub>B</sub> are the respective sample sizes from the two groups. Again we go the Central Limit theorem to find the distribution of this sampling distribution for the differences in sample proportions. And again we find that this sampling distribution, like the ones past, are normally distributed as proved by the Central Limit Theorem, as seen in <link target-id="fs-id1171052108018"/> .</para><figure id="fs-id1171052108018"><media id="fs-id1171049570695" alt=""><image src="../../media/fig-ch10_01_02.jpg" mime-type="image/png"/></media></figure><para id="eip-50">Generally, the null hypothesis allows for the test of a difference of a particular value, 𝛿<sub>0</sub>, just as we did for the case of differences in means.</para><equation id="eip-671" class="unnumbered"><label/><m:math>
+</m:math> are the sample proportions for the two sets of data in question.  X<sub>A</sub> and X<sub>B</sub> are the number of successes in each sample group respectively, and n<sub>A</sub> and n<sub>B</sub> are the respective sample sizes from the two groups. Again we go the Central Limit theorem to find the distribution of this sampling distribution for the differences in sample proportions. And again we find that this sampling distribution, like the ones past, are normally distributed as proved by the Central Limit Theorem, as seen in <link target-id="fs-id1171052108018"/> .</para><figure id="fs-id1171052108018"><media id="fs-id1171049570695" alt=""><image src="../../media/fig-ch10_01_02.jpg" mime-type="image/png"/></media></figure><para id="eip-50">Generally, the null hypothesis allows for the test of a difference of a particular value, 𝛿<sub>0</sub>, just as we did for the case of differences in means.</para><equation id="eip-671"><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
-<m:mo>:</m:mo>
+<m:mo>:</m:mo> 
 <m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub>
 <m:mo>−</m:mo>
 <m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub>
 <m:mo>=</m:mo>
 <m:msub><m:mi>𝛿</m:mi><m:mn>0</m:mn></m:msub>
-</m:math></equation><equation id="eip-633" class="unnumbered"><label/><m:math>
+</m:math></equation><equation id="eip-633"><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>1</m:mn></m:msub>
-<m:mo>:</m:mo>
+<m:mo>:</m:mo> 
 <m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub>
 <m:mo>−</m:mo>
 <m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub>
 <m:mo>≠</m:mo>
 <m:msub><m:mi>𝛿</m:mi><m:mn>0</m:mn></m:msub>
-</m:math></equation><para id="eip-743">Most common, however, is the test that the two proportions are the same. That is,  </para><equation id="eip-457" class="unnumbered"><label/><m:math>
+</m:math></equation><para id="eip-743">Most common, however, is the test that the two proportions are the same. That is,  </para><equation id="eip-457"><m:math>
 <m:msub>
 <m:mi>H</m:mi>
 <m:mn>0</m:mn>
@@ -83,7 +83,7 @@
 <m:mi>p</m:mi>
 <m:mi>B</m:mi>
 </m:msub>
-</m:math></equation><equation id="eip-978" class="unnumbered"><label/><m:math>
+</m:math></equation><equation id="eip-978"><m:math>
 <m:msub>
 <m:mi>H</m:mi>
 <m:mi>a</m:mi>
@@ -115,7 +115,7 @@
             <m:mi>x</m:mi>
             <m:mi>B</m:mi>
           </m:msub>
-
+          
         </m:mrow>
         <m:mrow>
           <m:msub>
@@ -126,15 +126,15 @@
             <m:mi>n</m:mi>
             <m:mi>B</m:mi>
           </m:msub>
-
+          
         </m:mrow>
       </m:mfrac>
-
+      
     </m:mrow>
   </m:math>
-
+  
 </equation>
-<para id="eip-251"><newline/></para><equation id="element-225" class="unnumbered"><label/><title>The test statistic (<emphasis effect="italics">z</emphasis>-score) is:</title><m:math>
+<para id="eip-251"><newline/></para><equation id="element-225"><title>The test statistic (<emphasis effect="italics">z</emphasis>-score) is:</title><m:math>
   <m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
   <m:mfrac>
@@ -145,14 +145,14 @@
       <m:mi>A</m:mi>
       <m:mo>′</m:mo>
      </m:msubsup>
-
+     
     <m:mo>−</m:mo>
      <m:msubsup>
       <m:mi>p</m:mi>
       <m:mi>B</m:mi>
       <m:mo>′</m:mo>
      </m:msubsup>
-
+     
     <m:mo stretchy="false">)</m:mo>
     <m:mo>−</m:mo>
     <m:msub><m:mi>δ</m:mi><m:mo>0</m:mo></m:msub>
@@ -175,7 +175,7 @@
          <m:mi>n</m:mi>
          <m:mi>A</m:mi>
         </m:msub>
-
+        
        </m:mrow>
       </m:mfrac>
       <m:mo>+</m:mo><m:mfrac>
@@ -185,16 +185,16 @@
          <m:mi>n</m:mi>
          <m:mi>B</m:mi>
         </m:msub>
-
+        
        </m:mrow>
       </m:mfrac>
       <m:mo stretchy="false">)</m:mo>
      </m:mrow>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
 </m:math>
 </equation><para id="eip-231">where <emphasis effect="italics">δ</emphasis><sub>0</sub> is the hypothesized differences between the two proportions and p<sub>c</sub> is the pooled variance from the formula above.</para><example id="element-944">
 <exercise id="fs-idm214596080">
@@ -325,21 +325,21 @@
 </m:mrow>
 </m:math></para>
 <para id="element-478">The estimated difference between the two groups is : <emphasis effect="italics">p′<sub>A</sub></emphasis>  – <emphasis effect="italics">p′<sub>B</sub></emphasis> = 0.1 – 0.06 = 0.04.<figure id="hyptest22_cmp_3_1"><media id="id3811123" alt="Normal distribution curve of the difference in the percentages of adult patients who don't react to medication A and B after 30 minutes. The mean is equal to zero, and the values -0.04, 0, and 0.04 are labeled on the horizontal axis. Two vertical lines extend from -0.04 and 0.04 to the curve. The region to the left of -0.04 and the region to the right of 0.04 are each shaded to represent 1/2(p-value) = 0.0702."><image src="../../media/fig-ch10_01_04n.jpg" mime-type="image/jpg" width="380"/></media></figure>
-<equation id="eip-id1165388470277" class="unnumbered"><label/><m:math><m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
+<equation id="eip-id1165388470277"><m:math><m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
 
 <m:mfrac>
 <m:mrow><m:mo>(</m:mo><m:msub><m:mi>P′</m:mi><m:mi>A</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>P′</m:mi><m:mi>B</m:mi></m:msub><m:mo>)</m:mo><m:mo>−</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
-<m:mrow><m:msqrt>
+<m:mrow>
 <m:msub><m:mi>P</m:mi><m:mi>c</m:mi></m:msub><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msub><m:mi>P</m:mi><m:mi>c</m:mi></m:msub><m:mo stretchy="false">)</m:mo>
-<m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>n</m:mi><m:mi>A</m:mi></m:msub></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>n</m:mi><m:mi>B</m:mi></m:msub></m:mfrac><m:mo>)</m:mo></m:msqrt>
+<m:mo>(</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>n</m:mi><m:mi>A</m:mi></m:msub></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>n</m:mi><m:mi>B</m:mi></m:msub></m:mfrac><m:mo>)</m:mo>
 </m:mrow>
 </m:mfrac>
 
 <m:mo>=</m:mo>
-<m:mn>1.47</m:mn>
+<m:mn>0.54</m:mn>
 
-</m:math></equation></para><para id="element-748">The calculated test statistic is 1.47 and is not in the tail of the distribution. </para><para id="element-439">Make a decision: Since the calculate test statistic is not in the tail of the distribution we cannot reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-632"><emphasis>Conclusion:</emphasis> At a 1% level of significance, from the sample data, there is not sufficient evidence to conclude that there is a difference between the proportions of customers who defaulted in the two groups.</para></solution>
+</m:math></equation></para><para id="element-748">The calculated test statistic is .54 and is not in the tail of the distribution. </para><para id="element-439">Make a decision: Since the calculate test statistic is not in the tail of the distribution we cannot reject <emphasis effect="italics">H<sub>0</sub></emphasis>.</para><para id="element-632"><emphasis>Conclusion:</emphasis> At a 1% level of significance, from the sample data, there is not sufficient evidence to conclude that there is a difference between the proportions of customers who defaulted in the two groups.</para></solution>
 </exercise>
 </example>
 
@@ -370,16 +370,16 @@
   <item>Random variable: <m:math>
  <m:mrow>
   <m:msub>
-
+   
     <m:mi>p'</m:mi>
-
+    
    <m:mi>A</m:mi>
   </m:msub>
   <m:mo>–</m:mo><m:msub>
-
+   
     <m:mi>p'</m:mi>
-
-
+   
+   
    <m:mi>B</m:mi>
   </m:msub>
   <m:mo>=</m:mo>
@@ -404,7 +404,7 @@
             <m:mi>x</m:mi>
             <m:mi>B</m:mi>
           </m:msub>
-
+          
         </m:mrow>
         <m:mrow>
           <m:msub>
@@ -415,10 +415,10 @@
             <m:mi>n</m:mi>
             <m:mi>B</m:mi>
           </m:msub>
-
+          
         </m:mrow>
       </m:mfrac>
-
+      
     </m:mrow>
   </m:math></para><para id="fs-idp35988640">Test Statistic (<emphasis effect="italics">z</emphasis>-score): <m:math>
  <m:mrow><m:msub>
@@ -462,7 +462,7 @@
            <m:mi>n</m:mi>
            <m:mi>A</m:mi>
           </m:msub>
-
+          
          </m:mrow>
         </m:mfrac>
         <m:mo>+</m:mo><m:mfrac>
@@ -472,18 +472,18 @@
            <m:mi>n</m:mi>
            <m:mi>B</m:mi>
           </m:msub>
-
+          
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></para>
 
@@ -543,7 +543,7 @@
   <exercise id="element-22">
     <problem id="id22206121">
   <para id="element-103">Is this a right-tailed, left-tailed, or two-tailed test?  How do you know?</para>
-
+  
 </problem>
 
 <solution id="id18377639">
@@ -612,13 +612,13 @@ Does it appear that the proportion of Nevadans who are two or more races is high
 
 <exercise id="exer18">
   <problem id="id4902537">
-    <para id="id12924042">We are interested in whether the proportions of female suicide victims for ages 15 to 24 are the same for White and the Black people in the United States. We randomly pick one year, 1992, to compare the races. The number of suicides estimated in the United States in 1992 for White females is 4,930. Five hundred eighty were aged 15 to 24. The estimate for Black females is 330. Forty were aged 15 to 24. We will let female suicide victims be our population.</para>
+    <para id="id12924042">We are interested in whether the proportions of female suicide victims for ages 15 to 24 are the same for the whites and the blacks races in the United States. We randomly pick one year, 1992, to compare the races. The number of suicides estimated in the United States in 1992 for white females is 4,930. Five hundred eighty were aged 15 to 24. The estimate for black females is 330. Forty were aged 15 to 24. We will let female suicide victims be our population.</para>
   </problem>
   <solution id="fs-idm32452768">
     <list id="fs-idm32452512" list-type="enumerated" number-style="lower-alpha">
-      <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">P<sub>W</sub></emphasis> = <emphasis effect="italics">P<sub>B</sub></emphasis></item>
+      <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">P<sub>W</sub></emphasis> = <emphasis effect="italics">P<sub>B</sub></emphasis></item> 
       <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">P<sub>W</sub></emphasis> ≠ <emphasis effect="italics">P<sub>B</sub></emphasis></item>
-        <item>The random variable is the difference in the proportions of White and Black suicide victims, aged 15 to 24.</item>
+        <item>The random variable is the difference in the proportions of white and black suicide victims, aged 15 to 24.</item>
         <item>normal for two proportions</item>
         <item>test statistic: –0.1944</item>
         <item><emphasis effect="italics">p</emphasis>-value: 0.8458 </item>
@@ -627,8 +627,8 @@ Does it appear that the proportion of Nevadans who are two or more races is high
         <list id="fs-idp6439728" list-type="enumerated" number-style="lower-roman">
           <item>Alpha: 0.05</item>
           <item>Decision: Cannot accept the null hypothesis.</item>
-          <item>Reason for decision: <emphasis effect="italics">p</emphasis>-value > alpha</item>
-          <item>Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportions of White and Black female suicide victims, aged 15 to 24, are different. </item>
+          <item>Reason for decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</item>
+          <item>Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportions of white and black female suicide victims, aged 15 to 24, are different. </item>
         </list>
       </item>
     </list>
@@ -648,7 +648,7 @@ Does it appear that the proportion of Nevadans who are two or more races is high
                 <m:mtext>larger dimension</m:mtext>
               </m:mrow>
             </m:mfrac>
-
+            
           </m:mrow>
           <m:mo>)</m:mo></m:mrow>
       </m:mrow>
@@ -677,7 +677,7 @@ Does it appear that the proportion of Nevadans who are two or more races is high
         </list>
       </item>
     </list>
-
+    
   </solution>
 </exercise>
 
@@ -699,16 +699,16 @@ Does it appear that the proportion of Nevadans who are two or more races is high
   </list>
 </problem>
 </exercise>
-
-
-
+      
+      
+      
       <exercise id="element-552"><problem id="id12760036">
   <para id="element-51">An appropriate null hypothesis is:</para>
         <list id="element-565" list-type="enumerated" number-style="lower-alpha">
           <item><emphasis effect="italics">p<sub>2011</sub></emphasis> ≤ <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
           <item><emphasis effect="italics">p<sub>2011</sub></emphasis> ≥ <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
           <item><emphasis effect="italics">μ<sub>2011</sub></emphasis> ≤ <emphasis effect="italics">μ<sub>2010</sub></emphasis></item>
-          <item><emphasis effect="italics">p<sub>2011</sub></emphasis> > <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
+          <item><emphasis effect="italics">p<sub>2011</sub></emphasis> &gt; <emphasis effect="italics">p<sub>2010</sub></emphasis></item>
         </list>
       </problem>
 
@@ -716,7 +716,7 @@ Does it appear that the proportion of Nevadans who are two or more races is high
   <para id="element-9">a</para>
 </solution>
 </exercise>
-
+      
       <exercise id="fs-idp30249712"><problem id="fs-idp30249968">
         <para id="fs-idm5258112">Researchers conducted a study to find out if there is a difference in the use of eReaders by different age groups.  Randomly selected participants were divided into two age groups.  In the 16- to 29-year-old group, 7% of the 628 surveyed use eReaders, while 11% of the 2,309 participants 30 years old and older use eReaders.</para>
       </problem>
@@ -724,7 +724,7 @@ Does it appear that the proportion of Nevadans who are two or more races is high
         <para id="fs-idm101356784">Test: two independent sample proportions.</para>
         <para id="fs-idm101356400">Random variable: <emphasis effect="italics">p</emphasis>′<sub>1</sub> - <emphasis effect="italics">p</emphasis>′<sub>2</sub></para><para id="fs-idm29110192">Distribution:
 <newline/><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math><newline/><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></para>
-
+        
         <para id="fs-idp1703488">The proportion of eReader users is different for the 16- to 29-year-old users from that of the 30 and older users.</para>
         <para id="fs-idp1703872">Graph: two-tailed</para>
 
@@ -748,7 +748,7 @@ Does it appear that the proportion of Nevadans who are two or more races is high
         </table>
       </problem>
     </exercise>
-
+    
     <exercise id="fs-idm16853120"><problem id="fs-idm16852864">
         <para id="fs-idm16852608">Two computer users were discussing tablet computers. A higher proportion of people ages 16 to 29 use tablets than the proportion of people age 30 and older. <link target-id="fs-idp42650880"/> details the number of tablet owners for each age group. Test at the 1% level of significance.</para>
         <table id="fs-idp42650880" summary=".">
@@ -760,17 +760,17 @@ Does it appear that the proportion of Nevadans who are two or more races is high
               <row><entry>Own a tablet</entry><entry>69</entry><entry>231</entry></row>
               <row><entry>Sample size</entry><entry>628</entry><entry>2,309</entry></row>
             </tbody>
-
+          
 </tgroup>
 </table></problem>
       <solution id="fs-idp35035792">
         <para id="fs-idp35036048">Test: two independent sample proportions</para>
         <para id="fs-idp35036432">Random variable: <emphasis effect="italics">p′<sub>1</sub></emphasis> − <emphasis effect="italics">p′<sub>2</sub></emphasis></para>
         <para id="fs-idm9404992">Distribution:</para>
-        <para id="fs-idp46050528"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math><newline/><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></para>
+        <para id="fs-idp46050528"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math><newline/><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></para>
         <para id="fs-idm39674464">A higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.</para>
         <para id="fs-idm39673968">Graph: right-tailed</para>
-
+        
 <para id="fs-idm11093536">Do not reject the <emphasis effect="italics">H<sub>0</sub></emphasis>.</para>
         <para id="fs-idp19014416">Conclusion: At the 1% level of significance, from the sample data, there is not sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.</para>
       </solution>
@@ -781,7 +781,7 @@ Does it appear that the proportion of Nevadans who are two or more races is high
         <para id="fs-idp44091936">A group of friends debated whether more men use smartphones than women.  They consulted a research study of smartphone use among adults. The results of the survey indicate that of the 973 men randomly sampled, 379 use smartphones.  For women, 404 of the 1,304 who were randomly sampled use smartphones. Test at the 5% level of significance.</para>
       </problem>
     </exercise>
-
+  
   <exercise id="fs-idm174644848">
     <problem id="fs-idm174644592">
       <para id="fs-idm174644336">While her husband spent 2½ hours picking out new speakers, a statistician decided to determine whether the percent of men who enjoy shopping for electronic equipment is higher than the percent of women who enjoy shopping for electronic equipment. The population was Saturday afternoon shoppers. Out of 67 men, 24 said they enjoyed the activity. Eight of the 24 women surveyed claimed to enjoy the activity. Interpret the results of the survey.</para>
@@ -790,7 +790,7 @@ Does it appear that the proportion of Nevadans who are two or more races is high
       <para id="fs-idp35259328">Subscripts: 1: men; 2: women</para>
       <list id="fs-idp66491504" list-type="enumerated" number-style="lower-alpha">
         <item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>≤</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-        <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>></m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
+        <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>&gt;</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
         <item><m:math>
  <m:mrow>
   <m:msub>
@@ -798,7 +798,7 @@ Does it appear that the proportion of Nevadans who are two or more races is high
     <m:mi>P</m:mi>
     <m:mo>′</m:mo>
    </m:msup>
-
+   
    <m:mn>1</m:mn>
   </m:msub>
   <m:mo>−</m:mo><m:msub>
@@ -806,10 +806,10 @@ Does it appear that the proportion of Nevadans who are two or more races is high
     <m:mi>P</m:mi>
     <m:mo>′</m:mo>
    </m:msup>
-
+   
    <m:mn>2</m:mn>
   </m:msub>
-
+  
  </m:mrow>
 </m:math> is the difference between the proportions of men and women who enjoy shopping for electronic equipment.</item>
         <item>normal for two proportions</item>
@@ -820,21 +820,21 @@ Does it appear that the proportion of Nevadans who are two or more races is high
           <list id="fs-idp134826688" list-type="enumerated" number-style="lower-roman">
             <item>Alpha: 0.05</item>
             <item>Decision: Cannot reject the null hypothesis.</item>
-            <item>Reason for Decision: <emphasis effect="italics">p</emphasis>-value > alpha</item>
+            <item>Reason for Decision: <emphasis effect="italics">p</emphasis>-value &gt; alpha</item>
             <item>Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportion of men who enjoy shopping for electronic equipment is more than the proportion of women.</item>
           </list>
         </item>
       </list>
-
+      
     </solution>
   </exercise>
-
+  
   <exercise id="fs-idm111076192">
     <problem id="fs-idm111075936">
       <para id="fs-idm11241056">We are interested in whether children’s educational computer software costs less, on average, than children’s entertainment software. Thirty-six educational software titles were randomly picked from a catalog. The mean cost was $31.14 with a standard deviation of $4.69. Thirty-five entertainment software titles were randomly picked from the same catalog. The mean cost was $33.86 with a standard deviation of $10.87. Decide whether children’s educational software costs less, on average, than children’s entertainment software.</para>
     </problem>
   </exercise>
-
+  
   <exercise id="fs-idm98770112">
     <problem id="fs-idm10004272">
       <para id="fs-idm10004016">Joan Nguyen recently claimed that the proportion of college-age males with at least one pierced ear is as high as the proportion of college-age females. She conducted a survey in her classes. Out of 107 males, 20 had at least one pierced ear. Out of 92 females, 47 had at least one pierced ear. Do you believe that the proportion of males has reached the proportion of females?</para>
@@ -842,14 +842,14 @@ Does it appear that the proportion of Nevadans who are two or more races is high
     <solution id="fs-idm75362416">
       <list id="fs-idm11471360" list-type="enumerated" number-style="lower-alpha"><item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
         <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>≠</m:mo><m:msub><m:mi>p</m:mi><m:mn>2</m:mn></m:msub></m:math></item>
-        <item><m:math>
+        <item><m:math display="">
  <m:mrow>
   <m:msub>
    <m:msup>
     <m:mi>P</m:mi>
     <m:mo>′</m:mo>
    </m:msup>
-
+   
    <m:mn>1</m:mn>
   </m:msub>
   <m:mo>−</m:mo><m:msub>
@@ -857,10 +857,10 @@ Does it appear that the proportion of Nevadans who are two or more races is high
     <m:mi>P</m:mi>
     <m:mo>′</m:mo>
    </m:msup>
-
+   
    <m:mn>2</m:mn>
   </m:msub>
-
+  
  </m:mrow>
 </m:math> is the difference between the proportions of men and women that have at least one pierced ear.</item>
         <item>normal for two proportions</item>
@@ -875,7 +875,7 @@ Does it appear that the proportion of Nevadans who are two or more races is high
           </list></item>
       </list></solution>
   </exercise>
-
+  
   <exercise id="fs-idm104246192"><problem id="fs-idp505328">
       <para id="fs-idp505584">"To Breakfast or Not to Breakfast?" by Richard Ayore</para>
       <para id="fs-idm40087536">In the American society, birthdays are one of those days that everyone looks forward to. People of different ages and peer groups gather to mark the 18th, 20th, …, birthdays. During this time, one looks back to see what he or she has achieved for the past year and also focuses ahead for more to come.</para>
@@ -893,7 +893,7 @@ Does it appear that the proportion of Nevadans who are two or more races is high
 </row>
 </thead>
 <tbody>
-
+            
             <row>
               <entry>8</entry>
               <entry>6</entry>
@@ -940,13 +940,13 @@ Does it appear that the proportion of Nevadans who are two or more races is high
     </problem>
 <solution id="eip-idp83945904">
 <list id="eip-idp83946160" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ<sub>d</sub></emphasis> = 0</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>d</sub></emphasis> > 0</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ<sub>d</sub></emphasis> &gt; 0</item>
 <item>The random variable <emphasis effect="italics">X<sub>d</sub></emphasis> is the mean difference in work times on days when eating breakfast and on days when not eating breakfast.</item>
 <item><emphasis effect="italics">t</emphasis><sub>9</sub></item>
 <item>test statistic: 4.8963</item>
 <item><emphasis effect="italics">p</emphasis>-value: 0.0004</item>
 <item>Check student’s solution.</item>
-<item>
+<item> 
 <list id="eip-idp81211424" list-type="enumerated" number-style="lower-roman">
 <item>Alpha: 0.05</item>
 <item>Decision: Cannot accept the null hypothesis.</item>
@@ -957,6 +957,6 @@ Does it appear that the proportion of Nevadans who are two or more races is high
 </list></solution>
   </exercise></section>
 
- </content>
+</content>
 
 </document>

@@ -10,10 +10,10 @@
 
 <content>
 <para id="eip-806">We saw that the sample size has an important effect on the variance and thus the standard deviation of the sampling distribution. Also of interest is the proportion of the total population that has been sampled. We have assumed that the population is extremely large and that we have sampled a small part of the population. As the population becomes smaller and we sample a larger number of observations the sample observations are not independent of each other. To correct for the impact of this, the Finite Correction Factor can be used to adjust the variance of the sampling distribution. It is appropriate when more than 5% of the population is being sampled and the population has a known population size. There are cases when the population is known, and therefore the correction factor must be applied. The issue arises for both the sampling distribution of the means and the sampling distribution of proportions. The Finite Population Correction Factor for the variance of the means shown in the standardizing formula is: 
-<equation class="unnumbered" id="eip-id1167115536024"><label/><m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
+<equation id="eip-id1167115536024"><m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
 <m:mrow>
-<m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover>
+<m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover>
 <m:mo>−</m:mo>
 <m:mi>µ</m:mi>
 </m:mrow>
@@ -57,12 +57,12 @@
 <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/> 
 <m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>10.37</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
 <m:mi>µ</m:mi><m:mo>=</m:mo><m:mn>75.45</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
-<m:mo>(</m:mo><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:mi>µ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>2</m:mn></m:math>
+<m:mo>(</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:mi>µ</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mo>±</m:mo><m:mn>2</m:mn></m:math>
 
 <newline/>
-<equation class="unnumbered" id="eip-id1170375284175"><label/><m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
+<equation id="eip-id1170375284175"><m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
-<m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:mi>µ</m:mi></m:mrow>
+<m:mrow><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:mi>µ</m:mi></m:mrow>
 <m:mrow>
 <m:mfrac><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac>
 <m:mo>·</m:mo>
@@ -88,7 +88,7 @@
 </m:mfrac>
 <m:mo>=</m:mo>
 <m:mo>±</m:mo><m:mn>1.95</m:mn>
-</m:math></equation><equation class="unnumbered" id="eip-id1172107488931"><label/><m:math>
+</m:math></equation><equation id="eip-id1172107488931"><m:math>
 <m:mi>f</m:mi><m:mo>(</m:mo><m:mi>Z</m:mi><m:mo>)</m:mo><m:mo>=</m:mo>
 <m:mn>0.4744</m:mn>
 <m:mo>·</m:mo>
@@ -111,7 +111,7 @@ Note that "differs by less" references the area on both sides of the mean within
   <para id="eip-355"><m:math><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>3000</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
 <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>360</m:mn><m:mo>,</m:mo><m:mspace width="1.0em"/>
 <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0.06</m:mn></m:math>
-<equation class="unnumbered" id="eip-id1169346645985"><label/><m:math>
+<equation id="eip-id1169346645985"><m:math>
 <m:msub><m:mi>σ</m:mi><m:mi>p'</m:mi></m:msub><m:mo>=</m:mo>
 <m:msqrt>
 <m:mfrac><m:mrow><m:mi>p</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>p</m:mi><m:mo>)</m:mo></m:mrow>
@@ -141,7 +141,7 @@ Note that "differs by less" references the area on both sides of the mean within
 <m:mo>=</m:mo>
 <m:mn>0.0117</m:mn>
 </m:math>
-</equation><equation class="unnumbered" id="eip-id1166518467981"><label/><m:math><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>10</m:mn><m:mn>360</m:mn></m:mfrac>
+</equation><equation id="eip-id1166518467981"><m:math><m:msub><m:mi>p</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mfrac><m:mn>10</m:mn><m:mn>360</m:mn></m:mfrac>
 <m:mo>=</m:mo>
 <m:mn>0.0278</m:mn>
 <m:mo>,</m:mo><m:mspace width="1.0em"/>
@@ -151,7 +151,7 @@ Note that "differs by less" references the area on both sides of the mean within
 <m:mo>=</m:mo>
 <m:mn>0.0556</m:mn>
 </m:math></equation>
-<equation class="unnumbered" id="eip-id1166529871916"><label/><m:math>
+<equation id="eip-id1166529871916"><m:math>
 <m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
 <m:mrow>
@@ -177,7 +177,7 @@ Note that "differs by less" references the area on both sides of the mean within
 <m:mo>=</m:mo>
 <m:mn>−2.74</m:mn>
 </m:math>
-</equation><equation class="unnumbered" id="eip-id8375126"><label/><m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
+</equation><equation id="eip-id8375126"><m:math><m:mi>Z</m:mi><m:mo>=</m:mo>
 <m:mfrac>
 <m:mrow><m:mi>p</m:mi><m:mo>'</m:mo><m:mo>−</m:mo><m:mi>p</m:mi></m:mrow>
 <m:mrow>
@@ -202,7 +202,7 @@ Note that "differs by less" references the area on both sides of the mean within
 <m:mo>=</m:mo>
 <m:mn>−0.38</m:mn>
 </m:math>
-</equation><equation class="unnumbered" id="eip-id1169387147873"><label/><m:math>
+</equation><equation id="eip-id1169387147873"><m:math>
 <m:mi>p</m:mi>
 <m:mo>(</m:mo>
 <m:mfrac><m:mrow><m:mn>0.0278</m:mn><m:mo>−</m:mo><m:mn>0.06</m:mn></m:mrow>
@@ -374,5 +374,5 @@ Note that "differs by less" references the area on both sides of the mean within
 
   </para>
 </solution>
-</exercise></section> </content>
+</exercise></section></content>
 </document>

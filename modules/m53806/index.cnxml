@@ -10,7 +10,7 @@
 <content>
 
 
-<para id="element-683">An important characteristic of any set of data is the variation in the data. In some data sets, the data values are concentrated closely near the mean; in other data sets, the data values are more widely spread out from the mean. The most common measure of variation, or spread, is the standard deviation. The <term id="term-00001">standard deviation</term> is a number that measures how far data values are from their mean.</para><section id="fs-idm94849104">
+<para id="element-683">An important characteristic of any set of data is the variation in the data. In some data sets, the data values are concentrated closely near the mean; in other data sets, the data values are more widely spread out from the mean. The most common measure of variation, or spread, is the standard deviation. The <term>standard deviation</term> is a number that measures how far data values are from their mean.</para><section id="fs-idm94849104">
 <title>The standard deviation</title>
 <list id="eip-id1169998044652" list-type="bulleted">
 <item>provides a numerical measure of the overall amount of variation in a data set, and</item>
@@ -31,7 +31,7 @@
  </m:mover>
 
 </m:math>.</para><para id="eip-45">The procedure to calculate the standard deviation depends on whether the numbers are the entire population or are data from a sample.  The calculations are similar, but not identical.  Therefore the symbol used to represent the standard deviation depends on whether it is calculated from a population or a sample. The lower case letter s represents the sample standard deviation and the Greek letter <emphasis effect="italics">σ</emphasis> (sigma, lower case) represents the population standard deviation. If the sample has the same characteristics as the population, then s should be a good estimate of <emphasis effect="italics">σ</emphasis>.</para>
-<para id="eip-689">To calculate the standard deviation, we need to calculate the variance first.  The <term id="term-00002">variance</term> is the <emphasis>average of the squares of the deviations</emphasis> (the <emphasis effect="italics">x</emphasis> – <m:math>
+<para id="eip-689">To calculate the standard deviation, we need to calculate the variance first.  The <term>variance</term> is the <emphasis>average of the squares of the deviations</emphasis> (the <emphasis effect="italics">x</emphasis> – <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
@@ -96,7 +96,7 @@
 
  </m:mrow>
 </m:math>
-or <m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mo>(</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover></m:mstyle><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math>
+or <m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mo>(</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover></m:mstyle><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math>
     </item>
 <item> For the sample standard deviation, the denominator is <emphasis><emphasis effect="italics">n</emphasis> - 1</emphasis>, that is the sample size minus 1.</item>
 </list></section>
@@ -163,11 +163,11 @@ When trying to study a population, a sample is often used, either for convenienc
 </para><para id="eip-645"><title>Example 4: Sample variability</title>Sample variability occurs when multiple random samples are taken from the same population. For example, if I conduct four surveys of 50 people randomly selected from a given population, the differences in outcomes may be affected by sample variability.
 </para></section><example id="eip-637"><para id="element-440">In a fifth grade class, the teacher was interested in the average age and the sample standard deviation of the ages of her students. The following data are the ages for a SAMPLE of <emphasis effect="italics">n</emphasis> = 20 fifth grade students. The ages are rounded to the nearest half year: </para>
 
-<para id="element-433">9; 9.5; 9.5; 10; 10; 10; 10; 10.5; 10.5; 10.5; 10.5; 11; 11; 11; 11; 11; 11; 11.5; 11.5; 11.5;</para><equation class="unnumbered" id="element-320"><label/><m:math>
+<para id="element-433">9; 9.5; 9.5; 10; 10; 10; 10; 10.5; 10.5; 10.5; 10.5; 11; 11; 11; 11; 11; 11; 11.5; 11.5; 11.5;</para><equation id="element-320"><m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>x</m:mi>
-   <m:mo>¯</m:mo>
+   <m:mo>–</m:mo>
   </m:mover>
   <m:mo>=</m:mo><m:mfrac>
    <m:mrow>
@@ -312,13 +312,13 @@ When trying to study a population, a sample is often used, either for convenienc
 
 
 
-<section id="fs-idm60688208"><section id="fs-idm66792288"><title>Explanation of the standard deviation calculation shown in the table</title><para id="element-877">The deviations show how spread out the data are about the mean. The data value 11.5 is farther from the mean than is the data value 11 which is indicated by the deviations 0.97 and 0.47. A positive deviation occurs when the data value is greater than the mean, whereas a negative deviation occurs when the data value is less than the mean. The deviation is –1.525 for the data value nine. <emphasis>If you add the deviations, the sum is always zero</emphasis>. (For <link target-id="eip-637"/>, there are <emphasis effect="italics">n</emphasis> = 20 deviations.) So you cannot simply add the deviations to get the spread of the data. By squaring the deviations, you make them positive numbers, and the sum will also be positive. The variance, then, is the average squared deviation. By squaring the deviations we are placing an extreme penalty on observations that are far from the mean; these observations get greater weight in the calculations of the variance. We will see later on that the variance (standard deviation) plays the critical role in determining our conclusions in inferential statistics. We can begin now by using the standard deviation as a measure of "unusualness." "How did you do on the test?" "Terrific! Two standard deviations  above the mean." This, we will see, is an unusually good exam grade.</para><para id="element-969">The variance is a squared measure and does not have the same units as the data. Taking the square root solves the problem. The standard deviation measures the spread in the same units as the data.</para>
+<section id="fs-idm60688208"><title/><section id="fs-idm66792288"><title>Explanation of the standard deviation calculation shown in the table</title><para id="element-877">The deviations show how spread out the data are about the mean. The data value 11.5 is farther from the mean than is the data value 11 which is indicated by the deviations 0.97 and 0.47. A positive deviation occurs when the data value is greater than the mean, whereas a negative deviation occurs when the data value is less than the mean. The deviation is –1.525 for the data value nine. <emphasis>If you add the deviations, the sum is always zero</emphasis>. (For <link target-id="eip-637"/>, there are <emphasis effect="italics">n</emphasis> = 20 deviations.) So you cannot simply add the deviations to get the spread of the data. By squaring the deviations, you make them positive numbers, and the sum will also be positive. The variance, then, is the average squared deviation. By squaring the deviations we are placing an extreme penalty on observations that are far from the mean; these observations get greater weight in the calculations of the variance. We will see later on that the variance (standard deviation) plays the critical role in determining our conclusions in inferential statistics. We can begin now by using the standard deviation as a measure of "unusualness." "How did you do on the test?" "Terrific! Two standard deviations  above the mean." This, we will see, is an unusually good exam grade.</para><para id="element-969">The variance is a squared measure and does not have the same units as the data. Taking the square root solves the problem. The standard deviation measures the spread in the same units as the data.</para>
 
 <para id="eip-880">Notice that instead of dividing by <emphasis effect="italics">n</emphasis> = 20, the calculation divided by <emphasis effect="italics">n</emphasis> – 1 = 20 – 1 = 19 because the data is a sample. For the <emphasis>sample</emphasis> variance, we divide by the sample size minus one (<emphasis effect="italics">n</emphasis> – 1). Why not divide by <emphasis effect="italics">n</emphasis>?  The answer has to do with the population variance. <emphasis>The sample variance is an estimate of the population variance.</emphasis> This estimate requires us to use an estimate of the population mean rather than the actual population mean. Based on the theoretical mathematics that lies behind these calculations, dividing by (<emphasis effect="italics">n</emphasis> – 1) gives a better estimate of the population variance.</para><para id="eip-323">The standard deviation, <emphasis effect="italics">s</emphasis> or <emphasis effect="italics">σ</emphasis>, is either zero or larger than zero. Describing the data with reference to the spread is called "variability".  The variability in data depends upon the method by which the outcomes are obtained; for example, by measuring or by random sampling. When the standard deviation is zero, there is no spread; that is, the all the data values are equal to each other. The standard deviation is small when the data are all concentrated close to the mean, and is larger when the data values show more variation from the mean. When the standard deviation is a lot larger than zero, the data values are very spread out about the mean; outliers can make <emphasis effect="italics">s</emphasis> or <emphasis effect="italics">σ</emphasis> very large.</para><example id="element-649">
 <exercise id="exer2"><problem id="id6379302">
 <para id="element-592">Use the following data (first exam scores) from Susan Dean's spring pre-calculus class:</para>
 <para id="element-961">33; 42; 49; 49; 53; 55; 55; 61;   63; 67; 68; 68; 69; 69; 72; 73;   74; 78; 80; 83; 88; 88; 88; 90;   92; 94; 94; 94; 94; 96; 100</para><list id="element-744" list-type="enumerated" number-style="lower-alpha"><item>Create a chart containing the data, frequencies, relative frequencies, and cumulative relative frequencies to three decimal places.</item>
-<item>Calculate the following to one decimal place:
+<item class="finger">Calculate the following to one decimal place:
 <list id="element-9170" list-type="enumerated" number-style="lower-roman"><item>The sample mean</item>
 <item>The sample standard deviation</item>
 <item>The median</item>
@@ -515,7 +515,7 @@ When trying to study a population, a sample is often used, either for convenienc
 <entry>Class</entry>
 <entry>Frequency, <emphasis effect="italics">f</emphasis></entry>
 <entry>Midpoint, <emphasis effect="italics">m</emphasis></entry><entry><m:math><m:mi>f</m:mi><m:mo>·</m:mo><m:mi> m</m:mi></m:math></entry>
-            <entry><m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>-</m:mo><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:math></entry>
+            <entry><m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>m</m:mi><m:mo>-</m:mo><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:math></entry>
 </row>
 </thead>
 <tbody>
@@ -558,7 +558,7 @@ When trying to study a population, a sample is often used, either for convenienc
   <entry/>
   <entry>n = 24</entry>
   <entry/>
-  <entry><m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>165</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6.88</m:mn></m:math></entry>
+  <entry><m:math><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>165</m:mn></m:mrow><m:mrow><m:mn>24</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6.88</m:mn></m:math></entry>
   <entry><m:math><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>152.62</m:mn></m:mrow><m:mrow><m:mn>24</m:mn><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>6.64</m:mn></m:math></entry>
 </row>
 </tbody>
@@ -630,7 +630,12 @@ When trying to study a population, a sample is often used, either for convenienc
 <tgroup cols="3"><tbody>
   <row>
     <entry><emphasis>Sample</emphasis></entry>
-    <entry><m:math><m:mi>x</m:mi></m:math> = <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math> + <emphasis effect="italics">zs</emphasis> </entry>
+    <entry><m:math><m:mi>x</m:mi></m:math> = <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math> + <emphasis effect="italics">zs</emphasis> </entry>
     <entry><m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -720,24 +725,24 @@ When trying to study a population, a sample is often used, either for convenienc
 
  </m:mrow>
 </m:math>
-</para><para id="element-378">For John, <m:math>
+</para><para id="element-378">For John, <m:math display="">
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>#</m:mo><m:mi>o</m:mi><m:mi>f</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
-    <m:mn>2.85</m:mn><m:mo>-</m:mo><m:mn>3.0</m:mn>
+    <m:mn>2.85</m:mn><m:mo>–</m:mo><m:mn>3.0</m:mn>
    </m:mrow>
    <m:mrow>
     <m:mn>0.7</m:mn>
    </m:mrow>
   </m:mfrac>
-  <m:mo>=</m:mo><m:mo>-</m:mo><m:mn>0.21</m:mn>
+  <m:mo>=</m:mo><m:mo>–</m:mo><m:mn>0.21</m:mn>
  </m:mrow>
 </m:math>
 </para><para id="element-712">For Ali, <m:math>
  <m:mrow>
   <m:mi>z</m:mi><m:mo>=</m:mo><m:mo>#</m:mo><m:mi>o</m:mi><m:mi>f</m:mi><m:mi>S</m:mi><m:mi>T</m:mi><m:mi>D</m:mi><m:mi>E</m:mi><m:mi>V</m:mi><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac>
    <m:mrow>
-    <m:mn>77</m:mn><m:mo>-</m:mo><m:mn>80</m:mn>
+    <m:mn>77</m:mn><m:mo>−</m:mo><m:mn>80</m:mn>
    </m:mrow>
    <m:mrow>
     <m:mn>10</m:mn>
@@ -799,7 +804,7 @@ When trying to study a population, a sample is often used, either for convenienc
 
 <section id="eip-494"><title>Coefficient of Variation</title><para id="eip-125">Another useful way to compare distributions besides simple comparisons of means or standard deviations is to adjust for differences in the scale of the data being measured. Quite simply, a large variation in data with a large mean is different than the same variation in data with a small mean. To adjust for the scale of the underlying data the Coefficient of Variation (CV) has been developed. Mathematically:
 
-</para><equation class="unnumbered" id="eip-638"><label/><m:math><m:mi>C</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mfrac><m:mo>*</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>conditioned upon</m:mtext><m:mspace width="0.2em"/><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>≠</m:mo><m:mn>0,</m:mn><m:mspace width="0.2em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:mi>s</m:mi><m:mspace width="0.2em"/><m:mtext>is the standard deviation of the data and</m:mtext><m:mspace width="0.2em"/><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mspace width="0.2em"/><m:mtext>is the mean.</m:mtext></m:math></equation><para id="eip-411">We can see that this measures the variability of the underlying data as a percentage of the mean value; the center weight of the data set. This measure is useful in comparing risk where an adjustment is warranted because of differences in scale of two data sets. In effect, the scale is changed to common scale, percentage differences, and allows direct comparison of the two or more magnitudes of variation of different data sets.</para></section><section id="fs-idp5887184" class="references">
+</para><equation id="eip-638"><m:math><m:mi>C</m:mi><m:mi>V</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>s</m:mi><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mfrac><m:mo>*</m:mo><m:mn>100</m:mn><m:mspace width="0.2em"/><m:mtext>conditioned upon</m:mtext><m:mspace width="0.2em"/><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>≠</m:mo><m:mn>0,</m:mn><m:mspace width="0.2em"/><m:mtext>where</m:mtext><m:mspace width="0.2em"/><m:mi>s</m:mi><m:mspace width="0.2em"/><m:mtext>is the standard deviation of the data and</m:mtext><m:mspace width="0.2em"/><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mspace width="0.2em"/><m:mtext>is the mean.</m:mtext></m:math></equation><para id="eip-411">We can see that this measures the variability of the underlying data as a percentage of the mean value; the center weight of the data set. This measure is useful in comparing risk where an adjustment is warranted because of differences in scale of two data sets. In effect, the scale is changed to common scale, percentage differences, and allows direct comparison of the two or more magnitudes of variation of different data sets.</para></section><section id="fs-idp5887184" class="references">
 <title>References</title>
 <para id="fs-idm65006032">Data from Microsoft Bookshelf.</para>
 <para id="fs-idm65005648">King, Bill.“Graphically Speaking.” Institutional Research, Lake Tahoe Community College. Available online at http://www.ltcc.edu/web/about/institutional-research (accessed April 3, 2013).</para>
@@ -999,7 +1004,7 @@ When trying to study a population, a sample is often used, either for convenienc
 
  </m:mrow>
 </m:math>
-or <m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mo>(</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover></m:mstyle><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math>
+or <m:math><m:mi>s</m:mi><m:mo>=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mo>(</m:mo><m:mstyle displaystyle="true"><m:munderover><m:mo>∑</m:mo><m:mrow><m:mi>i</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow><m:mi>n</m:mi></m:munderover></m:mstyle><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>-</m:mo><m:mi>n</m:mi><m:msup><m:mrow><m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mi>n</m:mi><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:msqrt></m:math>
 
  For the sample standard deviation, the denominator is <emphasis><emphasis effect="italics">n</emphasis> - 1</emphasis>, that is the sample size - 1.
 </para><para id="eip-116">Formulas for Population Standard Deviation
@@ -1052,10 +1057,10 @@ For the population standard deviation, the denominator is <emphasis effect="ital
 </para></section>
 
 <section id="fs-idm102658016" class="practice">
-
+<title/>
 <para id="fs-idp12495840"><emphasis effect="italics">Use the following information to answer the next two exercises</emphasis>: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.
-<newline/>29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150</para><exercise id="fs-idm25484256"><problem id="fs-idm25484000">
-<para id="fs-idm83184320">Use a graphing calculator or computer to find the standard deviation and round to the nearest tenth.</para></problem>
+<newline/>29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150</para><exercise id="fs-idm25484256" class="finger"><problem id="fs-idm25484000">
+<para id="fs-idm83184320" class="finger">Use a graphing calculator or computer to find the standard deviation and round to the nearest tenth.</para></problem>
 <solution id="fs-idm109784640">
 <para id="fs-idm109784384"><emphasis effect="italics">s</emphasis> = 34.5</para>
 </solution>
@@ -1119,7 +1124,7 @@ For the population standard deviation, the denominator is <emphasis effect="ital
 </problem>
 </exercise>
 
-<para id="eip-370"><newline/><emphasis effect="italics">Find the standard deviation for the following frequency tables using the formula. Check the calculations with the TI 83/84</emphasis>.</para><exercise id="fs-idm109676912"><problem id="fs-idm109676656"><para id="eip-id1166677427293">Find the standard deviation for the following frequency tables using the formula. Check the calculations with the TI 83/84.</para>
+<para id="eip-370" class="finger"><newline/><emphasis effect="italics">Find the standard deviation for the following frequency tables using the formula. Check the calculations with the TI 83/84</emphasis>.</para><exercise id="fs-idm109676912"><problem id="fs-idm109676656"><para id="eip-id1166677427293">Find the standard deviation for the following frequency tables using the formula. Check the calculations with the TI 83/84.</para>
 <list id="fs-idp11094096" list-type="enumerated" number-style="lower-alpha"><item><table id="fs-idm103039104" summary="">
 <tgroup cols="2">
 <thead><row><entry>Grade</entry><entry>Frequency</entry></row></thead>
@@ -1372,7 +1377,7 @@ For the population standard deviation, the denominator is <emphasis effect="ital
    <m:mo>=</m:mo><m:mn>23.32</m:mn>
   </m:mrow>
   </m:math></item>
-<item>Using the TI 83/84, we obtain a standard deviation of: <m:math>
+<item class="finger">Using the TI 83/84, we obtain a standard deviation of: <m:math>
  <m:mrow>
   <m:msub>
    <m:mi>s</m:mi>
@@ -1443,7 +1448,12 @@ For the population standard deviation, the denominator is <emphasis effect="ital
 
 
 </tgroup>
-</table><list id="element-113" list-type="enumerated" number-style="lower-alpha"><item>Find the sample mean <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math>.</item>
+</table><list id="element-113" list-type="enumerated" number-style="lower-alpha"><item>Find the sample mean <m:math>
+<m:apply>
+  <m:conjugate/>
+  <m:ci>x</m:ci>
+</m:apply>
+</m:math>.</item>
 <item>Find the approximate sample standard deviation, <emphasis effect="italics">s</emphasis>.</item>
 </list></problem>
 <solution id="id6101341">
@@ -1494,7 +1504,7 @@ For the population standard deviation, the denominator is <emphasis effect="ital
 </tbody>
 
 </tgroup>
-</table><list id="element-277" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Find the sample mean <m:math><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover></m:math></item>
+</table><list id="element-277" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Find the sample mean <m:math><m:apply><m:conjugate/><m:ci>x</m:ci></m:apply></m:math></item>
 <item>Find the sample standard deviation, <emphasis effect="italics">s</emphasis></item>
 <item>Construct a histogram of the data.</item>
 <item>Complete the columns of the chart.</item>
@@ -1515,6 +1525,7 @@ For the population standard deviation, the denominator is <emphasis effect="ital
 <item>Find the third quartile.</item>
 <item>The middle 50% of the weights are from _______ to _______.</item>
 <item>If our population were all professional football players, would the above data be a sample of weights or the population of weights?  Why?</item>
+<item>If our population included every team member who ever played for the San Francisco 49ers, would the above data be a sample of weights or the population of weights?  Why?</item>
 <item>Assume the population was the San Francisco 49ers.  Find:
 <list id="nestlist4" mark-suffix="." list-type="enumerated" number-style="lower-roman"><item>the population mean, <emphasis effect="italics">μ</emphasis>.</item>
 <item>the population standard deviation, <emphasis effect="italics">σ</emphasis>.</item>
@@ -1532,6 +1543,7 @@ For the population standard deviation, the denominator is <emphasis effect="ital
 
 <item>205.5, 272.5</item>
 <item>sample</item>
+<item>population</item>
 <item>
 <list id="element-409" mark-suffix="." list-type="enumerated" number-style="lower-roman"><item>236.34</item>
 <item>37.50</item>
@@ -1552,7 +1564,7 @@ For the population standard deviation, the denominator is <emphasis effect="ital
 </exercise>
 
 <exercise id="element-314"><problem id="id6158752">
-<para id="element-223">Refer to <link target-id="fs-idm70725344"/> determine which of the following are true and which are false. Explain your solution to each part in complete sentences.</para><figure id="fs-idm70725344"><media id="id4115299" alt="This shows three graphs. The first is a histogram with a mode of 3 and fairly symmetrical distribution between 1 (minimum value) and 5 (maximum value). The second graph is a histogram with peaks at 1 (minimum value) and 5 (maximum value) with 3 having the lowest frequency. The third graph is a box plot. The first whisker extends from 0 to 1. The box begins at the firs quartile, 1, and ends at the third quartile,6. A vertical, dashed line marks the median at 3. The second whisker extends from 6 on. " display="block"><image src="../../media/fig-ch02_13_05-c4d6.jpg" mime-type="image/jpg" width="350px"/></media>
+<para id="element-223">Refer to <link target-id="fs-idm70725344"/> determine which of the following are true and which are false. Explain your solution to each part in complete sentences.</para><figure id="fs-idm70725344"><media id="id4115299" alt="This shows three graphs. The first is a histogram with a mode of 3 and fairly symmetrical distribution between 1 (minimum value) and 5 (maximum value). The second graph is a histogram with peaks at 1 (minimum value) and 5 (maximum value) with 3 having the lowest frequency. The third graph is a box plot. The first whisker extends from 0 to 1. The box begins at the firs quartile, 1, and ends at the third quartile,6. A vertical, dashed line marks the median at 3. The second whisker extends from 6 on. " display="block"><image src="../../media/fig-ch02_13_05.jpg" mime-type="image/jpg" width="350px"/></media>
 </figure><list id="element-25" list-type="enumerated" number-style="lower-alpha"><item>The medians for both graphs are the same.</item>
 <item>We cannot determine if any of the means for both graphs is different.</item>
 <item>The standard deviation for graph b is larger than the standard deviation for graph a.</item>
@@ -1566,7 +1578,7 @@ For the population standard deviation, the denominator is <emphasis effect="ital
 </exercise>
 
 <exercise id="fs-idm40658512"><problem id="id4298561">
-<para id="id12029548">In a recent issue of the <cite id="cite-00001"><cite-title>IEEE Spectrum</cite-title></cite>, 84 engineering conferences were announced. Four conferences lasted two days. Thirty-six lasted three days. Eighteen lasted four days. Nineteen lasted five days. Four lasted six days. One lasted seven days. One lasted eight days. One lasted nine days. Let <emphasis effect="italics">X</emphasis> = the length (in days) of an engineering conference.</para><list id="id6952326" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Organize the data in a chart.</item>
+<para id="id12029548">In a recent issue of the <cite><cite-title>IEEE Spectrum</cite-title></cite>, 84 engineering conferences were announced. Four conferences lasted two days. Thirty-six lasted three days. Eighteen lasted four days. Nineteen lasted five days. Four lasted six days. One lasted seven days. One lasted eight days. One lasted nine days. Let <emphasis effect="italics">X</emphasis> = the length (in days) of an engineering conference.</para><list id="id6952326" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Organize the data in a chart.</item>
 <item>Find the median, the first quartile, and the third quartile.</item>
 <item>Find the 65<sup>th</sup> percentile.</item>
 <item>Find the 10<sup>th</sup> percentile.</item>
@@ -1713,7 +1725,7 @@ For the population standard deviation, the denominator is <emphasis effect="ital
 </exercise>
 </section>
 
- </content>
+</content>
 
 <glossary>
 <definition id="stddev">

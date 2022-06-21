@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="eip-8888">This chapter introduces a new probability density function, the F distribution. This distribution is used for many applications including ANOVA and for testing equality across multiple means. We begin with the F distribution and the test of hypothesis of differences in variances. It is often desirable to compare two variances rather than two averages. For instance, college administrators would like two college professors grading exams to have the same variation in their grading. In order for a lid to fit a container, the variation in the lid and the container should be approximately the same. A supermarket might be interested in the variability of check-out times for two checkers. In finance, the variance is a measure of risk and thus an interesting question would be to test the hypothesis that two different investment portfolios have the same variance, the volatility.</para><para id="element-114">In order to perform a <emphasis effect="italics">F</emphasis> test of two variances, it is important that the following are true:
+<para id="delete_me">This chapter introduces a new probability density function, the F distribution. This distribution is used for many applications including ANOVA and for testing equality across multiple means. We begin with the F distribution and the test of hypothesis of differences in variances. It is often desirable to compare two variances rather than two averages. For instance, college administrators would like two college professors grading exams to have the same variation in their grading. In order for a lid to fit a container, the variation in the lid and the container should be approximately the same. A supermarket might be interested in the variability of check-out times for two checkers. In finance, the variance is a measure of risk and thus an interesting question would be to test the hypothesis that two different investment portfolios have the same variance, the volatility.</para><para id="element-114">In order to perform a <emphasis effect="italics">F</emphasis> test of two variances, it is important that the following are true:
 <list id="list1" list-type="enumerated"><item>The populations from which the two samples are drawn are approximately normally distributed.</item>
 <item>The two populations are independent of each other.</item>
 </list></para>
@@ -20,7 +20,7 @@
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> and <m:math>
  <m:mrow>
@@ -29,7 +29,7 @@
    <m:mn>2</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> be the unknown population variances and <m:math>
  <m:mrow>
@@ -38,7 +38,7 @@
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> and <m:math>
  <m:mrow>
@@ -47,7 +47,7 @@
    <m:mn>2</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> be the sample variances. Let the
 sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasis effect="italics">n</emphasis><sub>2</sub>. Since we are interested in comparing the two sample variances, we use the <emphasis effect="italics">F</emphasis> ratio:</para><para id="element-321"><m:math>
@@ -63,11 +63,11 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
           <m:mi>s</m:mi>
           <m:mn>1</m:mn>
          </m:msub>
-
+         
         </m:mrow>
         <m:mn>2</m:mn>
        </m:msup>
-
+       
       </m:mrow>
       <m:mrow>
        <m:msup>
@@ -76,14 +76,14 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
           <m:mi>σ</m:mi>
           <m:mn>1</m:mn>
          </m:msub>
-
+       
         </m:mrow>
         <m:mn>2</m:mn>
        </m:msup>
-
+       
       </m:mrow>
      </m:mfrac>
-
+     
     </m:mrow> <m:mo>]</m:mo></m:mrow>
    </m:mrow>
    <m:mrow>
@@ -96,11 +96,11 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
           <m:mi>s</m:mi>
           <m:mn>2</m:mn>
          </m:msub>
-
+         
         </m:mrow>
         <m:mn>2</m:mn>
        </m:msup>
-
+       
       </m:mrow>
       <m:mrow>
        <m:msup>
@@ -109,18 +109,18 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
           <m:mi>σ</m:mi>
           <m:mn>2</m:mn>
          </m:msub>
-
+         
         </m:mrow>
         <m:mn>2</m:mn>
        </m:msup>
-
+       
       </m:mrow>
      </m:mfrac>
-
+     
     </m:mrow> <m:mo>]</m:mo></m:mrow>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></para><para id="element-648"><emphasis effect="italics">F</emphasis> has the distribution <emphasis effect="italics">F</emphasis> ~ <emphasis effect="italics">F</emphasis>(<emphasis effect="italics">n</emphasis><sub>1</sub> – 1, <emphasis effect="italics">n</emphasis><sub>2</sub> – 1)
 </para><para id="element-266">where <emphasis effect="italics">n</emphasis><sub>1</sub> – 1 are the degrees of freedom for the numerator and <emphasis effect="italics">n</emphasis><sub>2</sub> – 1 are the degrees of freedom for the denominator.</para>
@@ -137,7 +137,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>2</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math>, then the <emphasis effect="italics">F</emphasis> Ratio, test statistic, becomes <m:math>
  <m:mrow>
@@ -152,11 +152,11 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
           <m:mi>s</m:mi>
           <m:mn>1</m:mn>
          </m:msub>
-
+       
         </m:mrow>
         <m:mn>2</m:mn>
        </m:msup>
-
+       
       </m:mrow>
       <m:mrow>
        <m:msup>
@@ -165,14 +165,14 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
           <m:mi>σ</m:mi>
           <m:mn>1</m:mn>
          </m:msub>
-
+         
         </m:mrow>
         <m:mn>2</m:mn>
        </m:msup>
-
+       
       </m:mrow>
      </m:mfrac>
-
+     
     </m:mrow> <m:mo>]</m:mo></m:mrow>
    </m:mrow>
    <m:mrow>
@@ -185,11 +185,11 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
           <m:mi>s</m:mi>
           <m:mn>2</m:mn>
          </m:msub>
-
+      
         </m:mrow>
         <m:mn>2</m:mn>
        </m:msup>
-
+       
       </m:mrow>
       <m:mrow>
        <m:msup>
@@ -198,14 +198,14 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
           <m:mi>σ</m:mi>
           <m:mn>2</m:mn>
          </m:msub>
-
+       
         </m:mrow>
         <m:mn>2</m:mn>
        </m:msup>
-
+       
       </m:mrow>
      </m:mfrac>
-
+     
     </m:mrow> <m:mo>]</m:mo></m:mrow>
    </m:mrow>
   </m:mfrac>
@@ -217,11 +217,11 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
        <m:mi>s</m:mi>
        <m:mn>1</m:mn>
       </m:msub>
-
+      
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
    <m:mrow>
     <m:msup>
@@ -230,16 +230,16 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
        <m:mi>s</m:mi>
        <m:mn>2</m:mn>
       </m:msub>
-
+     
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
-</m:math></para><section id="fs-idm69171152" class="formula-review"><equation class="unnumbered" id="fs-id1164673614422"><label/><m:math>
+</m:math></para><section id="fs-idm69171152" class="formula-review"><equation id="fs-id1164673614422"><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
 
 <m:mfrac><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac>
@@ -252,12 +252,12 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 
 <m:mfrac><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow><m:mrow><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mrow></m:mfrac>
 
-<m:mo>≠</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:math></equation>
+<m:mo>≠</m:mo><m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub></m:math></equation> 
 
 <para id="fs-id1170065513678"> if δ<sub>0</sub>=1 then </para>
 
-<equation class="unnumbered" id="fs-id1172115089934"><label/><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math></equation>
-<equation class="unnumbered" id="fs-id1170062880361"><label/><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>≠</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:math></equation>
+<equation id="fs-id1172115089934"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>=</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:math></equation>
+<equation id="fs-id1170062880361"><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>≠</m:mo><m:msub><m:mi>σ</m:mi><m:mn>2</m:mn></m:msub></m:math></equation>
 <para id="fs-id2968825"> Test statistic is : </para>
 
 <equation id="fs-id7583726">
@@ -284,7 +284,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
   </row>
   <row>
     <entry>H<sub>1</sub>: σ<sub>1</sub><sup>2</sup> ≠ σ<sub>2</sub><sup>2</sup></entry>
-    <entry>H<sub>1</sub>: σ<sub>1</sub><sup>2</sup> > σ<sub>2</sub><sup>2</sup></entry>
+    <entry>H<sub>1</sub>: σ<sub>1</sub><sup>2</sup> &gt; σ<sub>2</sub><sup>2</sup></entry>
     <entry>H<sub>1</sub>: σ<sub>1</sub><sup>2</sup> &lt; σ<sub>2</sub><sup>2</sup></entry>
   </row>
 </tbody>
@@ -293,7 +293,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 
 
 </tgroup>
-</table><para id="eip-562">A more general form of the null and alternative hypothesis for a two tailed test would be :</para><equation class="unnumbered" id="eip-139"><label/><m:math>
+</table><para id="eip-562">A more general form of the null and alternative hypothesis for a two tailed test would be :</para><equation id="eip-139"><m:math>
 <m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo>
 <m:mfrac>
@@ -303,7 +303,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 </m:mfrac>
 <m:mo>=</m:mo>
 <m:msub><m:mi>δ</m:mi><m:mn>0</m:mn></m:msub>
-</m:math></equation><equation class="unnumbered" id="eip-766"><label/><m:math>
+</m:math></equation><equation id="eip-766"><m:math>
 <m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub>
 <m:mo>:</m:mo>
 <m:mfrac>
@@ -320,7 +320,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> and <m:math>
  <m:mrow>
@@ -329,7 +329,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>2</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> are close in value and the test statistic, <m:math>
  <m:mrow><m:msub>
@@ -341,11 +341,11 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
        <m:mi>s</m:mi>
        <m:mn>1</m:mn>
       </m:msub>
-
+      
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
    <m:mrow>
     <m:msup>
@@ -354,14 +354,14 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
        <m:mi>s</m:mi>
        <m:mn>2</m:mn>
       </m:msub>
-
+  
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> is close to one. But if the two population variances are very different, <m:math>
  <m:mrow>
@@ -370,7 +370,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> and <m:math>
  <m:mrow>
@@ -379,7 +379,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>2</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> tend to be very different, too. Choosing <m:math>
  <m:mrow>
@@ -388,7 +388,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> as the larger sample variance causes the ratio <m:math>
  <m:mrow>
@@ -400,11 +400,11 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
        <m:mi>s</m:mi>
        <m:mn>1</m:mn>
       </m:msub>
-
+      
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
    <m:mrow>
     <m:msup>
@@ -413,14 +413,14 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
        <m:mi>s</m:mi>
        <m:mn>2</m:mn>
       </m:msub>
-
+     
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> to be greater than one. If <m:math>
  <m:mrow>
@@ -429,7 +429,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> and <m:math>
  <m:mrow>
@@ -438,7 +438,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>2</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> are far apart, then <m:math>
  <m:mrow><m:msub>
@@ -450,11 +450,11 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
        <m:mi>s</m:mi>
        <m:mn>1</m:mn>
       </m:msub>
-
+     
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
    <m:mrow>
     <m:msup>
@@ -463,14 +463,14 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
        <m:mi>s</m:mi>
        <m:mn>2</m:mn>
       </m:msub>
-
+      
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> is a large number.</para><para id="eip-657">Therefore, if <emphasis effect="italics">F</emphasis> is close to one, the evidence favors the null hypothesis (the two population variances are equal). But if <emphasis effect="italics">F</emphasis> is much larger than one, then the evidence is against the null hypothesis. In essence, we are asking if the calculated F statistic, test statistic,  is significantly different from one.</para><para id="eip-415">To determine the critical points we have to find F<sub>α</sub>,<sub>df1</sub>,<sub>df2</sub>. See Appendix A for the F table. This F table has values for various levels of significance from 0.1 to 0.001 designated as "p" in the first column. To find the critical value choose the desired significance level and follow down and across to find the critical value at the intersection of the two different degrees of freedom. The F distribution has two different degrees of freedom, one associated with the numerator, <sub>df1</sub>, and one associated with the denominator, <sub>df2</sub> and to complicate matters the F distribution is not symmetrical and changes the degree of skewness as the degrees of freedom change. The degrees of freedom in the numerator is n<sub>1</sub>-1, where n<sub>1</sub> is the sample size for group 1, and the degrees of freedom in the denominator is n<sub>2</sub>-1, where n<sub>2</sub> is the sample size for group 2.  F<sub>α</sub>,<sub>df1</sub>,<sub>df2</sub> will give the critical value on the <emphasis>upper</emphasis> end of the F distribution. </para><para id="eip-918">To find the critical value for the <emphasis>lower</emphasis> end of the distribution, reverse the degrees of freedom and divide the F-value from the table into one.</para><list id="eip-379" list-type="bulleted" bullet-style="bullet"><item>Upper tail critical value : F<sub>α</sub>,<sub>df1</sub>,<sub>df2</sub></item>
 <item>Lower tail critical value : 1/F<sub>α</sub>,<sub>df2</sub>,<sub>df1</sub></item>
@@ -493,7 +493,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>2</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> and <emphasis effect="italics">H<sub>a</sub></emphasis>: <m:math>
  <m:mrow>
@@ -507,7 +507,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>2</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math></para><para id="element-147"><emphasis>Calculate the test statistic:</emphasis> By the null hypothesis <m:math>
  <m:mrow>
@@ -534,11 +534,11 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
        <m:mi>s</m:mi>
        <m:mn>2</m:mn>
       </m:msub>
-
+      
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
    <m:mrow>
     <m:msup>
@@ -547,11 +547,11 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
        <m:mi>s</m:mi>
        <m:mn>1</m:mn>
       </m:msub>
-
+     
      </m:mrow>
      <m:mn>2</m:mn>
     </m:msup>
-
+    
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
@@ -694,7 +694,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    </m:mrow>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> and <m:math>
  <m:mrow>
@@ -716,7 +716,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    </m:mrow>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math> (two tailed test)</para>
 
@@ -765,7 +765,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mtext>2</m:mtext>
    <m:mtext>2</m:mtext>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math></para>
 
@@ -781,7 +781,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>2</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math></para></solution>
 </exercise>
@@ -925,7 +925,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>2</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math>
 </item>
@@ -945,14 +945,14 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math>
 </item>
 <item><emphasis effect="italics">df</emphasis>(<emphasis effect="italics">num</emphasis>) = 4; <emphasis effect="italics">df</emphasis>(<emphasis effect="italics">denom</emphasis>) = 4</item>
 <item><emphasis effect="italics">F</emphasis><sub>4, 4</sub></item>
 <item>3.00</item>
-<item>Check student's solution.</item>
+<item>Check student't solution.</item>
 <item>Decision: Cannot reject the null hypothesis; Conclusion: There is insufficient evidence to conclude that the variances are different.</item>
 </list></solution>
 </exercise>
@@ -1011,7 +1011,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 </row>
 </tbody>
 
-
+    
 </tgroup>
 </table><para id="element-421">Determine whether or not the variance in mileage driven is statistically the same among the working class and professional (middle income) groups. Use a 5% significance level.</para>
 </problem></exercise>
@@ -1115,17 +1115,17 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
             <entry>62</entry>
             <entry>99</entry>
             <entry>31</entry>
-            <entry>141</entry>
+            <entry>141</entry> 
           </row>
           <row>
             <entry>73</entry>
-            <entry>60</entry>
+            <entry>60</entry>  
             <entry>118</entry>
-            <entry>73</entry>
+            <entry>73</entry> 
           </row>
           <row>
             <entry/>
-            <entry>89</entry>
+            <entry>89</entry>  
             <entry/>
             <entry/>
           </row>
@@ -1138,54 +1138,54 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
   <para id="eip-31">Are the variances for incomes on the East Coast and the West Coast the same? Suppose that <link target-id="eip-id1170625876754"/> shows the results of a study. Income is shown in thousands of dollars. Assume that both distributions are normal. Use a level of significance of 0.05.</para><table id="eip-id1170625876754" summary="The Table contains the amount of money shoppers spend on Saturday (first column) and Sunday (second column).">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
-
+        
         <thead>
           <row>
             <entry>East</entry>
             <entry>West</entry>
-
+            
           </row>
           </thead>
           <tbody>
           <row>
             <entry>38</entry>
             <entry>71</entry>
-
+            
           </row>
           <row>
             <entry>47</entry>
             <entry>126</entry>
-
+            
           </row>
           <row>
             <entry>30</entry>
             <entry>42</entry>
-
+            
           </row>
           <row>
             <entry>82</entry>
             <entry>51</entry>
-
+            
           </row>
           <row>
             <entry>75</entry>
             <entry>44</entry>
-
+            
           </row>
           <row>
             <entry>52</entry>
             <entry>90</entry>
-
+           
           </row>
           <row>
             <entry>115</entry>
             <entry>88</entry>
-
+            
           </row>
           <row>
             <entry>67</entry>
             <entry/>
-
+            
           </row>
         </tbody>
 
@@ -1194,43 +1194,43 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 
 <solution id="eip-idm135090720">
 <list id="eip-idm135090464" list-type="enumerated" number-style="lower-alpha">
-<item><emphasis effect="italics">H<sub>0</sub></emphasis>: = <m:math>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: = <m:math display="">
  <m:mrow>
   <m:msubsup>
    <m:mi>σ</m:mi>
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
-</m:math> = <m:math>
+</m:math> = <m:math display="">
  <m:mrow>
   <m:msubsup>
    <m:mi>σ</m:mi>
    <m:mn>2</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math>
 </item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <m:math>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <m:math display="">
  <m:mrow>
   <m:msubsup>
    <m:mi>σ</m:mi>
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
-</m:math> ≠ <m:math>
+</m:math> ≠ <m:math display="">
  <m:mrow>
   <m:msubsup>
    <m:mi>σ</m:mi>
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:msubsup>
-
+  
  </m:mrow>
 </m:math>
 
@@ -1470,7 +1470,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 
 </tgroup>
 </table><para id="fs-idm113961200">
-<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 26.272) = 0;</para>
+<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 26.272) = 0;</para>
 <para id="eip-idm119286624">Cannot accept the null hypothesis for any alpha. There is sufficient evidence to conclude that the mean silver content among the four coinages are different. From the strip chart, it appears that the first and second coinages had higher silver contents than the third and fourth.</para></solution>
 </exercise>
 <exercise id="eip-273"><problem id="eip-idm101855984">
@@ -1485,7 +1485,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 <entry>Division</entry>
 <entry>Team</entry>
 <entry>Wins</entry>
-</row>
+</row> 
 </thead>
 <tbody>
 <row>
@@ -1527,7 +1527,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 <entry>Division</entry>
 <entry>Team</entry>
 <entry>Wins</entry>
-</row>
+</row> 
 </thead>
 <tbody>
 <row>
@@ -1570,7 +1570,7 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 <entry>Division</entry>
 <entry>Team</entry>
 <entry>Wins</entry>
-</row>
+</row> 
 </thead>
 <tbody>
 <row>
@@ -1652,8 +1652,8 @@ sample sizes be <emphasis effect="italics">n</emphasis><sub>1</sub> and <emphasi
 
 
 </tgroup>
-</table><para id="fs-idm57974800"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> > 1.5521) = 0.2548
+</table><para id="fs-idm57974800"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis> &gt; 1.5521) = 0.2548
 <newline/>Since the <emphasis effect="italics">p</emphasis>-value is so large, there is not good evidence against the null hypothesis of equal means. We cannot reject the null hypothesis. Thus, for 2012, there is not any have any good evidence of a significant difference in mean number of wins between the divisions of the American League.</para></solution>
 </exercise></section>
- </content>
+</content>
 </document>

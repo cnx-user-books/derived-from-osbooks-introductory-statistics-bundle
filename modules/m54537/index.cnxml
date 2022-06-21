@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <section id="element-733"><title>Examples of the Central Limit Theorem</title><section id="fs-idp5962992"><title>Law of Large Numbers</title><para id="element-349">The <term id="term-00001">law of large numbers</term> says that if you take samples of larger and larger size from any population, then the mean of the sampling distribution,  <m:math><m:msub><m:mi>μ</m:mi>
+    <section id="element-733"><title>Examples of the Central Limit Theorem</title><section id="fs-idp5962992"><title>Law of Large Numbers</title><para id="element-349">The <term>law of large numbers</term> says that if you take samples of larger and larger size from any population, then the mean of the sampling distribution,  <m:math><m:msub><m:mi>μ</m:mi>
  <m:mrow><m:mover>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
@@ -39,7 +39,7 @@
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover></m:msub>
-</m:math>, is equal to the mean of the population of the original data which is what we are interested in estimating from the sample we took. We have already inserted this conclusion of the Central Limit Theorem into the formula we use for standardizing from the sampling distribution to the standard normal distribution.
+</m:math>, is equal to the mean of the population of the original data which is what we are interested in estimating from the sample we took. We have already inserted this conclusion of the Central Limit Theorem into the formula we use for standardizing from the sampling distribution to the standard normal distribution. 
 And finally, the Central Limit Theorem has also provided the standard deviation of the sampling distribution, <m:math><m:msub><m:mi>σ</m:mi><m:mover>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
@@ -53,19 +53,19 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-</m:math>'s and the standard deviation has been written to the right above the distribution. Notice that the standard deviation of the sampling distribution is the original standard deviation of the population, divided by the sample size. We have already seen that as the sample size increases the sampling distribution becomes closer and closer to the normal distribution. As this happens, the standard deviation of the sampling distribution changes in another way; the standard deviation decreases as n increases. At very large n, the standard deviation of the sampling distribution becomes very small and at infinity it collapses on top of the population mean. This is what it means that the expected value of  <m:math><m:msub><m:mi>µ</m:mi><m:mrow><m:mover>
+</m:math>'s and the standard deviation has been written to the right above the distribution. Notice that the standard deviation of the sampling distribution is the original standard deviation of the population, divided by the sample size. We have already seen that as the sample size increases the sampling distribution becomes closer and closer to the normal distribution. As this happens, the standard deviation of the sampling distribution changes in another way; the standard deviation decreases as n increases. At very very large n, the standard deviation of the sampling distribution becomes very small and at infinity it collapses on top of the population mean. This is what it means that the expected value of  <m:math><m:msub><m:mi>µ</m:mi><m:mrow><m:mover>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover></m:mrow></m:msub>
 </m:math> is the population mean, µ. </para><figure id="fs-id1168335762577"><media id="fs-id1170967292809" alt=".."><image mime-type="image/jpeg" src="../../media/fig-ch06_02_05n.jpg" width="420"/></media></figure><para id="eip-597">At non-extreme values of n,this relationship between the standard deviation of the sampling distribution and the sample size plays a very important part in our ability to estimate the parameters we are interested in. </para><para id="eip-887"><link target-id="fs-id1171528778810"/> shows three sampling distributions. The only change that was made is the sample size that was used to get the sample means for each distribution. As the sample size increases, n goes from 10 to 30 to 50, the standard deviations of the respective sampling distributions decrease because the sample size is in the denominator of the standard deviations of the sampling distributions. </para><figure id="fs-id1171528778810"><media id="fs-id1171512251668" alt=".."><image mime-type="image/jpeg" src="../../media/fig-ch06_02_07n.jpg" width="420"/></media></figure>
-<para id="eip-551">The implications for this are very important. <link target-id="fs-id1165504658019"/> shows the effect of the sample size on the confidence we will have in our estimates. These are two sampling distributions from the same population. One sampling distribution was created with samples of size 10 and the other with samples of size 50. All other things constant, the sampling distribution with sample size 50 has a smaller standard deviation that causes the graph to be higher and narrower. The important effect of this is that for the same probability of one standard deviation from the mean, this distribution covers much less of a range of possible values than the other distribution. One standard deviation is marked on the <m:math><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:math> axis for each distribution. This is shown by the two arrows that are plus or minus one standard deviation for each distribution. If the probability that the true mean is one standard deviation away from the mean, then for the sampling distribution with the smaller sample size, the possible range of values is much greater. A simple question is, would you rather have a sample mean from the narrow, tight distribution, or the flat, wide distribution as the estimate of the population mean? Your answer tells us why people intuitively will always choose data from a large sample rather than a small sample. The sample mean they are getting is coming from a more compact distribution. This concept will be the foundation for what will be called level of confidence in the next unit.  </para><figure id="fs-id1165504658019"><media id="fs-id8850305" alt=".."><image mime-type="image/jpeg" src="../../media/fig-ch06_02_08n.jpg" width="420"/></media></figure></section></section><section id="fs-idm72155760" class="summary">
+<para id="eip-551">The implications for this are very important. <link target-id="fs-id1165504658019"/> shows the effect of the sample size on the confidence we will have in our estimates. These are two sampling distributions from the same population. One sampling distribution was created with samples of size 10 and the other with samples of size 50. All other things constant, the sampling distribution with sample size 50 has a smaller standard deviation that causes the graph to be higher and narrower. The important effect of this is that for the same probability of one standard deviation from the mean, this distribution covers much less of a range of possible values than the other distribution. One standard deviation is marked on the <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math> axis for each distribution. This is shown by the two arrows that are plus or minus one standard deviation for each distribution. If the probability that the true mean is one standard deviation away from the mean, then for the sampling distribution with the smaller sample size, the possible range of values is much greater. A simple question is, would you rather have a sample mean from the narrow, tight distribution, or the flat, wide distribution as the estimate of the population mean? Your answer tells us why people intuitively will always choose data from a large sample rather than a small sample. The sample mean they are getting is coming from a more compact distribution. This concept will be the foundation for what will be called level of confidence in the next unit.  </para><figure id="fs-id1165504658019"><media id="fs-id8850305" alt=".."><image mime-type="image/jpeg" src="../../media/fig-ch06_02_08n.jpg" width="420"/></media></figure></section></section><section id="fs-idm72155760" class="summary">
 <title>Chapter Review</title>
 <para id="fs-idm147861760">The Central Limit Theorem can be used to illustrate the law of large numbers. The law of large numbers states that the larger the sample size you take from a population, the closer the sample mean <m:math>
  <m:mover>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> gets to <emphasis effect="italics">μ</emphasis>.</para></section>
 
 <section id="fs-idm65344016" class="practice"><para id="fs-idp5239552"><emphasis effect="italics">Use the following information to answer the next ten exercises:</emphasis> A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.</para>
@@ -73,7 +73,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
 <exercise id="exercise4">
 <problem id="fs-idm108112736">
 <list id="fs-idm44419104" list-type="enumerated" number-style="lower-alpha">
-<item>What is the distribution for the weights of one 25-pound lifting weight? What is the mean and standard deviation?</item>
+<item>What is the distribution for the weights of one 25-pound lifting weight? What is the mean and standard deivation?</item>
 <item>What is the distribution for the mean weight of 100 25-pound lifting weights?</item>
 <item>Find the probability that the mean actual weight for the 100 weights is less than 24.9.</item>
 </list>
@@ -191,7 +191,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
     <m:mn>10</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 </list>
@@ -213,7 +213,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -232,7 +232,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
      </m:mrow>
      <m:mn>8</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -270,7 +270,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
 <!-- <solution id="fs-idm72677136"><para id="fs-idm12285840">205.05</para></solution> -->
 </exercise><para id="fs-idm65293824"><emphasis effect="italics"><newline/>Use the following information to answer the next eight exercises:</emphasis> A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.</para><exercise id="fs-idm1612656">
 <problem id="fs-idm47127360">
-<para id="fs-idm47127232">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 420).</para>
+<para id="fs-idm47127232">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> &gt; 420).</para>
 </problem>
 <solution id="fs-idm7883840"><para id="fs-idm7883712">0.0072</para></solution>
 </exercise>
@@ -336,7 +336,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
 
 <exercise id="eip-idm1750045488"><problem id="eip-idm1752321840"><para id="eip-idm203069456">A population has a mean of 14 and a standard deviation of 5. If it is sampled repeatedly with samples of size 60, what is the expected value and standard deviation of the sample means?</para></problem>
 
-<solution id="eip-idm1733727664"><para id="eip-idm183670752">Expected value = 14, standard deviation = 0.65</para></solution></exercise></section><section id="eip-94" class="free-response"><title>Homework</title><exercise id="eip-idm1669069152"><problem id="eip-idm1359885776"><para id="eip-idm1515823152">A large population of 5,000 students take a practice test to prepare for a standardized test. The population mean is 140 questions correct, and the standard deviation is 80. What size samples should a researcher take to get a distribution of means of the samples with a standard deviation of 10?</para></problem>
+<solution id="eip-idm1733727664"><para id="eip-idm183670752">Expected value = 14, standard deviation = 0.65</para></solution></exercise><section id="eip-94" class="free-response"><title>Homework</title><exercise id="eip-idm1669069152"><problem id="eip-idm1359885776"><para id="eip-idm1515823152">A large population of 5,000 students take a practice test to prepare for a standardized test. The population mean is 140 questions correct, and the standard deviation is 80. What size samples should a researcher take to get a distribution of means of the samples with a standard deviation of 10?</para></problem>
 <solution id="eip-idm1333857104"><para id="eip-idm1553049248">64</para></solution></exercise>
 
 <exercise id="eip-idm1520522960"><problem id="eip-idm1422709648"><para id="eip-idm313216400">A large population has skewed data with a mean of 70 and a
@@ -358,10 +358,10 @@ distribution of the means of these samples is analyzed.</para>
 
 <exercise id="eip-idm344765376"><problem id="eip-idm1361343792"><para id="eip-idm1312241968">A population has a standard deviation of 50. It is sampled with samples of size 100. What is the variance of the means of the samples?</para></problem>
 <solution id="eip-idm1669855520"><para id="eip-idm343155568">25</para></solution></exercise></section>
- </content>
+</section></content>
 
 <glossary>
-
+ 
 
 <definition id="mean">
     <term>Mean</term>
@@ -370,12 +370,12 @@ distribution of the means of these samples is analyzed.</para>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math>) is <m:math>
  <m:mrow>
   <m:mover accent="true">
    <m:mi>x</m:mi>
-   <m:mo>¯</m:mo>
+   <m:mo>–</m:mo>
   </m:mover>
   <m:mtext> = </m:mtext><m:mfrac>
    <m:mrow>
@@ -385,7 +385,7 @@ distribution of the means of these samples is analyzed.</para>
     <m:mtext>Number of values in the sample</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, and the mean for a population (denoted by <emphasis effect="italics">μ</emphasis>) is <m:math>
  <m:mrow>
@@ -397,12 +397,12 @@ distribution of the means of these samples is analyzed.</para>
     <m:mtext>Number of values in the population</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.</meaning>
   </definition>
 <definition id="fs-id1194328">
-<term>Finite Population Correction Factor</term>
+<term>Finite Population Correction Factor</term> 
 <meaning id="fs-id1227360">adjusts the variance of the sampling distribution if the population is known and more than 5% of the population is being sampled.</meaning>
 </definition>
 
@@ -418,7 +418,7 @@ distribution of the means of these samples is analyzed.</para>
       <m:mn>2</m:mn><m:mi>π</m:mi>
      </m:mrow>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
   <m:mo> </m:mo><m:msup>
@@ -432,20 +432,20 @@ distribution of the means of these samples is analyzed.</para>
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
      <m:mrow>
       <m:mn>2</m:mn><m:msup>
        <m:mi>σ</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msup>
-
+  
  </m:mrow>
 </m:math>, where <emphasis effect="italics">μ</emphasis> is the mean of the distribution and <emphasis effect="italics">σ</emphasis> is the standard deviation.; notation: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>). If <emphasis effect="italics">μ</emphasis> = 0 and <emphasis effect="italics">σ</emphasis> = 1, the random variable, Z, is called the <emphasis>standard normal distribution</emphasis>.</meaning>
 </definition>

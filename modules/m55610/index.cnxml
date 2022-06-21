@@ -21,15 +21,15 @@
 <para id="element-895"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≥ 16.43  <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 16.43</para><para id="element-241">For Jeffrey to swim faster, his time will be less than 16.43 seconds. The "&lt;" tells you this is left-tailed.</para>
 
 <para id="element-496">Determine the distribution needed:</para>
-<para id="element-67"><emphasis>Random variable: </emphasis><m:math><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:math> = the mean time to swim the 25-yard freestyle.</para>
+<para id="element-67"><emphasis>Random variable: </emphasis><m:math><m:apply><m:conjugate/><m:mi>X</m:mi></m:apply></m:math> = the mean time to swim the 25-yard freestyle.</para>
 <para id="element-58"><emphasis> Distribution for the test statistic: </emphasis></para>
 <para id="element-681">The sample size is less than 30 and we do not know the population standard deviation so this is a t-test. and the proper formula is: <m:math>
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
-<m:mfrac><m:mrow><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mo>-</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
-<m:mrow><m:mi>σ</m:mi><m:mo>/</m:mo><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac></m:math></para><para id="eip-id1164384054820"><emphasis effect="italics">μ</emphasis><sub>0</sub> = 16.43 comes from <emphasis effect="italics">H<sub>0</sub></emphasis> and not the data. <m:math><m:mover accent="true"><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover></m:math> = 16. <emphasis effect="italics">s</emphasis> = 0.8, and <emphasis effect="italics">n</emphasis> = 15.</para><para id="element-770">Our step 2, setting the level of significance, has already been determined by the problem, .05 for a 95 % significance level. It is worth thinking about the meaning of this choice.  The Type I error is to conclude that Jeffrey swims the 25-yard freestyle, on average, in less than 16.43 seconds when, in fact, he actually swims the 25-yard freestyle, on average, in 16.43 seconds. (Reject the null hypothesis when the null hypothesis is true.) For this case the only concern with a Type I error would seem to be that Jeffery’s dad may fail to bet on his son’s victory because he does not have appropriate confidence in the effect of the goggles.
+<m:mfrac><m:mrow><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>-</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
+<m:mrow><m:mi>σ</m:mi><m:mo>/</m:mo><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac></m:math></para><para id="eip-id1164384054820"><emphasis effect="italics">μ</emphasis><sub>0</sub> = 16.43 comes from <emphasis effect="italics">H<sub>0</sub></emphasis> and not the data. <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math> = 16. <emphasis effect="italics">s</emphasis> = 0.8, and <emphasis effect="italics">n</emphasis> = 15.</para><para id="element-770">Our step 2, setting the level of significance, has already been determined by the problem, .05 for a 95 % significance level. It is worth thinking about the meaning of this choice.  The Type I error is to conclude that Jeffrey swims the 25-yard freestyle, on average, in less than 16.43 seconds when, in fact, he actually swims the 25-yard freestyle, on average, in 16.43 seconds. (Reject the null hypothesis when the null hypothesis is true.) For this case the only concern with a Type I error would seem to be that Jeffery’s dad may fail to bet on his son’s victory because he does not have appropriate confidence in the effect of the goggles.
 </para><para id="element-706">To find the critical value we need to select the appropriate test statistic. We have concluded that this is a t-test on the basis of the sample size and that we are interested in a population mean. We can now draw the graph of the t-distribution and mark the critical value. For this problem the degrees of freedom are n-1, or 14. Looking up 14 degrees of freedom at the 0.05 column of the t-table we find 1.761. This is the critical value and we can put this on our graph.
-</para><para id="element-656">Step 3 is the calculation of the test statistic using the formula we have selected. We find that the calculated test statistic is 2.08, meaning that the sample mean is 2.08 standard deviations away from the hypothesized mean of 16.43. </para><equation id="fs-id1170503119212" class="unnumbered"><label/><m:math>
+</para><para id="element-656">Step 3 is the calculation of the test statistic using the formula we have selected. We find that the calculated test statistic is 2.08, meaning that the sample mean is 2.08 standard deviations away from the hypothesized mean of 16.43. </para><equation id="fs-id1170503119212"><m:math>
 
 <m:msub>
 <m:mi>t</m:mi>
@@ -41,7 +41,7 @@
 <m:mfrac>
 
 <m:mrow>
-<m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover>
+<m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover>
 <m:mo>-</m:mo>
 <m:msub>
 <m:mi>μ</m:mi>
@@ -110,7 +110,7 @@ Since the problem is about a mean, this is a test of a single population mean.
   </para>
 
 <para id="eip-idm108002480"><emphasis effect="italics">H<sub>0</sub></emphasis> : <emphasis effect="italics">μ</emphasis> = 40</para>
-<para id="eip-idm216373056"><emphasis effect="italics">H<sub>a</sub></emphasis> : <emphasis effect="italics">μ</emphasis> > 40</para><para id="eip-idm58633744"><emphasis effect="italics">p</emphasis> = 0.0062</para>
+<para id="eip-idm216373056"><emphasis effect="italics">H<sub>a</sub></emphasis> : <emphasis effect="italics">μ</emphasis> &gt; 40</para><para id="eip-idm58633744"><emphasis effect="italics">p</emphasis> = 0.0062</para>
 
 <figure id="fs-idm152825344"><media id="eip-idm58633360" alt="">
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C09_M11_tryit001annoN.jpg" width="380"/>
@@ -124,11 +124,11 @@ Since the problem is about a mean, this is a test of a single population mean.
 <solution id="eip-186">
   <para id="eip-693">
     <list id="eip-id1168265727937" list-type="enumerated" number-style="arabic"><item>H<sub>0</sub>: µ ≤ 100
-<newline/>H<sub>a</sub>: µ > 100
+<newline/>H<sub>a</sub>: µ &gt; 100
 <newline/>
 The null and alternative hypothesis are for the parameter µ because the number of dollars of the contracts is a continuous random variable. Also, this is a one-tailed test because the company has only an interested if the number of dollars per contact is below a particular number not "too high" a number. This can be thought of as making a claim that the requirement is being met and thus the claim is in the alternative hypothesis.
  </item>
-<item>Test statistic: <m:math><m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>µ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mfrac><m:mi>s</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>108</m:mn><m:mo>−</m:mo><m:mn>100</m:mn></m:mrow><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>12</m:mn><m:msqrt><m:mn>16</m:mn></m:msqrt></m:mfrac><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.67</m:mn></m:math></item>
+<item>Test statistic: <m:math><m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>µ</m:mi><m:mn>0</m:mn></m:msub></m:mrow><m:mrow><m:mfrac><m:mi>s</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>108</m:mn><m:mo>−</m:mo><m:mn>100</m:mn></m:mrow><m:mrow><m:mo>(</m:mo><m:mfrac><m:mn>12</m:mn><m:msqrt><m:mn>16</m:mn></m:msqrt></m:mfrac><m:mo>)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>2.67</m:mn></m:math></item>
 <item>Critical value: <m:math><m:msub><m:mi>t</m:mi><m:mi>a</m:mi></m:msub><m:mo>=</m:mo><m:mn>1.753</m:mn></m:math>  with n-1 degrees of freedom= 15</item>
 </list></para>
 <para id="eip-id1165105401617">The test statistic is a Student's t because the sample size is below 30; therefore, we cannot use the normal distribution. Comparing the calculated value of the test statistic and the critical value of <m:math><m:mi>t</m:mi></m:math> <m:math><m:mo>(</m:mo><m:msub><m:mi>t</m:mi><m:mi>a</m:mi></m:msub><m:mo>)</m:mo></m:math> at a 5% significance level, we see that the calculated value is in the tail of the distribution. Thus, we conclude that 108 dollars per contract is significantly larger than the hypothesized value of 100 and thus we cannot accept the null hypothesis. There is evidence that supports Jane's performance meets company standards.</para><figure id="eip-id1169369014682"><media id="eip-id1169342879021" alt=""><image src="../../media/fig-ch09_01_08.jpg" mime-type="image/png"/></media></figure></solution>
@@ -155,7 +155,7 @@ The null and alternative hypothesis are for the parameter µ because the number 
 Is there evidence that the machine should be stopped and production wait for repairs?  The lost production from a shutdown is potentially so great that management feels that the level of significance in the analysis should be 99%.</para><para id="eip-id1165937500718">Again we will follow the steps in our analysis of this problem.</para></problem>
 <solution id="eip-id1165936652556"><para id="eip-id1165941187151"><emphasis>STEP 1</emphasis>: Set the Null and Alternative Hypothesis.
 The random variable is the quantity of fluid placed in the bottles. This is a continuous random variable and the parameter we are interested in is the mean. Our hypothesis therefore is about the mean. In this case we are concerned that the machine is not filling properly. From what we are told it does not matter if the machine is over-filling or under-filling, both seem to be an equally  bad error. This tells us that this is a two-tailed test: if the machine is malfunctioning it will be shutdown regardless if it is from over-filling or under-filling. The null and alternative hypotheses are thus:
-<equation id="fs-id1171901685579" class="unnumbered"><label/><m:math>
+<equation id="fs-id1171901685579"><m:math>
 <m:msub>
 <m:mi>H</m:mi>
 <m:mn>0</m:mn>
@@ -164,7 +164,7 @@ The random variable is the quantity of fluid placed in the bottles. This is a co
 <m:mi>μ</m:mi>
 <m:mo>=</m:mo>
 <m:mn>8</m:mn>
-</m:math></equation><equation id="fs-id1168799926313" class="unnumbered"><label/><m:math>
+</m:math></equation><equation id="fs-id1168799926313"><m:math>
 <m:msub>
 <m:mi>H</m:mi>
 <m:mi>a</m:mi>
@@ -179,7 +179,7 @@ The random variable is the quantity of fluid placed in the bottles. This is a co
   </media>
   
 </figure><para id="eip-id1165950291002"><emphasis>STEP 3</emphasis>: Calculate sample parameters and the test statistic.
-The sample parameters are provided, the sample mean is 7.91 and the sample variance is .03 and the sample size is 35. We need to note that the sample variance was provided not the sample standard deviation, which is what we need for the formula. Remembering that the standard deviation is simply the square root of the variance, we therefore know the sample standard deviation, s, is 0.173. With this information we calculate the test statistic as -3.07, and mark it on the graph. </para><equation id="fs-id1170118462633" class="unnumbered"><label/><m:math>
+The sample parameters are provided, the sample mean is 7.91 and the sample variance is .03 and the sample size is 35. We need to note that the sample variance was provided not the sample standard deviation, which is what we need for the formula. Remembering that the standard deviation is simply the square root of the variance, we therefore know the sample standard deviation, s, is 0.173. With this information we calculate the test statistic as -3.07, and mark it on the graph. </para><equation id="fs-id1170118462633"><m:math>
 
 <m:msub>
 <m:mi>Z</m:mi>
@@ -191,7 +191,7 @@ The sample parameters are provided, the sample mean is 7.91 and the sample varia
 <m:mfrac>
 
 <m:mrow>
-<m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover>
+<m:mover><m:mi>x</m:mi><m:mo>-</m:mo></m:mover>
 <m:mo>-</m:mo>
 <m:msub>
 <m:mi>μ</m:mi>
@@ -244,9 +244,9 @@ Now we compare the test statistic and the critical value by placing the test sta
 </para></solution></exercise></example></section>
 
 <section id="eip-100"><title>Hypothesis Test for Proportions</title><para id="eip-493">Just as there were confidence intervals for proportions, or more formally, the population parameter <emphasis effect="italics">p</emphasis> of the binomial distribution, there is the ability to test hypotheses concerning <emphasis effect="italics">p</emphasis>. 
-</para><para id="eip-319">The population parameter for the binomial is <emphasis effect="italics">p</emphasis>. The estimated value (point estimate) for <emphasis effect="italics">p</emphasis> is <emphasis effect="italics">p′</emphasis> where <emphasis effect="italics">p′ = x/n</emphasis>, <emphasis effect="italics">x</emphasis> is the number of successes in the sample and <emphasis effect="italics">n</emphasis> is the sample size.</para><para id="eip-24">When you perform a hypothesis test of a population proportion <emphasis effect="italics">p</emphasis>, you take a simple random sample from the population. The conditions for a <term id="term-00001">binomial distribution</term> must be met, which are: there are a certain number <emphasis effect="italics">n</emphasis> of independent trials meaning random sampling, the outcomes of any trial are binary, success or failure, and each trial has the same probability of a success <emphasis effect="italics">p</emphasis>. The shape of the binomial distribution needs to be similar to the shape of the normal distribution. To ensure this, the quantities <emphasis effect="italics">np′</emphasis> and <emphasis effect="italics">nq′</emphasis> must both be greater than five (<emphasis effect="italics">np′</emphasis> > 5 and <emphasis effect="italics">nq′</emphasis> > 5). In this case the binomial distribution of a sample (estimated) proportion can be approximated by the normal distribution with <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>np</m:mi></m:math> and <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>npq</m:mi></m:msqrt></m:math>. Remember that <m:math><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi></m:math>. There is no distribution that can correct for this small sample bias and thus if these conditions are not met we simply cannot test the hypothesis with the data available at that time. We met this condition when we first were estimating confidence intervals for <emphasis effect="italics">p</emphasis>. 
+</para><para id="eip-319">The population parameter for the binomial is <emphasis effect="italics">p</emphasis>. The estimated value (point estimate) for <emphasis effect="italics">p</emphasis> is <emphasis effect="italics">p′</emphasis> where <emphasis effect="italics">p′ = x/n</emphasis>, <emphasis effect="italics">x</emphasis> is the number of successes in the sample and <emphasis effect="italics">n</emphasis> is the sample size.</para><para id="eip-24">When you perform a hypothesis test of a population proportion <emphasis effect="italics">p</emphasis>, you take a simple random sample from the population. The conditions for a <term>binomial distribution</term> must be met, which are: there are a certain number <emphasis effect="italics">n</emphasis> of independent trials meaning random sampling, the outcomes of any trial are binary, success or failure, and each trial has the same probability of a success <emphasis effect="italics">p</emphasis>. The shape of the binomial distribution needs to be similar to the shape of the normal distribution. To ensure this, the quantities <emphasis effect="italics">np′</emphasis> and <emphasis effect="italics">nq′</emphasis> must both be greater than five (<emphasis effect="italics">np′</emphasis> &gt; 5 and <emphasis effect="italics">nq′</emphasis> &gt; 5). In this case the binomial distribution of a sample (estimated) proportion can be approximated by the normal distribution with <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mi>np</m:mi></m:math> and <m:math><m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt><m:mi>npq</m:mi></m:msqrt></m:math>. Remember that <m:math><m:mi>q</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>–</m:mo><m:mi>p</m:mi></m:math>. There is no distribution that can correct for this small sample bias and thus if these conditions are not met we simply cannot test the hypothesis with the data available at that time. We met this condition when we first were estimating confidence intervals for <emphasis effect="italics">p</emphasis>. 
 </para><para id="eip-383">Again, we begin with the standardizing formula modified because this is the distribution of a binomial.</para>
-<equation id="fs-id1170343275188" class="unnumbered"><label/><m:math>
+<equation id="fs-id1170343275188"><m:math>
 <m:mi>Z</m:mi>
 
 <m:mo>=</m:mo>
@@ -266,7 +266,7 @@ Now we compare the test statistic and the critical value by placing the test sta
 </m:msqrt>
 </m:mfrac>
 </m:math></equation>
-<para id="eip-584">Substituting <m:math><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:math>, the hypothesized value of <emphasis effect="italics">p</emphasis>, we have:</para><equation id="fs-id1168195327694" class="unnumbered"><label/><m:math>
+<para id="eip-584">Substituting <m:math><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:math>, the hypothesized value of <emphasis effect="italics">p</emphasis>, we have:</para><equation id="fs-id1168195327694"><m:math>
 <m:msub>
 <m:mi>Z</m:mi>
 <m:mi>c</m:mi>
@@ -325,7 +325,7 @@ Now we compare the test statistic and the critical value by placing the test sta
   </row>
   <row>
     <entry align="center">H<sub>a</sub>: p ≠ p<sub>0</sub></entry>
-    <entry align="center">H<sub>a</sub>: p > p<sub>0</sub></entry>
+    <entry align="center">H<sub>a</sub>: p &gt; p<sub>0</sub></entry>
     <entry align="center">H<sub>a</sub>: p &lt; p<sub>0</sub></entry>
   </row>
 </tbody>
@@ -343,7 +343,7 @@ Now we compare the test statistic and the critical value by placing the test sta
 (Reject the null hypothesis when the null hypothesis is true). The Type II error is there is not enough evidence to
 conclude that the proportion of first time borrowers differs from 50% when, in
 fact, the proportion does differ from 50%. (You fail to reject the null hypothesis when the null hypothesis is false.)</para><para id="eip-418"><emphasis>STEP 2</emphasis>: Decide the level of significance and draw the graph showing the critical value</para><para id="eip-106">The level of significance has been set by the problem at the 95% level. Because this is  two-tailed test one-half of the alpha  value will be in the upper tail and one-half in the lower tail as shown on the graph. The critical value for the normal distribution at the 95% level of confidence is 1.96. This can easily be found on the student’s t-table at the very bottom at infinite degrees of freedom remembering that at infinity the t-distribution is the normal distribution. Of course the value can also be found on the normal table but you have go looking for one-half of 95 (0.475) inside the body of the table and then read out to the sides and top for the number of standard deviations.  </para><figure id="eip-id1172760521640"><media id="eip-id1172764700088" alt="..."><image mime-type="image/jpeg" src="../../media/fig-ch09_01_06m.jpg" width="380"/></media></figure><para id="eip-254"><emphasis>STEP 3</emphasis>: Calculate the sample parameters and critical value of the test statistic.</para><para id="eip-685">The test statistic is a normal distribution, Z, for testing proportions and is:  </para>
-<equation id="fs-id1170125300765" class="unnumbered"><label/><m:math>
+<equation id="fs-id1170125300765"><m:math>
 
 <m:mi>Z</m:mi>
 
@@ -416,14 +416,14 @@ fact, the proportion does differ from 50%. (You fail to reject the null hypothes
 <para id="eip-idp139727615276416"><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≠ 0.85</para><para id="eip-idp139727615277216"><emphasis effect="italics">p</emphasis> = 0.7554</para>
 <figure id="fs-idp11874016"><media id="eip-idp139727615277600" alt="">
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C09_M11_tryit002annoN.jpg" width="380"/>
-</media></figure><para id="eip-idp95887808">Because <emphasis effect="italics">p</emphasis> > <emphasis effect="italics">α</emphasis>, we fail to reject the null hypothesis. There is not sufficient evidence to suggest that the proportion of students that want to go to the zoo is not 85%.</para>
+</media></figure><para id="eip-idp95887808">Because <emphasis effect="italics">p</emphasis> &gt; <emphasis effect="italics">α</emphasis>, we fail to reject the null hypothesis. There is not sufficient evidence to suggest that the proportion of students that want to go to the zoo is not 85%.</para>
 </solution>
 </exercise></note><example id="element-577"><exercise id="element-312"><problem id="id5318755">
   <para id="element-451">Suppose a consumer group suspects that the proportion of households that have three or more cell phones is 30%. A cell phone company has reason to believe that the proportion is not 30%. Before they start a big advertising campaign, they conduct a hypothesis test. Their marketing people survey 150 households with the result that 43 of the households have three or more cell phones.</para></problem>
 
 <solution id="id4213559">
   
-<para id="element-434">Here is an abbreviate version of the system to solve hypothesis tests applied to a test on a proportions.</para><equation id="fs-id1170316286338" class="unnumbered"><label/><m:math> 
+<para id="element-434">Here is an abbreviate version of the system to solve hypothesis tests applied to a test on a proportions.</para><equation id="fs-id1170316286338"><m:math> 
 <m:msub>
 <m:mi>H</m:mi>
 <m:mn>0</m:mn>
@@ -432,7 +432,7 @@ fact, the proportion does differ from 50%. (You fail to reject the null hypothes
 <m:mi>p</m:mi>
 <m:mo>=</m:mo>
 <m:mn>0.3</m:mn>
-</m:math></equation><equation id="fs-id1170196937409" class="unnumbered"><label/><m:math> 
+</m:math></equation><equation id="fs-id1170196937409"><m:math> 
 <m:msub>
 <m:mi>H</m:mi>
 <m:mi>a</m:mi>
@@ -441,11 +441,11 @@ fact, the proportion does differ from 50%. (You fail to reject the null hypothes
 <m:mi>p</m:mi>
 <m:mo>≠</m:mo>
 <m:mn>0.3</m:mn>
-</m:math></equation><equation id="fs-id1170200255054" class="unnumbered"><label/><m:math>
+</m:math></equation><equation id="fs-id1170200255054"><m:math>
 <m:mi>n</m:mi>
 <m:mo>=</m:mo>
 <m:mn>150</m:mn>
-</m:math></equation><equation id="fs-id1170199823538" class="unnumbered"><label/><m:math>
+</m:math></equation><equation id="fs-id1170199823538"><m:math>
 <m:mn>p'</m:mn>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -460,7 +460,7 @@ fact, the proportion does differ from 50%. (You fail to reject the null hypothes
 <m:mo>=</m:mo>
 <m:mn>0.287</m:mn>
 </m:math>
-</equation><equation id="fs-id1164793054850" class="unnumbered"><label/><m:math>
+</equation><equation id="fs-id1164793054850"><m:math>
 <m:msub>
 <m:mi>Z</m:mi>
 <m:mi>c</m:mi>
@@ -532,7 +532,7 @@ fact, the proportion does differ from 50%. (You fail to reject the null hypothes
 <list id="eip-idp69766512" list-type="enumerated" number-style="arabic"><item><emphasis>State the Question</emphasis>: We need to determine if, at a 0.05 significance level, the average conductivity of the selected glass is greater than one. Our hypotheses will be
 <list id="eip-idp129554720" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 1</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 1</item>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 1</item>
 </list></item>
 <item><emphasis>Plan</emphasis>: We are testing a sample mean without a known population standard deviation with less than 30 observations. Therefore, we need to use a Student's-t distribution. Assume the underlying population is normal.</item>
 <item><emphasis>Do the calculations and draw the graph</emphasis>.
@@ -550,8 +550,8 @@ fact, the proportion does differ from 50%. (You fail to reject the null hypothes
 
 <list id="eip-idp191218624" list-type="enumerated" number-style="arabic"><item>We need to conduct a hypothesis test on the claimed cancer rate. Our hypotheses will be
 <list id="eip-idp171226608" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">p</emphasis> ≤ 0.00034</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> > 0.00034</item>
-</list><para id="eip-idm39752176">If we commit a Type I error, we are essentially accepting a false claim. Since the claim describes cancer-causing environments, we want to minimize the chances of incorrectly identifying causes of cancer.</para>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">p</emphasis> &gt; 0.00034</item>
+</list><para id="eip-idm39752176" class="finger">If we commit a Type I error, we are essentially accepting a false claim. Since the claim describes cancer-causing environments, we want to minimize the chances of incorrectly identifying causes of cancer.</para>
 </item>
 
 <item>We will be testing a sample proportion with <emphasis effect="italics">x</emphasis> = 172 and <emphasis effect="italics">n</emphasis> = 420,019. The sample is sufficiently large because we have <emphasis effect="italics">np'</emphasis> = 420,019(0.00034) = 142.8, <emphasis effect="italics">nq'</emphasis> = 420,019(0.99966) = 419,876.2, two independent outcomes, and a fixed probability of success <emphasis effect="italics">p'</emphasis> = 0.00034. Thus we will be able to generalize our results to the population.</item>
@@ -562,7 +562,7 @@ fact, the proportion does differ from 50%. (You fail to reject the null hypothes
 </exercise></example></section>
 <section id="fs-idp69608272" class="summary">
 <title>Chapter Review</title>
-<para id="fs-idp168110512">The <term id="term-00002">hypothesis test</term> itself has an established process. This can be summarized as follows:
+<para id="fs-idp168110512">The <term>hypothesis test</term> itself has an established process. This can be summarized as follows:
 <list id="list-1" list-type="enumerated"><item>Determine <emphasis effect="italics">H<sub>0</sub></emphasis> and <emphasis effect="italics">H<sub>a</sub></emphasis>. Remember, they are contradictory.</item>
 <item>Determine the random variable.</item>
 <item>Determine the distribution for the test.</item>
@@ -571,19 +571,7 @@ fact, the proportion does differ from 50%. (You fail to reject the null hypothes
 </list></para>
 </section>
 
-<section id="eip-349" class="formula-review"><title>Formula Review</title><para id="eip-533">
-Test statistic for a hypothesis test of proportions:
-</para>
-<para id="eip-idm1499846816"><m:math><m:mrow><m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
-<m:mo>=</m:mo><m:mfrac>
-<m:mrow><m:mtext>p</m:mtext><m:mo>'</m:mo><m:mo>–</m:mo><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
-<m:mrow><m:msqrt><m:mfrac>
-<m:mrow><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub><m:msub><m:mi>p</m:mi><m:mn>0</m:mn></m:msub>
-</m:mrow>
-<m:mrow><m:mi>n</m:mi></m:mrow>
-</m:mfrac>
-</m:msqrt></m:mrow>
-</m:mfrac></m:mrow></m:math></para></section><section id="eip-213" class="practice">
+<section id="eip-213" class="practice">
 <exercise id="eip-750">
 <problem id="eip-135">
   <para id="eip-656">Assume <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 9 and <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 9. Is this a left-tailed, right-tailed, or two-tailed test?</para>
@@ -594,7 +582,7 @@ Test statistic for a hypothesis test of proportions:
 </exercise>
 
 <exercise id="eip-815"><problem id="eip-286">
-  <para id="eip-480">Assume <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 6 and <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 6. Is this a left-tailed, right-tailed, or two-tailed test?</para>
+  <para id="eip-480">Assume <emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> ≤ 6 and <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 6. Is this a left-tailed, right-tailed, or two-tailed test?</para>
 </problem>
 </exercise><exercise id="fs-idp45725152">
 <problem id="eip-116">
@@ -873,8 +861,8 @@ Draw the graph of a two-tailed test.
   </para></problem>
 <solution id="fs-idm11266464">
 <list id="fs-idm126211024" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 69,110</item>
-<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> > 69,110</item>
-<item>Let <m:math>
+<item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 69,110</item>
+<item>Let <m:math display="">
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
@@ -982,7 +970,7 @@ Draw the graph of a two-tailed test.
 </exercise><exercise id="eip-717"><problem id="eip-444">
   <para id="eip-807">A survey in the <emphasis effect="italics">N.Y. Times Almanac</emphasis> finds the mean commute time (one way) is 25.4 minutes for the 15 largest US cities. The Austin, TX chamber of commerce feels that Austin’s commute time is less and wants to publicize this fact.  The mean for 25 randomly selected commuters is 22.1 minutes with a standard deviation of 5.3 minutes. At the α = 0.10 level, is the Austin, TX commute significantly less than the mean commute time for the 15 largest US cities?</para>
 </problem></exercise><exercise id="eip-192"><problem id="eip-426">
-  <para id="eip-326">A report by the Gallup Poll found that a woman visits her doctor, on average, at most 5.8 times each year. A random sample of 20 women results in these yearly visit totals</para><para id="eip-idm37849296"><list list-type="labeled-item" display="inline" mark-suffix="" id="list-00001">
+  <para id="eip-326">A report by the Gallup Poll found that a woman visits her doctor, on average, at most 5.8 times each year. A random sample of 20 women results in these yearly visit totals</para><para id="eip-idm37849296"><list list-type="labeled-item" display="inline" mark-suffix="">
 <item>3</item>
 <item>2</item>
 <item>1</item>
@@ -1009,7 +997,7 @@ Draw the graph of a two-tailed test.
 
 <solution id="eip-586">
 <list id="eip-idp114932976" list-type="enumerated" number-style="lower-alpha">
-<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ</emphasis> ≤ 5.8 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ</emphasis> > 5.8</item>
+<item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">µ</emphasis> ≤ 5.8 <emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">µ</emphasis> &gt; 5.8</item>
 <item><emphasis effect="italics">p</emphasis>-value =  0.9987</item>
 <item>alpha = 0.05</item>
 <item>Do not reject the null hypothesis.</item>
@@ -1019,7 +1007,7 @@ Draw the graph of a two-tailed test.
 </exercise><exercise id="eip-677"><problem id="eip-484">
   <para id="eip-543">According to the <emphasis effect="italics">N.Y. Times Almanac</emphasis> the mean family size in the U.S. is 3.18. A sample of a college math class resulted in the following family sizes:
 <newline/>
-<list list-type="labeled-item" display="inline" id="list-00002">
+<list list-type="labeled-item" display="inline">
 <item>5</item>
 <item>4</item>
 <item>5</item>
@@ -1080,7 +1068,7 @@ Draw the graph of a two-tailed test.
 <para id="eip-753">Federal Bureau of Investigations. “Uniform Crime Reports and Index of Crime in Daviess in the State of Kentucky enforced by Daviess County from 1985 to 2005.” Available online at http://www.disastercenter.com/kentucky/crime/3868.htm (accessed June 27, 2013).</para>
 <para id="eip-219">“Foothill-De Anza Community College District.” De Anza College, Winter 2006. Available online at http://research.fhda.edu/factbook/DAdemofs/Fact_sheet_da_2006w.pdf.</para>
 <para id="eip-363">Johansen, C., J. Boice, Jr., J. McLaughlin, J. Olsen. “Cellular Telephones and Cancer—a Nationwide Cohort Study in Denmark.” Institute of Cancer Epidemiology and the Danish Cancer Society, 93(3):203-7. Available online at http://www.ncbi.nlm.nih.gov/pubmed/11158188 (accessed June 27, 2013).</para>
-<para id="eip-215">Rape, Abuse &amp; Incest National Network. “How often does sexual assault occur?” RAINN, 2009. Available online at http://www.rainn.org/get-information/statistics/frequency-of-sexual-assault (accessed June 27, 2013).</para></section> </content>
+<para id="eip-215">Rape, Abuse &amp; Incest National Network. “How often does sexual assault occur?” RAINN, 2009. Available online at http://www.rainn.org/get-information/statistics/frequency-of-sexual-assault (accessed June 27, 2013).</para></section></content>
 
 <glossary>
  <definition id="centlimit">

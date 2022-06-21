@@ -9,7 +9,7 @@
 </metadata>
 
 <content>
-  <para id="eip-8888">The goodness–of–fit test can be used to decide whether a population fits a given distribution, but it will not suffice to decide whether two populations follow the same unknown distribution. A different test, called the <term id="term-00001">test for homogeneity</term>, can be used to draw a conclusion about whether two populations have the same distribution. To calculate the test statistic for a test for homogeneity, follow the same procedure as with the test of independence.</para><note id="eip-195"><label/><title>Note</title>
+  <para id="delete_me">The goodness–of–fit test can be used to decide whether a population fits a given distribution, but it will not suffice to decide whether two populations follow the same unknown distribution. A different test, called the <term>test for homogeneity</term>, can be used to draw a conclusion about whether two populations have the same distribution. To calculate the test statistic for a test for homogeneity, follow the same procedure as with the test of independence.</para><note id="eip-195"><label/><title>Note</title>
 <para id="eip-idp34705152">The expected value inside each cell needs to be at least five in order for you to use this test.</para></note><para id="eip-705"><title>Hypotheses</title><newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: The distributions of the two populations are the same.<newline/>
     <newline/><emphasis effect="italics">H<sub>a</sub></emphasis>:  The distributions of the two populations are not the same.</para><para id="eip-703"> <title>Test Statistic</title>Use a <m:math> <m:msup> <m:mi>χ</m:mi> <m:mn>2</m:mn> </m:msup></m:math>  test statistic.  It is computed in the same way as the test for independence.  </para>
 <para id="eip-577"> <title>Degrees of Freedom (<emphasis effect="italics">df</emphasis>)</title><emphasis effect="italics">df</emphasis> = number of columns - 1</para>
@@ -18,14 +18,14 @@
 <example id="eip-101"><exercise id="eip-790">
 <problem id="eip-886">
 <para id="eip-520">Do male and female college students have the same distribution of living arrangements?  Use a level of significance of 0.05. Suppose that 250 randomly selected male college students and 300 randomly selected female college students were asked about their living arrangements: dormitory, apartment, with parents, other. The results are shown in <link target-id="eip-924"/>. Do male and female college students have the same distribution of living arrangements?</para>
-<table id="eip-924" summary="The table contains the distribution of living conditions for college males and college females. First row: Males 72 Dorm; 84 Apt.; 49 Parents; 45 Other; Second row: Females, 91 Dorm; 86 Apt.; 88 Parents; 35 Other;"><title>Distribution of living arrangements for college males and college females</title>
+<table id="eip-924" summary="The table contains the distribution of living conditions for college males and college females. First row: Males 72 Dorm; 84 Apt.; 49 Parents; 45 Other; Second row: Females, 91 Dorm; 86 Apt.; 88 Parents; 35 Other;"><title>Distribution of living arragements for college males and college females</title>
 <tgroup cols="5"><tbody>
   <row>
     <entry/>
     <entry><emphasis>Dormitory</emphasis></entry>
     <entry><emphasis>Apartment</emphasis></entry>
     <entry><emphasis>With Parents</emphasis></entry>
-    <entry><emphasis>Other</emphasis></entry>
+    <entry><emphasis>Other</emphasis></entry> 	
   </row>
   <row>
     <entry><emphasis>Males</emphasis></entry>
@@ -93,7 +93,7 @@
   <para id="eip-235">With a <emphasis effect="italics">p</emphasis>-value of almost zero, we reject the null hypothesis. The data show that the distribution of cars is not the same for families and singles.</para>
 </solution>
 </exercise>
-</note><note id="fs-idm61233888" class="statistics try "><label/><title>Try It</title>
+</note><note id="fs-idm61233888" class="statistics try finger"><label/><title>Try It</title>
     <exercise id="eip-680">
     <problem id="eip-625">
       <para id="eip-895">Ivy League schools receive many applications, but only some can be accepted. At the schools listed in <link target-id="fs-idm19368736"/>, two types of applications are accepted: regular and early decision.</para>
@@ -136,7 +136,7 @@
 <label/>
 <para id="eip-822"><emphasis effect="italics">H<sub>0</sub></emphasis> : The distribution of regular applications accepted is the same as the distribution of early applications accepted.</para><para id="eip-824"><emphasis effect="italics">H<sub>a</sub></emphasis> : The distribution of regular applications accepted is not the same as the distribution of early applications accepted.
 <newline/><emphasis effect="italics">df</emphasis> = 5
-<newline/><emphasis effect="italics">χ<sup>2</sup></emphasis> test statistic = 430.06</para><figure id="fs-idp12140192"><media id="fs-idp12704" alt="This is a nonsymmetric chi-square curve with df = 5. The values 0, 5, and 430.06 are labeled on the horizontal axis. The value 5 coincides with the peak of the curve. A vertical upward line extends from 430.06 to the curve, and the region to the right of this line is shaded. The shaded area is equal to the p-value." display="block">
+<newline/><emphasis effect="italics">χ<sup>2</sup></emphasis> test statistic = 430.06</para><figure id="fs-idp12140192"><media id="fs-idp12704" alt="This is a nonsymmetric chi-square curve with df = 5. The values 0, 5, and 430.06 are labeled on the horizontal axis. The value 5 coincides with the peak of the curve. A vertical upward line extends from 430.06 to the curve, and the region to the right of this line is shaded. The shaded area is equal to the p-value." display="block">	
   <image mime-type="image/jpeg" src="../../media/CNX_Stats_C11_M06_tryit001.jpg" width="380"/>
 </media></figure><note id="fs-idp12880128" class="statistics calculator"><label/>
   <para id="eip-idm17817856">Press the <code>MATRX</code> key and arrow over to <code>EDIT</code>. Press <code>1:[A]</code>. Press <code>3 ENTER 3 ENTER</code>. Enter the table values by row. Press <code>ENTER</code> after each. Press <code>2nd QUIT</code>. Press <code>STAT</code> and arrow over to <code>TESTS</code>. Arrow down to<code>C:χ2-TEST</code>. Press <code>ENTER</code>. You should see <code>Observed:[A] and Expected:[B]</code>. Arrow down to <code>Calculate</code>. Press <code>ENTER</code>. The test statistic is 430.06 and the <emphasis effect="italics">p</emphasis>-value = 9.80E-91. Do the procedure a second time but arrow down to <code>Draw</code> instead of <code>calculate</code>.</para>
@@ -240,7 +240,7 @@
 </exercise><exercise id="eip-302"><problem id="eip-252">
   <para id="eip-617">Do men and women select different breakfasts? The breakfasts ordered by randomly selected men and women at a popular breakfast place is shown in <link target-id="eip-id1167950422174"/>. Conduct a test for homogeneity at a 5% level of significance. 
   <table id="eip-id1167950422174" summary="The table presents personality types along the top from columns 2-6 and major (business and social science) in the first column. There are 3 rows.">
-<tgroup cols="5"><tbody> <row> <entry/> <entry><emphasis>French toast</emphasis></entry> <entry><emphasis>Pancakes</emphasis></entry> <entry><emphasis>Waffles</emphasis></entry> <entry><emphasis>Omelettes</emphasis></entry> </row> <row> <entry><emphasis>Men</emphasis></entry> <entry>47</entry> <entry>35</entry> <entry>28</entry> <entry>53</entry> </row> <row> <entry><emphasis>Women</emphasis></entry> <entry>65</entry> <entry>59</entry> <entry>55</entry> <entry>60</entry> </row> </tbody>
+<tgroup cols="5"><tbody> <row> <entry/> <entry><emphasis>French toast</emphasis></entry> <entry><emphasis>Pancakes</emphasis></entry> <entry><emphasis>Waffles</emphasis></entry> <entry><emphasis>Omelettes</emphasis></entry> </row> <row> <entry><emphasis>Men</emphasis></entry> <entry>47</entry> <entry>35</entry> <entry>28</entry> <entry>53</entry> </row> <row> <entry><emphasis>Women</emphasis></entry> <entry>65</entry> <entry>59</entry> <entry>55</entry> <entry>60</entry> </row> </tbody> 
 </tgroup>
 </table></para></problem>
 </exercise><exercise id="eip-561">
@@ -271,7 +271,7 @@
     <colspec colnum="4" colname="c4" colwidth="70"/>
           <thead>
             <row>
-              <entry>Reasons for Homeschooling</entry>
+              <entry>Reasons for fomeschooling</entry>
               <entry>Applicable reason (in thousands of respondents)</entry>
               <entry>Most important reason (in thousands of respondents)</entry>
               <entry>Row total</entry>
@@ -300,7 +300,7 @@
               <entry>Column total</entry> <entry>5,458</entry> <entry>1,477</entry> <entry>6,935</entry>
             </row>
           </tbody>
-
+        
 
 </tgroup>
 </table></problem>
@@ -390,7 +390,7 @@
                 <entry>Row total</entry>
               </row>
             </thead>
-
+ 
             <tbody>
               <row>
                 <entry>2009</entry>
@@ -426,13 +426,13 @@
           </tgroup>
         </table></problem>
       </exercise></section>
- </content>
+</content>
 <glossary>
 
 <definition id="fs-id1166232318666">
     <term>Test for Homogeneity</term>
     <meaning id="fs-id1166232082735">
-      a test used to draw a conclusion about whether two populations have the same distribution.  The degrees of freedom used equals the (number of columns – 1).
+      a test used to draw a conclusion about whether two populations have the same distribution.  The degrees of freedom used equals the (number of columns – 1).  
     </meaning>
 </definition>
 
