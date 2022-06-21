@@ -8,7 +8,7 @@
   <md:uuid>4f3fe707-585e-4f3e-aba1-646baed90678</md:uuid>
 </metadata>
 
-<content class="appendix">
+<content>
 <section id="fs-id1168805567129">
     <title>Univariate Data</title><section id="element-141"><title>Student Learning Objectives</title>
 <list id="element-815" list-type="bulleted">
@@ -19,7 +19,7 @@
 
 <section id="element-782"><title>Instructions</title><para id="eip-434">As you complete each task below, check it off.  Answer all questions in your summary.
 <newline/>____ Decide what data you are going to study.
-<note id="eip-idm151881920">
+<note id="eip-idm151881920"><label>Examples</label>
 <para id="eip-idm149175552">Here are two examples, but you may <emphasis>NOT</emphasis> use them: number of M&amp;M's per bag, number of pencils students have in their backpacks.</para></note><newline/>____ Are your data discrete or continuous?  How do you know?
 <newline/>____ Decide how you are going to collect the data (for instance, buy 30 bags of M&amp;M's; collect data from the World Wide Web).
 <newline/>____ Describe your sampling technique in detail.  Use cluster, stratified, systematic, or simple random (using a random number generator) sampling.  Do not use convenience sampling. Which method did you use? Why did you pick that method?
@@ -109,7 +109,7 @@ a representative display of your data. Label and scale it.</para></section><sect
 </m:mfrac>
 </m:mrow>
 </m:math></para></note><list id="eip-965" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = ______</item>
-<item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">k</emphasis>) = ______</item>
+<item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">k</emphasis>) = ______</item>
 <item><emphasis effect="italics">RF</emphasis>(<emphasis effect="italics">X</emphasis> = <emphasis effect="italics">k</emphasis>) = ______</item></list><note id="id16765214"><label/><title>Note</title>
 <para id="fs-idp165084800">You should have one page for the uniform distribution, one page for the exponential distribution, and one page for the normal distribution.</para></note>
 <para id="eip-917">____ State the distribution: <emphasis effect="italics">X</emphasis> ~ _________
@@ -117,7 +117,7 @@ a representative display of your data. Label and scale it.</para></section><sect
 <newline/>____ Find the following theoretical probabilities (rounded to four decimal places). 
 <list id="eip-idm28652656" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">k</emphasis>)  = ______</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">k</emphasis>) = ______</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">k</emphasis>) = ______</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = <emphasis effect="italics">k</emphasis>) = ______</item>
 </list>
 ____ Compare the relative frequencies to the corresponding probabilities.  Are the values close?
@@ -181,7 +181,7 @@ ____ Compare the relative frequencies to the corresponding probabilities.  Are t
 <m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> > <m:math>
+</m:math> &gt; <m:math>
 <m:mover accent="true">
 <m:mi>k</m:mi>
 <m:mo>¯</m:mo>
@@ -215,7 +215,7 @@ Find the following theoretical probabilities (rounded to four decimal places).
 <m:mi>X</m:mi>
 <m:mo>¯</m:mo>
 </m:mover>
-</m:math> > <m:math>
+</m:math> &gt; <m:math>
 <m:mover accent="true">
 <m:mi>k</m:mi>
 <m:mo>¯</m:mo>
@@ -306,7 +306,8 @@ comparing the <m:math><m:mi>X</m:mi></m:math> or <m:math>
 <item>All other responses must be done on the computer.  </item>
 <item>Neatness and quality of explanations are used to determine your final grade.</item>
 </list></section><section id="element-108"><title>Part I: Bivariate Data</title><para id="eip-idm74600944"><title>Introduction</title>____State the bivariate data your group is going to study. 
-<note id="eip-idp126031264" type="Examples"><para id="eip-idp41011600">Here are two examples, but you may <emphasis>NOT</emphasis> use them:  height vs. weight and age vs. running distance.</para></note><newline/>____Describe your sampling technique in detail. Use cluster, stratified, systematic, or simple random sampling (using a random number generator) sampling.  Convenience sampling is <emphasis>NOT</emphasis> acceptable.
+<note id="eip-idp126031264" type="Examples"><label>Examples</label>
+<para id="eip-idp41011600">Here are two examples, but you may <emphasis>NOT</emphasis> use them:  height vs. weight and age vs. running distance.</para></note><newline/>____Describe your sampling technique in detail. Use cluster, stratified, systematic, or simple random sampling (using a random number generator) sampling.  Convenience sampling is <emphasis>NOT</emphasis> acceptable.
 <newline/>____Conduct your survey.  Your number of pairs must be at least 30.
 <newline/>____Print out a copy of your data.
 </para><para id="eip-idp338032">
@@ -352,5 +353,5 @@ _____Construct a histogram displaying your data. Group your data into six to ten
 <para id="eip-idp46295168">____ Description: what you learned by doing this project, what challenges you had, how you overcame the challenges</para></item>
 </list></para><note id="id41138276"><label/><title>Note</title>
 <para id="eip-idp153219504">Include answers to ALL questions asked, even if not explicitly repeated in the items above.</para></note></section></section>
-   </content>
+  </content>
 </document>

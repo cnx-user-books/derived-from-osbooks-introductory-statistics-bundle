@@ -1,4 +1,3 @@
 <container xmlns="https://openstax.org/namespaces/book-container" version="1">
-    <book slug="introductory-statistics" collection-id="col11562" style="statistics" href="../collections/introductory-statistics.collection.xml" />
-    <book slug="introductory-business-statistics" collection-id="col11776" style="statistics" href="../collections/introductory-business-statistics.collection.xml" />
+    <book slug="introduction-to-statistics-i-stat-213-university-of-calgary-ver2015revb" collection-id="col11874" href="../collections/introduction-to-statistics-i-stat-213-university-of-calgary-ver2015revb.collection.xml" />
 </container>

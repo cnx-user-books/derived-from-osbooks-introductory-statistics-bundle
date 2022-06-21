@@ -8,12 +8,12 @@
 </metadata>
 
 <content>
-    <para id="fs-idp59629922">It is important for you to understand when to use the <term id="term-00001">central limit theorem</term>. If you are being asked to find the probability of the mean, use the clt for the mean. If you are being asked to find the probability of a sum or total, use the clt for sums. This also applies to percentiles for means and sums.</para><note id="id11030776"><label/><title>NOTE</title>
+    <para id="delete_me">It is important for you to understand when to use the <term>central limit theorem</term>. If you are being asked to find the probability of the mean, use the clt for the mean. If you are being asked to find the probability of a sum or total, use the clt for sums. This also applies to percentiles for means and sums.</para><note id="id11030776"><label/><title>NOTE</title>
 <para id="fs-idm90223456">If you are being asked to find the probability of an <emphasis>individual</emphasis> value, do <emphasis>not</emphasis> use the clt. <emphasis>Use the distribution of its random variable.</emphasis></para></note><section id="element-733">
 <title>Examples of the Central Limit Theorem</title>
 <section id="fs-idp5962992">
 <title>Law of Large Numbers</title>
-<para id="element-349">The <term id="term-00002">law of large numbers</term> says that if you take samples of larger and larger size from any population, then the mean <m:math>
+<para id="element-349">The <term>law of large numbers</term> says that if you take samples of larger and larger size from any population, then the mean <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
@@ -44,7 +44,7 @@
 <section id="fs-idm1089056">
 <title>Central Limit Theorem for the Mean and Sum Examples</title>
 <example id="element-482">
-<para id="element-361">A study involving stress is conducted among the students on a college campus. <emphasis>The stress scores follow a <term id="term-00003">uniform distribution</term></emphasis> with the lowest stress score equal to one and the highest equal to five. Using a sample of 75 students, find:</para>
+<para id="element-361">A study involving stress is conducted among the students on a college campus. <emphasis>The stress scores follow a <term>uniform distribution</term></emphasis> with the lowest stress score equal to one and the highest equal to five. Using a sample of 75 students, find:</para>
 
 <list id="fs-idp18838512" list-type="enumerated" number-style="lower-alpha">
 <item>The probability that the <emphasis>mean stress score</emphasis> for the 75 students is less than two.</item>
@@ -53,7 +53,7 @@
 <item>The 90<sup>th</sup> percentile for the <emphasis>total stress score</emphasis> for the 75 students.</item>
 </list><para id="element-294">Let <emphasis effect="italics">X</emphasis> = one stress score.</para>
 
-<para id="element-632">Problems a and b ask you to find a probability or a percentile for a <term id="term-00004">mean</term>. Problems c and d ask you to find a probability or a percentile for a <emphasis>total or sum</emphasis>. The sample size, <emphasis effect="italics">n</emphasis>, is equal to 75.</para>
+<para id="element-632">Problems a and b ask you to find a probability or a percentile for a <term>mean</term>. Problems c and d ask you to find a probability or a percentile for a <emphasis>total or sum</emphasis>. The sample size, <emphasis effect="italics">n</emphasis>, is equal to 75.</para>
 
 <para id="element-494">Since the individual stress scores follow a uniform distribution, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(1, 5) where <emphasis effect="italics">a</emphasis> = 1 and <emphasis effect="italics">b</emphasis> = 5 (See <link document="m46967">Continuous Random Variables</link> for an explanation on the uniform distribution).</para><para id="element-35"><emphasis effect="italics">μ<sub>X</sub></emphasis> =
 <m:math>
@@ -64,7 +64,7 @@
    </m:mrow>
    <m:mn>2</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -74,7 +74,7 @@
    </m:mrow>
    <m:mn>2</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 3
 </para><para id="element-200"><emphasis effect="italics">σ<sub>X</sub></emphasis> = <m:math>
@@ -89,16 +89,16 @@
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
      <m:mrow>
       <m:mn>12</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -112,16 +112,16 @@
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
      <m:mrow>
       <m:mn>12</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = 1.15
 </para><para id="element-591">For problems a. and b., let <m:math>
@@ -129,13 +129,13 @@
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> = the mean stress score for the 75 students. Then,</para><para id="element-257"><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> ∼ <emphasis effect="italics">N</emphasis> <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -150,14 +150,14 @@
         <m:mtext>75</m:mtext>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math>
+</m:math> 
 
 </para><exercise id="element-197">
 <problem id="id10355852">
@@ -196,15 +196,15 @@
         <m:mtext>75</m:mtext>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = 0
-</para><note id="note-1">
+</para><note id="note-1" type="Reminder">
 <label/>
 <title>Reminder</title>
 <para id="fs-idm90269648">The smallest stress score is one.</para>
@@ -246,10 +246,10 @@
         <m:mn>75</m:mn>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -289,7 +289,7 @@
 
 <para id="element-456">The probability that the total of 75 scores is less than 200 is about zero.</para>
 
-<para id="element-273"><code>normalcdf</code> (75,200,(75)(3),<m:math>
+<para id="element-273" class="finger"><code>normalcdf</code> (75,200,(75)(3),<m:math>
  <m:mrow>
   <m:mo stretchy="false">(</m:mo><m:msqrt>
    <m:mrow>
@@ -298,7 +298,7 @@
   </m:msqrt>
   <m:mo stretchy="false">)</m:mo>
  </m:mrow>
-</m:math>(1.15)).</para><note id="note-2">
+</m:math>(1.15)).</para><note id="note-2" type="Reminder">
 <label/>
 <title>Reminder</title>
 <para id="fs-idm105410608">The smallest total of 75 stress scores is 75, because the smallest single score is one.</para></note>
@@ -347,13 +347,23 @@
 <m:mo>¯</m:mo>
 </m:mover>
 </m:math> &lt; 7).</item>
-<item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 170).</item>
+<item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> &gt; 170).</item>
 <item>Find the 80<sup>th</sup> percentile for the mean of 55 scores.</item>
 <item>Find the 85<sup>th</sup> percentile for the sum of 55 scores.</item>
 </list>
 </problem>
+<solution id="fs-idm58453728">
+<label/>
+<title>Solutions</title>
+<list id="fs-idm26992608" list-type="enumerated" number-style="lower-alpha">
+<item>0.0265</item>
+<item>0.2789</item>
+<item>3.13</item>
+<item>173.84</item>
+</list>
+</solution>
 </exercise></note><example id="example2">
-<para id="eip-id1171180958925">Suppose that a market research analyst for a cell phone company conducts a study of their customers who exceed the time allowance included on their basic cell phone contract; the analyst finds that for those people who exceed the time included in their basic contract, the <emphasis>excess time used</emphasis> follows an <term id="term-00005">exponential distribution</term> with a mean of 22 minutes.</para><para id="eip-id1171181431405">Consider a random sample of 80 customers who exceed the time allowance included in their basic cell phone contract.</para>
+<para id="eip-id1171180958925">Suppose that a market research analyst for a cell phone company conducts a study of their customers who exceed the time allowance included on their basic cell phone contract; the analyst finds that for those people who exceed the time included in their basic contract, the <emphasis>excess time used</emphasis> follows an <term>exponential distribution</term> with a mean of 22 minutes.</para><para id="eip-id1171181431405">Consider a random sample of 80 customers who exceed the time allowance included in their basic cell phone contract.</para>
 
 <para id="eip-id1171181123857">Let <emphasis effect="italics">X</emphasis> = the excess time used by one INDIVIDUAL cell phone customer who exceeds his contracted time allowance.</para>
 
@@ -367,7 +377,7 @@
       <m:mn>22</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -383,7 +393,7 @@
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -398,10 +408,10 @@
         <m:mtext>80</m:mtext>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -415,8 +425,8 @@
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-</m:math> > 20). Draw the graph.</item>
-<item>Suppose that one customer who exceeds the time limit for his cell phone contract is randomly selected. Find the probability that this individual customer's excess time is longer than 20 minutes. This is asking us to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 20).</item>
+</m:math> &gt; 20). Draw the graph.</item>
+<item>Suppose that one customer who exceeds the time limit for his cell phone contract is randomly selected. Find the probability that this individual customer's excess time is longer than 20 minutes. This is asking us to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 20).</item>
 <item>Explain why the probabilities in parts a and b are different.</item>
 </list></problem>
 
@@ -427,14 +437,14 @@
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
-</m:math> > 20)</para>
+ 
+</m:math> &gt; 20)</para>
 <para id="fs-idm18337216"><emphasis effect="italics">P</emphasis>(<m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-</m:math> > 20) = 0.79199 using <code>normalcdf</code><m:math>
+</m:math> &gt; 20) = 0.79199 using <code>normalcdf</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -448,28 +458,28 @@
         <m:mtext>80</m:mtext>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></para><para id="eip-id1171180808191">The probability is 0.7919 that the mean excess time used is more than 20 minutes, for a sample of 80 customers who exceed their contracted time allowance.</para>
 
 <figure id="fs-idm52706528">
-<media id="id1164895099196" alt="This is a normal distribution curve. The peak of the curve coincides with the point 22 on the horizontal axis. A point, 20, is labeled to the left of 22. A vertical line extends from 20 to the curve. The area under the curve to the right of k is shaded. The shaded area shows that P(x-bar > 20).">
+<media id="id1164895099196" alt="This is a normal distribution curve. The peak of the curve coincides with the point 22 on the horizontal axis. A point, 20, is labeled to the left of 22. A vertical line extends from 20 to the curve. The area under the curve to the right of k is shaded. The shaded area shows that P(x-bar &gt; 20).">
 <image src="../../media/fig-ch07_04_05N.jpg" mime-type="image/jpg" width="380"/></media>
 </figure>
 
-<note id="note-5">
+<note id="note-5" class="finger" type="Reminder">
 <label/>
 <title>Reminder</title>
 <para id="fs-idm69813456"><emphasis>1E99 = 10<sup>99</sup> and –1E99 = –10<sup>99</sup></emphasis>. Press the <code>EE</code> key for E. Or just use 10<sup>99</sup> instead of 1E99.</para></note>
 </item>
 
 <item>
-<para id="element-260">Find <emphasis effect="italics">P</emphasis>(x > 20). Remember to use the exponential distribution for an <emphasis>individual:</emphasis> <m:math>
+<para id="element-260">Find <emphasis effect="italics">P</emphasis>(x &gt; 20). Remember to use the exponential distribution for an <emphasis>individual:</emphasis> <m:math>
  <m:mrow>
   <m:mi>X</m:mi><m:mo>~</m:mo><m:mi>E</m:mi><m:mi>x</m:mi><m:mi>p</m:mi><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -479,13 +489,13 @@
       <m:mn>22</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math>.<newline/><m:math>
  <m:mrow>
-  <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:msup>
+  <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> = </m:mtext><m:msup>
    <m:mi>e</m:mi>
    <m:mrow>
     <m:mrow><m:mo>(</m:mo>
@@ -498,7 +508,7 @@
           <m:mn>22</m:mn>
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
        <m:mrow>
@@ -509,17 +519,17 @@
     <m:mo>)</m:mo></m:mrow>
    </m:mrow>
   </m:msup>
-
+  
  </m:mrow>
 </m:math> or <emphasis effect="italics">e</emphasis><sup>(–0.04545(20))</sup> = 0.4029 </para></item>
 <item>
-<list id="eip-id1171181135515" list-type="enumerated" number-style="arabic"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 20) = 0.4029 but <emphasis effect="italics">P</emphasis>(<m:math>
+<list id="eip-id1171181135515" list-type="enumerated" number-style="arabic"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 20) = 0.4029 but <emphasis effect="italics">P</emphasis>(<m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
-</m:math> > 20) = 0.7919</item>
+ 
+</m:math> &gt; 20) = 0.7919</item>
 <item>The probabilities are not equal because we use different distributions to calculate the probability for individuals and for means.</item>
 <item>When asked to find the probability of an individual value, use the stated distribution of its random variable; do not use the clt. Use the clt with the normal distribution when you are being asked to find the probability for a mean.</item></list>
 </item>
@@ -537,7 +547,7 @@
   <m:mo>¯</m:mo>
  </m:mover>
 </m:math> &lt; <emphasis effect="italics">k</emphasis>) = 0.95</para>
-<para id="eip-id1171180867272"><emphasis effect="italics">k</emphasis> = 26.0 using <code>invNorm</code><m:math>
+<para id="eip-id1171180867272" class="finger"><emphasis effect="italics">k</emphasis> = 26.0 using <code>invNorm</code><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -551,10 +561,10 @@
         <m:mn>80</m:mn>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -581,12 +591,22 @@
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> &lt; 30).</item>
 <item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> is at least 3,000).</item>
 <item>Find the 75<sup>th</sup> percentile for the sample mean excess time of 144 customers.</item>
 <item>Find the 85<sup>th</sup> percentile for the sum of 144 excess times used by customers.</item>
 </list></problem>
+<solution id="fs-idm113454256">
+<label/>
+<title>Solutions</title>
+<list id="fs-idm50512544" list-type="enumerated" number-style="lower-alpha">
+<item>0.8623</item>
+<item>0.7377</item>
+<item>23.2</item>
+<item>3,441.6</item>
+</list>
+</solution>
 </exercise></note>
 
 <example id="fs-idm153949776">
@@ -598,7 +618,7 @@
 <item>Find the value that is two standard deviations above the sample mean.</item>
 <item>Find the <emphasis effect="italics">IQR</emphasis> for the sum of the sample times.</item>
 </list></problem>
-<solution id="fs-idm110029216">
+<solution id="fs-idm110029216" class="finger">
 <list id="fs-idm113256736" list-type="enumerated" number-style="lower-alpha"><item>We have, <emphasis effect="italics">μ<sub>x</sub></emphasis> = <emphasis effect="italics">μ</emphasis> = 2 and <emphasis effect="italics">σ<sub>x</sub></emphasis> = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -607,10 +627,10 @@
     <m:msqrt>
      <m:mi>n</m:mi>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -622,7 +642,7 @@
     <m:mn>10</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 0.05. Therefore:
 <list id="fs-idm103882928" list-type="enumerated" number-style="arabic"><item>50<sup>th</sup> percentile = <emphasis effect="italics">μ<sub>x</sub></emphasis> = <emphasis effect="italics">μ</emphasis> = 2</item>
@@ -644,7 +664,7 @@
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> &lt; 1.85) = <code>normalcdf</code>(1.75,1.85,2,0.05) = 0.0013</item>
 <item>Using the <emphasis effect="italics">z</emphasis>-score equation, <m:math>
  <m:mrow>
@@ -660,9 +680,9 @@
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
      </m:mover>
-
+     
     </m:msub>
-
+    
    </m:mrow>
    <m:mrow>
     <m:msub>
@@ -671,12 +691,12 @@
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
      </m:mover>
-
+     
     </m:msub>
-
+    
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, and solving for <emphasis effect="italics">x</emphasis>, we have <emphasis effect="italics">x</emphasis> = 2(0.05) + 2 = 2.1</item>
 <item>The <emphasis effect="italics">IQR</emphasis> is 75<sup>th</sup> percentile – 25<sup>th</sup> percentile = 203.37 – 196.63 = 6.74</item>
@@ -695,6 +715,38 @@
 <item>If the sample were four women between the ages of 18 to 24 and we did not know the original distribution, could the central limit theorem be used?</item>
 </list>
 </problem>
+<solution id="fs-idm1572784" class="finger">
+<list id="fs-idm114384864" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 120) = <code>normalcdf</code>(120,1E99,114.8,13.1) = 0.3457. There is about a 35% chance, that the randomly selected woman will have systolics blood pressure greater than 120.</item>
+<item><emphasis effect="italics">P</emphasis>(<m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+ 
+</m:math> &gt; 120) = <code>normalcdf</code><m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mtext>120, 1E99,114</m:mtext><m:mtext>.8,</m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mtext>13</m:mtext><m:mtext>.1</m:mtext>
+     </m:mrow>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mtext>40</m:mtext>
+       </m:mrow>
+      </m:msqrt>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> = 0.006. There is only a 0.6% chance that the average systolic blood pressure for the randomly selected group is greater than 120.</item>
+<item>The central limit theorem could not be used if the sample size were four and we did not know the original distribution was normal. The sample size would be too small.</item>
+</list></solution>
 </exercise>
 </note>
 
@@ -711,21 +763,21 @@
 <item>Find the 90<sup>th</sup> percentile for the sum of the ages of 65 prostitutes. Interpret the results.</item>
 </list>
 </problem>
-<solution id="fs-idm138994048">
+<solution id="fs-idm138994048" class="finger">
 <list id="fs-idm86323200" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> &lt; 35) = <code>normalcdf</code>(-<emphasis effect="italics">E</emphasis>99,35,30.9,1.8) = 0.9886</item>
 <item><emphasis effect="italics">P</emphasis>(<m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
-</m:math> > 50) = <code>normalcdf</code>(50, <emphasis effect="italics">E</emphasis>99,30.9,1.8) ≈ 0. For this sample group, it is almost impossible for the group’s average age to be more than 50. However, it is still possible for an individual in this group to have an age greater than 50.</item>
+ 
+</m:math> &gt; 50) = <code>normalcdf</code>(50, <emphasis effect="italics">E</emphasis>99,30.9,1.8) ≈ 0. For this sample group, it is almost impossible for the group’s average age to be more than 50. However, it is still possible for an individual in this group to have an age greater than 50.</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> ≥ 1,600) = <code>normalcdf</code>(1600,E99,1514.10,63) = 0.0864</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> ≤ 1,595) = <code>normalcdf</code>(-E99,1595,1514.10,63) = 0.9005. This means that there is a 90% chance that the sum of the ages for the sample group <emphasis effect="italics">n</emphasis> = 49 is at most 1595.</item>
 <item>The 95th percentile = <code>invNorm</code>(0.95,30.9,1.1) = 32.7. This indicates that 95% of the prostitutes in the sample of 65 are younger than 32.7 years, on average.</item>
@@ -743,13 +795,18 @@
 <item>Assume that half of the 200 passengers are men. What mean doorway height satisfies the condition that there is a 0.95 probability that this height is greater than the mean height of 100 men?</item>
 <item>For engineers designing the 757, which result is more relevant: the height from part a or part b? Why?</item>
 </list></problem>
+<solution id="fs-idm125346112">
+<list id="fs-idm149683712" list-type="enumerated" number-style="lower-alpha"><item>We know that <emphasis effect="italics">μ<sub>x</sub></emphasis> = <emphasis effect="italics">μ</emphasis> = 69 and we have <emphasis effect="italics">σ<sub>x</sub></emphasis> = 2.8. The height of the doorway is found to be <code>invNorm</code>(0.95,69,2.8) = 73.61</item>
+<item>We know that <emphasis effect="italics">μ<sub>x</sub></emphasis> = <emphasis effect="italics">μ</emphasis> = 69 and we have <emphasis effect="italics">σ<sub>x</sub></emphasis> = 0.28. So, <code>invNorm</code>(0.95,69,0.28) = 69.49</item>
+<item>When designing the doorway heights, we need to incorporate as much variability as possible in order to accommodate as many passengers as possible. Therefore, we need to use the result based on part a.</item>
+</list></solution>
 </exercise>
 </note>
 
 <note id="eip-713"><label/><title>HISTORICAL NOTE</title>
 
 <para id="fs-idm36895584"><emphasis>: Normal Approximation to the Binomial</emphasis></para>
-<para id="eip-614">Historically, being able to compute binomial probabilities was one of the most important applications of the central limit theorem. Binomial probabilities with a small value for <emphasis effect="italics">n</emphasis>(say, 20) were displayed in a table in a book. To calculate the probabilities with large values of <emphasis effect="italics">n</emphasis>,  you had to use the binomial formula, which could be very complicated. Using the <term id="term-00006">normal approximation to the binomial</term> distribution simplified the process. To compute the normal approximation to the binomial distribution, take a simple random sample from a population. You must meet the conditions for a <term id="term-00007">binomial distribution</term>:</para>
+<para id="eip-614">Historically, being able to compute binomial probabilities was one of the most important applications of the central limit theorem. Binomial probabilities with a small value for <emphasis effect="italics">n</emphasis>(say, 20) were displayed in a table in a book. To calculate the probabilities with large values of <emphasis effect="italics">n</emphasis>,  you had to use the binomial formula, which could be very complicated. Using the <term>normal approximation to the binomial</term> distribution simplified the process. To compute the normal approximation to the binomial distribution, take a simple random sample from a population. You must meet the conditions for a <term>binomial distribution</term>:</para>
 <list id="norm_bi_approx" list-type="bulleted" bullet-style="bullet">
 <item>there are a certain number <emphasis effect="italics">n</emphasis> of independent trials</item>
 <item>the outcomes of any trial are success or failure</item>
@@ -757,37 +814,38 @@
 </list>
 <para id="fs-idm101632">Recall that if <emphasis effect="italics">X</emphasis> is the binomial random variable, then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>). The shape of the binomial distribution needs to be
 similar to the shape of the normal distribution. To ensure this, the quantities <emphasis effect="italics">np</emphasis>
-and <emphasis effect="italics">nq</emphasis> must both be greater than five (<emphasis effect="italics">np</emphasis> > 5 and <emphasis effect="italics">nq</emphasis> > 5;  the approximation is better if they are both greater than or equal to 10). Then the binomial can be approximated by the normal distribution with mean <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> and standard deviation <emphasis effect="italics">σ</emphasis> = <m:math>
+and <emphasis effect="italics">nq</emphasis> must both be greater than five (<emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; 5;  the approximation is better if they are both greater than or equal to 10). Then the binomial can be approximated by the normal distribution with mean <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> and standard deviation <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow>
   <m:msqrt>
    <m:mrow>
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
-</m:math>. Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="italics">p</emphasis>. In order to get the best approximation, add 0.5 to <emphasis effect="italics">x</emphasis> or subtract 0.5 from <emphasis effect="italics">x</emphasis> (use <emphasis effect="italics">x</emphasis> + 0.5 or <emphasis effect="italics">x</emphasis> – 0.5). The number 0.5 is called the <term id="term-00008">continuity correction factor</term> and is used in the following example.</para></note><example id="eip-831">
+</m:math>. Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="italics">p</emphasis>. In order to get the best approximation, add 0.5 to <emphasis effect="italics">x</emphasis> or subtract 0.5 from <emphasis effect="italics">x</emphasis> (use <emphasis effect="italics">x</emphasis> + 0.5 or <emphasis effect="italics">x</emphasis> – 0.5). The number 0.5 is called the <term>continuity correction factor</term> and is used in the following example.</para></note><example id="eip-831">
 <para id="eip-926">Suppose in a local Kindergarten through 12<sup>th</sup> grade (K - 12) school district, 53 percent of the population favor a charter school for grades K through 5. A simple random sample of 300 is surveyed.</para><list id="eip-306" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that <emphasis>at least 150</emphasis> favor a charter school.</item>
 <item>Find the probability that <emphasis>at most 160</emphasis> favor a charter school.</item>
 <item>Find the probability that <emphasis>more than 155</emphasis> favor a charter school.</item>
 <item>Find the probability that <emphasis>fewer than 147</emphasis> favor a charter school.</item>
 <item>Find the probability that <emphasis>exactly 175</emphasis> favor a charter school.</item>
- </list><para id="eip-778">Let <emphasis effect="italics">X</emphasis> = the number that favor a charter school for grades K trough 5. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>) where <emphasis effect="italics">n</emphasis> = 300 and <emphasis effect="italics">p</emphasis> = 0.53. Since <emphasis effect="italics">np</emphasis> > 5 and <emphasis effect="italics">nq</emphasis> > 5, use the normal approximation to the binomial. The formulas for the mean and standard deviation are <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">σ</emphasis> = <m:math>
+ </list><para id="eip-778">Let <emphasis effect="italics">X</emphasis> = the number that favor a charter school for grades K trough 5. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n, p</emphasis>) where <emphasis effect="italics">n</emphasis> = 300 and <emphasis effect="italics">p</emphasis> = 0.53. Since <emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; 5, use the normal approximation to the binomial. The formulas for the mean and standard deviation are <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow> <m:msqrt><m:mrow>
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
  </m:mrow>
-</m:math>. The mean is 159 and the standard deviation is 8.6447. The random variable for the normal distribution is <emphasis effect="italics">Y</emphasis>. <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(159, 8.6447). See <link document="m46977">The Normal Distribution</link> for help with calculator instructions.</para><para id="eip-214">For part a, you <emphasis>include 150</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) has normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> ≥ 149.5) = 0.8641.</para>
+</m:math>. The mean is 159 and the standard deviation is 8.6447. The random variable for the normal distribution is <emphasis effect="italics">Y</emphasis>. <emphasis effect="italics">Y</emphasis> ~ <emphasis effect="italics">N</emphasis>(159, 8.6447). See <link document="m46977">The Normal Distribution</link> for help with calculator instructions.</para><para id="eip-214" class="finger">For part a, you <emphasis>include 150</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) has normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> ≥ 149.5) = 0.8641.</para>
 <para id="eip-554"><code>normalcdf</code>(149.5,10^99,159,8.6447) = 0.8641.</para><para id="eip-323">For part b, you <emphasis>include 160</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) has normal appraximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> ≤ 160.5) = 0.5689.</para>
 
-<para id="eip-162"><code>normalcdf</code>(0,160.5,159,8.6447) = 0.5689</para><para id="eip-630">For part c, you <emphasis>exclude 155</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 155) has normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">y</emphasis> > 155.5) = 0.6572.</para>
+<para id="eip-162"><code>normalcdf</code>(0,160.5,159,8.6447) = 0.5689</para><para id="eip-630">For part c, you <emphasis>exclude 155</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 155) has normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">y</emphasis> &gt; 155.5) = 0.6572.</para>
 
 <para id="eip-763"><code>normalcdf</code>(155.5,10^99,159,8.6447) = 0.6572.</para><para id="eip-955">For part d, you <emphasis>exclude 147</emphasis> so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) has normal approximation <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Y</emphasis> &lt; 146.5) = 0.0741.</para><para id="eip-555"><code>normalcdf</code>(0,146.5,159,8.6447) = 0.0741</para><para id="eip-788">For part e,<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 175) has normal approximation <emphasis effect="italics">P</emphasis>(174.5 &lt; <emphasis effect="italics">Y</emphasis> &lt; 175.5) = 0.0083.</para>
-<para id="eip-680"><code>normalcdf</code>(174.5,175.5,159,8.6447) = 0.0083</para><para id="eip-863"><emphasis>Because of calculators and computer software</emphasis> that let you calculate binomial probabilities for large values of <emphasis effect="italics">n</emphasis> easily, it is not necessary to use the the normal approximation to the binomial distribution, provided that you have access to these technology tools. Most school labs have Microsoft Excel, an example of computer software that calculates binomial probabilities. Many students have access to the TI-83 or 84 series calculators, and they easily calculate probabilities for the binomial distribution. If you type in "binomial probability distribution calculation" in an Internet browser, you can find at least one online calculator for the binomial.</para>
+<para id="eip-680"><code>normalcdf</code>(174.5,175.5,159,8.6447) = 0.0083</para><para id="eip-863" class="finger"><emphasis>Because of calculators and computer software</emphasis> that let you calculate binomial probabilities for large values of <emphasis effect="italics">n</emphasis> easily, it is not necessary to use the the normal approximation to the binomial distribution, provided that you have access to these technology tools. Most school labs have Microsoft Excel, an example of computer software that calculates binomial probabilities. Many students have access to the TI-83 or 84 series calculators, and they easily calculate probabilities for the binomial distribution. If you type in "binomial probability distribution calculation" in an Internet browser, you can find at least one online calculator for the binomial.</para>
 
-<para id="eip-251">For <link target-id="eip-831" document=""/>, the probabilities are calculated using the following binomial distribution: (<emphasis effect="italics">n</emphasis> = 300 and <emphasis effect="italics">p</emphasis> = 0.53). Compare the binomial and normal distribution answers. See <link document="m46955">Discrete Random Variables</link> for help with calculator instructions for the binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 - binomialcdf</code>(300,0.53,149) = 0.8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0.5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 155) :<code>1 - binomialcdf</code>(300,0.53,155) = 0.6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0.0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 175) :(You use the binomial pdf.)<code>binomialpdf</code>(300,0.53,175) = 0.0083</para></example>
-
+<para id="eip-251">For <link target-id="fs-idm153949776" document=""/>, the  probabilities are calculated using the following binomial distribution: (<emphasis effect="italics">n</emphasis> = 300 and <emphasis effect="italics">p</emphasis> = 0.53). Compare the binomial and normal distribution answers. See <link document="m46955">Discrete Random Variables</link> for help with calculator instructions for the binomial.</para><para id="eip-67"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≥ 150) :<code>1 - binomialcdf</code>(300,0.53,149) = 0.8641</para><para id="eip-560"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 160) :<code>binomialcdf</code>(300,0.53,160) = 0.5684</para><para id="eip-727"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 155) :<code>1 - binomialcdf</code>(300,0.53,155) = 0.6576</para><para id="eip-122"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 147) :<code>binomialcdf</code>(300,0.53,146) = 0.0742</para><para id="eip-267"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = 175) :(You use the binomial pdf.)<code>binomialpdf</code>(300,0.53,175) = 0.0083</para></example>
+</section>
+</section>
 
 <note id="fs-idm31488240" class="statistics try">
 <label/>
@@ -795,9 +853,13 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 <exercise id="fs-idm78234832"><problem id="fs-idm12123632">
 <para id="fs-idm152181632">In a city, 46 percent of the population favor the incumbent, Dawn Morgan, for mayor. A simple random sample of 500 is taken. Using the continuity correction factor, find the probability that at least 250 favor Dawn Morgan for mayor.</para>
 </problem>
-</exercise></note>
-</section>
-</section>
+<solution id="fs-idm92157744">
+<label/>
+<title>Solutions</title>
+<para id="fs-idm23888224">0.0401</para>
+</solution>
+</exercise></note> 
+
 
 <section id="fs-idm136010448" class="references">
 <title>References</title>
@@ -812,7 +874,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> gets to <emphasis effect="italics">μ</emphasis>.</para>
 </section>
 
@@ -939,7 +1001,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
     <m:mn>10</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 </list>
@@ -961,7 +1023,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -980,7 +1042,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
      </m:mrow>
      <m:mn>8</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1018,7 +1080,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 <!-- <solution id="fs-idm72677136"><para id="fs-idm12285840">205.05</para></solution> -->
 </exercise><para id="fs-idm65293824"><emphasis effect="italics"><newline/>Use the following information to answer the next eight exercises:</emphasis> A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.</para><exercise id="fs-idm1612656">
 <problem id="fs-idm47127360">
-<para id="fs-idm47127232">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> > 420).</para>
+<para id="fs-idm47127232">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">Σx</emphasis> &gt; 420).</para>
 </problem>
 <solution id="fs-idm7883840"><para id="fs-idm7883712">0.0072</para></solution>
 </exercise>
@@ -1064,14 +1126,14 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> = ____________</item>
 <item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ _____(_____,_____)</item>
 <item>Before doing any calculations, which do you think will be higher? Explain why.
 <list id="sublist1" list-type="enumerated" number-style="lower-roman">
@@ -1098,7 +1160,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
      <m:mn>1</m:mn>
      <m:mn>8</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1114,7 +1176,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>X</m:mi>
   <m:mo>&#175;</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -1127,10 +1189,10 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
         <m:mn>60</m:mn>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1143,7 +1205,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </exercise><exercise id="element-897">
 <problem id="id6536735">
   <para id="element-790">The closing stock prices of 35 U.S. semiconductor manufacturers are given as follows.</para>
-<para id="id6536759"><list list-type="labeled-item" display="inline" id="list-00001">
+<para id="id6536759"><list list-type="labeled-item" display="inline">
 <item>8.625</item>
 <item>30.25</item>
 <item>27.625</item>
@@ -1213,7 +1275,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ _____(_____,____)</item>
 </list></problem>
 <solution id="id6537488">
@@ -1230,11 +1292,11 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
       <m:mn>20.71</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math></item>
+</m:math></item> 
 
 <item>Answers will vary.</item>
 <item>i. $20.71; ii. $11.14</item>
@@ -1253,10 +1315,10 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
       <m:msqrt>
        <m:mn>5</m:mn>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1299,7 +1361,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
    <m:mn>1</m:mn>
    <m:mn>4</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item><m:math>
@@ -1308,7 +1370,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </item>
@@ -1318,7 +1380,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
    <m:mn>3</m:mn>
    <m:mn>4</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </item>
@@ -1328,7 +1390,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
    <m:mn>3</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </item>
@@ -1398,7 +1460,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 <item>Find the probability that there are fewer than 130 that favor a charter school for grades K through 5.</item>
 <item>Find the probability that exactly 150 favor a charter school for grades K through 5.</item>
 </list>
-<para id="fs-idm85678016">If you have access to an appropriate calculator or computer software, try calculating these probabilities using the technology.</para>
+<para id="fs-idm85678016" class="finger">If you have access to an appropriate calculator or computer software, try calculating these probabilities using the technology.</para>
 </problem>
 <solution id="eip-350">
 <list id="Charter_school_answers" list-type="enumerated" number-style="lower-alpha">
@@ -1433,37 +1495,37 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> be the random variable of averages. Let <emphasis effect="italics">ΣX</emphasis> be the random variable of sums. For parts c through f, sketch the graph, shade the region, label and scale the horizontal axis for <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math>, and find the probability.</para>
 
 <list id="element-455" list-type="enumerated" number-style="lower-alpha">
-<item>Sketch the distributions of <emphasis effect="italics">X</emphasis> and
+<item>Sketch the distributions of <emphasis effect="italics">X</emphasis> and 
 <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> on the same graph.</item>
 	<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ _____(_____,_____)</item>
 	<item><emphasis effect="italics">P</emphasis>(<m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> &lt; 60) = _____</item>
 	<item>Find the 30<sup>th</sup> percentile for the mean.</item>
 	<item><emphasis effect="italics">P</emphasis>(56 &lt; <m:math>
@@ -1471,14 +1533,14 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> &lt; 62) = _____</item>
 	<item><emphasis effect="italics">P</emphasis>(18 &lt; <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> &lt; 58) = _____</item>
 	<item><emphasis effect="italics">Σx</emphasis> ~ _____(_____,_____)</item>
 	<item>Find the minimum value for the upper quartile for the sum.</item>
@@ -1492,7 +1554,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ <emphasis effect="italics">N</emphasis><m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -1505,10 +1567,10 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
         <m:mn>25</m:mn>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1533,14 +1595,14 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> = ______________</item>
 <item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ _____(_____,_____)</item>
 <item>In words, <emphasis effect="italics">ΣX</emphasis> = _____________</item>
 	<item><emphasis effect="italics">ΣX</emphasis> ~ _____(_____,_____)</item>
@@ -1566,10 +1628,10 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
       <m:mn>12</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = 4.3301</item>
 <item><emphasis effect="italics">N</emphasis>(17.5, 0.5839)</item>
@@ -1600,20 +1662,20 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> = ___________________</item>
 	<item><m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> ~ _____(_____,_____)</item>
 	<item>In words, <emphasis effect="italics">ΣX</emphasis> = _______________</item>
 	<item><emphasis effect="italics">ΣX</emphasis> ~ _____(_____,_____)</item>
 	<item>Is it likely that an individual stayed more than five days in the hospital? Why or why not?</item>
 	<item>Is it likely that the average stay for the 80 women was more than five days? Why or why not?</item>
-	<item>Which is more likely:
+	<item>Which is more likely: 
 <list id="sublist" list-type="enumerated" number-style="lower-roman">
 <item>An individual stayed more than five days.</item>
 <item>the average stay of 80 women was more than five days.</item></list></item>
@@ -1638,10 +1700,10 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
         <m:mn>80</m:mn>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1662,7 +1724,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> = 16.7, and <emphasis effect="italics">n</emphasis> = 30. To calculate the probability, we use <code>normalcdf</code>(lower, upper, <emphasis effect="italics">μ</emphasis>, <m:math>
  <m:mrow>
   <m:mfrac>
@@ -1688,10 +1750,10 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
         <m:mtext>30</m:mtext>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1716,7 +1778,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>X</m:mi>
   <m:mo>&#175;</m:mo>
  </m:mover>
-
+ 
 </m:math> &gt; 3600) = 0.1087, it could be wise to be concerned. After all, we do have a 1 in 10 chance that a random sample of men could have an averages sum weight that exceeds the safety limit.</item>
 </list></solution> -->
 </exercise><exercise id="fs-idp87424832">
@@ -1964,7 +2026,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math> = 0.862, <emphasis effect="italics">s</emphasis> = 0.05</item>
 <item><m:math>
  <m:mrow>
@@ -1972,7 +2034,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
    <m:mi>x</m:mi>
    <m:mo>¯</m:mo>
   </m:mover>
-
+  
  </m:mrow>
 </m:math> = 85.65, <emphasis effect="italics">Σs</emphasis> = 5.18</item>
 <item><code>normalcdf</code>(396.9,<emphasis effect="italics">E</emphasis>99,(465)(0.8565),(0.05)(<m:math>
@@ -1982,7 +2044,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
     <m:mn>465</m:mn>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math>)) ≈ 1</item>
 <item>Since the probability of a sample of size 465 having at least a mean sum of 396.9 is appproximately 1, we can conclude that Mars is correctly labeling their M&amp;M packages.</item>
@@ -1996,7 +2058,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
    <m:mn>3</m:mn>
    <m:mn>4</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> inch screws are within ±0.23 of the claimed mean diameter of 0.750 inches with a standard deviation of 0.115 inches. The following data were recorded.</para>
 <table id="fs-idm10579216" summary="">
@@ -2088,7 +2150,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>x</m:mi>
   <m:mo>&#175;</m:mo>
  </m:mover>
-
+ 
 </m:math> = 0.75 and <emphasis effect="italics">s</emphasis> 0.01</item>
 <item>We have <code>normalcdf</code><m:math>
  <m:mrow>
@@ -2104,10 +2166,10 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
         <m:mtext>50</m:mtext>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -2118,7 +2180,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 <para id="fs-idm3642480">Your company has a contract to perform preventive maintenance on thousands of air-conditioners in a large city. Based on service records from previous years, the time that a technician spends servicing a unit averages one hour with a standard deviation of one hour. In the coming week, your company will service a simple random sample of 70 units in the city. You plan to budget an average of 1.1 hours per technician to complete the work. Will this be enough time?</para>
 </problem>
 <solution id="fs-idm3641488">
-<para id="fs-idm22918992">Use <code>normalcdf</code><m:math>
+<para id="fs-idm22918992">Use <code>normalcdf</code><m:math display="block">
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -2130,10 +2192,10 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
         <m:mtext>70</m:mtext>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -2141,7 +2203,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </exercise>
 
 <exercise id="fs-idm37303792"><problem id="fs-idm37303536">
-<para id="fs-idm37303280">A typical adult has an average IQ score of 105 with a standard deviation of 20. If 20 randomly selected adults are given an IQ test, what is the probability that the sample mean scores will be between 85 and 125 points?</para>
+<para id="fs-idm37303280">A typical adult has an average IQ score of 105 with a standard deviation of 20. If 20 randomly selected adults are given an IQ tesst, what is the probability that the sample mean scores will be between 85 and 125 points?</para>
 </problem>
 
 <!-- <solution id="fs-idm37302528">
@@ -2159,10 +2221,10 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
         <m:mtext>20</m:mtext>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -2186,10 +2248,10 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
         <m:mtext>280</m:mtext>
        </m:mrow>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -2197,7 +2259,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
 </exercise>
 
 </section>
- </content>
+</content>
 
 <glossary>
  <definition id="expdist">
@@ -2208,7 +2270,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
    <m:mn>1</m:mn>
    <m:mi>m</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
  </m:math> and the standard deviation is <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow>
@@ -2216,7 +2278,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
    <m:mn>1</m:mn>
    <m:mi>m</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>. The probability density function is <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = me<sup>–mx</sup>, <emphasis effect="italics">x</emphasis> ≥ 0 and the cumulative distribution function is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = 1 – e<sup>–mx</sup>.</meaning>
   </definition>
@@ -2228,7 +2290,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
   <m:mi>x</m:mi>
   <m:mo>¯</m:mo>
  </m:mover>
-
+ 
 </m:math>) is <m:math>
  <m:mrow>
   <m:mover accent="true">
@@ -2243,7 +2305,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
     <m:mtext>Number of values in the sample</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, and the mean for a population (denoted by <emphasis effect="italics">μ</emphasis>) is <m:math>
  <m:mrow>
@@ -2255,7 +2317,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
     <m:mtext>Number of values in the population</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.</meaning>
   </definition>
@@ -2272,7 +2334,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
       <m:mn>2</m:mn><m:mi>π</m:mi>
      </m:mrow>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
   <m:mo> </m:mo><m:msup>
@@ -2286,20 +2348,20 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
      <m:mrow>
       <m:mn>2</m:mn><m:msup>
        <m:mi>σ</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msup>
-
+  
  </m:mrow>
 </m:math>, where <emphasis effect="italics">μ</emphasis> is the mean of the distribution and <emphasis effect="italics">σ</emphasis> is the standard deviation.; notation: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>). If <emphasis effect="italics">μ</emphasis> = 0 and <emphasis effect="italics">σ</emphasis> = 1, the RV is called the <emphasis>standard normal distribution</emphasis>.</meaning>
 </definition>
@@ -2316,7 +2378,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
    </m:mrow>
    <m:mn>2</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> and the standard deviation is <m:math>
  <m:mrow>
@@ -2330,16 +2392,16 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
      <m:mrow>
       <m:mn>12</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math>. The probability density function is <m:math>
  <m:mrow>
@@ -2349,7 +2411,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
     <m:mi>b</m:mi><m:mo>–</m:mo><m:mi>a</m:mi>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> for <emphasis effect="italics">a</emphasis> &lt; <emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">b</emphasis> or <emphasis effect="italics">a</emphasis> ≤ <emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">b</emphasis>. The cumulative distribution is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ <emphasis effect="italics">x</emphasis>) = <m:math>
  <m:mrow>
@@ -2361,7 +2423,7 @@ and <emphasis effect="italics">nq</emphasis> must both be greater than five (<em
     <m:mi>b</m:mi><m:mo>–</m:mo><m:mtext>a</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.</meaning>
   </definition>

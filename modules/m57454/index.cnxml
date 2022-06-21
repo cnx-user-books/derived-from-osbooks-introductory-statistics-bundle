@@ -1,0 +1,1465 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Counting Rules - University of Calgary - BASE CONTENT - V2015 </title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m57454</md:content-id>
+  <md:title>Counting Rules - University of Calgary - BASE CONTENT - V2015 </md:title>
+  <md:abstract>This module covers Permutations and Combinations</md:abstract>
+  <md:uuid>b91528f7-b35a-4ef7-bf51-303a549f4d06</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-370"><title>Some Counting Rules</title><para id="eip-102">Instead of writing out all possible outcomes for an experiment, we can quickly find the total number of possible outcomes. 
+We have already discussed that when tossing a coin twice, there are two trials which result in 4 different outcomes (S = {HH, HT, TH, TT}).  We can use a tree diagram to represent this in the figure below.</para><figure id="eip-596"><media id="id7474124" alt="Tree diagram representing toss of coin twice" display="block"><image src="../../media/UofC_ht.png" mime-type="image/png" width="350"/></media></figure><para id="eip-28">For tossing the coin 3 times, we get 8 possible outcomes <emphasis effect="italics">S </emphasis>= {<emphasis effect="italics">HHH, HHT, HTH, HTT, THH, THT, TTH, TTT</emphasis>}.  The tree diagram is displayed below. </para><figure id="eip-559"><media id="id7474126" alt="Tree diagram representing three tosses of coin" display="block"><image src="../../media/UofC_ht2.png" mime-type="image/png" width="350"/></media></figure><para id="eip-180">From the tree diagram we can see that the <emphasis>number of outcomes</emphasis> increases by a factor of 2 with each trial. 
+</para><example id="eip-73"><para id="eip-122">A die is rolled twice. 
+<list id="fs-idm2936018" list-type="enumerated" number-style="lower-alpha"><item>How many possible outcomes are there?</item>
+<item>Write out the sample space.</item>
+</list>
+</para><para id="eip-681"><list id="eip-id2036649" list-type="enumerated" number-style="lower-alpha"><item>There are 6 possible outcomes for the first role and 6 possible outcomes for the  
+        second role. <para id="eip-id1168587643299"><m:math>
+<m:apply><m:times/><m:cn>6</m:cn><m:cn>6</m:cn></m:apply>
+</m:math> possible outcomes</para>
+</item>
+<item>The figure below is a visual aid of the possible outcomes.  For example, you could get 
+       “1” on the first roll and “2” on the second roll.  This is a different outcome from 
+       getting “2” on the first roll and “1” on the second roll. <figure id="eip-id2626109"><media id="id7474160" alt="Visual aid for rolls of two dice"><image src="../../media/twodice.png" mime-type="image/png" width="350"/></media></figure><figure id="eip-961"><media id="id7474159" alt="sample space for two dice"><image src="../../media/Samplespacetwodice.png" mime-type="image/png" width="350"/></media></figure></item>
+
+</list>
+
+</para></example></section><section id="eip-762"><title>The Multiplicative Rule</title><para id="eip-53">
+A quick way to get the total number of possible outcomes without writing out the sample space or creating a visual aid is to multiply the number of possible outcomes for each trial.
+</para><para id="eip-306">When tossing a coin twice, there are two possible outcomes for each trial (H,T) regardless of whether the coin is weighted or not.  If we multiply the two outcomes for the first trial and the two outcomes for the second trial we get <m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>2</m:cn><m:cn>2</m:cn></m:apply><m:cn>4</m:cn></m:apply>
+</m:math> possible outcomes.  <emphasis effect="italics">S</emphasis> = {<emphasis effect="italics">HH, HT, TH, TT</emphasis>}.</para><para id="eip-25">When tossing a coin three times, there are two possible outcomes for each trial (H,T) and we end up with 8 possible outcomes. From the tree diagram we saw that we get <emphasis effect="italics">S</emphasis> = {<emphasis effect="italics">HHH, HHT, HTH, HTT, THH, THT, TTH, TTT</emphasis>}.
+</para><para id="eip-868"><m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>2</m:cn><m:cn>2</m:cn><m:cn>2</m:cn></m:apply><m:cn>8</m:cn></m:apply>
+</m:math></para><para id="eip-164">We can extend this concept to tossing a coin 4 times where there are 16 possible outcomes.  We will leave it up to you to write out the sample space.
+</para><para id="eip-532"><m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>2</m:cn><m:cn>2</m:cn><m:cn>2</m:cn><m:cn>2</m:cn></m:apply><m:cn>16</m:cn></m:apply>
+</m:math></para><note id="eip-830"><label/><title>Try It</title>
+
+<exercise id="fs-idm1262764">
+<problem id="fs-idm318164">
+<para id="fs-idp52703164">You are going to toss a coin and roll a die.</para><list id="fs-idm4233964" list-type="enumerated" number-style="lower-alpha"><item>Calculate the number of possible outcomes if you toss the coin once and 
+        roll the die once.</item>
+<item>Calculate the number of possible outcomes if you toss the coin twice and 
+        roll the die once.</item>
+<item>Calculate the number of possible outcomes if you toss the coin twice and 
+        roll the die twice.</item></list></problem>
+<solution id="fs-idm1325964">
+<label/>
+<list id="fs-idm4170564" list-type="enumerated" number-style="lower-alpha"><item>There are 2 possible outcomes for tossing the die and 6 possible outcomes for rolling the die. <m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>2</m:cn><m:cn>6</m:cn></m:apply><m:cn>12</m:cn></m:apply>
+</m:math>
+</item>
+<item><m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>2</m:cn><m:cn>2</m:cn><m:cn>6</m:cn></m:apply><m:cn>24</m:cn></m:apply>
+</m:math></item>
+<item><m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>2</m:cn><m:cn>2</m:cn><m:cn>6</m:cn><m:cn>6</m:cn></m:apply><m:cn>72</m:cn></m:apply>
+</m:math></item>
+</list></solution>
+</exercise>
+</note></section><para id="eip-849">Suppose we wish to arrange four pictures in a row along a wall.  How many different outcomes are possible?  </para><para id="eip-936">There are four pictures that can be selected for the first position on the wall.  If we choose one picture to hang first, we are now left with three choices of pictures for the next position on the wall.  Using the multiplicative rule, there are <m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>4</m:cn><m:cn>3</m:cn></m:apply><m:cn>12</m:cn></m:apply>
+</m:math> possible arrangements of pictures for the first two positions on the wall.  If we continue with this procedure, we now only have two pictures to choose from for the third position and the last picture goes in the last position.  As a result, there are 24 possible arrangements of the pictures in a row along a wall.
+</para><para id="eip-569"><m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>4</m:cn><m:cn>3</m:cn><m:cn>2</m:cn><m:cn>1</m:cn></m:apply><m:cn>24</m:cn></m:apply>
+</m:math></para><para id="eip-469">This can be represented by 4! (read “four factorial”).</para><para id="eip-587"><m:math>
+<m:apply>
+<m:eq/>
+ <m:apply>
+ <m:factorial/>
+ <m:cn>4</m:cn>
+ </m:apply>
+ <m:apply>
+ <m:eq/>
+ <m:apply><m:times/><m:cn>4</m:cn><m:cn>3</m:cn><m:cn>2</m:cn><m:cn>1</m:cn> </m:apply><m:cn>24</m:cn></m:apply>
+</m:apply>
+</m:math></para><section id="eip-943"><title>Factorials</title><para id="eip-589">The exclamation symbol after a natural number indicates to multiple a series of descending natural numbers from <emphasis><emphasis effect="italics">n</emphasis></emphasis>
+ to <emphasis>1</emphasis>.
+
+
+
+</para><equation id="eip-723"><m:math>
+<m:apply>
+ <m:eq/>
+  <m:apply>
+  <m:factorial/>
+  <m:cn>n</m:cn>
+  </m:apply>
+  <m:apply>
+  <m:times/>
+  <m:cn>n</m:cn>
+  <m:cn>n-1</m:cn>
+  <m:cn>n-2</m:cn>
+  <m:cn>...</m:cn>
+  <m:cn>1</m:cn>  
+  </m:apply>
+</m:apply>
+</m:math></equation><note id="eip-642">0!=1</note><example id="eip-3"><para id="eip-339">
+  <exercise id="eip-788"><problem id="eip-620">
+  <para id="eip-720">Suppose that we have five members on a committee.  
+  </para><list id="eip-820" list-type="enumerated" number-style="lower-alpha"><item> If there are two positions on the committee of president and vice president, how      
+       many different ways could the positions be filled?
+</item>
+<item>If there are five positions on the committee, how many different ways could you   
+       fill the five positions? </item>
+</list>
+</problem>
+
+<solution id="eip-920">
+  <para id="eip-20">
+    <list id="eip-420" list-type="enumerated" number-style="lower-alpha"><item> There are 20 different ways to fill the position of president and vice president.  There are five members to choose from for the first position and if we choose a member to be president, we now have four members to choose from for the next position.<para id="eip-id1167843959420"><m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>5</m:cn><m:cn>4</m:cn></m:apply><m:cn>20</m:cn></m:apply>
+</m:math></para>
+</item>
+<item><m:math>
+<m:apply><m:factorial/><m:cn>5</m:cn></m:apply>
+</m:math>=<m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>5</m:cn><m:cn>4</m:cn><m:cn>3</m:cn><m:cn>2</m:cn><m:cn>1</m:cn></m:apply><m:cn>120</m:cn></m:apply>
+</m:math></item></list></para>
+</solution>
+</exercise>
+
+</para>
+</example><note id="eip-743"><label/><title>Using Ti-83,83+,84,84+ Calculator</title>
+<para id="eip-id1172121595823">Use <link target-id="eip-3"/> with these instructions.</para><list id="fs-idp2836499" list-type="bulleted"><item>Enter 5. </item>
+<item>Press MATH. </item>
+<item>Arrow across to PRB.</item>
+<item>Press ENTER.</item>
+<item>Arrow down the list to 4:!</item>
+<item>Press ENTER.</item>
+
+
+
+
+
+
+
+</list></note><note id="eip-346"><label/>
+
+<exercise id="fs-idm1421588">
+<problem id="fs-idm5372188">
+<para id="fs-idm328388">20 students have volunteered to be class representatives (reps). </para><list id="fs-idm5107688" list-type="enumerated" number-style="lower-alpha"><item>If the teacher randomly selects two students to be class representatives, 
+        how many groups of two can be formed? </item>
+<item>If the teacher randomly selects four students to be class representatives, 
+        how many groups of four can be formed?</item>
+<item>If the teacher selects all 20 students to be class representatives and each  
+       one is assigned to a group of students, how many different ways can the 
+       class representatives be assigned?</item>
+</list></problem>
+<solution id="fs-idm1424588">
+<para id="fs-idp62238288"><list id="eip-id1164092533088" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>20</m:cn><m:cn>19</m:cn></m:apply><m:cn>380</m:cn></m:apply>
+</m:math> </item>
+<item><m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>20</m:cn><m:cn>19</m:cn><m:cn>18</m:cn><m:cn>17</m:cn></m:apply><m:cn>116280</m:cn></m:apply>
+</m:math></item>
+<item><m:math>
+<m:apply><m:factorial/><m:cn>20</m:cn></m:apply>
+</m:math></item></list></para></solution>
+</exercise>
+</note></section><para id="eip-171">Let’s look again at the example of hanging pictures along a wall.  Suppose you decide that you are only going to hang two of the pictures in a row.  We saw that if we choose one picture to hang first, we are now left with three choices of pictures for the next position on the wall.  Using the multiplicative rule, there are 43 = 12 possible arrangements of pictures for the first two positions on the wall.</para><para id="eip-159">There are four different pictures and we are selecting only two and arranging them in a specific order.  This is known as a <emphasis>permutation</emphasis>.  
+</para><section id="eip-221"><title>Permutation</title><para id="eip-16"><emphasis>Permutation</emphasis> is the arrangements of <emphasis effect="italics"><emphasis>r</emphasis></emphasis>
+ elements in a different order chosen from <emphasis effect="italics"><emphasis>n</emphasis></emphasis>
+ distinct available items. Below are different ways that a permutation can be represented.Insert paragraph text here.
+</para><equation id="eip-754"><m:math display="display">
+<m:apply>
+<m:eq/>
+<m:ci>
+  <m:msubsup> 
+  <m:ci>P</m:ci>
+  <m:ci>r</m:ci>
+  <m:mi>n</m:mi>
+      <m:mi>n</m:mi>
+  </m:msubsup>
+</m:ci>
+<m:apply>
+<m:eq/>
+<m:ci>
+<m:msub>
+<m:mi/>
+<m:mi>n</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>P</m:mi>
+<m:mi>r</m:mi>
+</m:msub>
+</m:ci>
+<m:apply>
+<m:eq/>
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>n</m:cn>
+    </m:apply>
+    <m:apply>
+    <m:factorial/>
+      <m:apply>
+      <m:minus/>
+      <m:cn>n</m:cn>
+      <m:cn>r</m:cn>
+      </m:apply>
+    </m:apply>
+  </m:apply>
+<m:apply>
+<m:times/>
+<m:ci>n</m:ci>
+  <m:apply>
+  <m:minus/>
+  <m:ci>n</m:ci>
+  <m:cn>1</m:cn>
+  </m:apply>
+  <m:ci>n</m:ci>
+  <m:apply>
+  <m:minus/>
+  <m:ci>n</m:ci>
+  <m:cn>2</m:cn>
+  </m:apply>
+  <m:ci>...</m:ci> 
+  <m:apply><m:plus/><m:apply><m:minus/><m:ci>n</m:ci><m:ci>r</m:ci></m:apply><m:cn>1</m:cn></m:apply>
+</m:apply>  
+</m:apply>
+</m:apply>
+</m:apply>
+</m:math>
+
+</equation><para id="eip-562">For the picture example, there are four pictures (<emphasis effect="italics">n</emphasis>
+ = 4) and we are selecting two pictures (<emphasis effect="italics">r</emphasis>
+ = 2) and arranging them in a specific order.  Using the multiplication rule, we have seen that the answer is 12.  Using permutation, we can see that we get the same result.    </para><para id="eip-804"><m:math display="display">
+<m:apply>
+<m:eq/>
+<m:ci>
+  <m:msubsup> 
+  <m:ci>P</m:ci>
+  <m:ci>2</m:ci>
+  <m:mi>4</m:mi>
+      <m:mi>n</m:mi>
+  </m:msubsup>
+</m:ci>
+<m:mi/>
+</m:apply>
+</m:math>
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:ci>
+<m:msub>
+<m:mi/>
+<m:mi>4</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>P</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+</m:ci>
+<m:mi/>
+</m:apply>
+</m:math>
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:factorial/>
+<m:cn>4</m:cn>
+</m:apply>
+<m:apply>
+<m:factorial/>
+<m:apply><m:minus/>
+<m:cn>4</m:cn>
+<m:cn>2</m:cn>
+</m:apply>
+</m:apply>
+</m:apply>
+<m:mi/>
+</m:apply>
+</m:math>
+
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:ci>4</m:ci>
+    </m:apply>
+    <m:apply>
+    <m:factorial/>
+    <m:ci>2</m:ci>
+    </m:apply>
+  </m:apply>
+<m:ci/>
+</m:apply>
+</m:math>
+<m:math>
+<m:apply><m:eq/><m:apply><m:divide/><m:apply><m:times/><m:cn>4</m:cn><m:cn>3</m:cn><m:cn>2</m:cn><m:cn>1</m:cn></m:apply><m:apply><m:times/><m:cn>2</m:cn><m:cn>1</m:cn></m:apply></m:apply>
+
+
+<m:ci/>
+
+</m:apply>
+</m:math>
+<m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>4</m:cn><m:cn>3</m:cn></m:apply><m:cn>12</m:cn></m:apply>
+</m:math>
+
+</para><para id="eip-141">There are 4! different ways of arranging the four pictures on the wall.  We divide by the number of ways of arranging the items that are not selected because we only care about the arrangement of the items selected.
+</para><para id="eip-964">There are 4! different ways of arranging the four pictures on the wall.  We divide by the number of ways of arranging the items that are not selected because we only care about the arrangement of the items selected.
+</para><para id="eip-421">For example, let’s label the pictures <emphasis effect="italics">A</emphasis>
+, <emphasis effect="italics">B</emphasis>
+, <emphasis effect="italics">C</emphasis>
+ and <emphasis effect="italics">D</emphasis>
+.  If we write out the sample space for arranging 4 pictures along a wall, we get the sample space
+</para><para id="eip-341"><figure id="eip-id1167844034178"><media id="id7474199" alt="Sample space for frame example" display="block"><image src="../../media/frameperm.png" mime-type="image/png" width="350"/></media></figure>
+</para><para id="eip-290">When only selecting two pictures to hang, the outcomes {<emphasis effect="italics">
+ABCD, ABDC</emphasis>} are considered the same because picture <emphasis effect="italics">A</emphasis>
+ is in the first position and picture <emphasis effect="italics">B</emphasis>
+ is in the second position for both outcomes.   We don’t care about the arrangement of the last two pictures <emphasis effect="italics">C</emphasis>
+ and <emphasis effect="italics">D</emphasis>
+ because they were not chosen to be hung.  The outcome {<emphasis effect="italics">BACD, BADC</emphasis>} are considered the same because picture <emphasis effect="italics">B</emphasis> is in the first position and picture <emphasis effect="italics">A</emphasis> is in the second position.  Since the order matters, having picture <emphasis effect="italics">A</emphasis> in the first position and <emphasis effect="italics">B</emphasis> in the second is a different arrangement from having <emphasis effect="italics">B</emphasis> in the first position and <emphasis effect="italics">A</emphasis> in the second position.  This is why in the formula for permutation we are dividing the sample space for 4! by two. 
+</para><example id="eip-672"><para id="eip-210">
+  <exercise id="eip-645"><problem id="fs-idm5372145">
+<para id="fs-idm328345">Suppose that we have 5 members on a committee. </para><list id="fs-idm5107645" list-type="enumerated" number-style="lower-alpha"><item>If there are two positions on the committee of president and vice president, how      
+       many different ways could the positions be filled?
+ </item>
+<item> If there are three positions on the committee (president, vice president and   
+       secretary), how many different ways could the positions be filled? 
+</item>
+
+</list></problem>
+<solution id="fs-idm1424545">
+<para id="fs-idp62238245"><list id="eip-id1164092533045" list-type="enumerated" number-style="lower-alpha"><item><m:math display="display">
+<m:apply>
+<m:eq/>
+<m:ci>
+  <m:msubsup> 
+  <m:ci>P</m:ci>
+  <m:ci>2</m:ci>
+  <m:mi>5</m:mi>
+      <m:mi>n</m:mi>
+  </m:msubsup>
+</m:ci>
+<m:mi/>
+</m:apply>
+</m:math>
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:ci>
+<m:msub>
+<m:mi/>
+<m:mi>5</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>P</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+</m:ci>
+<m:mi/>
+</m:apply>
+</m:math>
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:factorial/>
+<m:cn>5</m:cn>
+</m:apply>
+<m:apply>
+<m:factorial/>
+<m:apply><m:minus/>
+<m:cn>5</m:cn>
+<m:cn>2</m:cn>
+</m:apply>
+</m:apply>
+</m:apply>
+<m:mi/>
+</m:apply>
+</m:math>
+
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:ci>5</m:ci>
+    </m:apply>
+    <m:apply>
+    <m:factorial/>
+    <m:ci>3</m:ci>
+    </m:apply>
+  </m:apply>
+<m:ci/>
+</m:apply>
+</m:math>
+<m:math>
+<m:apply><m:eq/><m:apply><m:divide/><m:apply><m:times/><m:cn>5</m:cn><m:cn>4</m:cn><m:cn>3</m:cn><m:cn>2</m:cn><m:cn>1</m:cn></m:apply><m:apply><m:times/><m:cn>3</m:cn><m:cn>2</m:cn><m:cn>1</m:cn></m:apply></m:apply>
+
+
+<m:ci/>
+
+</m:apply>
+</m:math>
+<m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>5</m:cn><m:cn>4</m:cn></m:apply><m:cn>20</m:cn></m:apply>
+</m:math>
+
+different groups of 2
+
+
+
+
+ </item>
+<item><m:math display="display">
+<m:apply>
+<m:eq/>
+<m:ci>
+  <m:msubsup> 
+  <m:ci>P</m:ci>
+  <m:ci>3</m:ci>
+  <m:mi>5</m:mi>
+      <m:mi>n</m:mi>
+  </m:msubsup>
+</m:ci>
+<m:mi/>
+</m:apply>
+</m:math>
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:ci>
+<m:msub>
+<m:mi/>
+<m:mi>5</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>P</m:mi>
+<m:mi>3</m:mi>
+</m:msub>
+</m:ci>
+<m:mi/>
+</m:apply>
+</m:math>
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:factorial/>
+<m:cn>5</m:cn>
+</m:apply>
+<m:apply>
+<m:factorial/>
+<m:apply><m:minus/>
+<m:cn>5</m:cn>
+<m:cn>3</m:cn>
+</m:apply>
+</m:apply>
+</m:apply>
+<m:mi/>
+</m:apply>
+</m:math>
+
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:ci>5</m:ci>
+    </m:apply>
+    <m:apply>
+    <m:factorial/>
+    <m:ci>2</m:ci>
+    </m:apply>
+  </m:apply>
+<m:ci/>
+</m:apply>
+</m:math>
+<m:math>
+<m:apply><m:eq/><m:apply><m:divide/><m:apply><m:times/><m:cn>5</m:cn><m:cn>4</m:cn><m:cn>3</m:cn><m:cn>2</m:cn><m:cn>1</m:cn></m:apply><m:apply><m:times/><m:cn>2</m:cn><m:cn>1</m:cn></m:apply></m:apply>
+
+
+<m:ci/>
+
+</m:apply>
+</m:math>
+<m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>5</m:cn><m:cn>4</m:cn><m:cn>3</m:cn></m:apply><m:cn>60</m:cn></m:apply>
+</m:math>
+different groups of 3
+
+
+
+
+</item>
+ </list></para></solution>
+</exercise>
+</para>
+</example><note id="eip-980"><label/><title>Using Ti-83,83+,84,84+ Calculator</title>
+<para id="eip-id1172121595899">Use <link target-id="eip-672"/> <emphasis>question a. </emphasis>with these instructions.</para><list id="fs-idp283790" list-type="bulleted"><item>Enter 5. 
+
+</item>
+<item>Press MATH. </item>
+<item>Arrow across to PRB.</item>
+<item>Press ENTER.</item>
+<item>Arrow down the list to 2:nPr</item>
+<item>Press ENTER.</item>
+<item>ENTER 2.</item>
+<item>Press ENTER.</item>
+</list></note><note id="eip-800"><label/>
+
+<exercise id="fs-idm1421595">
+<problem id="fs-idm5372195">
+<para id="fs-idm328335">How many different 2 digit numbers can be created from the digits “1”, “2” , “3” “4” and “5” if you can only use the number once?  For example, if "1" and then "2" is selected, the two digit number is "12". </para></problem>
+<solution id="fs-idm1424595">
+<para id="fs-idp62238295"><m:math display="display">
+<m:apply>
+<m:eq/>
+<m:ci>
+  <m:msubsup> 
+  <m:ci>P</m:ci>
+  <m:ci>2</m:ci>
+  <m:mi>5</m:mi>
+      <m:mi>n</m:mi>
+  </m:msubsup>
+</m:ci>
+<m:mi/>
+</m:apply>
+</m:math>
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:ci>
+<m:msub>
+<m:mi/>
+<m:mi>5</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>P</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+</m:ci>
+<m:mi/>
+</m:apply>
+</m:math>
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+<m:divide/>
+<m:apply>
+<m:factorial/>
+<m:cn>5</m:cn>
+</m:apply>
+<m:apply>
+<m:factorial/>
+<m:apply><m:minus/>
+<m:cn>5</m:cn>
+<m:cn>2</m:cn>
+</m:apply>
+</m:apply>
+</m:apply>
+<m:mi/>
+</m:apply>
+</m:math>
+
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:ci>5</m:ci>
+    </m:apply>
+    <m:apply>
+    <m:factorial/>
+    <m:ci>3</m:ci>
+    </m:apply>
+  </m:apply>
+<m:ci/>
+</m:apply>
+</m:math>
+<m:math>
+<m:apply><m:eq/><m:apply><m:divide/><m:apply><m:times/><m:cn>5</m:cn><m:cn>4</m:cn><m:cn>3</m:cn><m:cn>2</m:cn><m:cn>1</m:cn></m:apply><m:apply><m:times/><m:cn>3</m:cn><m:cn>2</m:cn><m:cn>1</m:cn></m:apply></m:apply>
+
+
+<m:ci/>
+
+</m:apply>
+</m:math>
+<m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>5</m:cn><m:cn>4</m:cn></m:apply><m:cn>20</m:cn></m:apply>
+</m:math>
+
+different 2 digit numbers</para></solution>
+</exercise>
+</note></section><para id="eip-692">Earlier in the text we discussed random samples and the use of a random generating table to select a random sample.  How many random samples are possible?   We can use <emphasis>Combinatorial mathematics</emphasis> to determine the number of possible samples. 
+Suppose we have our four pictures and we will randomly choose two to give to a friend.  In this example, the order of the two pictures that we select and the order of the two we have not selected does not matter.  
+</para><para id="eip-471">{<emphasis effect="italics">ABCD, ABDC, BACD, BADC</emphasis>} are considered the same because picture <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are in the first two positions (pictures you will give your friend) and <emphasis effect="italics">C</emphasis> and <emphasis effect="italics">D</emphasis> are the pictures you will keep (pictures in third and fourth position).   </para><para id="eip-630">We take the original sample for 4! = 24, divide it by two (possible arrangements of the two pictures selected) and divide this by two (possible arrangements of the two pictures not selected).  We are left with six possible random samples.   The possible random samples of two pictures you can give your friend are <emphasis effect="italics">AB, AC, AD, BC, BD,</emphasis>
+  and <emphasis effect="italics">CD</emphasis>
+.
+</para><para id="eip-710"><m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+ <m:divide/>
+  <m:apply>
+  <m:factorial/>
+  <m:cn>4</m:cn>
+  </m:apply>
+  <m:apply>
+  <m:times/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>2</m:cn>
+    </m:apply>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>2</m:cn>
+    </m:apply>
+
+ </m:apply>
+
+</m:apply>
+<m:ci/>
+</m:apply>
+</m:math>
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+<m:divide/>
+ <m:apply>
+ <m:times/>
+ <m:cn>4</m:cn>
+ <m:cn>3</m:cn>
+ <m:cn>2</m:cn>
+ <m:cn>1</m:cn>
+ </m:apply>
+  <m:apply>
+   <m:apply>   
+   <m:times/>
+   
+   <m:cn>2</m:cn>
+   <m:cn>1</m:cn>
+   </m:apply>
+     
+   <m:apply>
+   <m:times/>
+   <m:cn>2</m:cn>
+   <m:cn>1</m:cn>
+   </m:apply>
+ </m:apply>
+</m:apply>
+<m:cn>6</m:cn>
+</m:apply>
+</m:math></para><section id="eip-356"><title>Combination</title><para id="eip-275"><emphasis>Combination </emphasis> is selecting a sample consisting of <emphasis effect="italics"><emphasis>r</emphasis></emphasis>
+ elements from <emphasis effect="italics"><emphasis>n</emphasis></emphasis>
+ distinct available items.  Below are different ways that a combination can be represented.Insert paragraph text here.
+</para><equation id="eip-890"><m:math>
+<m:apply>
+<m:eq/>
+<m:vector>
+<m:ci>n</m:ci>
+<m:ci>r</m:ci>
+</m:vector>
+
+
+
+
+<m:apply>
+<m:eq/>
+<m:ci>
+  <m:msubsup> 
+  <m:ci>C</m:ci>
+  <m:ci>r</m:ci>
+  <m:mi>n</m:mi>
+      <m:mi>n</m:mi>
+  </m:msubsup>
+</m:ci>
+<m:apply>
+<m:eq/>
+<m:ci>
+<m:msub>
+<m:mi/>
+<m:mi>n</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>C</m:mi>
+<m:mi>r</m:mi>
+</m:msub>
+</m:ci>
+
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>n</m:cn>
+    </m:apply>
+    <m:apply>
+      <m:times/>
+       <m:apply>
+       <m:factorial/>
+       <m:cn>r</m:cn>
+       </m:apply>
+       <m:apply>
+       <m:factorial/>
+       <m:apply>
+       <m:minus/>
+       <m:cn>n</m:cn>
+       <m:cn>r</m:cn>
+      </m:apply>
+    </m:apply>
+  </m:apply>
+
+ 
+</m:apply>  
+</m:apply>
+</m:apply>
+</m:apply>
+</m:math>
+
+
+</equation><para id="eip-363">For the picture example, there are 4 available items (<emphasis effect="italics">n</emphasis> = 4) and we are going to select two (<emphasis effect="italics">r</emphasis> = 2).  We are not concerned about the order of the pictures selected nor the order of the pictures not selected.  
+</para><para id="eip-598"><m:math>
+<m:apply>
+<m:eq/>
+<m:vector>
+<m:ci>4</m:ci>
+<m:ci>2</m:ci>
+</m:vector>
+<m:ci/>
+</m:apply>
+</m:math>
+
+<m:math display="display">
+<m:apply>
+<m:eq/>
+<m:ci>
+  <m:msubsup> 
+  <m:ci>C</m:ci>
+  <m:ci>2</m:ci>
+  <m:mi>4</m:mi>
+      <m:mi>n</m:mi>
+  </m:msubsup>
+</m:ci>
+<m:mi/>
+</m:apply>
+</m:math>
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:ci>
+<m:msub>
+<m:mi/>
+<m:mi>4</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>C</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+</m:ci>
+<m:mi/>
+</m:apply>
+</m:math>
+
+<m:math>
+<m:apply>
+<m:eq/>
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>4</m:cn>
+    </m:apply>
+    <m:apply>
+      <m:times/>
+       <m:apply>
+       <m:factorial/>
+       <m:cn>2</m:cn>
+       </m:apply>
+       <m:apply>
+       <m:factorial/>
+       <m:apply>
+       <m:minus/>
+       <m:cn>4</m:cn>
+       <m:cn>2</m:cn>
+       </m:apply>
+       </m:apply>
+    </m:apply>
+  </m:apply>
+<m:cn/>
+</m:apply>
+</m:math>
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+ <m:divide/>
+  <m:apply>
+  <m:factorial/>
+  <m:cn>4</m:cn>
+  </m:apply>
+  <m:apply>
+  <m:times/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>2</m:cn>
+    </m:apply>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>2</m:cn>
+    </m:apply>
+
+ </m:apply>
+
+</m:apply>
+<m:ci/>
+</m:apply>
+</m:math>
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+<m:divide/>
+ <m:apply>
+ <m:times/>
+ <m:cn>4</m:cn>
+ <m:cn>3</m:cn>
+ <m:cn>2</m:cn>
+ <m:cn>1</m:cn>
+ </m:apply>
+  <m:apply>
+   <m:apply>   
+   <m:times/>
+   
+   <m:cn>2</m:cn>
+   <m:cn>1</m:cn>
+   </m:apply>
+     
+   <m:apply>
+   <m:times/>
+   <m:cn>2</m:cn>
+   <m:cn>1</m:cn>
+   </m:apply>
+ </m:apply>
+</m:apply>
+<m:cn>6</m:cn>
+</m:apply>
+</m:math>
+</para><example id="eip-881"><para id="eip-780">
+  <exercise id="eip-781"><problem id="fs-idm5372780">
+<para id="fs-idm328780">Suppose you have 5 fruits to choose from for your snack.</para><list id="fs-idm5107780" list-type="enumerated" number-style="lower-alpha"><item> If you randomly select 2 fruit, how many different snacks are possible?
+
+ </item>
+<item> If you randomly select 3 fruit, how many different snacks are possible?
+</item>
+
+</list></problem>
+<solution id="fs-idm1424780">
+<para id="fs-idp62238780"><list id="eip-id1164092533780" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+<m:apply>
+<m:eq/>
+<m:vector>
+<m:ci>5</m:ci>
+<m:ci>2</m:ci>
+</m:vector>
+<m:ci/>
+</m:apply>
+</m:math>
+
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>5</m:cn>
+    </m:apply>
+    <m:apply>
+      <m:times/>
+       <m:apply>
+       <m:factorial/>
+       <m:cn>2</m:cn>
+       </m:apply>
+       <m:apply>
+       <m:factorial/>
+       <m:apply>
+       <m:minus/>
+       <m:cn>5</m:cn>
+       <m:cn>2</m:cn>
+       </m:apply>
+       </m:apply>
+    </m:apply>
+  </m:apply>
+<m:cn/>
+</m:apply>
+</m:math>
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+ <m:divide/>
+  <m:apply>
+  <m:factorial/>
+  <m:cn>5</m:cn>
+  </m:apply>
+  <m:apply>
+  <m:times/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>2</m:cn>
+    </m:apply>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>3</m:cn>
+    </m:apply>
+
+ </m:apply>
+
+</m:apply>
+<m:ci/>
+</m:apply>
+</m:math>
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+<m:divide/>
+ <m:apply>
+ <m:times/>
+ <m:cn>5</m:cn>
+ <m:cn>4</m:cn>
+ <m:cn>3</m:cn>
+ <m:cn>2</m:cn>
+ <m:cn>1</m:cn>
+ </m:apply>
+  <m:apply>
+   <m:apply>   
+   <m:times/>
+   
+   <m:cn>2</m:cn>
+   <m:cn>1</m:cn>
+   </m:apply>
+     
+   <m:apply>
+   <m:times/>
+   <m:cn>3</m:cn>
+   <m:cn>2</m:cn>
+   <m:cn>1</m:cn>
+   </m:apply>
+ </m:apply>
+</m:apply>
+<m:cn>10</m:cn>
+</m:apply>
+</m:math>
+
+
+different snacks of two fruits are possible
+
+
+
+
+ </item>
+<item><m:math>
+<m:apply>
+<m:eq/>
+<m:vector>
+<m:ci>5</m:ci>
+<m:ci>3</m:ci>
+</m:vector>
+<m:ci/>
+</m:apply>
+</m:math>
+
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>5</m:cn>
+    </m:apply>
+    <m:apply>
+      <m:times/>
+       <m:apply>
+       <m:factorial/>
+       <m:cn>3</m:cn>
+       </m:apply>
+       <m:apply>
+       <m:factorial/>
+       <m:apply>
+       <m:minus/>
+       <m:cn>5</m:cn>
+       <m:cn>3</m:cn>
+       </m:apply>
+       </m:apply>
+    </m:apply>
+  </m:apply>
+<m:cn/>
+</m:apply>
+</m:math>
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+ <m:divide/>
+  <m:apply>
+  <m:factorial/>
+  <m:cn>5</m:cn>
+  </m:apply>
+  <m:apply>
+  <m:times/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>3</m:cn>
+    </m:apply>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>2</m:cn>
+    </m:apply>
+
+ </m:apply>
+
+</m:apply>
+<m:ci/>
+</m:apply>
+</m:math>
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+<m:divide/>
+ <m:apply>
+ <m:times/>
+ <m:cn>5</m:cn>
+ <m:cn>4</m:cn>
+ <m:cn>3</m:cn>
+ <m:cn>2</m:cn>
+ <m:cn>1</m:cn>
+ </m:apply>
+  <m:apply>
+   <m:apply>   
+   <m:times/>
+   <m:cn>3</m:cn>
+   <m:cn>2</m:cn>
+   <m:cn>1</m:cn>
+   </m:apply>
+     
+   <m:apply>
+   <m:times/>
+   
+   <m:cn>2</m:cn>
+   <m:cn>1</m:cn>
+   </m:apply>
+ </m:apply>
+</m:apply>
+<m:cn>10</m:cn>
+</m:apply>
+</m:math>
+
+
+different snacks of three fruits are possible
+
+
+
+
+</item>
+ </list></para></solution>
+</exercise>
+</para>
+</example><note id="eip-655"><label/><title>Using Ti-83,83+,84,84+ Calculator</title>
+<para id="eip-id1172121595643">Use <link target-id="eip-881"/> <emphasis>question a. </emphasis>with these instructions.</para><list id="fs-idp283891" list-type="bulleted"><item>Enter 5. 
+
+</item>
+<item>Press MATH. </item>
+<item>Arrow across to PRB.</item>
+<item>Press ENTER.</item>
+<item>Arrow down the list to 3:nCr</item>
+<item>Press ENTER.</item>
+<item>ENTER 2.</item>
+<item>Press ENTER.</item>
+</list></note><note id="eip-946">We can see that picking a sample of <emphasis><emphasis effect="italics">r</emphasis></emphasis> items from <emphasis><emphasis effect="italics">n</emphasis></emphasis> available distinct items is the same as picking a sample of <emphasis><emphasis effect="italics">n-r</emphasis></emphasis> items from <emphasis><emphasis effect="italics">n</emphasis></emphasis> available distinct items.  
+<para id="eip-id1165472674938"><m:math>
+<m:apply>
+<m:eq/>
+<m:ci>
+  <m:msub>
+  <m:mi/>
+  <m:mi>n</m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi>C</m:mi>
+<m:mi>r</m:mi>
+</m:msub>
+</m:ci>
+<m:mi/>
+</m:apply>
+</m:math>
+
+
+<m:math>
+
+<m:msub>
+<m:mi/>
+<m:mi>n</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>C</m:mi>
+<m:mi>n-r</m:mi>
+</m:msub>
+
+</m:math>
+</para></note><note id="eip-474"><label/>
+
+<exercise id="fs-idm1421688">
+<problem id="fs-idm5372688">
+<para id="fs-idm328688">There are 20 students in the class and the teacher will randomly select 5 students to represent the class.  How many different samples of 5 students are possible?</para></problem>
+<solution id="fs-idm1424688">
+<para id="fs-idp62238688"><m:math>
+<m:apply>
+<m:eq/>
+<m:vector>
+<m:ci>20</m:ci>
+<m:ci>5</m:ci>
+</m:vector>
+<m:ci/>
+</m:apply>
+</m:math>
+
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>20</m:cn>
+    </m:apply>
+    <m:apply>
+      <m:times/>
+       <m:apply>
+       <m:factorial/>
+       <m:cn>5</m:cn>
+       </m:apply>
+       <m:apply>
+       <m:factorial/>
+       <m:apply>
+       <m:minus/>
+       <m:cn>20</m:cn>
+       <m:cn>5</m:cn>
+       </m:apply>
+       </m:apply>
+    </m:apply>
+  </m:apply>
+<m:cn/>
+</m:apply>
+</m:math>
+<m:math>
+<m:apply>
+<m:eq/>
+<m:apply>
+ <m:divide/>
+  <m:apply>
+  <m:factorial/>
+  <m:cn>20</m:cn>
+  </m:apply>
+  <m:apply>
+  <m:times/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>5</m:cn>
+    </m:apply>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>15</m:cn>
+    </m:apply>
+
+ </m:apply>
+
+</m:apply>
+<m:cn>15504</m:cn>
+</m:apply>
+</m:math>
+
+
+
+
+different samples of 5 students</para></solution>
+</exercise>
+</note></section><section id="eip-616"><title>Formula Review</title><para id="eip-384"><emphasis>Permutation</emphasis>:
+<m:math display="display">
+<m:apply>
+<m:eq/>
+<m:ci>
+  <m:msubsup> 
+  <m:ci>P</m:ci>
+  <m:ci>r</m:ci>
+  <m:mi>n</m:mi>
+      <m:mi>n</m:mi>
+  </m:msubsup>
+</m:ci>
+<m:apply>
+<m:eq/>
+<m:ci>
+<m:msub>
+<m:mi/>
+<m:mi>n</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>P</m:mi>
+<m:mi>r</m:mi>
+</m:msub>
+</m:ci>
+<m:apply>
+<m:eq/>
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>n</m:cn>
+    </m:apply>
+    <m:apply>
+    <m:factorial/>
+      <m:apply>
+      <m:minus/>
+      <m:cn>n</m:cn>
+      <m:cn>r</m:cn>
+      </m:apply>
+    </m:apply>
+  </m:apply>
+<m:apply>
+<m:times/>
+<m:ci>n</m:ci>
+  <m:apply>
+  <m:minus/>
+  <m:ci>n</m:ci>
+  <m:cn>1</m:cn>
+  </m:apply>
+  <m:ci>n</m:ci>
+  <m:apply>
+  <m:minus/>
+  <m:ci>n</m:ci>
+  <m:cn>2</m:cn>
+  </m:apply>
+  <m:ci>...</m:ci> 
+  <m:apply><m:plus/><m:apply><m:minus/><m:ci>n</m:ci><m:ci>r</m:ci></m:apply><m:cn>1</m:cn></m:apply>
+</m:apply>  
+</m:apply>
+</m:apply>
+</m:apply>
+</m:math>
+
+
+</para><para id="eip-177"><emphasis>Combination</emphasis>:
+<m:math>
+<m:apply>
+<m:eq/>
+<m:vector>
+<m:ci>n</m:ci>
+<m:ci>r</m:ci>
+</m:vector>
+
+
+
+
+<m:apply>
+<m:eq/>
+<m:ci>
+  <m:msubsup> 
+  <m:ci>C</m:ci>
+  <m:ci>r</m:ci>
+  <m:mi>n</m:mi>
+      <m:mi>n</m:mi>
+  </m:msubsup>
+</m:ci>
+<m:apply>
+<m:eq/>
+<m:ci>
+<m:msub>
+<m:mi/>
+<m:mi>n</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>C</m:mi>
+<m:mi>r</m:mi>
+</m:msub>
+</m:ci>
+
+  <m:apply>
+  <m:divide/>
+    <m:apply>
+    <m:factorial/>
+    <m:cn>n</m:cn>
+    </m:apply>
+    <m:apply>
+      <m:times/>
+       <m:apply>
+       <m:factorial/>
+       <m:cn>r</m:cn>
+       </m:apply>
+       <m:apply>
+       <m:factorial/>
+       <m:apply>
+       <m:minus/>
+       <m:cn>n</m:cn>
+       <m:cn>r</m:cn>
+      </m:apply>
+    </m:apply>
+  </m:apply>
+
+ 
+</m:apply>  
+</m:apply>
+</m:apply>
+</m:apply>
+</m:math>
+
+
+</para></section><exercise id="eip-80"><problem id="eip-406">
+  <para id="eip-547">You are planning a trip to Ottawa and you can choose one of four airlines which offer either first class or coach.  How many different travel plans are possible? 
+  </para></problem>
+
+<solution id="eip-124">
+  <para id="eip-227"><m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>4</m:cn><m:cn>2</m:cn></m:apply><m:cn>8</m:cn></m:apply>
+</m:math> 
+  </para></solution>
+</exercise><exercise id="eip-66"><problem id="eip-965">
+  <para id="eip-175">An iphone has a four digit password.  How many passwords are possible?
+  </para></problem>
+
+<solution id="eip-425">
+  <para id="eip-905"><m:math>
+<m:apply><m:eq/><m:apply><m:times/><m:cn>10</m:cn><m:cn>10</m:cn><m:cn>10</m:cn><m:cn>10</m:cn></m:apply><m:cn>10000</m:cn></m:apply>
+</m:math> 
+  
+  </para></solution>
+</exercise><exercise id="eip-647"><problem id="eip-566">
+  <para id="eip-464">Lotto 649 is where you pick any combination of six numbers from one to 49.  How many combinations are possible?
+  </para></problem>
+
+<solution id="eip-959">
+  <para id="eip-821"><m:math>
+<m:apply>
+<m:eq/>
+<m:vector>
+<m:ci>49</m:ci>
+<m:ci>6</m:ci>
+</m:vector>
+<m:ci>13,983,816</m:ci>
+</m:apply>
+</m:math>
+
+
+
+</para></solution>
+</exercise><exercise id="eip-841"><problem id="eip-568">
+  <para id="eip-185">Suppose that you are picking five athletes from 15 that are trying out for you basketball team.
+
+  </para><list id="eip-id1166976910767" list-type="enumerated" number-style="lower-alpha"><item>How many teams of five are possible?</item>
+<item>How many teams of five are possible if you choose a power guard, point guard, small forward, power forward and centre? </item>  </list></problem>
+
+<solution id="eip-999">
+  <para id="eip-509"><list id="eip-id1165471388470" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+<m:apply>
+<m:eq/>
+<m:vector>
+<m:ci>15</m:ci>
+<m:ci>5</m:ci>
+</m:vector>
+<m:ci>3003</m:ci>
+</m:apply>
+</m:math>
+</item>
+
+
+<item>
+
+
+<m:math>
+<m:apply>
+<m:eq/>
+<m:ci>
+<m:msub>
+<m:mi/>
+<m:mi>15</m:mi>
+</m:msub>
+<m:msub>
+<m:mi>P</m:mi>
+<m:mi>5</m:mi>
+</m:msub>
+</m:ci>
+<m:mi>360360</m:mi>
+</m:apply>
+</m:math>
+
+</item></list></para></solution>
+</exercise></content>
+<glossary>
+<definition id="fs-id1165467451266">
+<term>Factorial</term>
+<meaning id="fs-id1165469117259">The exclamation symbol after a natural number indicates to multiple a series of descending natural numbers from <emphasis><emphasis effect="italics">n</emphasis></emphasis>
+ to <emphasis>1</emphasis>.</meaning>
+</definition>
+<definition id="fs-id1165468490950">
+<term>Permutation</term>
+<meaning id="fs-id1165473396081"> is the arrangements of <emphasis effect="italics"><emphasis>r</emphasis></emphasis>
+ elements in a different order chosen from <emphasis effect="italics"><emphasis>n</emphasis></emphasis>
+ distinct available items. Below are different ways that a permutation can be represented.Insert paragraph text here.</meaning>
+</definition>
+<definition id="fs-id1165469675308">
+<term>Combination</term>
+<meaning id="fs-id1165471219539">is selecting a sample consisting of <emphasis effect="italics"><emphasis>r</emphasis></emphasis>
+ elements from <emphasis effect="italics"><emphasis>n</emphasis></emphasis>
+ distinct available items.  Below are different ways that a combination can be represented.Insert paragraph text here.</meaning>
+</definition>
+
+</glossary>
+</document>

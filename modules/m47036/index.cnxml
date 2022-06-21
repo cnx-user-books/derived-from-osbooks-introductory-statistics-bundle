@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-  <para id="fs-idm27402752">Earlier in the course, we discussed sampling distributions. <emphasis>Particular distributions are associated with hypothesis testing.</emphasis> Perform tests of a population mean using a <term id="term-00001">normal distribution</term> or a <term id="term-00002">Student's <emphasis effect="italics">t</emphasis>-distribution</term>. (Remember, use a Student's <emphasis effect="italics">t</emphasis>-distribution when the population <term id="term-00003">standard deviation</term> is unknown and the distribution of the sample mean is approximately normal.) We perform tests of a population proportion using a normal distribution (usually <emphasis effect="italics">n</emphasis> is large).</para><para id="element-418">If you are testing a <term id="term-00004">single population mean</term>, the distribution for the test is for <emphasis>means</emphasis>:</para><para id="element-363"><m:math>
+  <para id="fs-idm27402752">Earlier in the course, we discussed sampling distributions. <emphasis>Particular distributions are associated with hypothesis testing.</emphasis> Perform tests of a population mean using a <term>normal distribution</term> or a <term>Student's <emphasis effect="italics">t</emphasis>-distribution</term>. (Remember, use a Student's <emphasis effect="italics">t</emphasis>-distribution when the population <term>standard deviation</term> is unknown and the distribution of the sample mean is approximately normal.) We perform tests of a population proportion using a normal distribution (usually <emphasis effect="italics">n</emphasis> is large).</para><para id="element-418">If you are testing a <term>single population mean</term>, the distribution for the test is for <emphasis>means</emphasis>:</para><para id="element-363"><m:math>
     <m:mrow>
       <m:mover accent="true">
         <m:mi>X</m:mi>
@@ -26,16 +26,16 @@
                 <m:mi>σ</m:mi>
                 <m:mi>X</m:mi>
               </m:msub>
-
+              
             </m:mrow>
             <m:mrow>
               <m:msqrt>
                 <m:mi>n</m:mi>
               </m:msqrt>
-
+              
             </m:mrow>
           </m:mfrac>
-
+          
         </m:mrow>
         <m:mo>)</m:mo></m:mrow>
     </m:mrow>
@@ -47,14 +47,14 @@
     <m:mi>d</m:mi><m:mi>f</m:mi>
    </m:mrow>
   </m:msub>
-
+  
  </m:mrow>
 </m:math></para><para id="element-838">The population parameter is <emphasis effect="italics">μ</emphasis>. The estimated value (point estimate) for μ is <m:math>
     <m:mover accent="true">
       <m:mi>x</m:mi>
       <m:mo>¯</m:mo>
     </m:mover>
-  </m:math>, the sample mean.</para><para id="element-245">If you are testing a <term id="term-00005">single population proportion</term>, the distribution for the test is for
+  </m:math>, the sample mean.</para><para id="element-245">If you are testing a <term>single population proportion</term>, the distribution for the test is for
   proportions or percentages:</para><para id="element-851"><m:math>
     <m:mrow>
       <m:msup>
@@ -71,10 +71,10 @@
                 </m:mrow>
                 <m:mi>n</m:mi>
               </m:mfrac>
-
+              
             </m:mrow>
           </m:msqrt>
-
+          
         </m:mrow>
         <m:mo>)</m:mo></m:mrow>
     </m:mrow>
@@ -87,10 +87,10 @@
         </m:mfrac>
       </m:mrow>
     </m:math> where <emphasis effect="italics">x</emphasis> is the number of successes and <emphasis effect="italics">n</emphasis> is the sample size.</para>
-<section id="fs-idp38268576"><title>Assumptions</title><para id="fs-idp18826944">When you perform a <term id="term-00006">hypothesis test</term> <emphasis>of a single population mean <emphasis effect="italics">μ</emphasis></emphasis> using a
-<term id="term-00007">Student's <emphasis effect="italics">t</emphasis>-distribution</term> (often called a t-test), there are fundamental assumptions that need to be met in order for the test to work properly. Your data should be a <term id="term-00008">simple random sample</term> that comes from a population that is approximately <term id="term-00009">normally distributed</term>. You use the sample <term id="term-00010">standard deviation</term> to approximate the population standard deviation. (Note that if the sample size is sufficiently large, a t-test will work even if the population is not approximately normally distributed).</para><para id="element-849">When you perform a <emphasis>hypothesis test of a single population mean <emphasis effect="italics">μ</emphasis></emphasis> using a
+<section id="fs-idp38268576"><title>Assumptions</title><para id="fs-idp18826944">When you perform a <term>hypothesis test</term> <emphasis>of a single population mean <emphasis effect="italics">μ</emphasis></emphasis> using a
+<term>Student's <emphasis effect="italics">t</emphasis>-distribution</term> (often called a t-test), there are fundamental assumptions that need to be met in order for the test to work properly. Your data should be a <term>simple random sample</term> that comes from a population that is approximately <term>normally distributed</term>. You use the sample <term>standard deviation</term> to approximate the population standard deviation. (Note that if the sample size is sufficiently large, a t-test will work even if the population is not approximately normally distributed).</para><para id="element-849">When you perform a <emphasis>hypothesis test of a single population mean <emphasis effect="italics">μ</emphasis></emphasis> using a
 normal distribution (often called a <emphasis effect="italics">z</emphasis>-test), you take a simple random sample from the population. The population you are testing is normally distributed or your sample size is sufficiently large. You know the value of the population standard deviation which, in reality, is rarely known.</para><para id="element-395">When you perform a <emphasis>hypothesis test of a single population proportion <emphasis effect="italics">p</emphasis></emphasis>, you
-  take a simple random sample from the population. You must meet the conditions for a <term id="term-00011">binomial distribution</term> which are: there are a certain number <emphasis effect="italics">n</emphasis> of independent trials, the outcomes of any trial are success or failure, and each trial has the same probability of a success <emphasis effect="italics">p</emphasis>. The shape of the binomial distribution needs to be similar to the shape of the normal distribution. To ensure this, the quantities <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">nq</emphasis> must both be greater than five (<emphasis effect="italics">np</emphasis> > 5 and <emphasis effect="italics">nq</emphasis> > 5). Then the binomial distribution of a sample (estimated) proportion can be approximated by the normal distribution with <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">p</emphasis> and <m:math>
+  take a simple random sample from the population. You must meet the conditions for a <term>binomial distribution</term> which are: there are a certain number <emphasis effect="italics">n</emphasis> of independent trials, the outcomes of any trial are success or failure, and each trial has the same probability of a success <emphasis effect="italics">p</emphasis>. The shape of the binomial distribution needs to be similar to the shape of the normal distribution. To ensure this, the quantities <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">nq</emphasis> must both be greater than five (<emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; 5). Then the binomial distribution of a sample (estimated) proportion can be approximated by the normal distribution with <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">p</emphasis> and <m:math>
     <m:mrow>
       <m:mi>σ</m:mi><m:mo>=</m:mo><m:msqrt>
         <m:mrow>
@@ -100,10 +100,10 @@ normal distribution (often called a <emphasis effect="italics">z</emphasis>-test
             </m:mrow>
             <m:mi>n</m:mi>
           </m:mfrac>
-
+          
         </m:mrow>
       </m:msqrt>
-
+      
     </m:mrow>
   </m:math>.
 
@@ -115,7 +115,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
     <item>The normal test will work if the data come from a simple, random sample and the population
       is approximately normally distributed, or the sample size is large, with a known standard
       deviation.</item>
-  </list><para id="fs-idp12045392">When testing a single population proportion use a normal test for a single population proportion if the data comes from a simple, random sample, fill the requirements for a binomial distribution, and the mean number of successes and the mean number of failures satisfy the conditions: <emphasis effect="italics">np</emphasis> > 5 and <emphasis effect="italics">nq</emphasis> > 5 where <emphasis effect="italics">n</emphasis> is the sample size, <emphasis effect="italics">p</emphasis> is the probability of a success, and <emphasis effect="italics">q</emphasis> is the probability of a failure.</para>
+  </list><para id="fs-idp12045392">When testing a single population proportion use a normal test for a single population proportion if the data comes from a simple, random sample, fill the requirements for a binomial distribution, and the mean number of success and the mean number of failures satisfy the conditions: <emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; <emphasis effect="italics">n</emphasis> where <emphasis effect="italics">n</emphasis> is the sample size, <emphasis effect="italics">p</emphasis> is the probability of a success, and <emphasis effect="italics">q</emphasis> is the probability of a failure.</para>
 </section>
 
 
@@ -134,9 +134,9 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
               <m:mi>x</m:mi>
               <m:mo>¯</m:mo>
             </m:mover>
-
+            
           </m:msub>
-
+          
         </m:mrow>
       </m:math> and <m:math>
         <m:mrow>
@@ -146,7 +146,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
               <m:mi>x</m:mi>
               <m:mo>¯</m:mo>
             </m:mover>
-
+            
           </m:msub>
           <m:mo>=</m:mo><m:mfrac>
             <m:mrow>
@@ -154,16 +154,16 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
                 <m:mi>σ</m:mi>
                 <m:mi>x</m:mi>
               </m:msub>
-
+              
             </m:mrow>
             <m:mrow>
               <m:msqrt>
                 <m:mi>n</m:mi>
               </m:msqrt>
-
+              
             </m:mrow>
           </m:mfrac>
-
+          
         </m:mrow>
       </m:math></item>
       <item>A <emphasis>single population proportion</emphasis>, we may use a normal distribution with the following mean and standard deviation. Proportions:  <emphasis effect="italics">µ</emphasis> = <emphasis><emphasis effect="italics">p</emphasis></emphasis> and <m:math>
@@ -176,10 +176,10 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
                 </m:mrow>
                 <m:mi>n</m:mi>
               </m:mfrac>
-
+              
             </m:mrow>
           </m:msqrt>
-
+          
         </m:mrow>
       </m:math>. </item>
     </list></section>
@@ -205,7 +205,8 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
   <para id="eip-204">A population mean is 13. The sample mean is 12.8, and the sample standard deviation is two. The sample size is 20. What distribution should you use to perform a hypothesis test? Assume the underlying population is normal.</para>
 </problem>  </exercise><exercise id="eip-917">
     <problem id="eip-265">
-  <para id="eip-995">A population has a mean of 25 and a standard deviation of five. The sample mean is 24, and the sample size is 108. What distribution should you use to perform a hypothesis test?</para></problem>
+  <para id="eip-995">A population has a mean is 25 and a standard deviation of five. The sample mean is 24, and the sample size is 108. What distribution should you use to perform a hypothesis test?</para>
+</problem>
 
 <solution id="eip-953">
   <para id="eip-267">a normal distribution for a single population mean</para>
@@ -252,7 +253,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
       <m:mi>X</m:mi>
       <m:mo>¯</m:mo>
     </m:mover>
-
+    
   </m:math> ~ ________________</para><list id="fs-idm141858480" list-type="enumerated" number-style="lower-alpha">
       <item><m:math>
         <m:mrow>
@@ -266,7 +267,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
                   <m:mn>22</m:mn>
                 </m:mrow>
               </m:msqrt>
-
+              
             </m:mrow>
           </m:mfrac>
           <m:mo stretchy="false">)</m:mo>
@@ -280,7 +281,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
       <item><emphasis effect="italics">t</emphasis><sub>22</sub></item>
       <item><emphasis effect="italics">t</emphasis><sub>21</sub></item>
     </list>
-
+    
   </problem>
 
 <solution id="fs-idp8543664">
@@ -290,7 +291,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
 
 </section>
 
- </content>
+</content>
 
 <glossary>
 <definition id="bidist">
@@ -302,7 +303,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
     </m:math>. The probability of exactly <emphasis effect="italics">x</emphasis> successes in <emphasis effect="italics">n</emphasis> trials is <m:math>
       <m:mrow>
@@ -319,7 +320,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
                   <m:mi>x</m:mi>
                 </m:mtd>
               </m:mtr>
-
+              
             </m:mtable>
           </m:mrow>
           <m:mo>)</m:mo></m:mrow><m:msup>
@@ -332,7 +333,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
             <m:mi>n</m:mi><m:mo>−</m:mo><m:mi>x</m:mi>
           </m:mrow>
         </m:msup>
-
+        
       </m:mrow>
     </m:math>.
 </meaning>
@@ -351,7 +352,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
               <m:mn>2</m:mn><m:mi>π</m:mi>
             </m:mrow>
           </m:msqrt>
-
+          
         </m:mrow>
       </m:mfrac>
       <m:msup>
@@ -365,20 +366,20 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
                 </m:mrow>
                 <m:mn>2</m:mn>
               </m:msup>
-
+              
             </m:mrow>
             <m:mrow>
               <m:mn>2</m:mn><m:msup>
                 <m:mi>σ</m:mi>
                 <m:mn>2</m:mn>
               </m:msup>
-
+              
             </m:mrow>
           </m:mfrac>
-
+          
         </m:mrow>
       </m:msup>
-
+      
     </m:mrow>
   </m:math>, where <emphasis effect="italics">μ</emphasis> is the mean of the distribution, and <emphasis effect="italics">σ</emphasis> is the standard deviation, notation: <emphasis effect="italics">X ~ N</emphasis>(<emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>). If <emphasis effect="italics">μ</emphasis> = 0 and <emphasis effect="italics">σ</emphasis> = 1, the RV is called <emphasis>the standard normal distribution</emphasis>.</meaning>
   </definition>
@@ -390,7 +391,7 @@ Remember that <emphasis effect="italics">q</emphasis> = 1 – <emphasis effect="
 
 <definition id="studenttdist">
     <term>Student's <emphasis effect="italics">t</emphasis>-Distribution</term>
-    <meaning id="id8759760">investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student. The major characteristics of the random variable (RV) are:
+    <meaning id="id8759760">investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student. The major characteristics of the random variable (RV) are: 
 <list id="tdist1" list-type="bulleted">
   <item>It is continuous and assumes any real values.</item>
   <item>The pdf is symmetrical about its mean of zero. However, it is more spread out and flatter at the apex than the normal distribution.</item>
