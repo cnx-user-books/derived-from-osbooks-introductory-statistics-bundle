@@ -8,10 +8,10 @@
 </metadata>
 
 <content>
-<para id="fs-idp5986864">Once you have a set of data, you will need to organize it so that you can analyze how frequently each datum occurs in the set. However, when calculating the frequency, you may need to round your answers so that they are as precise as possible.</para><section id="fs-idm2552448"><title>Answers and Rounding Off</title><para id="id5602419">A simple way to round off answers is to carry your final answer one more decimal place than was present in the original data. Round off only the final answer. Do not round off any intermediate results, if possible. If it becomes necessary to round off intermediate results, carry them to at least twice as many decimal places as the final answer. For example, the average of the three quiz scores four, six, and nine is 6.3, rounded off to the nearest tenth, because the data are whole numbers. Most answers will be rounded off in this manner.</para><para id="id5164237">It is not necessary to reduce most fractions in this course. Especially in <link document="m46938">Probability Topics</link>, the chapter on probability, it is more helpful to leave an answer as an unreduced fraction.</para></section><section id="eip-109"><title>Levels of Measurement</title><para id="eip-192">The way a set of data is measured is called its <term id="term-00001">level of measurement</term>. Correct statistical procedures depend on a researcher being familiar with levels of measurement. Not every statistical operation can be used with every set of data. Data can be classified into four levels of measurement. They are (from lowest to highest level):</para><list id="eip-865"><item><emphasis>Nominal scale level</emphasis></item>
+<para id="fs-idp5986864">Once you have a set of data, you will need to organize it so that you can analyze how frequently each datum occurs in the set. However, when calculating the frequency, you may need to round your answers so that they are as precise as possible.</para><section id="fs-idm2552448"><title>Answers and Rounding Off</title><para id="id5602419">A simple way to round off answers is to carry your final answer one more decimal place than was present in the original data. Round off only the final answer. Do not round off any intermediate results, if possible. If it becomes necessary to round off intermediate results, carry them to at least twice as many decimal places as the final answer. For example, the average of the three quiz scores four, six, and nine is 6.3, rounded off to the nearest tenth, because the data are whole numbers. Most answers will be rounded off in this manner.</para><para id="id5164237">It is not necessary to reduce most fractions in this course. Especially in <link document="m46938">Probability Topics</link>, the chapter on probability, it is more helpful to leave an answer as an unreduced fraction.</para></section><section id="eip-109"><title>Levels of Measurement</title><para id="eip-192">The way a set of data is measured is called its <term>level of measurement</term>. Correct statistical procedures depend on a researcher being familiar with levels of measurement. Not every statistical operation can be used with every set of data. Data can be classified into four levels of measurement. They are (from lowest to highest level):</para><list id="eip-865"><item><emphasis>Nominal scale level</emphasis></item>
 <item><emphasis>Ordinal scale level</emphasis></item>
 <item><emphasis>Interval scale level</emphasis></item>
-<item><emphasis>Ratio scale level</emphasis></item></list><para id="eip-925">Data that is measured using a <term id="term-00002">nominal scale</term> is <emphasis>qualitative (categorical)</emphasis>. Categories, colors, names, labels and favorite foods along with yes or no responses are examples of nominal level data. Nominal scale data are not ordered. For example, trying to classify people according to their favorite food does not make any sense. Putting pizza first and sushi second is not meaningful.</para><para id="eip-817">Smartphone companies are another example of nominal scale data. The data are the names of the companies that make smartphones, but there is no agreed upon order of these brands, even though people may have personal preferences. Nominal scale data cannot be used in calculations.</para><para id="eip-369">Data that is measured using an <term id="term-00003">ordinal scale</term> is similar to nominal scale data but there is a big difference. The ordinal scale data can be ordered. An example of ordinal scale data is a list of the top five national parks in the United States. The top five national parks in the United States can be ranked from one to five but we cannot measure differences between the data.</para><para id="eip-289">Another example of using the ordinal scale is a cruise survey where the responses to questions about the cruise are “excellent,” “good,” “satisfactory,” and “unsatisfactory.”  These responses are ordered from the most desired response to the least desired.  But the differences between two pieces of data cannot be measured. Like the nominal scale data, ordinal scale data cannot be used in calculations.</para><para id="eip-158">Data that is measured using the <term id="term-00004">interval scale</term> is similar to ordinal level data because it has a definite ordering but there is a difference between data. The differences between interval scale data can be measured though the data does not have a starting point.</para><para id="eip-134">Temperature scales like Celsius (C) and Fahrenheit (F) are measured by using the interval scale. In both temperature measurements, 40° is equal to 100° minus 60°. Differences make sense. But 0 degrees does not because, in both scales, 0 is not the absolute lowest temperature. Temperatures like  -10° F and -15° C exist and are colder than 0.</para><para id="eip-435">Interval level data can be used in calculations, but one type of comparison cannot be done.  80° C is not four times as hot as 20° C (nor is 80° F four times as hot as 20° F). There is no meaning to the ratio of 80 to 20 (or four to one).</para><para id="eip-558">Data that is measured using the <term id="term-00005">ratio scale</term> takes care of the ratio problem and gives you the most information. Ratio scale data is like interval scale data, but it has a 0 point and ratios can be calculated. For example, four multiple choice statistics final exam scores are 80, 68, 20 and 92 (out of a possible 100 points). The exams are machine-graded.</para><para id="eip-53">The data can be put in order from lowest to highest:  20, 68, 80, 92.</para><para id="eip-750">The differences between the data have meaning. The score 92 is more than the score 68 by 24 points.
+<item><emphasis>Ratio scale level</emphasis></item></list><para id="eip-925">Data that is measured using a <term>nominal scale</term> is <emphasis>qualitative(categorical)</emphasis>. Categories, colors, names, labels and favorite foods along with yes or no responses are examples of nominal level data. Nominal scale data are not ordered. For example, trying to classify people according to their favorite food does not make any sense. Putting pizza first and sushi second is not meaningful.</para><para id="eip-817">Smartphone companies are another example of nominal scale data. The data are the names of the companies that make smartphones, but there is no agreed upon order of these brands, even though people may have personal preferences. Nominal scale data cannot be used in calculations.</para><para id="eip-369">Data that is measured using an <term>ordinal scale</term> is similar to nominal scale data but there is a big difference. The ordinal scale data can be ordered. An example of ordinal scale data is a list of the top five national parks in the United States. The top five national parks in the United States can be ranked from one to five but we cannot measure differences between the data.</para><para id="eip-289">Another example of using the ordinal scale is a cruise survey where the responses to questions about the cruise are “excellent,” “good,” “satisfactory,” and “unsatisfactory.”  These responses are ordered from the most desired response to the least desired.  But the differences between two pieces of data cannot be measured. Like the nominal scale data, ordinal scale data cannot be used in calculations.</para><para id="eip-158">Data that is measured using the <term>interval scale</term> is similar to ordinal level data because it has a definite ordering but there is a difference between data. The differences between interval scale data can be measured though the data does not have a starting point.</para><para id="eip-134">Temperature scales like Celsius (C) and Fahrenheit (F) are measured by using the interval scale. In both temperature measurements, 40° is equal to 100° minus 60°. Differences make sense. But 0 degrees does not because, in both scales, 0 is not the absolute lowest temperature. Temperatures like  -10° F and -15° C exist and are colder than 0.</para><para id="eip-435">Interval level data can be used in calculations, but one type of comparison cannot be done.  80° C is not four times as hot as 20° C (nor is 80° F four times as hot as 20° F). There is no meaning to the ratio of 80 to 20 (or four to one).</para><para id="eip-558">Data that is measured using the <term>ratio scale</term> takes care of the ratio problem and gives you the most information. Ratio scale data is like interval scale data, but it has a 0 point and ratios can be calculated. For example, four multiple choice statistics final exam scores are 80, 68, 20 and 92 (out of a possible 100 points). The exams are machine-graded.</para><para id="eip-53">The data can be put in order from lowest to highest:  20, 68, 80, 92.</para><para id="eip-750">The differences between the data have meaning. The score 92 is more than the score 68 by 24 points.  
 Ratios can be calculated. The smallest score is 0. So 80 is four times 20. The score of 80 is four times better than the score of 20.</para></section><section id="eip-959"><title>Frequency</title><para id="id7489802">Twenty students were asked how many hours they worked per day. Their responses, in hours, are as follows: <list id="set-element-244" list-type="labeled-item" display="inline"><item>5</item><item>6</item><item>3</item><item>3</item><item>2</item><item>4</item><item>7</item><item>5</item><item>2</item><item>3</item><item>5</item><item>6</item><item>5</item><item>4</item><item>4</item><item>3</item><item>5</item><item>2</item><item>5</item><item>3</item></list>.</para><para id="id9267444"><link target-id="id10383738" document=""/> lists the different data values in ascending order and their frequencies. </para>
 
 
@@ -52,7 +52,7 @@ Ratios can be calculated. The smallest score is 0. So 80 is four times 20. The s
           </tbody>
 
 </tgroup>
-</table><para id="element-118">A <term id="term-00006">frequency</term> is the number of times a value of the data occurs. According to <link target-id="id10383738" document=""/>, there are three students who work two hours, five students who work three hours, and so on. The sum of the values in the frequency column, 20, represents the total number of students included in the sample.</para><para id="id8007492">A <term id="term-00007">relative frequency</term> is the ratio (fraction or proportion) of the number of times a value of the data occurs in the set of all outcomes to the total number of outcomes. To find the relative frequencies, divide each frequency by the total number of students in the sample–in this case, 20. Relative frequencies can be written as fractions, percents, or decimals.</para><table id="id11177380" summary="Frequency Table of Student Work Hours with Relative Frequencies"><title>Frequency Table of Student Work Hours with Relative Frequencies</title>
+</table><para id="element-118">A <term>frequency</term> is the number of times a value of the data occurs. According to <link target-id="id10383738" document=""/>, there are three students who work two hours, five students who work three hours, and so on. The sum of the values in the frequency column, 20, represents the total number of students included in the sample.</para><para id="id8007492">A <term>relative frequency</term> is the ratio (fraction or proportion) of the number of times a value of the data occurs in the set of all outcomes to the total number of outcomes. To find the relative frequencies, divide each frequency by the total number of students in the sample–in this case, 20. Relative frequencies can be written as fractions, percents, or decimals.</para><table id="id11177380" summary="Frequency Table of Student Work Hours with Relative Frequencies"><title>Frequency Table of Student Work Hours with Relative Frequencies</title>
 <tgroup cols="3"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -152,7 +152,7 @@ Ratios can be calculated. The smallest score is 0. So 80 is four times 20. The s
  </m:mrow>
 </m:math> or 0.05</entry>
 </row>
-</tbody>
+</tbody> 
 
 
 
@@ -167,10 +167,10 @@ Ratios can be calculated. The smallest score is 0. So 80 is four times 20. The s
     <m:mn>20</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
-, or 1.</para><para id="id7575466"><term id="term-00008">Cumulative relative frequency</term> is the accumulation of the previous relative
+, or 1.</para><para id="id7575466"><term>Cumulative relative frequency</term> is the accumulation of the previous relative
 frequencies. To find the cumulative relative frequencies, add all the previous relative frequencies to
 the relative frequency for the current row, as shown in <link target-id="id10564302" document=""/>.</para><table id="id10564302" summary="Table shows data, frequency, relative frequency and cumulative relative frequency."><title>Frequency Table of Student Work Hours with Relative and Cumulative Relative Frequencies</title>
 <tgroup cols="4"><colspec colnum="1" colname="c1"/>
@@ -197,7 +197,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>20</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
  or 0.15</entry>
@@ -215,7 +215,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>20</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
  or 0.25</entry>
@@ -233,7 +233,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>20</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
  or 0.15</entry>
@@ -251,7 +251,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>20</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
  or 0.30</entry>
@@ -269,7 +269,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>20</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
  or 0.10</entry>
@@ -287,7 +287,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>20</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
  or 0.05</entry>
@@ -387,7 +387,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
  = 0.40
@@ -409,7 +409,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
  = 0.17
@@ -431,7 +431,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
  = 0.12
@@ -502,7 +502,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
 <note id="id16927214"><label/><title>Note</title>
 <para id="eip-idp9286128">This example is used again in <link document="m46925">Descriptive Statistics</link>, where the method used to compute the intervals will be explained.</para></note><para id="element-689">In this sample, there are <emphasis>five</emphasis> players whose heights fall within the interval 59.95–61.95 inches, <emphasis>three</emphasis> players whose heights fall within the interval 61.95–63.95 inches, <emphasis>15</emphasis> players whose heights fall within the interval 63.95–65.95 inches, <emphasis>40</emphasis> players whose heights fall within the interval 65.95–67.95 inches, <emphasis>17</emphasis> players whose heights fall within the interval 67.95–69.95 inches, <emphasis>12</emphasis> players whose heights fall within the interval 69.95–71.95, <emphasis>seven</emphasis> players whose heights fall within the interval 71.95–73.95, and <emphasis>one</emphasis> player whose heights fall within the interval 73.95–75.95. All heights fall between the endpoints of an interval and not at the endpoints.</para><example id="element-23523">
       <exercise id="element-881"><problem id="id16927329">
-		<para id="element-455">From <link target-id="id9703284" document=""/>, find the percentage of heights that are less than 65.95 inches.
+		<para id="element-455">From <link target-id="id9703284" document=""/>, find the percentage of heights that are less than 65.95 inches. 
 		</para></problem>
 
 	<solution id="id16927349">
@@ -552,7 +552,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>50</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 0.14</entry> <entry>0.12 + 0.14 = 0.26</entry></row>
 
@@ -566,7 +566,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>50</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
  = 0.30</entry> <entry>0.26 + 0.30 = 0.56</entry></row>
@@ -602,10 +602,10 @@ the relative frequency for the current row, as shown in <link target-id="id10564
     <m:mn>50</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 0.10</entry><entry>0.90 + 0.10 = 1.00</entry></row>
-	<row><entry/><entry>Total = 50</entry><entry>Total = 1.00</entry><entry/></row>
+	<row><entry/><entry>Total = 50</entry><entry>Total = 1.00</entry><entry/></row>	
 </tbody>
 
 
@@ -613,6 +613,11 @@ the relative frequency for the current row, as shown in <link target-id="id10564
 </table>
 <para id="fs-idm81784864">From <link target-id="fs-idm82680048" document=""/>, find the percentage of rainfall that is less than 9.01 inches.</para>
 </problem>
+<solution id="fs-idm82851248" class="solutions">
+<label/>
+<title>Try It Solutions</title>
+<para id="fs-idm76738800">0.56 or 56%</para>
+</solution>
 </exercise>
 </note><example id="element-2398">
 <exercise id="element-987"><problem id="id16927407">
@@ -623,13 +628,17 @@ the relative frequency for the current row, as shown in <link target-id="id10564
 <para id="element-827">Add the relative frequencies in the second and third rows: 0.03 + 0.15 = 0.18 or 18%.
 </para>
 </solution>
-</exercise>
+</exercise> 
 </example>
 
 <note id="fs-idp124591904" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm61239616"><problem id="fs-idm61142976">
 <para id="fs-idm71703488">From <link target-id="fs-idm82680048" document=""/>, find the percentage of rainfall that is between 6.99 and 13.05 inches.</para>
 </problem>
+<solution id="fs-idm64829776" class="solutions">
+<label/><title>Try It Solutions</title>
+<para id="fs-idm72952848">0.30 + 0.16 + 0.18 = 0.64 or 64%</para>
+</solution>
 </exercise></note><example id="element-235235"><exercise id="element-994"><problem id="id16927469">
 		<para id="element-952">Use the heights of the 100 male semiprofessional soccer players in <link target-id="id9703284" document=""/>. Fill in the blanks and check your answers.
 		</para>
@@ -641,7 +650,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
 <item>What kind of data are the heights?</item>
 <item>Describe how you could gather this data (the heights) so that the data are characteristic of all male semiprofessional soccer players.</item>
 
-</list><para id="element-683">Remember, you <emphasis>count frequencies</emphasis>. To find the relative frequency, divide the frequency by the total number of data values. To find the cumulative relative frequency, add all of the previous relative frequencies to the relative frequency for the current row.
+</list><para id="element-683">Remember, you <emphasis>count frequencies</emphasis>. To find the relative frequency, divide the frequency by the total number of data values. To find the cumulative relative frequency, add all of the previous relative frequencies to the relative frequency for the current row. 
 		</para>
 		</problem>
 <solution id="id16927576">
@@ -657,9 +666,13 @@ the relative frequency for the current row, as shown in <link target-id="id10564
 <label/><title>Try It</title>
 <exercise id="fs-idm58580624"><problem id="fs-idm39695376">
 <para id="fs-idm98844192">From <link target-id="fs-idm82680048" document=""/>, find the number of towns that have rainfall between 2.95 and 9.01 inches.</para></problem>
+<solution id="fs-idm78315040" class="solutions">
+<label/><title>Try It Solutions</title>
+<para id="fs-idm57651936">6 + 7 + 15 = 28 towns</para></solution>
 </exercise>
-</note><note id="res" class="statistics collab"><label/> 
-<para id="id8661133">In your class, have someone conduct a survey of the number of siblings (brothers and sisters) each student has. Create a frequency table. Add to it a relative frequency column and a cumulative relative frequency column. Answer the following questions:</para><list id="element-889" list-type="enumerated"><item>What percentage of the students in your class have no siblings?</item>
+</note><note id="res" class="statistics collab"><label/><title>Collaborative Exercise</title> 
+<para id="id8661133">In your class, have someone conduct a survey of the number of siblings (brothers and sisters) each student has. Create a frequency table. Add to it a relative frequency column and a cumulative relative frequency column. Answer the following questions:</para>
+      <list id="element-889" list-type="enumerated"><item>What percentage of the students in your class have no siblings?</item>
 <item>What percentage of the students have from one to three siblings?</item>
 <item>What percentage of the students have fewer than three siblings?</item></list></note><example id="element-569"><para id="element-755">Nineteen people were asked how many miles, to the nearest mile, they commute to work each day. The data are as follows:
 <list id="set-element-392" list-type="labeled-item" display="inline"><item>2</item>
@@ -808,7 +821,7 @@ the relative frequency for the current row, as shown in <link target-id="id10564
               <entry>1.0000</entry>
             </row>
           </tbody>
-
+     
 </tgroup>
 </table><exercise id="element-268">
 <problem id="id16928563">
@@ -831,6 +844,22 @@ the relative frequency for the current row, as shown in <link target-id="id10564
 <problem id="fs-idm86905392">
 <para id="fs-idm12777216"><link target-id="fs-idm82680048" document=""/> represents the amount, in inches, of annual rainfall in a sample of towns. What fraction of towns surveyed get between 11.03 and 13.05 inches of rainfall each year?</para>
 </problem>
+<solution id="fs-idm39703984" class="solutions">
+<label/>
+<title>Try It Solutions</title>
+<para id="fs-idm57705408"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>9</m:mn>
+    <m:mrow>
+     <m:mn>50</m:mn>
+    </m:mrow>
+   </m:mfrac>
+     </m:mrow>
+  </m:semantics>
+</m:math></para>
+</solution>
 </exercise></note><example id="fs-idm64477536">
 <para id="fs-idm39829664"><link target-id="fs-idm52810848" document=""/> contains the total number of deaths worldwide as a result of earthquakes for the period from 2000 to 2012.</para><table id="fs-idm52810848" summary="This table represents the total number of deaths worldwide as a result of earthquakes for the period from 2000 to 2012.">
 <tgroup cols="2"><thead>
@@ -942,6 +971,15 @@ the relative frequency for the current row, as shown in <link target-id="id10564
 <item>What is the percentage of deaths that occurred in 2011?</item>
 <item>What is the cumulative relative frequency for 2006? Explain what this number tells you about the data.</item>
 </list></problem>
+<solution id="fs-idm101720064" class="solutions">
+<label/>
+<title>Try It Solutions</title>
+<list id="fs-idm84107376" list-type="enumerated" number-style="lower-alpha"><item>190,800 (29.2%)</item>
+<item>24.9%</item>
+<item>260,086/653,782 or 39.8%</item>
+<item>4.6%</item>
+<item>75.1% of all fatal traffic crashes for the period from 1994 to 2011 happened from 1994 to 2006.</item>
+</list></solution>
 </exercise>
 </note></section><section id="eip-137" class="references"><title>References</title><para id="eip-idm114490208">“State &amp; County QuickFacts,” U.S. Census Bureau. http://quickfacts.census.gov/qfd/download_data.html (accessed May 1, 2013).</para><para id="eip-idm217605552">“State &amp; County QuickFacts: Quick, easy access to facts about people, business, and geography,” U.S. Census Bureau. http://quickfacts.census.gov/qfd/index.html (accessed May 1, 2013).</para><para id="eip-idm85470464">“Table 5: Direct hits by mainland United States Hurricanes (1851-2004),” National Hurricane Center, http://www.nhc.noaa.gov/gifs/table5.gif (accessed May 1, 2013).</para><para id="eip-idm126552704">“Levels of Measurement,” http://infinity.cos.edu/faculty/woodbury/stats/tutorial/Data_Levels.htm (accessed May 1, 2013).</para><para id="eip-idm96097840">Courtney Taylor, “Levels of Measurement,” about.com,
 http://statistics.about.com/od/HelpandTutorials/a/Levels-Of-Measurement.htm (accessed May 1, 2013).</para><para id="eip-idm150901088">David Lane. “Levels of Measurement,” Connexions, http://cnx.org/content/m10809/latest/ (accessed May 1, 2013).</para></section><section id="fs-idm13164064" class="summary"><title>Chapter Review</title><para id="fs-idm13630672">Some calculations generate numbers that are artificially precise. It is not necessary to report a value to eight decimal places when the measures that generated that value were only accurate to the nearest tenth. Round off your final answer to one more decimal place than was present in the original data. This means that if you have data measured to the nearest tenth of a unit, report the final statistic to the nearest hundredth.</para><para id="eip-50">In addition to rounding your answers, you can measure your data using the following four levels of measurement.</para><list id="eip-349"><item><emphasis>Nominal scale level:</emphasis> data that cannot be ordered nor can it be used in calculations</item>
@@ -1088,16 +1126,16 @@ Cumulative Relative Frequency
 <thead>
 <row>
 <entry>
-# Flossing per Week
+# Flossing per Week 
 </entry>
 <entry>
-Frequency
+Frequency 
 </entry>
 <entry>
-Relative Frequency
+Relative Frequency 
 </entry>
 <entry>
-Cumulative Relative Freq.
+Cumulative Relative Freq. 
 </entry>
 </row>
 </thead>
@@ -1397,7 +1435,7 @@ number(s).</item>
     <m:mn>19</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </item>
@@ -1411,7 +1449,7 @@ number(s).</item>
     <m:mn>19</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </item>
@@ -1425,7 +1463,7 @@ number(s).</item>
     <m:mn>19</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </item>
@@ -1530,11 +1568,19 @@ number(s).</item>
 <item>What is the relative frequency of ages under 50?</item>
 <item>What is the cumulative relative frequency for CEOs younger than 55?</item>
 <item>Which graph shows the relative frequency and which shows the cumulative relative frequency?</item>
-</list><figure id="eip-idp25576880" orient="horizontal"><media id="fs-idm20141232" alt="Graph A is a bar graph with 7 bars. The x-axis shows CEO's ages in intervals of 5 years starting with 40 - 44. The y-axis shows the relative frequency in intervals of 0.2 from 0 - 1. The highest relative frequency shown is 0.27. Graph B is a bar graph with 7 bars. The x-axis shows CEO's ages in intervals of 5 years starting with 40 - 44. The y-axis shows relative frequency in intervals of 0.2 from 0 - 1. The highest relative frequency shown is 1.">
-<image mime-type="image/jpg" src="../../media/CNX_Stats_C01_M10_003.jpg"/>
+</list><figure id="eip-idp25576880" orient="horizontal"><subfigure id="eip-idp23821424">
+<media id="fs-idm20141232" alt="Graph A is a bar graph with 7 bars. The x-axis shows CEO's ages in intervals of 5 years starting with 40 - 44. The y-axis shows the relative frequency in intervals of 0.2 from 0 - 1. The highest relative frequency shown is 0.27.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C01_M10_001.jpg" width="300"/>
 </media>
+</subfigure>
 
-</figure></problem>
+<subfigure id="eip-idm16871488">
+<media id="fs-idm100364080" alt="Graph B is a bar graph with 7 bars. The x-axis shows CEO's ages in intervals of 5 years starting with 40 - 44. The y-axis shows relative frequency in intervals of 0.2 from 0 - 1. The highest relative frequency shown is 1.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C01_M10_002.jpg" width="300"/>
+</media>
+</subfigure>
+</figure>
+</problem>
 
 <!-- <solution id="eip-idp30968976">
 <list id="eip-idp30969232" list-type="enumerated" number-style="lower-alpha"><item>26 (This is the count of CEOs in the 55 to 59 and 60 to 64 categories.)</item>
@@ -1555,10 +1601,15 @@ number(s).</item>
               <entry>Cumulative Frequency</entry>
             </row>
           </thead>
-          
+          <tfoot><row>
+              <entry/>
+              <entry>Total = 273</entry>
+              <entry/>
+              <entry/>
+</row></tfoot>
 
            <tbody>
-
+           
             <row>
               <entry>1</entry>
               <entry>109</entry>
@@ -1589,15 +1640,8 @@ number(s).</item>
               <entry>0.0110</entry>
               <entry>1.0000</entry>
             </row>
-<row>
-              <entry/>
-              <entry>Total = 273</entry>
-              <entry/>
-              <entry/>
-</row>
           </tbody>
-        
-</tgroup>
+        </tgroup>
 </table><exercise id="element-87"><problem id="id30104614">
 		<para id="element-933">What is the relative frequency of direct hits that were category 4 hurricanes?
 		</para><list id="element-662" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>0.0768</item>
@@ -1607,7 +1651,7 @@ number(s).</item>
 <solution id="id30104703">
 <para id="element-3562341">b</para>
 </solution></exercise>
-
+      
       <exercise id="element-627"><problem id="id30104731">
 		<para id="element-544">What is the relative frequency of direct hits that were AT MOST a category 3 storm?
 		</para><list id="element-359" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>0.3480</item>
@@ -1616,7 +1660,7 @@ number(s).</item>
 <item>0.3370</item></list></problem>
 <!-- <solution id="id30104819">
 <para id="element-3564">b</para>
-</solution> --></exercise></section> </content>
+</solution> --></exercise></section></content>
 
 <glossary>
 

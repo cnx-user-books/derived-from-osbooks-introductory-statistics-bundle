@@ -16,53 +16,52 @@
    </list><para id="element-875862734">
     <title>Collect the Data</title>
     Go to your local supermarket. Ask 30 people as they leave for the total amount on their grocery receipts. (Or, ask three cashiers for the last ten amounts. Be sure to include the express lane, if it is open.)</para>
-   <note id="eip-665"><label/><title>Note</title>You may need to combine two categories so that each cell has an expected value of at least five.
- </note><list id="list-87585" list-type="enumerated" mark-suffix=".">
+   <note id="eip-665"><label/><title>Note</title>You may need to combine two categories so that each cell has an expected value of at least five.</note><list id="list-87585" list-type="enumerated" mark-suffix=".">
     <item>Record the values.
      <table id="table023865" summary="Blank table with 30 empty cells.">
       <tgroup cols="5">
        <tbody>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
         <row>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
-         <entry/>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
+         <entry>__________</entry>
         </row>
        </tbody>
       </tgroup>
@@ -155,9 +154,10 @@
       <m:mn>1</m:mn>
      </m:mrow>
      <m:mrow>
-      
-      <m:mover accent="true"><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover>
-      
+      <m:apply>
+       <m:conjugate/>
+       <m:ci>x</m:ci>
+      </m:apply>
      </m:mrow>
     </m:mfrac>
    </m:math>.</para>
@@ -243,6 +243,6 @@
     <item>Did your data fit either distribution? If so, which?</item>
     <item>In general, do you think it’s likely that data could fit more than one distribution? In complete sentences, explain why or why not.</item>
    </list>
- </note> </content>
+ </note></content>
 
 </document>

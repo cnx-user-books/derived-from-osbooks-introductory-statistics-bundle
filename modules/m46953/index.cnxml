@@ -34,7 +34,7 @@
      <m:mn>5</m:mn>
      <m:mn>6</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -42,7 +42,7 @@
      <m:mn>5</m:mn>
      <m:mn>6</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -50,7 +50,7 @@
      <m:mn>5</m:mn>
      <m:mn>6</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -58,7 +58,7 @@
      <m:mn>5</m:mn>
      <m:mn>6</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -66,7 +66,7 @@
      <m:mn>1</m:mn>
      <m:mn>6</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -82,6 +82,10 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
 <exercise id="fs-idm107886512">
 <problem id="fs-idm74999200">
 <para id="fs-idm66653104">You throw darts at a board until you hit the center area. Your probability of hitting the center area is <emphasis effect="italics">p</emphasis> = 0.17. You want to find the probability that it takes eight throws until you hit the center. What values does <emphasis effect="italics">X</emphasis> take on?</para></problem>
+<solution id="fs-idm10485872" class="solutions">
+<label/>
+<para id="fs-idm13712944">1, 2, 3, 4, … <emphasis effect="italics">n</emphasis>. It can go on indefinitely.</para>
+</solution>
 </exercise>
 </note><example id="element-15">
 <para id="element-320">A safety engineer feels that 35% of all industrial accidents in her plant are caused by failure of employees to follow instructions. She decides to look at the accident reports (selected randomly and replaced in the pile after reading) <emphasis>until</emphasis> she finds one that shows an accident caused by failure of employees to follow instructions. On average, how many reports would the safety engineer <emphasis>expect</emphasis> to look at until she finds a report showing an accident caused by employee failure to follow instructions? What is the probability that the safety engineer will have to examine at least three reports until she finds a report showing an accident caused by employee failure to follow instructions?</para><para id="element-112">Let <emphasis effect="italics">X</emphasis> = the number of accidents the safety engineer must examine <emphasis>until</emphasis> she finds a report showing an accident caused by employee failure to follow instructions. <emphasis effect="italics">X</emphasis> takes on the values 1, 2, 3, .... The first question asks you to find the <emphasis>expected value</emphasis> or the mean. The second question asks you to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 3). ("At least" translates to a "greater than or equal to" symbol).</para></example>
@@ -92,19 +96,35 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
 
 <exercise id="fs-idm110743488"><problem id="fs-idm112214080">
 <para id="fs-idm122054272">An instructor feels that 15% of students get below a C on their final exam. She decides to look at final exams (selected randomly and replaced in the pile after reading) until she finds one that shows a grade below a C. We want to know the probability that the instructor will have to examine at least ten exams until she finds one with a grade below a C. What is the probability question stated mathematically?</para></problem>
+<solution id="eip-idp78025216" class="solutions">
+<label/>
+<para id="fs-idm44116544"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 10)</para>
+</solution>
 </exercise></note><example id="element-616">
 <para id="element-741">Suppose that you are looking for a student at your college who lives within five miles of you. You know that 55% of the 25,000 students do live within five miles of you. You randomly contact students from the college <emphasis>until</emphasis> one says he or she lives within five miles of you. What is the probability that you need to contact four people?</para><para id="element-724">This is a geometric problem because you may have a number of failures before you have the one success you desire. Also, the probability of a success stays the same each time you ask a student if he or she lives within five miles of you. There is no definite number of trials (number of times you ask a student).<newline count="2"/></para><exercise id="element-823">
 <problem id="id27319141">
-  <para id="element-4422">a. Let <emphasis effect="italics">X</emphasis> = the number of ____________ you must ask ____________ one says yes.</para>
-  <para id="element-789">b. What values does <emphasis effect="italics">X</emphasis> take on?</para>
-<para id="element-884">c. What are <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis>?</para>
-<para id="element-458">d. The probability question is <emphasis effect="italics">P</emphasis>(_______).</para>
-
-</problem>
+  <para id="element-4422">a. Let <emphasis effect="italics">X</emphasis> = the number of ____________ you must ask ____________ one says yes.</para></problem>
 <solution id="id27319163">
-  <para id="element-153">a. Let <emphasis effect="italics">X</emphasis> = the number of <emphasis>students</emphasis> you must ask <emphasis>until</emphasis> one says yes.</para>
-<para id="element-140">b. 1, 2, 3, …, (total number of students)</para>
-  <para id="fs-idm85251472">c. <emphasis effect="italics">p</emphasis> = 0.55; <emphasis effect="italics">q</emphasis> = 0.45<newline count="2"/></para>
+  <para id="element-153">a. Let <emphasis effect="italics">X</emphasis> = the number of <emphasis>students</emphasis> you must ask <emphasis>until</emphasis> one says yes.<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-766"><problem id="id27319211">
+<para id="element-789">b. What values does <emphasis effect="italics">X</emphasis> take on?</para>
+</problem>
+<solution id="id27319232">
+<para id="element-140">b. 1, 2, 3, …, (total number of students)<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-208"><problem id="id27319259">
+  <para id="element-884">c. What are <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis>?</para></problem>
+
+<solution id="id27319284">
+  <para id="fs-idm85251472">c. <emphasis effect="italics">p</emphasis> = 0.55; <emphasis effect="italics">q</emphasis> = 0.45<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-413"><problem id="id27319331">
+  <para id="element-458">d. The probability question is <emphasis effect="italics">P</emphasis>(_______).</para></problem>
+<solution id="id27319348">
   <para id="element-996">d. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4)</para></solution>
 </exercise></example>
 
@@ -114,9 +134,14 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
 <problem id="fs-idp36058000">
 <para id="fs-idm107872832">You need to find a store that carries a special printer ink. You know that of the stores that carry printer ink, 10% of them carry the special ink. You randomly call each store until one has the ink you need. What are <emphasis effect="italics">p</emphasis> and <emphasis effect="italics">q</emphasis>?</para>
 </problem>
+<solution id="fs-idp5569424" class="solutions">
+<label/>
+<para id="fs-idm109707760"><emphasis effect="italics">p</emphasis> = 0.1</para>
+<para id="fs-idm8387456"><emphasis effect="italics">q</emphasis> = 0.9</para>
+</solution>
 </exercise></note><section id="element-125">
 <title>Notation for the Geometric: G = Geometric Probability Distribution Function</title>
-<para id="element-156"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(<emphasis effect="italics">p</emphasis>)</para><para id="element-953">Read this as "<emphasis effect="italics">X</emphasis> is a random variable with a <term id="term-00001">geometric distribution</term>." The parameter is <emphasis effect="italics">p</emphasis>; <emphasis effect="italics">p</emphasis> = the probability of a success for each trial.</para></section>
+<para id="element-156"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(<emphasis effect="italics">p</emphasis>)</para><para id="element-953">Read this as "<emphasis effect="italics">X</emphasis> is a random variable with a <term>geometric distribution</term>." The parameter is <emphasis effect="italics">p</emphasis>; <emphasis effect="italics">p</emphasis> = the probability of a success for each trial.</para></section>
 <example id="element-340">
 <para id="element-38">Assume that the probability of a defective computer component is 0.02. Components are randomly selected. Find the probability that the first defect is caused by the seventh component tested. How many components do you expect to test until one is found to be defective?</para><para id="element-20">Let <emphasis effect="italics">X</emphasis> = the number of computer components tested until the first defect is found.</para>
 <para id="element-857"><emphasis effect="italics">X</emphasis> takes on the values 1, 2, 3, ... where <emphasis effect="italics">p</emphasis> = 0.02. <emphasis effect="italics">X</emphasis> ~ G(0.02)</para>
@@ -149,7 +174,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
    <m:mn>1</m:mn>
    <m:mi>p</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -159,7 +184,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
     <m:mn>0.02</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 50</para>
 
@@ -171,7 +196,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
      <m:mn>1</m:mn>
      <m:mi>p</m:mi>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -193,7 +218,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
       <m:mn>0.02</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -217,7 +242,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
        <m:mn>1</m:mn>
        <m:mi>p</m:mi>
       </m:mfrac>
-
+      
      </m:mrow>
     <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
      <m:mrow>
@@ -230,7 +255,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
     <m:mo>)</m:mo></m:mrow>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -244,7 +269,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
         <m:mn>0.</m:mn><m:mtext>02</m:mtext>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
      <m:mrow>
@@ -259,14 +284,18 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
     <m:mo>)</m:mo></m:mrow>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
-</m:math> = 49.5</para></example>
+</m:math> = 49.5</para></example> 
 
-<note id="fs-idm16727632" class="statistics try "><label/><title>Try It</title>
+<note id="fs-idm16727632" class="statistics try finger"><label/><title>Try It</title>
 <exercise id="fs-idm153734704"><problem id="fs-idm2610224">
 <para id="fs-idm122642640">The probability of a defective steel rod is 0.01. Steel rods are selected at random. Find the probability that the first defect occurs on the ninth steel rod. Use the TI-83+ or TI-84 calculator to find the answer.</para>
 </problem>
+<solution id="fs-idm58607680" class="solutions">
+<label/>
+<para id="fs-idm141540416"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 9) = 0.0092</para>
+</solution>
 </exercise></note><example id="fs-idm65101072">
 <exercise id="fs-idm83790480">
 <problem id="fs-idm65243344">
@@ -280,7 +309,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
       <m:mn>78</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -299,7 +328,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
    <m:mn>1</m:mn>
    <m:mi>p</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -309,7 +338,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
     <m:mn>0.0128</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 78</item>
 <item>Standard Deviation = <emphasis effect="italics">σ</emphasis> = <m:math>
@@ -325,13 +354,13 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
        <m:mi>p</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -348,13 +377,13 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> ≈ 77.6234</item>
 </list></item>
@@ -375,6 +404,79 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
 <item>What is the probability that you must ask ten women?</item>
 <item>Find the (i) mean and (ii) standard deviation of <emphasis effect="italics">X</emphasis>.</item>
 </list></problem>
+<solution id="fs-idm105467344" class="solutions">
+<label/>
+<list id="fs-idm93090880" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">G</emphasis>(0.12)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5) = geometpdf(0.12, 5) = 0.0720</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 10) = geometpdf(0.12, 10) = 0.0380</item>
+<item>
+<list id="fs-idm4103232" list-type="enumerated" number-style="lower-alpha"><item>Mean = <emphasis effect="italics">μ</emphasis> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>p</m:mi>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>0.12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> ≈ 8.333</item>
+<item>Standard Deviation = <emphasis effect="italics">σ</emphasis> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mtext>1</m:mtext><m:mo>−</m:mo><m:mi>p</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mi>p</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.12</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mn>0.12</m:mn>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:msqrt>
+  
+ </m:mrow>
+</m:math> ≈ 7.8174</item>
+</list></item>
+</list></solution>
 </exercise></note><section id="fs-idp2191840" class="references"><title>References</title><para id="fs-idm46068128">“Millennials: A Portrait of Generation Next,” PewResearchCenter. Available online at http://www.pewsocialtrends.org/files/2010/10/millennials-confident-connected-open-to-change.pdf (accessed May 15, 2013).</para>
 <para id="fs-idm5218624">“Millennials: Confident. Connected. Open to Change.” Executive Summary by PewResearch Social &amp; Demographic Trends, 2013. Available online at  http://www.pewsocialtrends.org/2010/02/24/millennials-confident-connected-open-to-change/ (accessed May 15, 2013).</para>
 <para id="fs-idm40376512">“Prevalence of HIV, total (% of populations ages 15-49),” The World Bank, 2013. Available online at http://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?order=wbapi_data_value_2011+wbapi_data_value+wbapi_data_value-last&amp;sort=desc (accessed May 15, 2013).</para>
@@ -401,13 +503,13 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
        <m:mi>p</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -428,7 +530,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
     <m:mo>)</m:mo></m:mrow>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math>.</para></section>
 
@@ -442,7 +544,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
    <m:mn>1</m:mn>
    <m:mi>p</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.</para>
 <para id="fs-idm128106384">The standard deviation is <emphasis effect="italics">σ</emphasis> = <m:math>
@@ -458,13 +560,13 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
        <m:mi>p</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math>
  = <m:math>
@@ -486,7 +588,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
     <m:mo>)</m:mo></m:mrow>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math>
 .</para></section>
@@ -530,7 +632,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
   </row>
 </thead>
 <tbody>
-
+  
   <row>
     <entry>1</entry>
     <entry/>
@@ -757,7 +859,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
    <m:mn>1</m:mn>
    <m:mi>p</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -767,7 +869,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
     <m:mn>0.173</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> &#8776; 5.7804</item>
 <item>Standard Deviation = <emphasis effect="italics">&#963;</emphasis> = <m:math>
@@ -783,13 +885,13 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
        <m:mi>p</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -806,13 +908,13 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = 5.2566</item>
 </list></item>
@@ -835,7 +937,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
    <m:mn>1</m:mn>
    <m:mi>p</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -860,13 +962,13 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
        <m:mi>p</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -883,13 +985,13 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> ≈ 3.4641</item></list></item>
 	<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 10) = geometpdf(0.25, 10) = 0.0188</item>
@@ -897,7 +999,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
   <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 5) = geometcdf(0.25, 5) = 0.7627</item>
 </list></solution>
 </exercise>
-</section> </content>
+</section></content>
 
 <glossary>
 <definition id="geodist">
@@ -909,7 +1011,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
    <m:mi>p</m:mi>
   </m:mfrac>
  </m:mrow>
-</m:math> and the standard deviation is <emphasis effect="italics">σ</emphasis> = <m:math>
+</m:math> and the standard deviation is <emphasis effect="italics">σ</emphasis> = <m:math display="block">
  <m:mrow>
   <m:msqrt>
    <m:mrow>
@@ -928,7 +1030,7 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
     <m:mo>)</m:mo></m:mrow>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math>. The probability of exactly <emphasis effect="italics">x</emphasis> failures before the first success is given by the formula: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = <emphasis effect="italics">x</emphasis>) = <emphasis effect="italics">p</emphasis>(1 – <emphasis effect="italics">p</emphasis>)<sup><emphasis effect="italics">x</emphasis> – 1</sup>.</meaning>
   </definition>
@@ -943,5 +1045,5 @@ probability that it takes five games until you lose? Let <emphasis effect="itali
 </list>
 </meaning>
 </definition>
-</glossary>
+</glossary> 
 </document>

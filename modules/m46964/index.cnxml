@@ -44,16 +44,19 @@
 </m:math> if a man was picked first. The probability of the second pick depends on what happened in the first pick.</item>
 <item>You are <emphasis>not</emphasis> dealing with Bernoulli Trials.</item>
 </list>
-<para id="fs-idp102799616">The outcomes of a hypergeometric experiment fit a <term id="term-00001">hypergeometric probability</term> distribution. The random variable <emphasis effect="italics">X</emphasis> = the number of items from the group of interest.</para><example id="element-84">
+<para id="fs-idp102799616">The outcomes of a hypergeometric experiment fit a <term>hypergeometric probability</term> distribution. The random variable <emphasis effect="italics">X</emphasis> = the number of items from the group of interest.</para><example id="element-84">
 <exercise id="fs-idp41303504"><problem id="fs-idm310432"><para id="element-88">A candy dish contains 100 jelly beans and 80 gumdrops. Fifty candies are picked at random. What is the probability that 35 of the 50 are gumdrops? The two groups are jelly beans and gumdrops. Since the probability question asks for the probability of picking gumdrops, the group of interest (first group) is gumdrops. The size of the group of interest (first group) is 80. The size of the second group is 100. The size of the sample is 50 (jelly beans or gumdrops). Let <emphasis effect="italics">X</emphasis> = the number of gumdrops in the sample of 50. <emphasis effect="italics">X</emphasis> takes on the values <emphasis effect="italics">x</emphasis> = 0, 1, 2, ..., 50. What is the probability statement written mathematically?</para></problem>
 <solution id="fs-idm31176384">
 <para id="fs-idm45247120"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 35)</para></solution>
-</exercise>
+</exercise> 
 </example>
 
 <note id="fs-idm112699744" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm3161264"><problem id="fs-idp72756304">
 <para id="fs-idp107407200">A bag contains letter tiles. Forty-four of the tiles are vowels, and 56 are consonants. Seven tiles are picked at random. You want to know the probability that four of the seven tiles are vowels. What is the group of interest, the size of the group of interest, and the size of the sample?</para></problem>
+<solution id="fs-idp36651984" class="solutions">
+<label/>
+<para id="fs-idp8803120">The group of interest is the vowel letter tiles. The size of the group of interest is 44. The size of the sample is seven.</para></solution>
 </exercise></note><example id="element-968">
 <exercise id="fs-idm83529440">
 <problem id="fs-idm47818416">
@@ -67,30 +70,63 @@
 <note id="fs-idm96082960" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idp7372528"><problem id="fs-idp85406816">
 <para id="fs-idp85729168">A gross of eggs contains 144 eggs. A particular gross is known to have 12 cracked eggs. An inspector randomly chooses 15 for inspection. She wants to know the probability that, among the 15, at most three are cracked. What is <emphasis effect="italics">X</emphasis>, and what values does it take on?</para></problem>
+<solution id="fs-idp89340960" class="solutions">
+<label/>
+<para id="fs-idm46479584">Let <emphasis effect="italics">X</emphasis> = the number of cracked eggs in the sample of 15. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, …, 12.</para></solution>
 </exercise></note><example id="element-582">
 <para id="element-885">You are president of an on-campus special events organization. You need a committee of seven students to plan a special birthday party for the president of the college. Your organization consists of 18 women and 15 men. You are interested in the number of men on your committee. If the members of the committee are randomly selected, what is the probability that your committee has more than four men?</para>
-<para id="element-990">This is a hypergeometric problem because you are choosing your committee from two groups (men and women).</para><exercise id="element-720"><problem id="id43788540">
+<para id="element-990">This is a hypergeometric problem because you are choosing your committee from two groups (men and women).<newline count="2"/></para><exercise id="element-720"><problem id="id43788540">
   <para id="element-965">a. Are you choosing with or without replacement?</para>
-<para id="element-356">b. What is the group of interest?</para>
-<para id="element-378">c. How many are in the group of interest?</para>
-<para id="element-730">d. How many are in the other group?</para>
-<para id="element-304">e. Let <emphasis effect="italics">X</emphasis> = _________ on the committee. What values does <emphasis effect="italics">X</emphasis> take on?</para>
-<para id="element-49">f. The probability question is <emphasis effect="italics">P</emphasis>(_______).</para>
-
 </problem>
 <solution id="id43788559">
-  <para id="element-142">a. without<newline count="2"/></para>
-  <para id="element-80">b. the men<newline count="2"/></para>
-  <para id="element-597">c. 15 men<newline count="2"/></para>
-  <para id="element-465">d. 18 women<newline count="2"/></para>
-  <para id="element-529">e. Let <emphasis effect="italics">X</emphasis> = <emphasis>the number of men</emphasis> on the committee. <emphasis effect="italics">x</emphasis> = 0, 1, 2, …, 7.<newline count="2"/></para>
- <para id="element-0836">f. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 4)</para></solution>
+  <para id="element-142">a. without<newline count="2"/></para></solution>
+</exercise><exercise id="element-154"><problem id="id43788588">
+  <para id="element-356">b. What is the group of interest?</para>
+</problem>
+<solution id="id43788607">
+  <para id="element-80">b. the men<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-78"><problem id="id43788636">
+  <para id="element-378">c. How many are in the group of interest?</para>
+</problem>
+<solution id="id43788655">
+  <para id="element-597">c. 15 men<newline count="2"/></para></solution>
+</exercise><exercise id="element-801">
+<problem id="id43788684">
+  <para id="element-730">d. How many are in the other group?</para>
+</problem>
+<solution id="id43788703">
+  <para id="element-465">d. 18 women<newline count="2"/></para></solution>
+</exercise>
+<exercise id="element-675">
+<problem id="id43788731">
+  <para id="element-304">e. Let <emphasis effect="italics">X</emphasis> = _________ on the committee. What values does <emphasis effect="italics">X</emphasis> take on?</para>
+</problem>
+
+<solution id="id43788760">
+  <para id="element-529">e. Let <emphasis effect="italics">X</emphasis> = <emphasis>the number of men</emphasis> on the committee. <emphasis effect="italics">x</emphasis> = 0, 1, 2, …, 7.<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-1231">
+<problem id="id43780639">
+<para id="element-49">f. The probability question is <emphasis effect="italics">P</emphasis>(_______).</para></problem>
+<solution id="id43780660">
+ <para id="element-0836">f. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 4)</para></solution>
 </exercise></example>
 
 <note id="fs-idm11539184" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm40312064">
 <problem id="fs-idp112379936">
 <para id="fs-idm31607136">A palette has 200 milk cartons. Of the 200 cartons, it is known that ten of them have leaked and cannot be sold. A stock clerk randomly chooses 18 for inspection. He wants to know the probability that among the 18, no more than two are leaking. Give five reasons why this is a hypergeometric problem.</para></problem>
+<solution id="fs-idm39276528" class="solutions">
+<label/>
+<list id="fs-idp11948928" list-type="enumerated"><item>There are two groups.</item> 
+<item>You are concerned with a group of interest.</item>
+<item>You sample without replacement.</item>
+<item>Each pick is not independent.</item>
+<item>You are not dealing with Bernoulli Trials.</item>
+</list></solution>
 </exercise>
 </note><section id="element-516">
 <title>Notation for the Hypergeometric: H = Hypergeometric Probability Distribution Function</title>
@@ -107,7 +143,7 @@
 
 <para id="element-876"><emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, 4, where <emphasis effect="italics">r = 6</emphasis>, <emphasis effect="italics">b = 5</emphasis>, and <emphasis effect="italics">n = 4</emphasis>. <emphasis effect="italics">X ~ H</emphasis>(6, 5, 4)</para>
 
-<para id="element-877">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2) = 0.4545 (calculator or computer)</para><note id="id43780917">
+<para id="element-877" class="finger">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 2) = 0.4545 (calculator or computer)</para><note id="id43780917" class="finger">
 <label/><title>NOTE</title>
 <para id="fs-idm9108464">Currently, the TI-83+ and TI-84 do not have hypergeometric probability functions. There are a number of computer packages, including Microsoft Excel, that do.</para>
 </note><para id="element-879">The probability that there are two men on the committee is about 0.45.</para>
@@ -137,16 +173,19 @@
   </m:mfrac>
   <m:mo>=</m:mo><m:mn>2.18</m:mn>
  </m:mrow>
-</m:math></para></example>
+</m:math></para></example>  
 
 <note id="fs-idm54957120" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm10553104">
 <problem id="fs-idm142583216">
 <para id="fs-idp43780624">An intramural basketball team is to be chosen randomly from 15 boys and 12 girls. The team has ten slots. You want to know the probability that eight of the players will be boys. What is the group of interest and the sample?</para></problem>
+<solution id="fs-idm2420272" class="solutions">
+<label/>
+<para id="fs-idm39404432">The group of interest is the 15 boys. The sample consists of the ten slots on the intramural basketball team.</para></solution>
 </exercise>
 </note><section id="fs-idp20462736" class="summary">
 <title>Chapter Review</title>
-<para id="fs-idm26047632">A <term id="term-00002">hypergeometric experiment</term> is a statistical experiment with the following properties:</para>
+<para id="fs-idm26047632">A <term>hypergeometric experiment</term> is a statistical experiment with the following properties:</para>
 <list id="fs-idp5636464" list-type="enumerated">
 <item>You take samples from two groups.</item>
 <item>You are concerned with a group of interest, called the first group.</item>
@@ -184,10 +223,10 @@
       <m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext> + </m:mtext><m:mi>b</m:mi><m:mo>−</m:mo><m:mtext>1)</m:mtext>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math>.</para></section>
 
@@ -204,7 +243,7 @@
     <m:mi>r</m:mi><m:mtext> + </m:mtext><m:mi>b</m:mi>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> and the standard deviation is = <m:math>
  <m:mrow>
@@ -224,10 +263,10 @@
       <m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext> + </m:mtext><m:mi>b</m:mi><m:mo>−</m:mo><m:mtext>1)</m:mtext>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math>.</para></section>
 
@@ -389,7 +428,7 @@
       <m:mn>28</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -441,7 +480,7 @@
       <m:mn>52</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -453,7 +492,7 @@
       <m:mn>51</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -465,7 +504,7 @@
       <m:mn>50</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -477,7 +516,7 @@
       <m:mn>49</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -489,7 +528,7 @@
       <m:mn>48</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -501,7 +540,7 @@
       <m:mn>47</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -513,7 +552,7 @@
       <m:mn>46</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -525,7 +564,7 @@
       <m:mn>45</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -537,7 +576,7 @@
       <m:mn>44</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -549,7 +588,7 @@
       <m:mn>43</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -561,7 +600,7 @@
       <m:mn>42</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -573,7 +612,7 @@
       <m:mn>41</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -585,7 +624,7 @@
       <m:mn>40</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -603,7 +642,7 @@
     <m:mi>r</m:mi><m:mtext>&#160;+&#160;</m:mtext><m:mi>b</m:mi>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -615,7 +654,7 @@
     <m:mn>39</m:mn><m:mtext>&#160;+&#160;</m:mtext><m:mn>13</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 9.75</item>
 <item>Standard Deviation = <emphasis effect="italics">&#963;</emphasis> = <m:math>
@@ -636,10 +675,10 @@
       <m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:mtext>&#160;+&#160;</m:mtext><m:mi>b</m:mi><m:mo>&#8722;</m:mo><m:mtext>1)</m:mtext>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -659,10 +698,10 @@
       <m:mtext>(39&#160;+&#160;13</m:mtext><m:mo>&#8211;</m:mo><m:mtext>1)</m:mtext>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> &#8776; 1.3653</item>
 </list></item>
@@ -673,12 +712,12 @@
 <item>Other group = non-hearts; <emphasis effect="italics">b</emphasis> = 39</item>
 <item><emphasis effect="italics">X</emphasis> = the number of cards that are hearts; <emphasis effect="italics">x</emphasis> = 0, 1, 2, 3, &#8230; , 13</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 0)</item>
-</list><note id="eip-idp114013328" ><label/><title>NOTE</title>
+</list><note id="eip-idp114013328" class="finger"><label/><title>NOTE</title>
 <para id="fs-idm27875232">If you have access to it, use Microsoft Excel HYPERGEOM.DIST function with the following syntax: = HYPGEOM.DIST(x, sample size, size of group of interest, size of total population, FALSE)</para>
 </note></solution> --></exercise></section>
 
-   </content>
-
+  </content>
+  
 <glossary>
 <definition id="fs-idm65310160">
 <term>Hypergeometric Experiment</term>

@@ -12,16 +12,16 @@
 <list id="element-591" list-type="enumerated"><item>There are a fixed number of trials. Think of trials as repetitions of an experiment. The letter <emphasis effect="italics">n</emphasis> denotes the number of trials.</item>
 <item>There are only two possible outcomes, called "success" and "failure," for each trial. The letter <emphasis effect="italics">p</emphasis> denotes the probability of a success on one trial, and <emphasis effect="italics">q</emphasis> denotes the probability of a failure on one trial. <emphasis effect="italics">p</emphasis> + <emphasis effect="italics">q</emphasis> = 1.</item>
 <item>The <emphasis effect="italics">n</emphasis> trials are independent and are repeated using identical conditions. Because the <emphasis effect="italics">n</emphasis> trials are independent, the outcome of one trial does not help in predicting the outcome of another trial. Another way of saying this is that for each individual trial, the probability, <emphasis effect="italics">p</emphasis>, of a success and probability, <emphasis effect="italics">q</emphasis>, of a failure remain the same. For example, randomly guessing at a true-false statistics question has only two outcomes. If a success is guessing correctly, then a failure is guessing incorrectly. Suppose Joe always guesses correctly on any statistics true-false question with probability <emphasis effect="italics">p</emphasis> = 0.6. Then, <emphasis effect="italics">q</emphasis> = 0.4. This means that for every true-false statistics question Joe answers, his probability of success (<emphasis effect="italics">p</emphasis> = 0.6) and his probability of failure (<emphasis effect="italics">q</emphasis> = 0.4) remain the same.</item>
-</list></para><para id="element-229">The outcomes of a binomial experiment fit a <term id="term-00001">binomial probability distribution</term>. The random variable <emphasis effect="italics">X</emphasis> = the number of successes obtained in the <emphasis effect="italics">n</emphasis> independent trials.</para><para id="element-108">The mean, <emphasis effect="italics">μ</emphasis>, and variance, <emphasis effect="italics">σ</emphasis><sup>2</sup>, for the binomial probability distribution are <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">σ</emphasis><sup>2</sup> = <emphasis effect="italics">npq</emphasis>. The standard deviation, <emphasis effect="italics">σ</emphasis>, is then <emphasis effect="italics">σ</emphasis> = <m:math>
+</list></para><para id="element-229">The outcomes of a binomial experiment fit a <term>binomial probability distribution</term>. The random variable <emphasis effect="italics">X</emphasis> = the number of successes obtained in the <emphasis effect="italics">n</emphasis> independent trials.</para><para id="element-108">The mean, <emphasis effect="italics">μ</emphasis>, and variance, <emphasis effect="italics">σ</emphasis><sup>2</sup>, for the binomial probability distribution are <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis> and <emphasis effect="italics">σ</emphasis><sup>2</sup> = <emphasis effect="italics">npq</emphasis>. The standard deviation, <emphasis effect="italics">σ</emphasis>, is then <emphasis effect="italics">σ</emphasis> = <m:math>
  <m:mrow>
   <m:msqrt>
    <m:mrow>
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
-</m:math>.</para><para id="element-612">Any experiment that has characteristics two and three and where <emphasis effect="italics">n</emphasis> = 1 is called a <term id="term-00002">Bernoulli Trial</term> (named after Jacob Bernoulli who, in the late 1600s, studied them extensively). A binomial experiment takes place when the number of successes is counted in one or more Bernoulli Trials.</para>
+</m:math>.</para><para id="element-612">Any experiment that has characteristics two and three and where <emphasis effect="italics">n</emphasis> = 1 is called a <term>Bernoulli Trial</term> (named after Jacob Bernoulli who, in the late 1600s, studied them extensively). A binomial experiment takes place when the number of successes is counted in one or more Bernoulli Trials.</para>
 
 <example id="element-375">
 <para id="element-545">At ABC College, the withdrawal rate from an elementary physics course is 30% for any given term. This implies that, for any given term, 70% of the students stay in the class for the entire term. A "success" could be defined as an individual who withdrew. The random variable <emphasis effect="italics">X</emphasis> = the number of students who withdraw from the randomly selected elementary physics class.</para></example>
@@ -31,6 +31,10 @@
 <exercise id="fs-idm40705376">
 <problem id="fs-idm68456256">
 <para id="fs-idm44525856">The state health board is concerned about the amount of fruit available in school lunches. Forty-eight percent of schools in the state offer fruit in their lunches every day. This implies that 52% do not. What would a "success" be in this case?</para></problem>
+<solution id="fs-idm120895728" class="solutions">
+<label/>
+<para id="fs-idm16457472">a school that offers fruit in their lunch every day </para>
+</solution>
 </exercise>
 </note><example id="fs-idm62623744">
 <para id="element-284">Suppose you play a game that you can only either win or lose. The probability that you win any game is 55%, and the probability that you lose is 45%. Each game you play is independent. If you play the game 20 times, write the function that describes the probability that you win 15 of the 20 times. Here, if you define <emphasis effect="italics">X</emphasis> as the number of wins, then <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, ..., 20. The probability of a success is <emphasis effect="italics">p</emphasis> = 0.55. The probability of a failure is <emphasis effect="italics">q</emphasis> = 0.45. The number of trials is <emphasis effect="italics">n</emphasis> = 20. The probability question can be stated mathematically as <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 15).</para></example>
@@ -39,33 +43,62 @@
 <exercise id="fs-idm35562192">
 <problem id="fs-idm43643408">
 <para id="fs-idm43925792">A trainer is teaching a dolphin to do tricks. The probability that the dolphin successfully performs the trick is 35%, and the probability that the dolphin does not successfully perform the trick is 65%. Out of 20 attempts, you want to find the probability that the dolphin succeeds 12 times. State the probability question mathematically.</para></problem>
+<solution id="fs-idp12608976" class="solutions">
+<label/>
+<para id="fs-idm40091360"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12)</para>
+</solution>
 </exercise>
 </note><example id="element-167"><exercise id="fs-idm61431456">
 <problem id="fs-idm3565248">
 <para id="element-104">A fair coin is flipped 15 times. Each flip is independent. What is the probability of getting more than ten heads? Let <emphasis effect="italics">X</emphasis> = the number of heads in 15 flips of the fair coin. <emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, 3, ..., 15. Since the coin is fair, <emphasis effect="italics">p</emphasis> = 0.5 and <emphasis effect="italics">q</emphasis> = 0.5. The number of trials is <emphasis effect="italics">n</emphasis> = 15. State the probability question mathematically.</para>
 </problem>
+<solution id="fs-idm23816272">
+<para id="fs-idm59406368"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 10)</para>
+</solution>
 </exercise>
 </example><note id="fs-idm26333440" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm77060880">
 <problem id="fs-idm123194928"><para id="fs-idm39905824">A fair, six-sided die is rolled ten times. Each roll is independent. You want to find the probability of rolling a one more than three times. State the probability question mathematically.</para></problem>
+<solution id="fs-idm78565072" class="solutions">
+<label/>
+<para id="fs-idm53013760"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 3)</para>
+</solution>
 </exercise>
 </note><example id="element-807">
 <para id="element-175">Approximately 70% of statistics students do their homework in time for it to be collected and graded. Each student does homework independently. In a statistics class of 50 students, what is the probability that at least 40 will do their homework on time? Students are selected randomly.<newline count="2"/></para><exercise id="element-1751"><problem id="id5317083">
-<para id="element-732">a. This is a binomial problem because there is only a success or a __________, there are a fixed number of trials, and the probability of a success is 0.70 for each trial.</para>
-<para id="element-73124">b. If we are interested in the number of students who do their homework on time, then how do we define <emphasis effect="italics">X</emphasis>?</para>
-<para id="element-732324">c. What values does <emphasis effect="italics">x</emphasis> take on?</para>
-<para id="element-7324">d. What is a "failure," in words?</para>
-<para id="element-74">e. If <emphasis effect="italics">p</emphasis> + <emphasis effect="italics">q</emphasis> = 1, then what is <emphasis effect="italics">q</emphasis>?</para>
-<para id="element-70">f. The words "at least" translate as what kind of inequality for the probability question <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ____ 40).</para>
-
-</problem>
+<para id="element-732">a. This is a binomial problem because there is only a success or a __________, there are a fixed number of trials, and the probability of a success is 0.70 for each trial.</para></problem>
 <solution id="id5321627">
- <para id="element-23523">a. failure</para>
- <para id="element-235352">b. <emphasis effect="italics">X</emphasis> = the number of statistics students who do their homework on time<newline count="2"/></para>
- <para id="element-23352">c. 0, 1, 2, …, 50<newline count="2"/></para>
+ <para id="element-23523">a. failure<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-1752"><problem id="id5318862">
+<para id="element-73124">b. If we are interested in the number of students who do their homework on time, then how do we define <emphasis effect="italics">X</emphasis>?</para></problem>
+<solution id="id5318289">
+ <para id="element-235352">b. <emphasis effect="italics">X</emphasis> = the number of statistics students who do their homework on time<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-17530"><problem id="id5318085">
+<para id="element-732324">c. What values does <emphasis effect="italics">x</emphasis> take on?</para></problem>
+<solution id="id5318055">
+ <para id="element-23352">c. 0, 1, 2, …, 50<newline count="2"/></para></solution>
+</exercise><exercise id="element-1753"><problem id="id5317581">
+<para id="element-7324">d. What is a "failure," in words?</para>
+</problem>
+<solution id="id5317186">
  <para id="element-232">d. Failure is defined as a student who does not complete his or her homework on time.</para>
 <para id="element-8865">The probability of a success is <emphasis effect="italics">p</emphasis> = 0.70. The number of trials is <emphasis effect="italics">n</emphasis> = 50.<newline count="2"/></para>
- <para id="element-5352">e. <emphasis effect="italics">q</emphasis> = 0.30<newline count="2"/></para>
+</solution>
+</exercise><exercise id="element-1753232">
+<problem id="id5317836">
+<para id="element-74">e. If <emphasis effect="italics">p</emphasis> + <emphasis effect="italics">q</emphasis> = 1, then what is <emphasis effect="italics">q</emphasis>?</para>
+</problem>
+<solution id="id5317308">
+ <para id="element-5352">e. <emphasis effect="italics">q</emphasis> = 0.30<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-13"><problem id="id5317006">
+<para id="element-70">f. The words "at least" translate as what kind of inequality for the probability question <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ____ 40).</para></problem>
+<solution id="id5319380">
  <para id="element-23532">f. greater than or equal to (≥)
 <newline count="1"/>The probability question is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≥ 40).</para></solution>
 </exercise></example>
@@ -74,16 +107,17 @@
 <exercise id="fs-idp231440">
 <problem id="fs-idm386096">
 <para id="fs-idm59210304">Sixty-five percent of people pass the state driver’s exam on the first try. A group of 50 individuals who have taken the driver’s exam is randomly selected. Give two reasons why this is a binomial problem.</para></problem>
+<solution id="fs-idm43985728" class="solutions">
+<label/>
+<para id="fs-idp29875856">This is a binomial problem because there is only a success or a failure, and there are a definite number of trials. The probability of a success stays the same for each trial.</para></solution>
 </exercise>
-</note>
-
-<section id="element-501"><title>Notation for the Binomial: <emphasis effect="italics">B</emphasis> = Binomial Probability Distribution Function</title><para id="element-715"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>)</para>
+</note><section id="element-501"><title>Notation for the Binomial: <emphasis effect="italics">B</emphasis> = Binomial Probability Distribution Function</title><para id="element-715"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(<emphasis effect="italics">n</emphasis>, <emphasis effect="italics">p</emphasis>)</para>
 <para id="element-276">Read this as "<emphasis effect="italics">X</emphasis> is a random variable with a binomial distribution." The parameters are <emphasis effect="italics">n</emphasis> and <emphasis effect="italics">p</emphasis>; <emphasis effect="italics">n</emphasis> = number of trials, <emphasis effect="italics">p</emphasis> = probability of a success on each trial.</para>
 </section><example id="example5"><para id="fs-idp328960">It has been stated that about 41% of adult workers have a high school diploma but do not pursue any further education. If 20 adult workers are randomly selected, find the probability that at most 12 of them have a high school diploma but do not pursue any further education. How many adult workers do you expect to have a high school diploma but do not pursue any further education?</para>
 
 <para id="element-992">Let <emphasis effect="italics">X</emphasis> = the number of workers who have a high school diploma but do not pursue any further education.</para>
 
-<para id="element-570"><emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, ..., 20 where <emphasis effect="italics">n</emphasis> = 20, <emphasis effect="italics">p</emphasis> = 0.41, and <emphasis effect="italics">q</emphasis> = 1 – 0.41 = 0.59. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, 0.41)</para><para id="fs-idm48754320">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12) = 0.9738. (calculator or computer)</para>
+<para id="element-570"><emphasis effect="italics">X</emphasis> takes on the values 0, 1, 2, ..., 20 where <emphasis effect="italics">n</emphasis> = 20, <emphasis effect="italics">p</emphasis> = 0.41, and <emphasis effect="italics">q</emphasis> = 1 – 0.41 = 0.59. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(20, 0.41)</para><para id="fs-idm48754320" class="finger">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 12) = 0.9738. (calculator or computer)</para>
 
 
 <note id="fs-idm73072400" class="statistics calculator"><label/>
@@ -96,7 +130,7 @@ if "number" is left out, the result is the binomial probability table.
 </note><note id="id5442988">
 <label/>
 <title>NOTE</title>
-<para id="fs-idm93661872">If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12), use the pdf (binompdf). If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12), use 1 - binomcdf(20,0.41,12).</para></note>
+<para id="fs-idm93661872">If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12), use the pdf (binompdf). If you want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 12), use 1 - binomcdf(20,0.41,12).</para></note>
 
 <para id="element-442">The probability that at most 12 workers have a high school diploma but do not pursue any further education is 0.9738.</para>
 
@@ -134,10 +168,13 @@ if "number" is left out, the result is the binomial probability table.
  </m:mrow>
 </m:math> = 2.20.</para></example>
 
-<note id="fs-idm83776992" class="statistics try "><label/><title>Try It</title>
+<note id="fs-idm83776992" class="statistics try finger"><label/><title>Try It</title>
 <exercise id="fs-idm41424160">
 <problem id="fs-idp5897264">
 <para id="fs-idm41014848">About 32% of students participate in a community volunteer program outside of school. If 30 students are selected at random, find the probability that at most 14 of them participate in a community volunteer program outside of school. Use the TI-83+ or TI-84 calculator to find the answer.</para></problem>
+<solution id="fs-idm39617104" class="solutions">
+<label/>
+<para id="fs-idm75534912"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 14) = 0.9695</para></solution>
 </exercise>
 </note><example id="fs-idp7239760">
 <exercise id="fs-idm18828000"><problem id="fs-idm39970896">
@@ -167,7 +204,7 @@ if "number" is left out, the result is the binomial probability table.
       <m:mn>560</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -202,7 +239,7 @@ if "number" is left out, the result is the binomial probability table.
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = 0.9994</item>
-  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 3) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 – binomcdf<m:math>
+  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 3) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 3) = 1 – binomcdf<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -230,7 +267,7 @@ if "number" is left out, the result is the binomial probability table.
       <m:mn>560</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -242,7 +279,7 @@ if "number" is left out, the result is the binomial probability table.
     <m:mn>560</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> ≈ 1.4286</item>
 <item>Standard Deviation = <m:math>
@@ -252,7 +289,7 @@ if "number" is left out, the result is the binomial probability table.
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -266,7 +303,7 @@ if "number" is left out, the result is the binomial probability table.
         <m:mn>560</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
      <m:mrow>
@@ -278,12 +315,12 @@ if "number" is left out, the result is the binomial probability table.
         <m:mn>560</m:mn>
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
     <m:mo>)</m:mo></m:mrow>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> ≈ 1.1867</item>
 </list>
@@ -309,17 +346,82 @@ if "number" is left out, the result is the binomial probability table.
 <item>Using the formulas, calculate the (i) mean and (ii) standard deviation of <emphasis effect="italics">X</emphasis>.</item>
 </list>
 </problem>
-</exercise></note>
+<solution id="eip-idm60415792" class="solutions">
+<list id="eip-idm60415296" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ∼ <emphasis effect="italics">B</emphasis>(50, 0.6)</item>
+<item>Using the TI-83, 83+, 84 calculator with instructions as provided in <link target-id="example5" document=""/>:
+  <list id="eip-idp12666800" list-type="enumerated" number-style="lower-roman"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 25) = binompdf(50, 0.6, 25) = 0.0405</item>
+  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 20) = binomcdf(50, 0.6, 20) = 0.0034</item>
+  <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 30) = 1 - binomcdf(50, 0.6, 30) = 1 – 0.5535 = 0.4465</item>
+  </list></item>
+<item>
+<list id="eip-idm26380880" list-type="enumerated" number-style="lower-roman"><item>Mean = <emphasis effect="italics">np</emphasis> = 50(0.6) = 30</item>
+<item>Standard Deviation = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
+   </m:mrow>
+  </m:msqrt>
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mn>50</m:mn><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>0.6</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>0.4</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  </m:msqrt>
+ </m:mrow>
+</m:math> ≈ 3.4641
+</item>
+</list></item>
+</list></solution></exercise></note>
 <example id="fs-idm51513664">
 <para id="fs-idm124136240">The lifetime risk of developing pancreatic cancer is about one in 78 (1.28%). Suppose we randomly sample 200 people. Let <emphasis effect="italics">X</emphasis> = the number of people who will develop pancreatic cancer.</para><exercise id="fs-idm129798576">
 <problem id="fs-idm14459520">
 <list id="fs-idm74773968" list-type="enumerated" number-style="lower-alpha">
 <item>What is the probability distribution for <emphasis effect="italics">X</emphasis>?</item>
 <item>Using the formulas, calculate the (i) mean and (ii) standard deviation of <emphasis effect="italics">X</emphasis>.</item>
-<item>Use your calculator to find the probability that at most eight people develop pancreatic cancer</item>
+<item class="finger">Use your calculator to find the probability that at most eight people develop pancreatic cancer</item>
 <item>Is it more likely that five or six people will develop pancreatic cancer? Justify your answer numerically.</item>
 </list></problem>
 
+<solution id="fs-idm51888448">
+<list id="fs-idm38311168" list-type="enumerated" number-style="lower-alpha">
+<item><emphasis effect="italics">X</emphasis> ∼ <emphasis effect="italics">B</emphasis>(200, 0.0128)</item>
+<item>
+<list id="fs-idm87314016" list-type="enumerated" number-style="lower-roman"><item>Mean = <emphasis effect="italics">np</emphasis> = 200(0.0128) = 2.56</item>
+<item>Standard Deviation = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
+   </m:mrow>
+  </m:msqrt>
+  <m:mtext> =  </m:mtext><m:msqrt>
+   <m:mrow>
+    <m:mtext>(200)(0</m:mtext><m:mtext>.0128)(0.9872)</m:mtext>
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>≈</m:mo><m:mn>1.</m:mn><m:mtext>5897</m:mtext>
+ </m:mrow>
+</m:math></item>
+</list></item>
+
+<item class="finger">Using the TI-83, 83+, 84 calculator with instructions as provided in <link target-id="example5" document=""/>:
+<newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 8) = binomcdf(200, 0.0128, 8) = 0.9988</item>
+
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5) = binompdf(200, 0.0128, 5) = 0.0707
+<newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 6) = binompdf(200, 0.0128, 6) = 0.0298
+<newline/>So <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 5) &gt; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 6); it is more likely that five people will develop cancer than six.</item>
+</list></solution>
 </exercise>
 </example>
 
@@ -333,10 +435,34 @@ if "number" is left out, the result is the binomial probability table.
 <list id="fs-idm69954960" list-type="enumerated" number-style="lower-alpha">
 <item>What is the probability distribution for <emphasis effect="italics">X</emphasis>?</item>
 <item>Using the formulas, calculate the (i) mean and (ii) standard deviation of <emphasis effect="italics">X</emphasis>.</item>
-<item>Use your calculator to find the probability that DeAndre scored with 60 of these shots.</item>
+<item class="finger">Use your calculator to find the probability that DeAndre scored with 60 of these shots.</item>
 <item>Find the probability that DeAndre scored with more than 50 of these shots.</item>
 </list>
 </problem>
+<solution id="fs-idm18490368" class="solutions">
+<list id="fs-idp14954416" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(80, 0.613)</item>
+<item>
+<list id="fs-idm152052240" list-type="enumerated" number-style="lower-roman"><item>Mean = <emphasis effect="italics">np</emphasis> = 80(0.613) = 49.04</item>
+<item>Standard Deviation = <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:mn>80</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0.613</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.387</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+  </m:msqrt>
+  <m:mo>≈</m:mo><m:mn>4.3564</m:mn>
+ </m:mrow>
+</m:math></item>
+</list></item>
+<item>Using the TI-83, 83+, 84 calculator with instructions as provided in <link target-id="example5" document=""/>:
+<newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 60) = binompdf(80, 0.613, 60) = 0.0036</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 50) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 50) = 1 – binomcdf(80, 0.613, 50) = 1 – 0.6282 = 0.3718</item> 
+</list></solution>
 </exercise>
 </note><example id="element-678">
 <para id="element-532">The following example illustrates a problem that is <emphasis>not</emphasis> binomial. It violates the condition of independence. ABC College has a student advisory committee made up of ten staff members and six students. The committee wishes to choose a chairperson and a recorder. What is the probability that the chairperson and recorder are both students? The names of all committee members are put into a box, and two names are drawn <emphasis>without replacement</emphasis>. The first name drawn determines the chairperson and the second name the recorder. There are two trials. However, the trials are not independent because the outcome of the first trial affects the outcome of the second trial. The probability of a student on the first draw is <m:math>
@@ -347,7 +473,7 @@ if "number" is left out, the result is the binomial probability table.
     <m:mn>16</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>. The probability of a student on the second draw is <m:math>
  <m:mrow>
@@ -357,7 +483,7 @@ if "number" is left out, the result is the binomial probability table.
     <m:mn>15</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, when the first draw selects a student. The probability is <m:math>
  <m:mrow>
@@ -368,12 +494,15 @@ if "number" is left out, the result is the binomial probability table.
    </m:mrow>
   </m:mfrac>
  </m:mrow>
-</m:math>, when the first draw selects a staff member. The probability of drawing a student's name changes for each of the trials and, therefore, violates the condition of independence.</para></example>
+</m:math>, when the first draw selects a staff member. The probability of drawing a student's name changes for each of the trials and, therefore, violates the condition of independence.</para></example>   
 
 <note id="fs-idm127539840" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm74755088">
 <problem id="fs-idp7533680">
 <para id="fs-idm63476304">A lacrosse team is selecting a captain. The names of all the seniors are put into a hat, and the first three that are drawn will be the captains. The names are not replaced once they are drawn (one person cannot be two captains). You want to see if the captains all play the same position. State whether this is binomial or not and state why.</para></problem>
+<solution id="fs-idp45334816" class="solutions">
+<label/>
+<para id="fs-idm35968928">This is not binomial because the names are not replaced, which means the probability changes for each time a name is drawn. This violates the condition of independence.</para></solution>
 </exercise>
 </note><section id="fs-idm225879408" class="references">
 <title>References</title>
@@ -387,7 +516,7 @@ if "number" is left out, the result is the binomial probability table.
 
 <section id="fs-idm59813888" class="summary"><title>Chapter Review</title><para id="fs-idp48275616">A statistical experiment can be classified as a binomial experiment if the following conditions are met:</para>
 <list id="fs-idm159853952" list-type="enumerated"><item>There are a fixed number of trials, <emphasis effect="italics">n</emphasis>.</item>
-<item>There are only two possible outcomes, called "success" and, "failure" for each trial. The letter <emphasis effect="italics">p</emphasis> denotes the probability of a success on one trial and <emphasis effect="italics">q</emphasis> denotes the probability of a failure on one trial.</item>
+<item>There are only two possible outcomes, called "success" and, "failure" for each trial. The letter <emphasis effect="italics">p</emphasis> denotes the probability of a success on one trial and <emphasis effect="italics">q</emphasis> denotes the probability of a failure on one trial.</item>  
 <item>The <emphasis effect="italics">n</emphasis> trials are independent and are repeated using identical conditions.</item>
 </list><para id="fs-idp5771264">The outcomes of a binomial experiment fit a binomial probability distribution. The random variable <emphasis effect="italics">X</emphasis> = the number of successes obtained in the <emphasis effect="italics">n</emphasis> independent trials. The mean of <emphasis effect="italics">X</emphasis> can be calculated using the formula <emphasis effect="italics">μ</emphasis> = <emphasis effect="italics">np</emphasis>, and the standard deviation is given by the formula σ = <m:math>
  <m:mrow>
@@ -506,7 +635,7 @@ if "number" is left out, the result is the binomial probability table.
           </row>
 </thead>
         <tbody>
-
+          
           <row>
             <entry>0</entry>
             <entry>0.00005</entry>
@@ -678,7 +807,7 @@ if "number" is left out, the result is the binomial probability table.
 <item>2.16</item>
 <item>0.9511</item>
 <item>0.3702</item></list></solution> -->
-</exercise><para id="fs-idm84170848"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.</para><exercise id="eip-514"><problem id="eip-896">
+</exercise><para id="fs-idm84170848"><emphasis effect="italics">Use the following information to answer the next two exercises:</emphasis> The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.</para><exercise id="eip-514"><problem id="eip-896">
   <para id="eip-233">
     The expected number of wins for that upcoming month is:
   </para>
@@ -751,12 +880,12 @@ if "number" is left out, the result is the binomial probability table.
      <m:mtext>1</m:mtext>
      <m:mtext>3</m:mtext>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></item>
-<item>We are interested in MORE THAN 75% of 32 questions correct. 75% of 32 is 24. We want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 24). The event "more than 24" is the complement of "less than or equal to 24."</item>
+<item>We are interested in MORE THAN 75% of 32 questions correct. 75% of 32 is 24. We want to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 24). The event "more than 24" is the complement of "less than or equal to 24."</item>
 <item>Using your calculator's distribution menu: 1 – binomcdf<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
@@ -770,12 +899,12 @@ if "number" is left out, the result is the binomial probability table.
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 24) = 0</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 24) = 0</item>
 <item>The probability of getting more than 75% of the 32 questions correct when randomly guessing is very small and practically zero.</item>
 </list></solution>
 </exercise>
 
-<exercise id="element-300"><problem id="id18835726">
+<exercise id="element-300"><problem id="id18835726">  
 <para id="element-198">Six different colored dice are rolled. Of interest is the number of dice that show a one.</para>
 
 <list id="element-722" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
@@ -796,7 +925,7 @@ if "number" is left out, the result is the binomial probability table.
      <m:mn>1</m:mn>
      <m:mn>6</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -819,7 +948,7 @@ if "number" is left out, the result is the binomial probability table.
 <item>0, 1, 2, …, 13</item>
 <item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">B</emphasis>(13, 0.96)</item>
 <item>12.48</item>
-<item>0.0135</item>
+<item>0.0135</item>  
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 12) = 0.3186  <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 13) = 0.5882 More likely to get 13.</item>
 </list></solution>
 </exercise><exercise id="element-387"><problem id="id15690689">
@@ -936,13 +1065,13 @@ if "number" is left out, the result is the binomial probability table.
      <m:mn>1</m:mn>
      <m:mn>6</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math></item>
 <item>In dollars: −1, 1, 2, 3</item>
-<item><m:math>
+<item><m:math display="">
  <m:mrow>
   <m:mfrac>
    <m:mn>1</m:mn>
@@ -975,7 +1104,7 @@ if "number" is left out, the result is the binomial probability table.
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -984,7 +1113,7 @@ if "number" is left out, the result is the binomial probability table.
     <m:mn>150</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0.09</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.91</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> &#8776; 3.5050</item></list>
 </item>
@@ -1014,7 +1143,7 @@ if "number" is left out, the result is the binomial probability table.
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -1023,18 +1152,18 @@ if "number" is left out, the result is the binomial probability table.
     <m:mn>15</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0.281</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.719</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math> = 1.7409</item>
 </list></item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 5) = 1 – binomcdf(15, 0.281, 5) = 1 – 0.7754 = 0.2246
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 5) = 1 – binomcdf(15, 0.281, 5) = 1 – 0.7754 = 0.2246
 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 3) = binompdf(15, 0.281, 3) = 0.1927
 <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 4) = binompdf(15, 0.281, 4) = 0.2259
 <newline/>It is more likely that four people are literate that three people are.</item>
 </list></solution>
 </exercise>
 
-</section> </content>
+</section></content>
 
 
   <glossary>
@@ -1050,7 +1179,7 @@ if "number" is left out, the result is the binomial probability table.
 </definition>
   <definition id="bernoullitr">
     <term>Bernoulli Trials</term>
-    <meaning id="id5444014">an experiment with the following characteristics:
+    <meaning id="id5444014">an experiment with the following characteristics: 
 <list id="gloslst1" list-type="enumerated">
 <item>There are only two possible outcomes called “success” and “failure” for each trial.</item>
 <item>The probability <emphasis effect="italics">p</emphasis> of a success is the same for any trial (so the probability <emphasis effect="italics">q</emphasis> = 1 − <emphasis effect="italics">p</emphasis> of a failure is the same for any trial).</item>
@@ -1067,7 +1196,7 @@ if "number" is left out, the result is the binomial probability table.
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math>. The probability of exactly <emphasis effect="italics">x</emphasis> successes in <emphasis effect="italics">n</emphasis> trials is <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> = <emphasis effect="italics">x</emphasis>) = <m:math>
  <m:mrow>
