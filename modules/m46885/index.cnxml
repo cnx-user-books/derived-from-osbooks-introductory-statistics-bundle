@@ -16,19 +16,28 @@
 <item>Qualitative</item>
 <item>Quantitative</item>
 </list>
-<para id="id9602938"><term id="term-00001">Qualitative data</term> are the result of categorizing or describing attributes of a population. Qualitative data are also often called <term id="term-00002">categorical data</term>. Hair color, blood type, ethnic group, the car a person drives, and the street a person lives on are examples of qualitative data. Qualitative data are generally described by words or letters. For instance, hair color might be black, dark brown, light brown, blonde, gray, or red. Blood type might be AB+, O-, or B+. Researchers often prefer to use quantitative data over qualitative data because it lends itself more easily to mathematical analysis. For example, it does not make sense to find an average hair color or blood type.</para><para id="id3365343"><term id="term-00003">Quantitative data</term> are always numbers. Quantitative data are the result of <emphasis>counting</emphasis> or <emphasis>measuring</emphasis> attributes of a population. Amount of money, pulse rate, weight, number of people living in your town, and number of students who take statistics are examples of quantitative data. Quantitative data may be either <term id="term-00004">discrete</term> or <term id="term-00005">continuous</term>.</para><para id="id9750754">All data that are the result of counting are called <term id="term-00006">quantitative discrete data</term>. These data take on only certain numerical values. If you count the number of phone calls you receive for each day of the week, you might get values such as zero, one, two, or three.</para><para id="id5023881">Data that are not only made up of counting numbers, but that may include fractions, decimals, or irrational numbers, are called <term id="term-00007">quantitative continuous data</term>. Continuous data are often  the results of measurements like lengths, weights, or times. A list of the lengths in minutes for all the phone calls that you make in a week, with numbers like 2.4, 7.5, or 11.0, would be quantitative continuous data.</para><example id="fs-idm37037280"><title>Data Sample of Quantitative Discrete Data</title><para id="id3406867">The data are the number of books students carry in their backpacks. You sample five students. Two students carry three books, one student carries four books, one student carries two books, and one student carries one book. The numbers of books (three, four, two, and one) are the quantitative discrete data.</para></example><note id="fs-idp82396944" class="statistics try"><label/><title>Try It</title>
+<para id="id9602938"><term>Qualitative data</term> are the result of categorizing or describing attributes of a population. Qualitative data are also often called <term>categorical data</term>. Hair color, blood type, ethnic group, the car a person drives, and the street a person lives on are examples of qualitative data. Qualitative data are generally described by words or letters. For instance, hair color might be black, dark brown, light brown, blonde, gray, or red. Blood type might be AB+, O-, or B+. Researchers often prefer to use quantitative data over qualitative data because it lends itself more easily to mathematical analysis. For example, it does not make sense to find an average hair color or blood type.</para><para id="id3365343"><term>Quantitative data</term> are always numbers. Quantitative data are the result of <emphasis>counting</emphasis> or <emphasis>measuring</emphasis> attributes of a population. Amount of money, pulse rate, weight, number of people living in your town, and number of students who take statistics are examples of quantitative data. Quantitative data may be either <term>discrete</term> or <term>continuous</term>.</para><para id="id9750754">All data that are the result of counting are called <term>quantitative discrete data</term>. These data take on only certain numerical values. If you count the number of phone calls you receive for each day of the week, you might get values such as zero, one, two, or three.</para><para id="id5023881">Data that are not only made up of counting numbers, but that may include fractions, decimals, or irrational numbers, are called <term>quantitative continuous data</term>. Continuous data are often  the results of measurements like lengths, weights, or times. A list of the lengths in minutes for all the phone calls that you make in a week, with numbers like 2.4, 7.5, or 11.0, would be quantitative continuous data.</para><example id="fs-idm37037280"><title>Data Sample of Quantitative Discrete Data</title><para id="id3406867">The data are the number of books students carry in their backpacks. You sample five students. Two students carry three books, one student carries four books, one student carries two books, and one student carries one book. The numbers of books (three, four, two, and one) are the quantitative discrete data.</para></example><note id="fs-idp82396944" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm53037056"><problem id="fs-idp7436128">
 <para id="fs-idp14474960">The data are the number of machines in a gym. You sample five gyms. One gym has 12 machines, one
 gym has 15 machines, one gym has ten machines, one gym has 22 machines, and the other gym has 20
 machines. What type of data is this?</para>
 </problem>
 
-
+<solution id="fs-idp28218416" class="solutions">
+<label/>
+<title>Try It Solutions</title>
+<para id="fs-idp59961424">quantitative discrete data</para>
+</solution>
 </exercise></note><example id="fs-idm43599584"><title>Data Sample of Quantitative Continuous Data</title><para id="id3944554">The data are the weights of backpacks with books in them. You sample the same five students. The weights (in pounds) of their backpacks are 6.2, 7, 6.8, 9.1, 4.3. Notice that backpacks carrying three books can have different weights. Weights are quantitative continuous data.</para></example><note id="fs-idp29656272" class="statistics try"><label/><title>Try It</title>
 <!-- 2-->
 <exercise id="fs-idm6646528"><problem id="fs-idm11686144">
 <para id="fs-idm8677600">The data are the areas of lawns in square feet. You sample five houses. The areas of the lawns are 144 sq. feet, 160 sq. feet, 190 sq. feet, 180 sq. feet, and 210 sq. feet. What type of data is this?</para></problem>
 
+<solution id="fs-idm11876976" class="solutions">
+<label/>
+<title>Try It Solutions</title>
+<para id="fs-idm46308752">quantitative continuous data</para>
+</solution>
 </exercise></note><example id="fs-idm68548176"><para id="fs-idm35908224">You go to the supermarket and purchase three cans of soup (19 ounces tomato bisque, 14.1 ounces lentil, and 19 ounces Italian wedding), two packages of nuts (walnuts and peanuts), four different kinds of vegetable (broccoli, cauliflower, spinach, and carrots), and two desserts (16 ounces pistachio ice cream and 32 ounces chocolate chip cookies).</para><exercise id="eip-idm51320448">
 <problem id="eip-idm51320192">
 <para id="fs-idp7536032">Name data sets that are quantitative discrete, quantitative continuous, and qualitative.</para>
@@ -48,6 +57,11 @@ machines. What type of data is this?</para>
 <exercise id="fs-idm55991520"><problem id="fs-idm137553376">
 <para id="fs-idm81062896">The data are the colors of houses. You sample five houses. The colors of the houses are white, yellow, white, red, and white. What type of data is this?</para>
 </problem>
+<solution id="fs-idm49573312" class="solutions">
+<label/>
+<title>Try It Solutions</title>
+<para id="fs-idm128612288">qualitative data</para>
+</solution>
 </exercise></note><note id="fs-idp153448320"><label/><title>Note</title>
 <para id="eip-idp9388048">You may collect data as numbers and report it categorically. For example, the quiz scores for each student are recorded throughout the term. At the end of the term, the quiz scores are reported as A, B, C, D, or F.</para>
 </note><example id="fs-idm36372528"><exercise id="element-652"><problem id="id14888019">
@@ -66,11 +80,15 @@ machines. What type of data is this?</para>
 </exercise></example><note id="fs-idp17156448" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm22853072"><problem id="fs-idm26183776">
 <para id="fs-idm81268256">Determine the correct data type (quantitative or qualitative) for the number of cars in a parking lot. Indicate whether quantitative data are continuous or discrete.</para></problem>
+<solution id="fs-idm49368480" class="solutions">
+<label/>
+<title>Try It Solutions</title>
+<para id="fs-idm23032176">quantitative discrete</para></solution>
 </exercise></note><example id="fs-idm43655440">
 <exercise id="fs-idm43609536"><problem id="fs-idm57798048">
 <para id="fs-idm69332192">A statistics professor collects information about the classification of her students as freshmen, sophomores, juniors, or seniors. The data she collects are summarized in the pie chart <link target-id="ch01_mod02_fig001" document=""/>. What type of data does this graph show?</para>
 
-<figure id="ch01_mod02_fig001"><media id="fs-idm79319760" alt="This is a pie chart showing the class classification of statistics students. The chart has 4 sections labeled Freshman, Sophomore, Junior, Senior. The largest section is Freshman, the second largest is Sophomore, the third largest is Junior, and the smallest is Senior.">
+<figure id="ch01_mod02_fig001"><media id="fs-idm79319760" alt="This is a pie chart showing the class classification of statistics students. The chart has 4 sections labeled Freshman, Sophomore, Junior, Senior. A question is asked below the pie chart: what type of data does this graph show?">
 <image src="../../media/CNX_Stats_C01_M05_001.jpg" mime-type="image/jpg" width="350"/>
 </media>
 </figure></problem>
@@ -82,13 +100,17 @@ machines. What type of data is this?</para>
 <exercise id="fs-idm140347520"><problem id="fs-idm111614288">
 <para id="fs-idm90836000">The registrar at State University keeps records of the number of credit hours students complete each semester. The data he collects are summarized in the histogram. The class boundaries are 10 to less than 13, 13 to less than 16, 16 to less than 19, 19 to less than 22, and 22 to less than 25.
 <newline/>
-<figure id="ch01_mod02_fig002"><media id="fs-idm92736960" alt="This histogram consists of 5 bars with the x-axis marked at intervals of 3 from 10 to 25, and the y-axis in increments of 100 from 0 to 800. The height of bars shows the number of students in each interval. Interval 10 to 13 is at 250, interval 13 to 16 is at 580, interval 16 to 19 is at 720, interval 19 to 22 is at 620, and interval 22 to 25 is at 250.">
+<figure id="ch01_mod02_fig002"><media id="fs-idm92736960" alt="This histogram consists of 5 bars with the x-axis marked at intervals of 3 from 10 - 25, and the y-axis in increments of 100 from 0 - 800. The height of bars shows the number of students in each interval.">
 <image src="../../media/CNX_Stats_C01_M05_002.png" mime-type="image/png" width="380"/>
 </media></figure>
 <newline/>
 What type of data does this graph show?</para></problem>
+<solution id="fs-idm70265216" class="solutions">
+<label/>
+<title>Try It Solutions</title>
+<para id="fs-idm82473472">A histogram is used to display quantitative data: the numbers of credit hours completed. Because students can complete only a whole number of hours (no fractions of hours allowed), this data is quantitative discrete.</para></solution>
 </exercise></note><section id="eip-312"><title>Qualitative Data Discussion</title><para id="eip-298">Below are tables comparing the number of part-time and full-time students at De Anza College and Foothill College enrolled for the spring 2010 quarter. The tables display counts (frequencies) and percentages or proportions (relative frequencies). The percent columns make comparing the same categories in the colleges easier. Displaying percentages along with the numbers is often helpful, but it is particularly important when comparing sets of data that do not have the same totals, such as the total enrollments for both colleges in this example. Notice how much larger the percentage for part-time students at Foothill College is compared to De Anza College.</para><table id="eip-953" summary="Fall Term 2007 (Census day)"><title>Fall Term 2007 (Census day)</title>
-<tgroup cols="6"><colspec colname="col1" colnum="1"/>
+<tgroup cols="7"><colspec colname="col1" colnum="1"/>
 <colspec colname="col2" colnum="2"/>
 <colspec colname="col3" colnum="3"/>
 <colspec colname="col4" colnum="4"/>
@@ -98,6 +120,7 @@ What type of data does this graph show?</para></problem>
 <thead>
   <row>
     <entry namest="col1" nameend="col3" align="center">De Anza College</entry>
+    <entry/>
     <entry namest="col5" nameend="col7" align="center">Foothill College</entry>
   </row>
 </thead>
@@ -107,6 +130,7 @@ What type of data does this graph show?</para></problem>
     <entry>Number</entry>
     <entry>Percent</entry>
     <entry/>
+    <entry/>
     <entry>Number</entry>
     <entry>Percent</entry>
   </row>
@@ -114,6 +138,7 @@ What type of data does this graph show?</para></problem>
     <entry>Full-time</entry>
     <entry>9,200</entry>
     <entry>40.9%</entry>
+    <entry/>
     <entry>Full-time</entry>
     <entry>4,059</entry>
     <entry>28.6%</entry>
@@ -122,6 +147,7 @@ What type of data does this graph show?</para></problem>
     <entry>Part-time</entry>
     <entry>13,296</entry>
     <entry>59.1%</entry>
+    <entry/>
     <entry>Part-time</entry>
     <entry>10,124</entry>
     <entry>71.4%</entry>
@@ -130,6 +156,7 @@ What type of data does this graph show?</para></problem>
     <entry>Total</entry>
     <entry>22,496</entry>
     <entry>100%</entry>
+    <entry/>
     <entry>Total</entry>
     <entry>14,183</entry>
     <entry>100%</entry>
@@ -138,13 +165,18 @@ What type of data does this graph show?</para></problem>
 
 
 
-
 </tgroup>
-</table><para id="eip-962">Tables are a good way of organizing and displaying data.  But graphs can be even more helpful in understanding the data. There are no strict rules concerning which graphs to use.  Two graphs that are used to display qualitative data are pie charts and bar graphs.</para><para id="eip-884">In a <term id="term-00008">pie chart</term>, categories of data are represented by wedges in a circle and are proportional in size to the percent of individuals in each category.</para><para id="eip-317">In a <term id="term-00009">bar graph</term>, the length of the bar for each category is proportional to the number or percent of individuals in each category.  Bars may be vertical or horizontal.</para><para id="eip-60">A <term id="term-00010">Pareto chart</term> consists of bars that are sorted into order by category size (largest to smallest).</para><para id="eip-378">Look at <link target-id="ch01_mod02_fig003" document=""/> and <link target-id="ch01_mod02_fig004" document=""/> and determine which graph (pie or bar) you think displays the comparisons better.</para><para id="eip-510">It is a good idea to look at a variety of graphs to see which is the most helpful in displaying the data.  We might make different choices of what we think is the “best” graph depending on the data and the context.  Our choice also depends on what we are using the data for.</para>
-<figure id="ch01_mod02_fig003">
-<media id="eip-idp58600672" alt="Side-by-side pie charts showing the distribution of part time and full time students. The chart on the left is titled De Anza college. It is divided into two sections showing that part time students represent 59.1% of the population and full time students make up 40.9%. The chart on the right is titled Foothill college. It is divided into two sections showing that part time students represent 71.4% of the population and full time students make up 28.6%.">
-<image mime-type="image/jpg" src="../../media/OSX_Stats_Figure_01_98_college.jpg" width="300"/>
+</table><para id="eip-962">Tables are a good way of organizing and displaying data.  But graphs can be even more helpful in understanding the data. There are no strict rules concerning which graphs to use.  Two graphs that are used to display qualitative data are pie charts and bar graphs.</para><para id="eip-884">In a <term>pie chart</term>, categories of data are represented by wedges in a circle and are proportional in size to the percent of individuals in each category.</para><para id="eip-317">In a <term>bar graph</term>, the length of the bar for each category is proportional to the number or percent of individuals in each category.  Bars may be vertical or horizontal.</para><para id="eip-60">A <term>Pareto chart</term> consists of bars that are sorted into order by category size (largest to smallest).</para><para id="eip-378">Look at <link target-id="ch01_mod02_fig003" document=""/> and <link target-id="ch01_mod02_fig004" document=""/> and determine which graph (pie or bar) you think displays the comparisons better.</para><para id="eip-510">It is a good idea to look at a variety of graphs to see which is the most helpful in displaying the data.  We might make different choices of what we think is the “best” graph depending on the data and the context.  Our choice also depends on what we are using the data for.</para><figure id="ch01_mod02_fig003" orient="horizontal"><subfigure id="eip-idp58600416">
+<media id="eip-idp58600672" alt="">
+<image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_01.jpg" width="300"/>
 </media>
+</subfigure>
+
+<subfigure id="eip-idm57620352">
+<media id="eip-idm57620096" alt="">
+<image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_02.jpg" width="300"/>
+</media>
+</subfigure>
 </figure>
 
 <figure id="ch01_mod02_fig004"><media id="eip-idp50918176" alt="">
@@ -180,7 +212,7 @@ What type of data does this graph show?</para></problem>
 </tgroup>
 </table>
 <figure id="ch01_mod02_fig005">
-<media id="eip-idm13986336" alt="A bar graph. The vertical axis marks values from 0% to 100% in intervals of 20%. The horizontal axis categories are Under age 25 (height of bar shows 61.0%), Intend to transfer (height of bar shows 48.6%), Full-time (height of bar shows 40.9%), and All students (height of bar shows 100%).">
+<media id="eip-idm13986336" alt="">
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_04.jpg" width="380"/>
 </media>
 </figure></section><section id="eip-993"><title>Omitting Categories/Missing Data</title><para id="eip-145">The table displays Ethnicity of Students but is missing the "Other/Unknown" category.  This category contains people who did not feel they fit into any of the ethnicity categories or declined to respond.  Notice that the frequencies do not add up to the total number of students. In this situation, create a bar graph and not a pie chart.</para><table id="eip-251" summary="The table displays Ethnicity of Students"><title>Ethnicity of Students at De Anza College Fall Term 2007 (Census Day)</title>
@@ -235,23 +267,30 @@ What type of data does this graph show?</para></problem>
 </tbody>
 
 </tgroup>
-</table><figure id="ch01_mod02_fig006"><media id="eip-idm93533648" alt="A bar graph showing ethnicity of students. The vertical axis marks values from 0.0% to 40.0% in intervals of 5.0%. The horizontal axis categories are Asian (height of bar shows 36.1%), Black (height of bar shows 5.8%), Filipino (height of bar shows 5.3%), Hispanic (height of bar shows 17.1%), Native American (height of bar shows 0.6%), Pacific Islander (height of bar shows 1.0%),and White (height of bar shows 24.5%).">
+</table><figure id="ch01_mod02_fig006"><media id="eip-idm93533648" alt="">
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_05.jpg" width="480"/>
 </media>
-</figure><para id="eip-756">The following graph is the same as the previous graph but the “Other/Unknown” percent (9.6%) has been included. The “Other/Unknown” category is large compared to some of the other categories (Native American, 0.6%, Pacific Islander 1.0%). This is important to know when we think about what the data are telling us.</para><para id="eip-187">This particular bar graph in <link target-id="ch01_mod02_fig007" document=""/> can be difficult to understand visually. The graph in <link target-id="ch01_mod02_fig008" document=""/> is a Pareto chart. The Pareto chart has the bars sorted from largest to smallest and is easier to read and interpret.</para><figure id="ch01_mod02_fig007"><title>Bar Graph with Other/Unknown Category</title><media id="eip-idp18575104" alt="A bar graph showing ethnicity of students. The vertical axis marks values from 0.0% to 40.0% in intervals of 5.0%. The horizontal axis categories are Asian (height of bar shows 36.1%), Black (height of bar shows 5.8%), Filipino (height of bar shows 5.3%), Hispanic (height of bar shows 17.1%), Native American (height of bar shows 0.6%), Pacific Islander (height of bar shows 1.0%), White (height of bar shows 24.5%), and Other/Unknown (height of bar shows 9.6%).">
+</figure><para id="eip-756">The following graph is the same as the previous graph but the “Other/Unknown” percent (9.6%) has been included. The “Other/Unknown” category is large compared to some of the other categories (Native American, 0.6%, Pacific Islander 1.0%). This is important to know when we think about what the data are telling us.</para><para id="eip-187">This particular bar graph in <link target-id="ch01_mod02_fig007" document=""/> can be difficult to understand visually. The graph in <link target-id="ch01_mod02_fig008" document=""/> is a Pareto chart. The Pareto chart has the bars sorted from largest to smallest and is easier to read and interpret.</para><figure id="ch01_mod02_fig007"><title>Bar Graph with Other/Unknown Category</title><media id="eip-idp18575104" alt="">
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_06.jpg" width="480"/>
 </media>
 </figure>
 
-<figure id="ch01_mod02_fig008"><title>Pareto Chart With Bars Sorted by Size</title><media id="eip-idp91563536" alt="A Pareto chart is a bar graph with the bars ordered from greatest height to least. This one shows ethnicity of students. The vertical axis marks values from 0.0% to 40.0% in intervals of 5.0%. The horizontal axis categories are Asian (height of bar shows 36.1%), White (height of bar shows 24.5%), Hispanic (height of bar shows 17.1%), Other/Unknown (height of bar shows 9.6%), Black (height of bar shows 5.8%), Filipino (height of bar shows 5.3%), Pacific Islander (height of bar shows 1.0%), and Native American (height of bar shows 0.6%).">
+<figure id="ch01_mod02_fig008"><title>Pareto Chart With Bars Sorted by Size</title><media id="eip-idp91563536" alt="">
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_07.jpg" width="480"/>
 </media>
-</figure></section><section id="eip-47"><title>Pie Charts:  No Missing Data</title><para id="eip-7">The following pie charts have the “Other/Unknown” category included (since the percentages must add to 100%). The chart in <link target-id="ch01_mod02_fig009" document=""/>(b) is organized by the size of each wedge, which makes it a more visually informative graph than the unsorted, alphabetical graph in <link target-id="ch01_mod02_fig009" document=""/>(a).</para>
+</figure></section><section id="eip-47"><title>Pie Charts:  No Missing Data</title><para id="eip-7">The following pie charts have the “Other/Unknown” category included (since the percentages must add to 100%). The chart in <link target-id="ch01_mod02_fig009b" document=""/> is organized by the size of each wedge, which makes it a more visually informative graph than the unsorted, alphabetical graph in <link target-id="ch01_mod02_fig009a" document=""/>.</para>
 
-<figure id="ch01_mod02_fig009">
-<media id="eip-idm48032080" alt="Two pie charts are titled Ethnicity of Students. Chart (a) The sections of the chart are ordered alphabetically. Clockwise from the top, the sections show that Asian students make up 36.1% of students, Black 5.8%, Filipino 5.3%, Hispanic 17.1%, Native American 0.6%, Pacific Islander 1.0%, White 24.5%, and Other 9.6%. Chart (b) This is the same data as shown in chart (a), but the sections of the chart are now ordered from greatest area to least. Clockwise from the top, the sections show that Asian students make up 36.1% of students, White 24.5%, Hispanic 17.1%, Other 9.6%, Black 5.8%, Filipino 5.3%, Pacific Islander 1.0%, and Native American 0.6%.">
-<image mime-type="image/jpg" src="../../media/OSX_Stats_Figure_01_98_ethnicity.jpg" width="300"/>
+<figure id="ch01_mod02_fig009" orient="horizontal"><subfigure id="ch01_mod02_fig009a">
+<media id="eip-idm48032080" alt="">
+<image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_08.jpg" width="300"/>
 </media>
+</subfigure>
+
+<subfigure id="ch01_mod02_fig009b">
+<media id="eip-idm51653728" alt="">
+<image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_09.jpg" width="300"/>
+</media>
+</subfigure>
 </figure></section></section><section id="eip-49"><title>Sampling</title>
 <para id="id12361474">Gathering information about an entire population often costs too much or is virtually impossible. Instead, we use a sample of the population. <emphasis>A sample should have the same characteristics as the population it is representing.</emphasis> Most statisticians use various methods of random sampling in an attempt to achieve this goal. This section will describe a few of the most common methods. There are several different methods of <emphasis>random sampling</emphasis>. In each form of random sampling, each member of a population initially has an equal chance of being selected for the sample. Each method has pros and cons. The easiest method to describe is called a <emphasis>simple random sample</emphasis>. Any group of <emphasis effect="italics">n</emphasis> individuals is equally likely to be chosen as any other group of <emphasis effect="italics">n</emphasis> individuals if the simple random sampling technique is used. In other words, each sample of the same size has an equal chance of being selected. For example, suppose Lisa wants to form a four-person study group (herself and three other people) from her pre-calculus class, which has 31 members not including Lisa. To choose a simple random sample of size three from the other members of her class, Lisa could put all 31 names in a hat, shake the hat, close her eyes, and pick out three names. A more technological way is for Lisa to first list the last names of the members of her class together with a two-digit number, as in <link target-id="element-621" document=""/>:</para><table id="element-621" summary="This table presents a class roster arranged in alphabetical order.  The first column lists a unique two-digit ID number for each student, with the second column displaying the student's last name.">
 <title>Class Roster</title>
@@ -383,17 +422,24 @@ could have generated more random numbers.</para><para id="id12688561">The random
 <item>Press ENTER two more times for the other 2 random numbers. If there is a repeat press ENTER again.</item>
 </list>
 <para id="eip-107">Note: randInt(0, 30, 3) will generate 3 random numbers.</para>
-<figure id="eip-idm20794224"><media id="eip-idm20793968" alt="A calculator screen shows the following set on separate lines: randInt (0, 30); 29; randInt (0, 30); 28; randInt (0, 30); 4.">
+<figure id="eip-idm20794224"><media id="eip-idm20793968" alt="">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C01_Screenshots.jpg" width="220"/>
 </media>
 </figure></note><para id="id11076554">Besides simple random sampling, there are other forms of sampling that involve a chance process for getting the sample. <emphasis>Other well-known random sampling methods are the stratified sample, the cluster sample, and the systematic sample.</emphasis></para>
-<para id="id12511076">To choose a <emphasis>stratified sample</emphasis>, divide the population into groups called strata and then take a <emphasis>proportionate</emphasis> number from each stratum. For example, you could stratify (group) your college population by department and then choose a proportionate simple random sample from each stratum (each department) to get a stratified random sample. To choose a simple random sample from each department, number each member of the first department, number each member of the second department, and do the same for the remaining departments. Then use simple random sampling to choose proportionate numbers from the first department and do the same for each of the remaining departments. Those numbers picked from the first department, picked from the second department, and so on represent the members who make up the stratified sample.</para><para id="id13017093">To choose a <emphasis>cluster sample</emphasis>, divide the population into clusters (groups) and then randomly select some of the clusters. All the members from these clusters are in the cluster sample. For example, if you randomly sample four departments from your college population, the four departments make up the cluster sample. Divide your college faculty by department. The departments are the clusters. Number each department, and then choose four different numbers using simple random sampling. All members of the four departments with those numbers are the cluster sample.</para><para id="id12769433">To choose a <emphasis>systematic sample</emphasis>, randomly select a starting point and take every <emphasis effect="italics">n</emphasis><sup>th</sup> piece of data from a listing of the population. For example, suppose you have to do a phone survey. Your phone book contains 20,000 residence listings. You must choose 400 names for the sample. Number the population 1–20,000 and then use a simple random sample to pick a number that represents the first name in the sample. Then choose every fiftieth name thereafter until you have a total of 400 names (you might have to go back to the beginning of your phone list). Systematic sampling is frequently chosen because it is a simple method.</para><para id="id12385449">A type of sampling that is non-random is convenience sampling. <emphasis>Convenience sampling</emphasis> involves using results that are readily available. For example, a computer software store conducts a marketing study by interviewing potential customers who happen to be in the store browsing through the available software. The results of convenience sampling may be very good in some cases and highly biased (favor certain outcomes) in others.</para><para id="id10814456">Sampling data should be done very carefully. Collecting data carelessly can have devastating results. Surveys mailed to households and then returned may be very biased (they may favor a certain group). It is better for the person conducting the survey to select the sample respondents.</para><para id="eip-781">True random sampling is done <emphasis>with replacement</emphasis>.  That is, once a member is picked, that member goes back into the population and thus may be chosen more than once. However for practical reasons, in most populations, simple random sampling is done <emphasis>without replacement</emphasis>. Surveys are typically done without replacement.  That is, a member of the population may be chosen only once.  Most samples are taken from large populations and the sample tends to be small in comparison to the population. Since this is the case, sampling without replacement is approximately the same as sampling with replacement because the chance of picking the same individual more than once with replacement is very low.</para>
-
-<para id="para-00001">
-Sampling without replacement instead of sampling with replacement becomes a mathematical issue only when the population is small.
-</para>
-
-<para id="id11715554">When you analyze data, it is important to be aware of <emphasis>sampling errors</emphasis> and nonsampling errors. The actual process of sampling causes sampling errors. For example, the sample may not be large enough. Factors not related to the sampling process cause <emphasis>nonsampling errors</emphasis>. A defective counting device can cause a nonsampling error.</para>
+<para id="id12511076">To choose a <emphasis>stratified sample</emphasis>, divide the population into groups called strata and then take a <emphasis>proportionate</emphasis> number from each stratum. For example, you could stratify (group) your college population by department and then choose a proportionate simple random sample from each stratum (each department) to get a stratified random sample. To choose a simple random sample from each department, number each member of the first department, number each member of the second department, and do the same for the remaining departments. Then use simple random sampling to choose proportionate numbers from the first department and do the same for each of the remaining departments. Those numbers picked from the first department, picked from the second department, and so on represent the members who make up the stratified sample.</para><para id="id13017093">To choose a <emphasis>cluster sample</emphasis>, divide the population into clusters (groups) and then randomly select some of the clusters. All the members from these clusters are in the cluster sample. For example, if you randomly sample four departments from your college population, the four departments make up the cluster sample. Divide your college faculty by department. The departments are the clusters. Number each department, and then choose four different numbers using simple random sampling. All members of the four departments with those numbers are the cluster sample.</para><para id="id12769433">To choose a <emphasis>systematic sample</emphasis>, randomly select a starting point and take every <emphasis effect="italics">n</emphasis><sup>th</sup> piece of data from a listing of the population. For example, suppose you have to do a phone survey. Your phone book contains 20,000 residence listings. You must choose 400 names for the sample. Number the population 1–20,000 and then use a simple random sample to pick a number that represents the first name in the sample. Then choose every fiftieth name thereafter until you have a total of 400 names (you might have to go back to the beginning of your phone list). Systematic sampling is frequently chosen because it is a simple method.</para><para id="id12385449">A type of sampling that is non-random is convenience sampling. <emphasis>Convenience sampling</emphasis> involves using results that are readily available. For example, a computer software store conducts a marketing study by interviewing potential customers who happen to be in the store browsing through the available software. The results of convenience sampling may be very good in some cases and highly biased (favor certain outcomes) in others.</para><para id="id10814456">Sampling data should be done very carefully. Collecting data carelessly can have devastating results. Surveys mailed to households and then returned may be very biased (they may favor a certain group). It is better for the person conducting the survey to select the sample respondents.</para><para id="eip-781">True random sampling is done <emphasis>with replacement</emphasis>.  That is, once a member is picked, that member goes back into the population and thus may be chosen more than once. However for practical reasons, in most populations, simple random sampling is done <emphasis>without replacement</emphasis>. Surveys are typically done without replacement.  That is, a member of the population may be chosen only once.  Most samples are taken from large populations and the sample tends to be small in comparison to the population. Since this is the case, sampling without replacement is approximately the same as sampling with replacement because the chance of picking the same individual more than once with replacement is very low.</para><para id="eip-277">In a college population of 10,000 people, suppose you want to pick a sample of
+1,000 randomly for a survey. <emphasis>For any particular sample of 1,000</emphasis>, if you are sampling <emphasis>with replacement</emphasis>, </para><list id="eip-447" list-type="bulleted"><item>the chance of picking the first person is 1,000 out of 10,000 (0.1000);</item>
+<item>the chance of picking a different second person for this sample is 999 out of 10,000 (0.0999);</item>
+<item>the chance of picking the same person again is 1 out of 10,000 (very low). </item>
+</list><para id="eip-646">If you are sampling <emphasis>without replacement</emphasis>,</para>
+<list id="eip-546" list-type="bulleted">
+<item>the chance of picking the first person for any particular sample is 1000 out of 10,000 (0.1000);</item>
+<item>the chance of picking a different second person is 999 out of 9,999 (0.0999);</item>
+<item>you do not replace the first person before picking the next person.</item>
+</list>
+<para id="eip-854">Compare the fractions 999/10,000 and 999/9,999. For accuracy, carry the decimal answers to four decimal places. To four decimal places, these numbers are equivalent (0.0999).</para><para id="eip-211">Sampling without replacement instead of sampling with replacement becomes a mathematical issue
+only when the population is small. For example, if the population is 25 people, the sample is ten, and
+you are sampling <emphasis>with replacement for any particular sample</emphasis>, then the chance of picking the first person is ten out of 25, and the chance of picking a different second person is nine out of 25 (you replace the first person).</para><para id="eip-647">If you sample <emphasis>without replacement</emphasis>, then the chance of picking the first person is ten out of 25, and then the chance of picking the second person (who is different) is nine out of 24 (you do not replace the first person).</para><para id="eip-891">Compare the fractions 9/25 and 9/24. To four decimal places, 9/25 = 0.3600 and 9/24 = 0.3750. To
+four decimal places, these numbers are not equivalent.</para><para id="id11715554">When you analyze data, it is important to be aware of <emphasis>sampling errors</emphasis> and nonsampling errors. The actual process of sampling causes sampling errors. For example, the sample may not be large enough. Factors not related to the sampling process cause <emphasis>nonsampling errors</emphasis>. A defective counting device can cause a nonsampling error.</para>
 <para id="fs-idp101680848">In reality, a sample will never be exactly representative of the population so there will always be some sampling error.  As a rule, the larger the sample, the smaller the sampling error.</para>
 <para id="fs-idp40043264">In statistics, <emphasis>a sampling bias</emphasis> is created when a sample is collected from a population and some members of the population are not as likely to be chosen as others (remember, each member of the population should have an equally likely chance of being chosen).  When a sampling bias happens, there can be incorrect conclusions drawn about the population that is being studied.</para>
 <section id="eip-318"><title>Critical Evaluation</title><para id="eip-612">
@@ -408,8 +454,7 @@ surveys, are often unreliable.</item>
 <item>Self-funded or self-interest studies: A study performed by a person or organization in order to support their claim. Is the study impartial? Read the study carefully to evaluate the work. Do not automatically assume that the study is good, but do not automatically assume the study is bad either. Evaluate it on its merits and the work done.</item>
 <item>Misleading use of data: improperly displayed graphs, incomplete data, or lack of context</item>
 <item>Confounding:  When the effects of multiple factors on a response cannot be separated.  Confounding makes it difficult or impossible to draw valid conclusions about the effect of each factor.</item>
-</list></section>
-<note id="eip-302" class="statistics collab"><label/>
+</list></section><note id="eip-302"><label/><title>Collaborative Exercise</title>
 <para id="id7878578">As a class, determine whether or not the following samples are representative. If they are not, discuss the reasons.</para>
 <list id="element-785" list-type="enumerated"><item>To find the average GPA of all students in a university, use all honor students at the university as the sample.</item>
 <item>To find out the most popular cereal among young people under the age of ten, stand outside a large supermarket for three hours and speak to every twentieth child under age ten who enters the supermarket.</item>
@@ -462,14 +507,14 @@ surveys, are often unreliable.</item>
 <list id="fs-idm56600960" list-type="bulleted"><item>Number each row one through ten.</item>
 <item>On your calculator, press Math and arrow over to PRB.</item>
 <item>For column 1, Press 5:randInt( and enter 1,10). Press ENTER. Record the number.  Press ENTER 2 more times (even the repeats). Record these numbers. Record the three quiz scores in column one that correspond to these three numbers.</item>
-<item>Repeat for columns two through six.</item>
+<item>Repeat for columns two through six.</item>  
 <item>These 18 quiz scores are a stratified sample.</item>
 </list></item>
 <item>Create a cluster sample by picking two of the columns. Use the column numbers: one through six.
 <list id="fs-idm136085840" list-type="bulleted">
 <item>Press MATH and arrow over to PRB.</item>
-<item>Press 5:randInt( and enter 1,6).  Press ENTER.  Record the number.  Press ENTER and record that number.</item>
-<item>The two numbers are for two of the columns.</item>
+<item>Press 5:randInt( and enter 1,6).  Press ENTER.  Record the number.  Press ENTER and record that number.</item>  
+<item>The two numbers are for two of the columns.</item>  
 <item>The quiz scores (20 of them) in these 2 columns are the cluster sample.</item>
 </list>
 </item>
@@ -477,7 +522,7 @@ surveys, are often unreliable.</item>
 <list id="fs-idm31528720" list-type="bulleted">
 <item>Use the numbering one through 60.</item>
 <item>Press MATH. Arrow over to PRB.  Press 5:randInt( and enter 1, 60).</item>
-<item>Press ENTER 15 times and record the numbers.</item>
+<item>Press ENTER 15 times and record the numbers.</item>  
 <item>Record the quiz scores that correspond to these numbers.</item>
 <item>These 15 quiz scores are the systematic sample.</item>
 </list>
@@ -509,8 +554,11 @@ surveys, are often unreliable.</item>
 <para id="fs-idp164822480">Determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).</para>
 <para id="fs-idp86918064">A high school principal polls 50 freshmen, 50 sophomores, 50 juniors, and 50 seniors regarding policy changes for after school activities.</para>
 </problem>
-</exercise></note><para id="id7645179">If we were to examine two samples representing the same population, even if we used random sampling methods for the samples, they would not be exactly the same. Just as there is variation in data, there is variation in samples. As you become accustomed to sampling, the variability will begin to seem natural.</para>
-<example id="element-575">
+<solution id="eip-idm38154576" class="solutions">
+<label/>
+<para id="eip-idp11975936">stratified</para>
+</solution>
+</exercise></note><para id="id7645179">If we were to examine two samples representing the same population, even if we used random sampling methods for the samples, they would not be exactly the same. Just as there is variation in data, there is variation in samples. As you become accustomed to sampling, the variability will begin to seem natural.</para><example id="element-575">
 <para id="element-62">
 Suppose ABC College has 10,000 part-time students (the population). We are interested in the average amount of money a part-time student spends on books in the fall term. Asking all 10,000 students is an almost impossible task.</para>
 <para id="element-199">Suppose we take two different samples. </para>
@@ -583,10 +631,17 @@ Suppose ABC College has 10,000 part-time students (the population). We are inter
 <exercise id="eip-idm70522384"><problem id="eip-idm52377904">
 <para id="fs-idp35687664">A local radio station has a fan base of 20,000 listeners. The station wants to know if its audience would prefer more music or more talk shows. Asking all 20,000 listeners is an almost impossible task.</para><para id="fs-idp43318816">The station uses convenience sampling and surveys the first 200 people they meet at one of the station’s music concert events. 24 people said they’d prefer more talk shows, and 176 people said they’d prefer more music.</para><para id="fs-idp24594000">Do you think that this sample is representative of (or is characteristic of) the entire 20,000 listener population?</para>
 </problem>
+<solution id="eip-idm53478912" class="solutions">
+<label/>
+<title>Try It Solutions</title>
+<para id="eip-idm90772400">The sample probably consists more of people who prefer music because it is a concert event. Also,
+the sample represents only those who showed up to the event earlier than the majority. The
+sample probably doesn’t represent the entire fan base and is probably biased towards people who
+would prefer music.</para></solution>
 </exercise></note></section>
 
 
-<section id="eip-624"><title>Variation in Data</title><para id="id8219993"><term id="term-00011">Variation</term> is present in any set of data. For example, 16-ounce cans of beverage may contain more or less than 16 ounces of liquid. In one study, eight 16 ounce cans were measured and produced the following amount (in ounces) of beverage:</para><para id="element-25004">
+<section id="eip-624"><title>Variation in Data</title><para id="id8219993"><term>Variation</term> is present in any set of data. For example, 16-ounce cans of beverage may contain more or less than 16 ounces of liquid. In one study, eight 16 ounce cans were measured and produced the following amount (in ounces) of beverage:</para><para id="element-25004">
 <list id="set-element-984" list-type="labeled-item" display="inline">
 <item>15.8</item>
 <item>16.1</item>
@@ -598,13 +653,13 @@ Suppose ABC College has 10,000 part-time students (the population). We are inter
 <item>15.5</item>
 </list></para>
 <para id="id6856137">Measurements of the amount of beverage in a 16-ounce can may vary because different people make the measurements or because the exact amount, 16 ounces of liquid, was not put into the cans. Manufacturers regularly run tests to determine if the amount of beverage in a 16-ounce can falls within the desired range.</para>
-<para id="id5172174">Be aware that as you take data, your data may vary somewhat from the data someone else is taking for the same purpose. This is completely natural. However, if two or more of you are taking the same data and get very different results, it is time for you and the others to reevaluate your data-taking methods and your accuracy.</para></section><section id="eip-735"><title>Variation in Samples</title><para id="id11414550">It was mentioned previously that two or more <term id="term-00012">samples</term> from the same <term id="term-00013">population</term>, taken randomly, and having close to the same characteristics of the population will likely be different from each other. Suppose Doreen and Jung both decide to study the average amount of time students at their college sleep each night.  Doreen and Jung each take samples of 500 students. Doreen uses systematic sampling and Jung uses cluster sampling. Doreen's sample will be different from Jung's sample. Even if Doreen and Jung used the same sampling method, in all likelihood their samples would be different. Neither would be wrong, however. </para>
+<para id="id5172174">Be aware that as you take data, your data may vary somewhat from the data someone else is taking for the same purpose. This is completely natural. However, if two or more of you are taking the same data and get very different results, it is time for you and the others to reevaluate your data-taking methods and your accuracy.</para></section><section id="eip-735"><title>Variation in Samples</title><para id="id11414550">It was mentioned previously that two or more <term>samples</term> from the same <term>population</term>, taken randomly, and having close to the same characteristics of the population will likely be different from each other. Suppose Doreen and Jung both decide to study the average amount of time students at their college sleep each night.  Doreen and Jung each take samples of 500 students. Doreen uses systematic sampling and Jung uses cluster sampling. Doreen's sample will be different from Jung's sample. Even if Doreen and Jung used the same sampling method, in all likelihood their samples would be different. Neither would be wrong, however. </para>
 <para id="id11414555">Think about what contributes to making Doreen’s and Jung’s samples different. </para>
 <para id="id10715475">If Doreen and Jung took larger samples (i.e. the number of data values is increased), their sample results (the average amount of time a student sleeps) might be closer to the actual population average. But still, their samples would be, in all likelihood, different from each other. This <emphasis>variability in samples</emphasis> cannot be stressed enough.</para>
 
 <section id="id-191351579127"><title>Size of a Sample</title><para id="id10291271">The size of a sample (often called the number of observations) is important. The examples you have seen in this book so far have been small. Samples of only a few hundred observations, or even smaller, are sufficient for many purposes. In polling, samples that are from 1,200 to 1,500 observations are considered large enough and good enough if the survey is random and is well done. You will learn why when you study confidence intervals.</para><para id="eip-idp48192112">Be aware that many large samples are biased. For example, call-in surveys are invariably biased, because people choose to respond or not.</para>
 
-<note id="fs-idm85528320" class="statistics collab"><label/>
+<note id="fs-idm85528320" class="statistics collab"><label/><title>Collaborative Exercise</title>
 <para id="fs-idp60280064">Divide into groups of two, three, or four. Your instructor will give each group one six-sided die. Try this experiment twice. Roll one fair die (six-sided) 20 times. Record the number of ones, twos, threes, fours, fives, and sixes you get in <link target-id="element-497" document=""/> and <link target-id="fs-idm76511248" document=""/> (“frequency” is the number of times a particular face of the die occurs):</para><table id="element-497" summary="This table provides a blank template for recording the results of an experimental trial involving the roll of a die.  The first column contains the values 1 through 6, representing the possible outcomes of a single throw of a die.  The second column is to be used by the student to tally the number of times the die lands on that value during the experiment.">
 <title>First Experiment (20 rolls)</title>
 <tgroup cols="2">
@@ -686,13 +741,13 @@ Suppose ABC College has 10,000 part-time students (the population). We are inter
 <para id="element-663">Did the two experiments have the same results? Probably not. If you did the experiment a third time, do you expect the results to be identical to the first or second experiment? Why or why not? </para>
 <para id="element-440">Which experiment had the correct results? They both did. The job of the statistician is to see through the variability and draw appropriate conclusions.</para></note></section></section><section id="eip-787" class="references"><title>References</title><para id="eip-idp72168976">Gallup-Healthways Well-Being Index. http://www.well-beingindex.com/default.asp (accessed May 1, 2013).</para><para id="eip-idp7078560">Gallup-Healthways Well-Being Index. http://www.well-beingindex.com/methodology.asp (accessed May 1, 2013).</para><para id="eip-idp35327680">Gallup-Healthways Well-Being Index. http://www.gallup.com/poll/146822/gallup-healthways-index-questions.aspx (accessed May 1, 2013).</para><para id="eip-idp35328208">Data from http://www.bookofodds.com/Relationships-Society/Articles/A0374-How-George-Gallup-Picked-the-President</para><para id="eip-idm46671824">Dominic Lusinchi, “’President’ Landon and the 1936 <emphasis effect="italics">Literary Digest</emphasis> Poll: Were Automobile and Telephone Owners to Blame?” Social Science History 36, no. 1: 23-54 (2012), http://ssh.dukejournals.org/content/36/1/23.abstract (accessed May 1, 2013).</para><para id="eip-idp72182368">“The Literary Digest Poll,” Virtual Laboratories in Probability and Statistics http://www.math.uah.edu/stat/data/LiteraryDigest.html (accessed May 1, 2013).</para><para id="eip-idp2773216">“Gallup Presidential Election Trial-Heat Trends, 1936–2008,” Gallup Politics http://www.gallup.com/poll/110548/gallup-presidential-election-trialheat-trends-19362004.aspx#4 (accessed May 1, 2013).</para><para id="eip-idm55424592">The Data and Story Library, http://lib.stat.cmu.edu/DASL/Datafiles/USCrime.html (accessed May 1, 2013).</para><para id="eip-idm81943888">LBCC Distance Learning (DL) program data in 2010-2011, http://de.lbcc.edu/reports/2010-11/future/highlights.html#focus (accessed May 1, 2013).</para><para id="eip-idm81943344">Data from San Jose Mercury News</para></section><section id="fs-idm44463152" class="summary">
 <title>Chapter Review</title>
-<para id="fs-idm39216544">Data are individual items of information that come from a population or sample. Data may be classified as qualitative (categorical), quantitative continuous, or quantitative discrete.</para><para id="eip-109">Because it is not practical to measure the entire population in a study, researchers use samples to represent the population. A random sample is a representative group from the population chosen by using a method that gives each individual in the population an equal chance of being included in the sample. Random sampling methods include simple random sampling, stratified sampling, cluster sampling, and systematic sampling. Convenience sampling is a nonrandom method of choosing a sample that often produces biased
+<para id="fs-idm39216544">Data are individual items of information that come from a population or sample. Data may be classified as qualitative(categorical), quantitative continuous, or quantitative discrete.</para><para id="eip-109">Because it is not practical to measure the entire population in a study, researchers use samples to represent the population. A random sample is a representative group from the population chosen by using a method that gives each individual in the population an equal chance of being included in the sample. Random sampling methods include simple random sampling, stratified sampling, cluster sampling, and systematic sampling. Convenience sampling is a nonrandom method of choosing a sample that often produces biased
 data.</para><para id="eip-396">Samples that contain different individuals result in different data. This is true even when the samples are well-chosen and representative of the population. When properly selected, larger samples model the population more closely than smaller samples. There are many different potential problems that can affect the reliability of a sample. Statistical data needs to be critically analyzed, not simply accepted.</para></section>
 
 <section id="fs-idm55283840" class="practice"><title>Practice</title><exercise id="eip-455"><problem id="fs-idm60065488">
 <para id="fs-idm78617856">“Number of times per week” is what type of data?</para>
-<para id="eip-idm49300272"><list list-type="labeled-item" display="inline" id="list-00001">
-<item>a. qualitative (categorical)</item>
+<para id="eip-idm49300272"><list list-type="labeled-item" display="inline">
+<item>a. qualitative(categorical)</item>
 <item>b. quantitative discrete</item>
 <item>c. quantitative continuous</item>
 </list></para></problem>
@@ -703,7 +758,7 @@ data.</para><para id="eip-396">Samples that contain different individuals result
 <para id="fs-idm42775552"><emphasis effect="italics">Use the following information to answer the next four exercises:</emphasis> A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.</para><exercise id="fs-idm67132096">
 <problem id="fs-idm60885840">
 <para id="fs-idm58359376">The sampling method was</para>
-<para id="fs-idm13619408"><list list-type="labeled-item" display="inline" id="list-00002">
+<para id="fs-idm13619408"><list list-type="labeled-item" display="inline">
 <item>a. simple random</item>
 <item>b. systematic</item>
 <item>c. stratified</item>
@@ -714,8 +769,8 @@ data.</para><para id="eip-396">Samples that contain different individuals result
 <para id="fs-idm36580912">b</para></solution>
 </exercise>
 <exercise id="fs-idm13982640"><problem id="fs-idm80593456">
-<para id="fs-idm3496784">“Duration (amount of time)” is what type of data?</para><para id="fs-idm13028176"><list list-type="labeled-item" display="inline" id="list-00003">
-<item>a. qualitative (categorical)</item>
+<para id="fs-idm3496784">“Duration (amount of time)” is what type of data?</para><para id="fs-idm13028176"><list list-type="labeled-item" display="inline">
+<item>a. qualitative(categorical)</item>
 <item>b. quantitative discrete</item>
 <item>c. quantitative continuous</item>
 </list>
@@ -725,8 +780,8 @@ data.</para><para id="eip-396">Samples that contain different individuals result
 </exercise><exercise id="fs-idm63417136">
 <problem id="fs-idm58900112">
 <para id="fs-idm37392208">The colors of the houses around the park are what kind of data?</para>
-<para id="fs-idm14485248"><list list-type="labeled-item" display="inline" id="list-00004">
-<item>a. qualitative (categorical)</item>
+<para id="fs-idm14485248"><list list-type="labeled-item" display="inline">
+<item>a. qualitative(categorical)</item>
 <item>b. quantitative discrete</item>
 <item>c. quantitative continuous</item>
 </list>
@@ -1462,7 +1517,7 @@ since 1971, the year the microprocessor was invented). It was reported that 48% 
       </list></problem>
 
 <!-- <solution id="eip-379">
-<list id="eip-idp46350368" list-type="enumerated" number-style="lower-alpha"><item>Yes, in polling, samples that are from 1,200 to 1,500 observations are considered large enough and good enough if the survey is random and is well done.</item>
+<list id="eip-idp46350368" list-type="enumerated" number-style="lower-alpha"><item>Yes, in polling, samples that are from 1,200 to 1,500 observations are considered large enough and good enough if the survey is random and is well done.</item> 
 <item>We do not have enough information to decide if this is a random sample from the U.S. population.</item>
 <item>No, this is a convenience sample taken from individuals who visited an exhibition in the Angeles Convention Center. This sample is not representative of the U.S. population.</item>
 <item>It is possible that the two sample statistics, 48% and 66% are larger than the true parameters in the population at large. In any event, no conclusion about the population proportions can be inferred from this convenience sample.</item>
@@ -1490,7 +1545,7 @@ since 1971, the year the microprocessor was invented). It was reported that 48% 
   <para id="eip-603">In advance of the 1936 Presidential Election, a magazine titled Literary Digest released the results of an opinion poll predicting that the republican candidate Alf Landon would win by a large margin. The magazine sent post cards to approximately 10,000,000 prospective voters. These prospective voters were selected from the subscription list of the magazine, from automobile registration lists, from phone lists, and from club membership lists. Approximately 2,300,000 people returned the postcards.</para>
 <list id="fs-idp4880096" list-type="enumerated" number-style="lower-alpha"><item>Think about the state of the United States in 1936. Explain why a sample chosen from magazine subscription lists, automobile registration lists, phone books, and club membership lists was not representative of the population of the United States at that time.</item>
 <item>What effect does the low response rate have on the reliability of the sample?</item>
-<item>Are these problems examples of sampling error or nonsampling error?</item>
+<item>Are these problems examples of sampling error or nonsampling error?</item> 
 <item>During the same year, George Gallup conducted his own poll of 30,000 prospective voters. These researchers used a method they called "quota sampling" to obtain survey answers from specific subsets of the population. Quota sampling is an example of which sampling method described in this module?</item>
 </list></problem>
 <!-- <solution id="eip-idp38427792">
@@ -1505,14 +1560,14 @@ since 1971, the year the microprocessor was invented). It was reported that 48% 
 <para id="fs-idm44919952">Which of the potential problems with samples discussed in <link document="m46885"/> could explain this connection?</para></problem>
 
 <solution id="eip-181">
-<para id="eip-idp73746752">Causality: The fact that two variables are related does not guarantee that one variable is influencing the other. We cannot assume that crime rate impacts education level or that education level impacts crime rate.</para>
+<para id="eip-idp73746752">Causality: The fact that two variables are related does not guarantee that one variable is influencing the other. We cannot assume that crime rate impacts education level or that education level impacts crime rate.</para> 
 <para id="eip-idp50769808">Confounding: There are many factors that define a community other than education level and crime rate. Communities with high crime rates and high education levels may have other lurking variables that distinguish them from communities with lower crime rates and lower education levels. Because we cannot isolate these variables of interest, we cannot draw valid conclusions about the connection between education and crime. Possible lurking variables include police expenditures, unemployment levels, region, average age, and size.</para>
 </solution>
 </exercise>
 
 <exercise id="eip-24"><problem id="fs-idp10102080">
 <para id="fs-idm77935104">YouPolls is a website that allows anyone to create and respond to polls. One question posted April 15 asks:</para>
-<para id="fs-idm41430384">“Do you feel happy paying your taxes when members of the Obama administration are allowed to ignore their tax liabilities?” (lastbaldeagle. 2013. On Tax Day, House to Call for Firing Federal Workers Who Owe Back Taxes. Opinion poll posted online at: http://www.youpolls.com/details.aspx?id=12328 (accessed May 1, 2013).)</para><para id="fs-idm10988640">As of April 25, 11 people responded to this question. Each participant answered “NO!”</para>
+<para id="fs-idm41430384">“Do you feel happy paying your taxes when members of the Obama administration are allowed to ignore their tax liabilities?”<footnote id="eip-idm5954688">lastbaldeagle. 2013. On Tax Day, House to Call for Firing Federal Workers Who Owe Back Taxes. Opinion poll posted online at: http://www.youpolls.com/details.aspx?id=12328 (accessed May 1, 2013).</footnote></para><para id="fs-idm10988640">As of April 25, 11 people responded to this question. Each participant answered “NO!”</para>
 <para id="fs-idm22120944">Which of the potential problems with samples discussed in this module could explain this connection?</para>
 </problem>
 
@@ -1526,8 +1581,8 @@ Sample Size Issues: A sample with only 11 participants will not accurately repre
 Self-Funded or Self-Interest Studies: This question was generated to support one person&#8217;s claim and it was designed to get the answer that the person desires.</para>
 </solution> --></exercise><exercise id="eip-943"><problem id="fs-idm41963920">
 <para id="fs-idm43006256">A scholarly article about response rates begins with the following quote:</para>
-<para id="fs-idm55106640">“Declining contact and cooperation rates in random digit dial (RDD) national telephone surveys raise serious concerns about the validity of estimates drawn from such research.”(Scott Keeter et al., “Gauging the Impact of Growing Nonresponse on Estimates from a National RDD Telephone Survey,” Public Opinion Quarterly 70 no. 5 (2006), <link url="http://poq.oxfordjournals.org/content/70/5/759.full">http://poq.oxfordjournals.org/content/70/5/759.full</link> (accessed May 1, 2013).)</para><para id="fs-idp10023008">The Pew Research Center for People and the Press admits:</para>
-<para id="fs-idm44343696">“The percentage of people we interview – out of all we try to interview – has been declining over the past decade or more.” (Frequently Asked Questions, Pew Research Center for the People &amp; the Press, http://www.people-press.org/methodology/frequently-asked-questions/#dont-you-have-trouble-getting-people-to-answer-your-polls (accessed May 1, 2013).)</para><list id="fs-idm70068752a" list-type="enumerated" number-style="lower-alpha"><item>What are some reasons for the decline in response rate over the past decade?</item>
+<para id="fs-idm55106640">“Declining contact and cooperation rates in random digit dial (RDD) national telephone surveys raise serious concerns about the validity of estimates drawn from such research.”<footnote id="eip-idp36784640">Scott Keeter et al., “Gauging the Impact of Growing Nonresponse on Estimates from a National RDD Telephone Survey,” Public Opinion Quarterly 70 no. 5 (2006), <link url="http://poq.oxfordjournals.org/content/70/5/759.full">http://poq.oxfordjournals.org/content/70/5/759.full</link> (accessed May 1, 2013).</footnote></para><para id="fs-idp10023008">The Pew Research Center for People and the Press admits:</para>
+<para id="fs-idm44343696">“The percentage of people we interview – out of all we try to interview – has been declining over the past decade or more.”<footnote id="eip-idm45423968">Frequently Asked Questions, Pew Research Center for the People &amp; the Press, http://www.people-press.org/methodology/frequently-asked-questions/#dont-you-have-trouble-getting-people-to-answer-your-polls (accessed May 1, 2013).</footnote></para><list id="fs-idm70068752a" list-type="enumerated" number-style="lower-alpha"><item>What are some reasons for the decline in response rate over the past decade?</item>
 <item>Explain why researchers are concerned with the impact of the declining response rate on public opinion polls.</item>
 </list></problem>
 
@@ -1611,7 +1666,7 @@ copies are printed, and more students nationwide are selling back their used cop
 <para id="eip-idm272544">He could improve this study by:</para><list id="eip-id1169691864822"><item>expanding the selection of subjects he investigates so that it is more representative of all subjects studied by college students, and</item>
 <item>expanding the selection of textbooks he investigates within each subject to include a
 mixed representation of both the most popular and less popular textbooks.</item>
-</list></solution></exercise></section> </content>
+</list></solution></exercise></section></content>
 
 <glossary>
 <definition id="fs-idp32623728">

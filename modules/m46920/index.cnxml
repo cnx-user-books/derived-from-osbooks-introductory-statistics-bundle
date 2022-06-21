@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="eip-idp953206882"><term id="term-00001">Box plots</term> (also called <term id="term-00002">box-and-whisker plots</term> or <term id="term-00003">box-whisker plots</term>) give a good graphical image of the concentration of the data. They also show how far the extreme values are from most of the data. A box plot is constructed from five values: the minimum value, the first quartile, the median, the third quartile, and the maximum value. We use these values to compare how close other data values are to them.</para><para id="element-175">To construct a box plot, use a horizontal or vertical number line and a rectangular box. The smallest and largest data values label the endpoints of the axis. The first quartile marks one end of the box and the third quartile marks the other end of the box. Approximately <emphasis>the middle 50 percent of the data fall inside the box.</emphasis> The "whiskers" extend from the ends of the box to the smallest and largest data values. The median or second quartile can be between the first and third quartiles, or it can be one, or the other, or both. The box plot gives a good, quick picture of the data.</para>
+<para id="delete_me"><term>Box plots</term> (also called <term>box-and-whisker plots</term> or <term>box-whisker plots</term>) give a good graphical image of the concentration of the data. They also show how far the extreme values are from most of the data. A box plot is constructed from five values: the minimum value, the first quartile, the median, the third quartile, and the maximum value. We use these values to compare how close other data values are to them.</para><para id="element-175">To construct a box plot, use a horizontal or vertical number line and a rectangular box. The smallest and largest data values label the endpoints of the axis. The first quartile marks one end of the box and the third quartile marks the other end of the box. Approximately <emphasis>the middle 50 percent of the data fall inside the box.</emphasis> The "whiskers" extend from the ends of the box to the smallest and largest data values. The median or second quartile can be between the first and third quartiles, or it can be one, or the other, or both. The box plot gives a good, quick picture of the data.</para>
 
 <note id="eip-724">
 <label/><title>NOTE</title>
@@ -124,7 +124,7 @@
 <exercise id="fs-idp52595328"><problem id="fs-idm27882400">
 <para id="fs-idp69268960">The following data are the number of pages in 40 books on a shelf.  Construct a box plot using a graphing calculator, and state the interquartile range.</para>
 <para id="fs-idm41586448">
-<list list-type="labeled-item" display="inline" id="list-00001">
+<list list-type="labeled-item" display="inline">
 <item>136</item>
 <item>140</item>
 <item>178</item>
@@ -167,6 +167,13 @@
 <item>512</item>
 </list></para>
 </problem>
+<solution id="fs-idp22044528">
+<label/>
+<figure id="fs-idm17008240"><media id="fs-idp24844528" alt="" display="block">
+<image src="../../media/CNX_Stats_C02_M05_tryit001.png" mime-type="image/png" width="550"/>
+</media>
+</figure><para id="fs-idp29581536"><emphasis effect="italics">IQR</emphasis> = 158</para>
+</solution>
 </exercise></note>
 
 <para id="element-155">For some sets of data, some of the largest value, smallest value, first quartile, median, and third quartile may be the same. For instance, you might have a data set in which the median and the third quartile are the same. In this case, the diagram would not have a dotted line inside the box displaying the median. The right side of the box would display both the third quartile and the median. For example, if the smallest value and the first quartile were both one, the median and the third quartile were both five, and the largest value was seven, the box plot would look like:</para>
@@ -266,20 +273,30 @@
 <item>The first data set has the wider spread for the middle 50% of the data. The <emphasis effect="italics">IQR</emphasis> for the first data set is greater than the <emphasis effect="italics">IQR</emphasis> for the second set. This means that there is more variability in the middle 50% of the first data set.</item>
 </list></solution></exercise></example>
 
-<note id="fs-idp63834272" class="statistics try "><label/><title>Try It</title>
+<note id="fs-idp63834272" class="statistics try finger"><label/><title>Try It</title>
 <exercise id="fs-idm19314304">
 <problem id="fs-idm1151200">
 <para id="fs-idp29298016">The following data set shows the heights in inches for the boys in a class of 40 students.</para><para id="fs-idm35019456">66; 66; 67; 67; 68; 68; 68; 68; 68; 69; 69; 69; 70; 71; 72; 72; 72; 73; 73; 74
 <newline/>The following data set shows the heights in inches for the girls in a class of 40 students.
 <newline/>61; 61; 62; 62; 63; 63; 63; 65; 65; 65; 66; 66; 66; 67; 68; 68; 68; 69; 69; 69
 <newline/>Construct a box plot using a graphing calculator for each data set, and state which box plot has the wider spread for the middle 50% of the data.</para></problem>
+
+<solution id="fs-idm27227056">
+<label/>
+<figure id="fs-idm27585392"><media id="fs-idp8262608" alt="">
+<image src="../../media/CNX_Stats_C02_M05_tryit002.png" mime-type="image/png" width="450"/>
+</media>
+</figure><para id="fs-idm40065088"><emphasis effect="italics">IQR</emphasis> for the boys = 4</para>
+<para id="fs-idp27578208"><emphasis effect="italics">IQR</emphasis> for the girls = 5</para>
+<para id="fs-idm14240336">The box plot for the heights of the girls has the wider spread for the middle 50% of the data.</para>
+</solution>
 </exercise></note>
 
 
 <example id="fs-idm38612912">
 <para id="fs-idm15332992">Graph a box-and-whisker plot for the data values shown.</para>
 <para id="fs-idp63131872">
-<list list-type="labeled-item" display="inline" id="list-00002">
+<list list-type="labeled-item" display="inline">
 <item>10</item><item>10</item><item>10</item><item>15</item><item>35</item><item>75</item><item>90</item><item>95</item><item>100</item><item>175</item><item>420</item><item>490</item><item>515</item><item>515</item><item>790</item>
 </list>
 </para>
@@ -291,7 +308,7 @@
 <item><emphasis effect="italics">Q</emphasis><sub>3</sub>: 490</item>
 <item>Max: 790</item>
 </list>
-<para id="fs-idp68810672">The following graph shows the box-and-whisker plot.</para><figure id="fs-idm67197680"><media id="fs-idp52050960" alt="Horizontal boxplot with first whisker extending from smallest value, 10, to Q1, 15, box beginning from Q1 to Q3, 490, median dashed line at Q2, 95, and second whisker extending from Q3 to largest value, 790."><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M05_015.jpg" width="420"/>
+<para id="fs-idp68810672">The following graph shows the box-and-whisker plot.</para><figure id="fs-idm67197680"><media id="fs-idp52050960" alt=""><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M05_015.jpg" width="420"/>
 </media>
 </figure></example>
 
@@ -301,11 +318,24 @@
 <exercise id="eip-idp22858976">
 <problem id="eip-idp22859232">
     <para id="fs-idm36238000">Follow the steps you used to graph a box-and-whisker plot for the data values shown.</para>
-    <para id="fs-idm33689504"><list list-type="labeled-item" display="inline" id="list-00003">
+    <para id="fs-idm33689504"><list list-type="labeled-item" display="inline">
         <item>0</item><item>5</item><item>5</item><item>15</item><item>30</item><item>30</item><item>45</item><item>50</item><item>50</item><item>60</item><item>75</item><item>110</item><item>140</item><item>240</item><item>330</item>
     </list></para>
-
+    
 </problem>
+
+<solution id="eip-idp104865440">
+<para id="eip-idm48384384">The data are in order from least to greatest. There are 15 values, so the eighth number in order is the median: 50. There are seven data values written to the left of the median and 7 values to the right. The five values that are used to create the boxplot are:</para>
+    <list id="listtry" list-type="labeled-item">
+        <item>Min: 0</item>
+        <item><emphasis effect="italics">Q</emphasis><sub>1</sub>: 15</item>
+        <item>Med: 50</item>
+        <item><emphasis effect="italics">Q</emphasis><sub>3</sub>: 110</item>
+        <item>Max: 330</item>
+    </list>
+    <figure id="figtry"><media id="mmdtry" alt=""><image mime-type="image/jpg" src="../../media/CNX_Stats_C02_M04_100.jpg" width="420"/>
+    </media>
+    </figure></solution>
 
 </exercise>
 </note><section id="fs-idp34607616" class="references">
@@ -504,7 +534,7 @@
         </list></solution>
     </exercise>
     </section>
- </content>
+</content>
 
 <glossary>
 <definition id="fs-idp72865536">

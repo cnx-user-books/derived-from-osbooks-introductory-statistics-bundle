@@ -80,12 +80,12 @@
 </tbody>
 </tgroup>
 </table>
-<para id="element-817">The sample mean = 11.65 and the sample standard deviation = 6.08.</para>
-<para id="element-60">We will assume that the smiling times, in seconds, follow a uniform distribution between zero and 23 seconds, inclusive. This means that any smiling time from zero to and including 23 seconds is <term id="term-00001">equally likely</term>. The histogram that could be constructed from the sample is an empirical distribution that closely matches the theoretical uniform distribution.</para><para id="element-804">Let <emphasis effect="italics">X</emphasis> = length, in seconds, of an eight-week-old baby's smile.</para><para id="element-13">The notation for the uniform distribution is</para>
+<para id="element-817">The sample mean = 11.49 and the sample standard deviation = 6.23.</para>
+<para id="element-60">We will assume that the smiling times, in seconds, follow a uniform distribution between zero and 23 seconds, inclusive. This means that any smiling time from zero to and including 23 seconds is <term>equally likely</term>. The histogram that could be constructed from the sample is an empirical distribution that closely matches the theoretical uniform distribution.</para><para id="element-804">Let <emphasis effect="italics">X</emphasis> = length, in seconds, of an eight-week-old baby's smile.</para><para id="element-13">The notation for the uniform distribution is</para>
 
 <para id="element-746"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(<emphasis effect="italics">a</emphasis>, <emphasis effect="italics">b</emphasis>) where <emphasis effect="italics">a</emphasis> = the lowest value of <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">b</emphasis> = the highest value of <emphasis effect="italics">x</emphasis>.</para>
 
-<para id="eip-720">The probability density function is
+<para id="eip-720">The probability density function is  
 <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) =  <m:math>
 <m:mrow>
 <m:mfrac>
@@ -96,7 +96,7 @@
 </m:mfrac>
 
 </m:mrow>
-</m:math> for <emphasis effect="italics">a</emphasis> ≤ <emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">b</emphasis>.</para><para id="element-500">For this example, <emphasis effect="italics">x</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 23) and <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
+</m:math> for <emphasis effect="italics">a</emphasis> ≤ <emphasis effect="italics">x</emphasis> ≤ <emphasis effect="italics">b</emphasis>.</para><para id="element-500">For this example, <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 23) and <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -115,7 +115,7 @@
    </m:mrow>
    <m:mn>2</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> and <m:math>
 <m:mrow>
@@ -180,7 +180,7 @@
 <title>Try It</title>
 <exercise id="fs-idp158465216">
 <problem id="fs-idp127611104">
-<para id="fs-idp116051680">The data that follow record the total weight, to the nearest pound, of fish caught by passengers on 35 different charter fishing boats on one summer day. The sample mean = 7.9 and the sample standard deviation = 4.33. The data follow a uniform distribution where all values between and including zero and 14 are equally likely. State the values of <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>. Write the distribution in proper notation, and calculate the theoretical mean and standard deviation.</para><table id="fs-idp22107440" summary="">
+<para id="fs-idp116051680">The data that follow are the number of passengers on 35 different charter fishing boats. The sample mean = 7.9 and the sample standard deviation = 4.33. The data follow a uniform distribution where all values between and including zero and 14 are equally likely. State the values of <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>. Write the distribution in proper notation, and calculate the theoretical mean and standard deviation.</para><table id="fs-idp22107440" summary="">
 <tgroup cols="7">
 <colspec colnum="1" colname="c1" colwidth="1*"/>
 <colspec colnum="2" colname="c2" colwidth="1*"/>
@@ -239,6 +239,9 @@
 </tgroup>
 </table>
 </problem>
+<solution id="fs-idp4710688">
+<para id="fs-idp111364752"><emphasis effect="italics">a</emphasis> is zero; <emphasis effect="italics">b</emphasis> is 14; <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0, 14); <emphasis effect="italics">μ</emphasis> = 7 passengers; <emphasis effect="italics">σ</emphasis> = 4.04 passengers</para>
+</solution>
 </exercise>
 
 </note>
@@ -248,7 +251,7 @@
 <problem id="id10265850">
 <para id="element-170">a. Refer to <link target-id="element-229"/>. What is the probability that a randomly chosen eight-week-old baby smiles between two and 18 seconds?</para></problem>
 <solution id="id10265871">
-<para id="element-178"><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18) = (base)(height) = (18 – 2)<m:math>
+<para id="element-178"><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18) = (base)(height) = (18 – 2)<m:math display="">
 <m:mrow>
 <m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -261,7 +264,7 @@
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math> = <m:math>
+</m:math> = <m:math display="">
 <m:mrow>
 <m:mrow>
 <m:mrow>
@@ -287,15 +290,15 @@
 <para id="element-483">b. Find the 90<sup>th</sup> percentile for an eight-week-old baby's smiling time.
 </para></problem>
 <solution id="id14797739">
-<para id="element-6">b. Ninety percent of the smiling times fall below the 90<sup>th</sup> percentile, <emphasis effect="italics">k</emphasis>, so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = 0.90.</para><para id="element-180"><m:math>
+<para id="element-6">b. Ninety percent of the smiling times fall below the 90<sup>th</sup> percentile, <emphasis effect="italics">k</emphasis>, so <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; <emphasis effect="italics">k</emphasis>) = 0.90.</para><para id="element-180"><m:math display="block">
 <m:mrow>
 <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>k</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.90</m:mn>
 </m:mrow>
 </m:math></para>
 <para id="element-182">
-<m:math><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(</m:mo><m:mtext>height</m:mtext><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0.90</m:mn></m:math>
+<m:math display="block"><m:mo>(</m:mo><m:mtext>base</m:mtext><m:mo>)</m:mo><m:mo>(</m:mo><m:mtext>height</m:mtext><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0.90</m:mn></m:math>
 </para>
-<para id="element-183"><m:math>
+<para id="element-183"><m:math display="block">
  <m:mrow>
   <m:mtext>(</m:mtext><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>0</m:mn><m:mtext>)</m:mtext><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -305,11 +308,11 @@
       <m:mn>23</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.90</m:mn>
  </m:mrow>
-</m:math></para><para id="element-184"><m:math>
+</m:math></para><para id="element-184"><m:math display="block">
 <m:mrow>
 <m:mi>k</m:mi><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -335,7 +338,7 @@
 <problem id="id9694925">
 <para id="element-503">c. Find the probability that a random eight-week-old baby smiles more than 12 seconds <emphasis>KNOWING</emphasis> that the baby smiles <emphasis>MORE THAN EIGHT SECONDS</emphasis>.</para></problem>
 <solution id="id15390803">
-<para id="fs-idp106518000">c. This probability question is a <emphasis>conditional</emphasis>. You are asked to find the probability that an eight-week-old baby smiles more than 12 seconds when you <emphasis>already know</emphasis> the baby has smiled for more than eight seconds.</para><para id="element-836">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12|<emphasis effect="italics">x</emphasis> > 8) There are two ways to do the problem. <emphasis>For the first way</emphasis>, use the fact that this is a <emphasis>conditional</emphasis> and changes the sample space. The graph illustrates the new sample space. You already know the baby smiled more than eight seconds.</para><para id="element-837"><emphasis>Write a new</emphasis> <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>): <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
+<para id="fs-idp106518000">c. This probability question is a <emphasis>conditional</emphasis>. You are asked to find the probability that an eight-week-old baby smiles more than 12 seconds when you <emphasis>already know</emphasis> the baby has smiled for more than eight seconds.</para><para id="element-836">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 12|<emphasis effect="italics">x</emphasis> &gt; 8) There are two ways to do the problem. <emphasis>For the first way</emphasis>, use the fact that this is a <emphasis>conditional</emphasis> and changes the sample space. The graph illustrates the new sample space. You already know the baby smiled more than eight seconds.</para><para id="element-837"><emphasis>Write a new</emphasis> <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>): <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -344,7 +347,7 @@
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> = <m:math>
+</m:math> = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -354,7 +357,7 @@
 </m:mfrac>
 </m:mrow>
 </m:math>
-for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="element-400"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 12|<emphasis effect="italics">x</emphasis> > 8) = (23 − 12)<m:math>
+for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="element-400"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 12|<emphasis effect="italics">x</emphasis> &gt; 8) = (23 − 12)<m:math display="">
 <m:mrow>
 <m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -367,7 +370,7 @@ for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="eleme
 </m:mrow>
 <m:mo>)</m:mo></m:mrow>
 </m:mrow>
-</m:math> = <m:math>
+</m:math> = <m:math display="">
 <m:mrow>
 <m:mrow>
 <m:mrow>
@@ -398,27 +401,27 @@ for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="eleme
     <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
-</para><para id="fs-idp12091856">For this problem, <emphasis effect="italics">A</emphasis> is (<emphasis effect="italics">x</emphasis> > 12) and <emphasis effect="italics">B</emphasis> is (<emphasis effect="italics">x</emphasis> > 8).</para>
+</para><para id="fs-idp12091856">For this problem, <emphasis effect="italics">A</emphasis> is (<emphasis effect="italics">x</emphasis> &gt; 12) and <emphasis effect="italics">B</emphasis> is (<emphasis effect="italics">x</emphasis> &gt; 8).</para>
 
-<para id="element-613">So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > <emphasis effect="italics">12</emphasis>|<emphasis effect="italics">x</emphasis> > 8) = <m:math>
+<para id="element-613">So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; <emphasis effect="italics">12</emphasis>|<emphasis effect="italics">x</emphasis> &gt; 8) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>12</m:mn><m:mtext> AND </m:mtext><m:mi>x</m:mi><m:mo>></m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>12</m:mn><m:mtext> AND </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
@@ -431,7 +434,7 @@ for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="eleme
       <m:mn>23</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
    <m:mrow>
     <m:mfrac>
@@ -442,7 +445,7 @@ for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="eleme
       <m:mn>23</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
@@ -454,35 +457,30 @@ for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="eleme
      </m:mrow>
     </m:mfrac>
  </m:mrow>
-</m:math></para><para id="element-644"><figure id="eip-idm5414416"><media id="id15928918" alt="This diagram shows a horizontal X axis that intersects a vertical F of x axis at the origin. The X axis runs from 0 to 24 while the Y axis only has the fraction one twenty third located about two thirds of the way to the top. A rectangular box extends horizontally from 0 to 23 on the X axis. The box extends vertically up to the fraction one twenty third on the F of x axis. The area of the box between 8 and 12 on the X axis is lightly shaded. The area of the box between 12 and 23 has darker shading. ">
+</m:math></para><para id="element-644"><figure id="eip-idm5414416"><media id="id15928918" alt="This diagram shows a horizontal X axis that intersects a vertical F of x axis at the origin. The X axis runs from 0 to 24 while the Y axis only has the fraction one twenty third located about two thirds of the way to the top. A rectangular box extends horizontally from 0 to about 23.7 on the X axis. The box extends vertically up to the fraction one twenty third on the F of x axis. The area of the box between 8 and 12 on the X axis is shaded. ">
 <image src="../../media/fig-ch_05_03_04.jpg" mime-type="image/jpg" width="380"/></media>
 
-<caption>Darker shaded area represents P(x > 12). Entire shaded area shows P(x > 8).</caption></figure></para></solution>
+</figure></para></solution>
 </exercise>
 </example>
 <note id="fs-idp61080304" class="statistics try">
 <label/>
-<title>Try It</title>
+<title>Try It</title>  
 <exercise id="fs-idp178484384">
 <problem id="fs-idp81255648">
 <para id="fs-idp10982640">A distribution is given as <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0, 20). What is <emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18)? Find the 90<sup>th</sup> percentile.</para></problem>
+<solution id="fs-idp73604432">
+<para id="fs-idp3862896"><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 18) = 0.8; 90<sup>th</sup> percentile = 18</para>
+</solution>
 </exercise>
 
 </note>
 <example id="element-158">
 <para id="element-697">The amount of time, in minutes, that a person must wait for a bus is uniformly distributed between zero and 15 minutes, inclusive.<newline/></para><exercise id="element-351"><problem id="id12074907">
-<para id="element-447">a. What is the probability that a person waits fewer than 12.5 minutes?</para>
-<para id="element-1323">b. On the average, how long must a person wait? Find the mean, <emphasis effect="italics">μ</emphasis>, and the standard deviation, <emphasis effect="italics">σ</emphasis>.</para>
-
-<para id="element-44">c. Ninety percent of the time, the time a person must wait falls below what value?
-<note id="eip-idm560268464">This asks for the 90<sup>th</sup> percentile.</note></para>
-
-
-
-</problem>
+<para id="element-447">a. What is the probability that a person waits fewer than 12.5 minutes?</para></problem>
 <solution id="id12074926">
 <para id="element-438">a. Let <emphasis effect="italics">X</emphasis> = the number of minutes a person must wait for a bus. <emphasis effect="italics">a</emphasis> = 0 and <emphasis effect="italics">b</emphasis> = 15.
-<emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 15). Write the probability density function. <emphasis effect="italics">f</emphasis> (<emphasis effect="italics">x</emphasis>) = <m:math>
+<emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis>(0, 15). Write the probability density function. <emphasis effect="italics">f</emphasis> (<emphasis effect="italics">x</emphasis>) = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -491,7 +489,7 @@ for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="eleme
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> = <m:math>
+</m:math> = <m:math display="">
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -502,7 +500,7 @@ for 8 &lt; <emphasis effect="italics">x</emphasis> &lt; 23</para><para id="eleme
 </m:mrow>
 </m:math>
 for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="element-577">Find <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> &lt; 12.5). Draw a graph.</para>
-<para id="element-770"><m:math>
+<para id="element-770"><m:math display="block">
 <m:mrow>
 <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>k</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>base</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>height</m:mtext><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>12.5</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
 <m:mrow>
@@ -520,6 +518,11 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 <figure id="eip-idp99340768">
 <media id="id17238530" alt="This shows the graph of the function f(x) = 1/15. A horiztonal line ranges from the point (0, 1/15) to the point (15, 1/15). A vertical line extends from the x-axis to the end of the line at point (15, 1/15) creating a rectangle. A region is shaded inside the rectangle from x = 0 to x = 12.5."><image src="../../media/fig-ch05_03_05N.jpg" mime-type="image/jpg" width="380"/></media>
 </figure>
+</solution>
+</exercise><exercise id="element-786">
+<problem id="id15267471">
+<para id="element-1323">b. On the average, how long must a person wait? Find the mean, <emphasis effect="italics">μ</emphasis>, and the standard deviation, <emphasis effect="italics">σ</emphasis>.</para></problem>
+<solution id="id15267511">
 <para id="element-275">b. <emphasis effect="italics">μ</emphasis> = <m:math>
 <m:mrow>
 <m:mfrac>
@@ -553,7 +556,14 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 <m:mrow><m:mo>(</m:mo><m:mi>15</m:mi><m:mo>-</m:mo><m:mi>0</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
 <m:mrow><m:mn>12</m:mn></m:mrow></m:mfrac></m:msqrt>
 </m:math> = 4.3. The Standard deviation is 4.3 minutes.
-<newline/></para>
+<newline/></para></solution>
+</exercise>
+<exercise id="element-375">
+<problem id="id14859813">
+<para id="element-44">c. Ninety percent of the time, the time a person must wait falls below what value?
+<note id="id15337317" type="Note"><label>Note</label>This asks for the 90<sup>th</sup> percentile.</note>
+</para></problem>
+<solution id="id15337330">
 <para id="element-12">c. Find the 90<sup>th</sup> percentile. Draw a graph. Let <emphasis effect="italics">k</emphasis> = the 90<sup>th</sup> percentile.
 <newline/>
 <newline/><m:math>
@@ -598,7 +608,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 <newline/>
 <newline/>The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a person must wait at most 13.5 minutes.</para><para id="element-545"><figure id="eip-idp75195312">
 <media id="id16334803" alt="f(X)=1/15 graph displaying a boxed region consisting of a horizontal line extending to the right from point 1/15 on the y-axis, a vertical upward line from an arbitrary point on the x-axis, and the x and y-axes. A shaded region from points 0-k occurs within this area. The area of this probability region is equal to 0.90.">
-<image src="../../media/fig-ch05_03_06N-c948.jpg" mime-type="image/jpg" width="380"/></media>
+<image src="../../media/fig-ch05_03_06N.jpg" mime-type="image/jpg" width="380"/></media>
 </figure></para></solution>
 </exercise>
 </example>
@@ -615,74 +625,82 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 <item>What is the probability that the duration of games for a team for the 2011 season is between 480 and 500 hours?</item>
 <item>What is the 65<sup>th</sup> percentile for the duration of games for a team for the 2011 season?</item>
 </list></problem>
+<solution id="fs-idp125050112">
+<list id="fs-idp163324768" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">a</emphasis> is 447, and <emphasis effect="italics">b</emphasis> is 521. <emphasis effect="italics">a</emphasis> is the minimum duration of games for a team for the 2011 season, and <emphasis effect="italics">b</emphasis> is the maximum duration of games for a team for the 2011 season.</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (447, 521).</item>
+<item><emphasis effect="italics">μ</emphasis> = 484, and <emphasis effect="italics">σ</emphasis> = 21.36
+<figure id="fs-idp182055760"><media id="fs-idp130444336" alt="">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C05_M03_tryit001annoN.jpg" width="380"/>
+</media>
+</figure></item>
+<item><emphasis effect="italics">P</emphasis>(480 &lt; <emphasis effect="italics">x</emphasis> &lt; 500) = 0.2703</item>
+<item>65<sup>th</sup> percentile is 495.1 hours.</item>
+</list></solution>
 </exercise>
 
 </note>
-<example id="element-321"><para id="element-637">Suppose the time it takes a nine-year old to eat a donut is between 0.5 and 4 minutes, inclusive. Let <emphasis effect="italics">X</emphasis> = the time, in minutes, it takes a nine-year old child to eat a donut. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0.5, 4).</para>
-  
-<exercise id="eip-idp102263568"><label/>
+<example id="element-321"><para id="element-637">Suppose the time it takes a nine-year old to eat a donut is between 0.5 and 4 minutes, inclusive. Let <emphasis effect="italics">X</emphasis> = the time, in minutes, it takes a nine-year old child to eat a donut. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0.5, 4).<newline/></para><exercise id="eip-idp102263568"><label/>
 <problem id="eip-idp95256048">
 <label/>
-<para id="eip-idp95256304">a. The probability that a randomly selected nine-year old child eats a donut in at least two minutes is _______.</para>
-
-<para id="element-546">b. Find the probability that a different nine-year old child eats a donut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes.</para><para id="element-938">The second question has a <term id="term-00002">conditional probability</term>. You are asked to find the probability that a nine-year old child eats a donut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes. Solve the problem two different ways (see <link target-id="example-170"/>). You must reduce the sample space. <emphasis>First way</emphasis>: Since you know the child has already been eating the donut for more than 1.5 minutes, you are no longer starting at <emphasis effect="italics">a</emphasis> = 0.5 minutes. Your starting point is 1.5 minutes.</para><para id="element-69"><emphasis>Write a new <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>):</emphasis></para><para id="element-269"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
-  <m:mrow>
-  <m:mfrac>
-  <m:mn>1</m:mn>
-  <m:mrow>
-  <m:mn>4</m:mn><m:mo>−</m:mo><m:mn>1.5</m:mn>
-  </m:mrow>
-  </m:mfrac>
-  </m:mrow>
-  </m:math> = <m:math>
-  <m:mrow>
-  <m:mfrac>
-  <m:mn>2</m:mn>
-  <m:mn>5</m:mn>
-  </m:mfrac>
-  </m:mrow>
-  </m:math> for 1.5 ≤ <emphasis effect="italics">x</emphasis> ≤ 4.</para><para id="eip-idm60988032">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2|<emphasis effect="italics">x</emphasis> > 1.5). Draw a graph.</para><para id="eip-idp116156944"><figure id="eip-idp101580400">
-  <media id="id13790135" alt="f(X)=2/5 graph displaying a boxed region consisting of a horizontal line extending to the right from point 2/5 on the y-axis, a vertical upward line from points 1.5 and 4 on the x-axis, and the x-axis. A shaded region from points 2-4 occurs within this area.">
-  <image src="../../media/fig-ch05_03_07N.jpg" mime-type="image/jpg" width="380"/>
-  </media>
-  </figure></para><para id="eip-idm48182144"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > <emphasis effect="italics">2</emphasis>|<emphasis effect="italics">x</emphasis> > 1.5) = (base)(new height) = (4 − 2)<m:math>
-   <m:mrow>
-    <m:mrow><m:mo>(</m:mo>
-     <m:mrow>
-      <m:mfrac>
-       <m:mn>2</m:mn>
-       <m:mn>5</m:mn>
-      </m:mfrac>
-  
-     </m:mrow>
-    <m:mo>)</m:mo></m:mrow>
-   </m:mrow>
-  <m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math></para>
-</problem>
+<para id="eip-idp95256304">a. The probability that a randomly selected nine-year old child eats a donut in at least two minutes is _______.</para></problem>
 <solution id="eip-idp95256944">
-<para id="eip-idp95257200">a. 0.5714</para>
+<para id="eip-idp95257200">a. 0.5714<newline/></para></solution>
+</exercise><exercise id="eip-idp95257840">
+<problem id="eip-idp95258096">
+<para id="element-546">b. Find the probability that a different nine-year old child eats a donut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes.</para><para id="element-938">The second question has a <term>conditional probability</term>. You are asked to find the probability that a nine-year old child eats a donut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes. Solve the problem two different ways (see <link target-id="element-156"/>). You must reduce the sample space. <emphasis>First way</emphasis>: Since you know the child has already been eating the donut for more than 1.5 minutes, you are no longer starting at <emphasis effect="italics">a</emphasis> = 0.5 minutes. Your starting point is 1.5 minutes.</para><para id="element-69"><emphasis>Write a new <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>):</emphasis></para><para id="element-269"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>1</m:mn>
+<m:mrow>
+<m:mn>4</m:mn><m:mo>−</m:mo><m:mn>1.5</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:math> = <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mn>2</m:mn>
+<m:mn>5</m:mn>
+</m:mfrac>
+</m:mrow>
+</m:math> for 1.5 ≤ <emphasis effect="italics">x</emphasis> ≤ 4.</para><para id="eip-idm60988032">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2|<emphasis effect="italics">x</emphasis> &gt; 1.5). Draw a graph.</para><para id="eip-idp116156944"><figure id="eip-idp101580400">
+<media id="id13790135" alt="f(X)=2/5 graph displaying a boxed region consisting of a horizontal line extending to the right from point 2/5 on the y-axis, a vertical upward line from points 1.5 and 4 on the x-axis, and the x-axis. A shaded region from points 2-4 occurs within this area.">
+<image src="../../media/fig-ch05_03_07N.jpg" mime-type="image/jpg" width="380"/>
+</media>
+</figure></para><para id="eip-idm48182144"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; <emphasis effect="italics">2</emphasis>|<emphasis effect="italics">x</emphasis> &gt; 1.5) = (base)(new height) = (4 − 2)<m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>2</m:mn>
+     <m:mn>5</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+<m:mo>=</m:mo><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math></para></problem>
+<solution id="eip-idp15119952">
 <para id="eip-idp15120208">b. <m:math><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math>
-</para>
-</solution>
+</para></solution>
 </exercise>
-
 <para id="eip-idm70960944">The probability that a nine-year old child eats a donut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes is <m:math><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:math>.</para>
-<para id="eip-idm39713200"><emphasis>Second way:</emphasis> Draw the original graph for <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0.5, 4). Use the conditional formula</para><para id="eip-idm39711312"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2|<emphasis effect="italics">x</emphasis> > 1.5) = <m:math>
+<para id="eip-idm39713200"><emphasis>Second way:</emphasis> Draw the original graph for <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (0.5, 4). Use the conditional formula</para><para id="eip-idm39711312"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2|<emphasis effect="italics">x</emphasis> &gt; 1.5) = <m:math>
  <m:mrow>
   <m:mo> </m:mo><m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn><m:mtext> AND </m:mtext><m:mi>x</m:mi><m:mo>></m:mo><m:mn>1.5</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mtext> AND </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1.5</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mtext>1</m:mtext><m:mtext>.5</m:mtext><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mtext>1</m:mtext><m:mtext>.5</m:mtext><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>1.5</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1.5</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
@@ -693,7 +711,7 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
       <m:mn>3.5</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
    <m:mrow>
     <m:mfrac>
@@ -704,35 +722,37 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
       <m:mn>3.5</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mtext>0</m:mtext><m:mtext>.8</m:mtext><m:mo>=</m:mo><m:mfrac>
    <m:mn>4</m:mn>
    <m:mn>5</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
-</m:math></para>
-</example>
-
-<note id="fs-idp42235264" class="statistics try">
+</m:math></para></example><note id="fs-idp42235264" class="statistics try">
 <label/>
-<title>Try It</title>
+<title>Try It</title> 
 
 <exercise id="fs-idp177663840">
 <problem id="fs-idp7455808">
 <para id="fs-idp125513712">Suppose the time it takes a student to finish a quiz is uniformly distributed between six and 15 minutes, inclusive. Let <emphasis effect="italics">X</emphasis> = the time, in minutes, it takes a student to finish a quiz. Then <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (6, 15).</para><para id="fs-idp133097024">Find the probability that a randomly selected student needs at least eight minutes to complete the quiz. Then find the probability that a different student needs at least eight minutes to finish the quiz given that she has already taken more than seven minutes.</para></problem>
+<solution id="fs-idp15790000">
+<para id="fs-idp80578768"><emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> &gt; 8) = 0.7778</para>
+<para id="fs-idp63181504"><emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> &gt; 8 | x &gt; 7) = 0.875</para>
+</solution>
 </exercise>
 </note>
 <example id="eip-323"><para id="eip-id1170213489898">Ace Heating and Air Conditioning Service finds that the amount of time a repairman needs to fix a furnace is uniformly distributed between 1.5 and four hours. Let <emphasis effect="italics">x</emphasis> = the time needed to fix a furnace. Then <emphasis effect="italics">x</emphasis> ~ <emphasis effect="italics">U</emphasis> (1.5, 4).</para>
-<exercise id="eip-idm8252240">
+<exercise id="eip-idm8252240"><label/>
 <problem id="eip-idp126490560">
+<label/>
 <list id="eip-id1170199222063" list-type="enumerated" number-style="lower-alpha">
 <item>Find the probability that a randomly selected furnace repair requires more than two hours.</item>
 <item>Find the probability that a randomly selected furnace repair requires less than three hours.</item>
 <item>Find the 30<sup>th</sup> percentile of furnace repair times.</item>
-<item>The longest 25% of furnace repair times take at least how long? (In other words: find the minimum time for the longest 25% of repair times.) What percentile does this represent?</item>
+<item>The longest 25% of furnace repair times take at least how long? (In other words: find the minimum time for the longest 25% of repair times.) What percentile does this represent?</item> 
 <item>Find the mean and standard deviation</item>
 </list>
 </problem>
@@ -755,21 +775,25 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 </m:mrow>
 </m:mfrac>
 </m:mrow>
-</m:math> so <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0.4</para><para id="fs-idm19787408"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 2) = (base)(height) = (4 – 2)(0.4) = 0.8</para>
+</m:math> so <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0.4</para><para id="fs-idm19787408"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 2) = (base)(height) = (4 – 2)(0.4) = 0.8</para>
 <figure id="fs-idp54235200">
-<media id="fs-idm38845872" alt="This shows the graph of the function f(x) = 0.4. A horizontal line ranges from the point (1.5, 0.4) to the point (4, 0.4). Vertical lines extend from the x-axis to the graph at x = 1.5 and x = 4 creating a rectangle. A region is shaded inside the rectangle from x = 2 to x = 4.">
+<media id="fs-idm38845872" alt="This shows the graph of the function f(x) = 0.4. A horiztonal line ranges from the point (1.5, 0.4) to the point (4, 0.4). Vertical lines extend from the x-axis to the graph at x = 1.5 and x = 4 creating a rectangle. A region is shaded inside the rectangle from x = 2 to x = 4.">
 <image src="../../media/fig-ch05_03_08N.jpg" mime-type="image/jpeg" width="380"/>
 </media>
 <caption>Uniform Distribution between 1.5 and four with shaded area between two and four representing the probability that the repair time <emphasis effect="italics">x</emphasis> is greater than two</caption>
 </figure>
+</solution>
+<solution id="eip-idm39955136">
 <para id="fs-idp16376400">b. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) = (base)(height) = (3 – 1.5)(0.4) = 0.6</para><para id="fs-idm70722128">The graph of the rectangle showing the entire distribution would remain the same. However the graph should be shaded between <emphasis effect="italics">x</emphasis> = 1.5 and <emphasis effect="italics">x</emphasis> = 3. Note that the shaded area starts at <emphasis effect="italics">x</emphasis> = 1.5 rather than at <emphasis effect="italics">x</emphasis> = 0; since <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (1.5, 4), <emphasis effect="italics">x</emphasis> can not be less than 1.5.</para>
 <figure id="fs-idm70679104">
-<media id="fs-idm6304128" alt="This shows the graph of the function f(x) = 0.4. A horizontal line ranges from the point (1.5, 0.4) to the point (4, 0.4). Vertical lines extend from the x-axis to the graph at x = 1.5 and x = 4 creating a rectangle. A region is shaded inside the rectangle from x = 1.5 to x = 3.">
+<media id="fs-idm6304128" alt="This shows the graph of the function f(x) = 0.4. A horiztonal line ranges from the point (1.5, 0.4) to the point (4, 0.4). Vertical lines extend from the x-axis to the graph at x = 1.5 and x = 4 creating a rectangle. A region is shaded inside the rectangle from x = 1.5 to x = 3.">
 <image src="../../media/fig-ch05_03_09N.jpg" mime-type="image/jpeg" width="380"/>
 </media>
 <caption>Uniform Distribution between 1.5 and four with shaded area between 1.5  and three representing the probability that the repair time <emphasis effect="italics">x</emphasis> is less than three</caption>
 </figure>
-<para id="fs-idp138350704">c. <figure id="figure-03"><media id="fs-idp23900752" alt="This shows the graph of the function f(x) = 0.4. A horizontal line ranges from the point (1.5, 0.4) to the point (4, 0.4). Vertical lines extend from the x-axis to the graph at x = 1.5 and x = 4 creating a rectangle. A region is shaded inside the rectangle from x = 1.5 to x = k. The shaded area represents P(x &lt; k) = 0.3.">
+</solution>
+<solution id="eip-idm19525808">
+<para id="fs-idp138350704">c. <figure id="figure-03"><media id="fs-idp23900752" alt="This shows the graph of the function f(x) = 0.4. A horiztonal line ranges from the point (1.5, 0.4) to the point (4, 0.4). Vertical lines extend from the x-axis to the graph at x = 1.5 and x = 4 creating a rectangle. A region is shaded inside the rectangle from x = 1.5 to x = k. The shaded area represents P(x &lt; k) = 0.3.">
 <image src="../../media/fig-ch05_03_10N.jpg" mime-type="image/jpeg" width="380"/>
 </media>
 
@@ -779,20 +803,24 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 <newline/><emphasis>0.3 = (<emphasis effect="italics">k</emphasis> – 1.5) (0.4)</emphasis>; Solve to find <emphasis effect="italics">k</emphasis>:
 <newline/>0.75 = <emphasis effect="italics">k</emphasis> – 1.5, obtained by dividing both sides by 0.4
 <newline/><emphasis><emphasis effect="italics">k</emphasis> = 2.25 </emphasis>, obtained by adding 1.5 to both sides
-<newline/>The 30<sup>th</sup> percentile of repair times is 2.25 hours. 30% of repair times are 2.25 hours or less.</para>
-<para id="fs-idm25221984">d. <figure id="fs-idm51742384"><media id="fs-idp77501376" alt="This shows the graph of the function f(x) = 0.4, the pdf for a uniform distribution. A horizontal line ranges from the point (1.5, 0.4) to the point (4, 0.4). Vertical lines extend from the x-axis to the graph at x = 1.5 and x = 4 creating a rectangle. A region is shaded inside the rectangle from x = k for 1.5 &lt; k &lt; 4 to x = 4. Text notes that the shaded area represents P(x > k) = 0.25.">
+<newline/>The 30<sup>th</sup> percentile of repair times is 2.25 hours. 30% of repair times are 2.5 hours or less.</para>
+</solution>
+
+<solution id="eip-idp7633120">
+<para id="fs-idm25221984">d. <figure id="fs-idm51742384"><media id="fs-idp77501376" alt="">
 <image src="../../media/fig-ch05_03_11N.jpg" mime-type="image/jpeg" width="380"/>
 </media>
-<caption>Uniform Distribution between 1.5 and 4 with an area of 0.25 shaded to the right representing the longest 25% of repair times.</caption></figure></para><para id="fs-idp80199408"><newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > <emphasis effect="italics">k</emphasis>) = 0.25
+<caption>Uniform Distribution between 1.5 and 4 with an area of 0.25 shaded to the right representing the longest 25% of repair times.</caption></figure></para><para id="fs-idp80199408"><newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; <emphasis effect="italics">k</emphasis>) = 0.25
 <newline/>
-<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > <emphasis effect="italics">k</emphasis>) = (base)(height) = (4 – <emphasis effect="italics">k</emphasis>)(0.4)
+<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; <emphasis effect="italics">k</emphasis>) = (base)(height) = (4 – <emphasis effect="italics">k</emphasis>)(0.4)
 <newline/><emphasis>0.25 = (4 – <emphasis effect="italics">k</emphasis>)(0.4)</emphasis>; Solve for <emphasis effect="italics">k</emphasis>:
 <newline/>0.625 = 4 − <emphasis effect="italics">k</emphasis>,
 <newline/>obtained by dividing both sides by 0.4
 <newline/>−3.375 = −<emphasis effect="italics">k</emphasis>,
 <newline/>obtained by subtracting four from both sides: <emphasis><emphasis effect="italics">k</emphasis> = 3.375</emphasis>
 <newline/>The longest 25% of furnace repairs take at least 3.375 hours (3.375 hours or longer).
-<newline/><emphasis>Note:</emphasis> Since 25% of repair times are 3.375 hours or longer, that means that 75% of repair times are 3.375 hours or less.  3.375 hours is the <emphasis>75<sup>th</sup> percentile</emphasis> of furnace repair times.</para>
+<newline/><emphasis>Note:</emphasis> Since 25% of repair times are 3.375 hours or longer, that means that 75% of repair times are 3.375 hours or less.  3.375 hours is the <emphasis>75<sup>th</sup> percentile</emphasis> of furnace repair times.</para></solution>
+<solution id="eip-idm5972976">
 <para id="fs-idp136143312">e. <m:math>
 <m:mrow>
 <m:mi>μ</m:mi><m:mo>=</m:mo><m:mfrac>
@@ -823,14 +851,12 @@ for 0 ≤ <emphasis effect="italics">x</emphasis> ≤ 15.</para><para id="elemen
 </m:msqrt>
 </m:mrow>
 </m:math>
-<newline/><m:math>
-<m:mrow><m:mi>μ</m:mi>
-<m:mo>=</m:mo>
+<newline/><m:math><m:reln><m:eq/>
+<m:reln><m:eq/>
+<m:mrow><m:mi>μ</m:mi></m:mrow>
 <m:mrow><m:mfrac><m:mrow><m:mn>1.5</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow>
-<m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow>
-<m:mo>=</m:mo>
-<m:mrow><m:mn>2.75</m:mn></m:mrow>
-</m:mrow>
+<m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:reln>
+<m:mrow><m:mn>2.75</m:mn></m:mrow></m:reln>
 </m:math>
 hours and <m:math>
  <m:mrow>
@@ -844,20 +870,21 @@ hours and <m:math>
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
+      
      </m:mrow>
      <m:mrow>
       <m:mn>12</m:mn>
      </m:mrow>
-   </m:mfrac>
+    </m:mfrac>
+    
    </m:mrow>
   </m:msqrt>
   <m:mo>=</m:mo><m:mn>0.7217</m:mn>
  </m:mrow>
 </m:math> hours</para>
 </solution>
-</exercise></example>
 
-<note id="fs-idm9097392" class="statistics try">
+</exercise></example><note id="fs-idm9097392" class="statistics try">
 <label/>
 <title>Try It</title>
 <exercise id="fs-idp8673008">
@@ -867,10 +894,22 @@ hours and <m:math>
 <item>Write the random variable <emphasis effect="italics">X</emphasis> in words. <emphasis effect="italics">X</emphasis> = __________________.</item>
 <item>Write the distribution.</item>
 <item>Graph the distribution.</item>
-<item>Find <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> > 19).</item>
+<item>Find <emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> &gt; 19).</item> 
 <item>Find the 50<sup>th</sup> percentile.</item>
-</list>
+</list>  
 </problem>
+<solution id="fs-idp4722000">
+<list id="fs-idp46870784" list-type="enumerated" number-style="lower-alpha">  
+<item>Let <emphasis effect="italics">X</emphasis> = the time needed to change the oil in a car.</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (11, 21).</item>
+<item><figure id="fs-idp85375984"><media id="fs-idp31601520" alt="This graph shows a uniform distribution. The horizontal axis ranges from 405 to 525. The distribution is modeled by a rectangle extending from x = 447 to x = 521.">
+<image mime-type="image/jpg" src="../../media/CNX_Stats_C05_M03_tryit001annoN.jpg" width="380"/>
+</media>
+</figure></item>
+<item><emphasis effect="italics">P</emphasis> (<emphasis effect="italics">x</emphasis> &gt; 19) = 0.2</item>
+<item>the 50<sup>th</sup> percentile is 16 minutes.</item>
+</list>
+</solution>
 </exercise>
 </note>
 <section id="fs-idp87344528" class="summary">
@@ -935,7 +974,7 @@ hours and <m:math>
 <para id="fs-idm34434992">The probability <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">c</emphasis> &lt; <emphasis effect="italics">X</emphasis> &lt; <emphasis effect="italics">d</emphasis>) may be found by computing the area under <emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>), between <emphasis effect="italics">c</emphasis> and <emphasis effect="italics">d</emphasis>. Since the corresponding area is a rectangle, the area may be found simply by multiplying the width and the height.</para></section>
 <section id="fs-idp29641328" class="formula-review">
 <title>Formula Review</title>
-<para id="element-4292"><emphasis effect="italics">X</emphasis> = a real number between <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> (in some instances, <emphasis effect="italics">X</emphasis> can take on the values <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>). <emphasis effect="italics">a</emphasis> = smallest <emphasis effect="italics">X</emphasis>; <emphasis effect="italics">b</emphasis> = largest <emphasis effect="italics">X</emphasis> </para><para id="element-912"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (a, b)</para>
+<para id="delete_me"><emphasis effect="italics">X</emphasis> = a real number between <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis> (in some instances, <emphasis effect="italics">X</emphasis> can take on the values <emphasis effect="italics">a</emphasis> and <emphasis effect="italics">b</emphasis>). <emphasis effect="italics">a</emphasis> = smallest <emphasis effect="italics">X</emphasis>; <emphasis effect="italics">b</emphasis> = largest <emphasis effect="italics">X</emphasis> </para><para id="element-912"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">U</emphasis> (a, b)</para>
 
 <para id="element-429">The mean is <m:math>
 <m:mrow>
@@ -960,16 +999,16 @@ hours and <m:math>
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
      <m:mrow>
       <m:mn>12</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
 </m:math></para><para id="element-104"><emphasis>Probability density function:</emphasis>
 <m:math>
@@ -997,11 +1036,11 @@ hours and <m:math>
       <m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
-</m:math></para><para id="element-84"><emphasis>Area to the Right of <emphasis effect="italics">x</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > <emphasis effect="italics">x</emphasis>) = (<emphasis effect="italics">b</emphasis> – <emphasis effect="italics">x</emphasis>)<m:math>
+</m:math></para><para id="element-84"><emphasis>Area to the Right of <emphasis effect="italics">x</emphasis>:</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; <emphasis effect="italics">x</emphasis>) = (<emphasis effect="italics">b</emphasis> – <emphasis effect="italics">x</emphasis>)<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1011,7 +1050,7 @@ hours and <m:math>
       <m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1025,7 +1064,7 @@ hours and <m:math>
       <m:mi>b</m:mi><m:mo>−</m:mo><m:mi>a</m:mi>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1260,7 +1299,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 
 <exercise id="fs-idp172321904">
 <problem id="fs-idp7677536">
-<para id="fs-idp81592784">Draw the graph of the distribution for <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 9).</para></problem>
+<para id="fs-idp81592784">Draw the graph of the distribution for <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 9).</para></problem>
 <solution id="fs-idp67560352">
 <figure id="fs-idp140107840"><media id="fs-idp124624384" alt="This graph shows a uniform distribution. The horizontal axis ranges from 0 to 12. The distribution is modeled by a rectangle extending from x = 0 to x = 12. A region from x = 9 to x = 12 is shaded inside the rectangle.">
 <image mime-type="image/jpg" src="../../media/CNX_Stats_C05_M03_item002annoN.jpg" width="380"/>
@@ -1270,7 +1309,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 
 <exercise id="fs-idp49233616">
 <problem id="fs-idp8048544">
-<para id="fs-idp16092816">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 9).</para></problem>
+<para id="fs-idp16092816">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 9).</para></problem>
 </exercise>
 
 <exercise id="fs-idp16246272">
@@ -1447,14 +1486,14 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 <title>Homework</title>
 <para id="eip-902"><emphasis effect="italics">For each probability and percentile problem, draw the picture.</emphasis></para><exercise id="fs-idp2934064">
 <problem id="fs-idp51132496">
-<para id="fs-idp77684160">Births are approximately uniformly distributed throughout the year. They can be said to follow a uniform distribution from 0 to 2 (spread of 52 weeks).</para>
+<para id="fs-idp77684160">Births are approximately uniformly distributed between the 52 weeks of the year. They can be said to follow a uniform distribution from one to 53 (spread of 52 weeks).</para>
 <list id="fs-idp77684416" list-type="enumerated" number-style="lower-alpha">
 <item><emphasis effect="italics">X</emphasis> ~ _________</item>
 <item>Graph the probability distribution.</item>
 <item><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = _________</item>
 <item><emphasis effect="italics">μ</emphasis> = _________</item>
 <item>σ = _________</item>
-<item>Find the probability that a person is born at the exact moment week 19 ends.  That is, find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 19) = _________</item>
+<item>Find the probability that a person is born at the exact moment week 19 starts.  That is, find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 19) = _________</item>
 <item><emphasis effect="italics">P</emphasis>(2 &lt; <emphasis effect="italics">x</emphasis> &lt; 31) = _________</item>
 <item>Find the probability that a person is born after week 40.</item>
 <item><emphasis effect="italics">P</emphasis>(12 &lt; <emphasis effect="italics">x</emphasis>|<emphasis effect="italics">x</emphasis> &lt; 28) = _________</item>
@@ -1471,8 +1510,8 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 <item><emphasis effect="italics">μ</emphasis> = _________</item>
 <item><emphasis effect="italics">σ</emphasis> = _________</item>
 <item><emphasis effect="italics">P</emphasis>(3.5 &lt; <emphasis effect="italics">x</emphasis> &lt; 7.25) = _________</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5.67)</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 5|<emphasis effect="italics">x</emphasis> > 3) = _________</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5.67)</item>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 5|<emphasis effect="italics">x</emphasis> &gt; 3) = _________</item>
 <item>Find the 90<sup>th</sup> percentile.</item>
 </list></problem>
 <solution id="eip-idp101962176">
@@ -1484,7 +1523,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
    <m:mn>1</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> where <m:math>
  <m:mrow>
@@ -1503,11 +1542,11 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
     <m:mn>32</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </item>
-<item><m:math>
+<item><m:math display="">
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1517,17 +1556,17 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
     <m:mn>800</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </item>
-<item><m:math>
+<item><m:math display="">
  <m:mrow>
   <m:mfrac>
    <m:mn>2</m:mn>
    <m:mn>3</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </item>
@@ -1544,7 +1583,7 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
 <item><emphasis effect="italics">σ</emphasis> = _________</item>
 <item>Find the probability that the individual lost more than ten pounds in a month.</item>
 <item>Suppose it is known that the individual lost more than ten pounds in a month. Find the probability that he lost less than 12 pounds in the month.</item>
-<item><emphasis effect="italics">P</emphasis>(7 &lt; <emphasis effect="italics">x</emphasis> &lt; 13|<emphasis effect="italics">x</emphasis> > 9) = __________. State this in a probability question, similarly to parts g and h, draw the picture, and find the probability.</item>
+<item><emphasis effect="italics">P</emphasis>(7 &lt; <emphasis effect="italics">x</emphasis> &lt; 13|<emphasis effect="italics">x</emphasis> &gt; 9) = __________. State this in a probability question, similarly to parts g and h, draw the picture, and find the probability.</item>
 </list>
 </problem>
 </exercise>
@@ -1584,15 +1623,15 @@ for <emphasis effect="italics">a ≤ x ≤ b</emphasis>
    		<m:mn>1</m:mn>
    		<m:mn>8</m:mn>
  	 </m:mfrac>
-
+  
  </m:mrow>
-</m:math>
-where
+</m:math> 
+where 
 <m:math>
 	<m:mn>0</m:mn>
 	<m:mo> ≤ </m:mo>
 	<m:mi> x </m:mi>
-	<m:mo> ≤ </m:mo>
+	<m:mo> ≤ </m:mo> 
 	<m:mn>8</m:mn>
 
 </m:math>
@@ -1698,7 +1737,7 @@ where
     <m:mn>20</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> where <emphasis effect="italics">x</emphasis> goes from 25 to 45 minutes.</para><list id="fs-idm12672944" list-type="enumerated" number-style="lower-alpha"><item>Define the random variable. <emphasis effect="italics">X</emphasis> = ________</item>
 <item><emphasis effect="italics">X</emphasis> ~ ________</item>
@@ -1737,10 +1776,10 @@ where
    <m:mn>1</m:mn>
    <m:mn>9</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.
-<newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 19) = (25 – 19) <m:math>
+<newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 19) = (25 – 19) <m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1748,7 +1787,7 @@ where
      <m:mn>1</m:mn>
      <m:mn>9</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1759,7 +1798,7 @@ where
    <m:mn>6</m:mn>
    <m:mn>9</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -1767,10 +1806,10 @@ where
    <m:mn>2</m:mn>
    <m:mn>3</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.
-<figure id="fs-idp56920896"><media id="fs-idp56921152" alt="This shows the graph of the function f(x) = 1/9, the pdf for a uniform distribution. A horizontal line ranges from the point (16, 1/9) to the point (25, 1.9). Vertical lines extend from the x-axis to the graph at x = 16 and x = 25 creating a rectangle. A region is shaded inside the rectangle from x = 19 to x = 25. Text notes that the shaded area represents P(x > 19) = 2/3.">
+<figure id="fs-idp56920896"><media id="fs-idp56921152" alt="">
 <image src="../../media/soln_01aF.jpg" mime-type="png/jpg" width="380"/>
 </media>
 </figure></item>
@@ -1782,7 +1821,7 @@ where
      <m:mn>1</m:mn>
      <m:mn>9</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1792,7 +1831,7 @@ where
    <m:mn>3</m:mn>
    <m:mn>9</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -1800,11 +1839,11 @@ where
    <m:mn>1</m:mn>
    <m:mn>3</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.
-<figure id="fs-idp47544128"><media id="fs-idp47544384" alt="This shows the graph of the function f(x) = 1/9, the pdf for a uniform distribution. A horizontal line ranges from the point (16, 1/9) to the point (25, 1.9). Vertical lines extend from the x-axis to the graph at x = 16 and x = 25 creating a rectangle. A region is shaded inside the rectangle from x = 19 to x = 22. Text notes that the shaded area represents P(19&lt; x &lt; 22) = 1/3.">
-<image mime-type="png/jpg" src="../../media/soln_01bF-881d.jpg" width="380"/>
+<figure id="fs-idp47544128"><media id="fs-idp47544384" alt="">
+<image mime-type="png/jpg" src="../../media/soln_01bF.jpg" width="380"/>
 </media>
 </figure></item>
 <item>The area must be 0.25, and 0.25 = (width)<m:math>
@@ -1815,12 +1854,12 @@ where
      <m:mn>1</m:mn>
      <m:mn>9</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math>, so width = (0.25)(9) = 2.25. Thus, the value is 25 – 2.25 = 22.75.</item>
-<item>This is a conditional probability question.  P(x > 21| x > 18).  You can do this two ways:
+<item>This is a conditional probability question.  P(x &gt; 21| x &gt; 18).  You can do this two ways:
     <list id="fs-idp37941792" list-type="bulleted">
 <item>Draw the graph where a is now 18 and b is still 25.  The height is <m:math>
  <m:mrow>
@@ -1830,7 +1869,7 @@ where
     <m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>−</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -1838,9 +1877,9 @@ where
    <m:mn>1</m:mn>
    <m:mn>7</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
-</m:math><newline/>So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 21|<emphasis effect="italics">x</emphasis> > 18) = (25 – 21)<m:math>
+</m:math><newline/>So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 21|<emphasis effect="italics">x</emphasis> &gt; 18) = (25 – 21)<m:math>
  <m:mrow>
   <m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1848,35 +1887,35 @@ where
      <m:mn>1</m:mn>
      <m:mn>7</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
 </m:math> = 4/7.</item>
-<item>Use the formula: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> > 21|<emphasis effect="italics">x</emphasis> > 18) = <m:math>
+<item>Use the formula: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 21|<emphasis effect="italics">x</emphasis> &gt; 18) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>21</m:mn><m:mtext> AND </m:mtext><m:mi>x</m:mi><m:mo>></m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>21</m:mn><m:mtext> AND </m:mtext><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 <newline/>= <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
    <m:mrow>
-    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>></m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
+    <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -1888,7 +1927,7 @@ where
     <m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>−</m:mo><m:mn>18</m:mn><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -1896,7 +1935,7 @@ where
    <m:mn>4</m:mn>
    <m:mn>7</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.</item>
     </list>
@@ -1923,7 +1962,7 @@ where
 </list>
 </problem>
 <solution id="fs-idp168190128">
-<list id="fs-idp14788896" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> > 650) = <m:math>
+<list id="fs-idp14788896" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 650) = <m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1945,10 +1984,10 @@ where
    <m:mn>1</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
-</m:math> = 0.125</item>
-<item><emphasis effect="italics">P</emphasis>(400 &lt; <emphasis effect="italics">X</emphasis> &lt; 650) = <m:math>
+</m:math> = 0.125.</item>
+<item><emphasis effect="italics">P</emphasis>(400 &lt; <emphasis effect="italics">X</emphasis> &lt; 650) = <m:math display="">
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -1966,7 +2005,7 @@ where
     <m:mn>400</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 0.625</item>
 <item>0.10 = <m:math>
@@ -1979,7 +2018,7 @@ where
     <m:mtext>700</m:mtext><m:mo>−</m:mo><m:mtext>300</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, so width = 400(0.10) = 40. Since 700 – 40 = 660, the drivers travel at least 660 miles on the furthest 10% of days.</item>
 </list></solution>
@@ -1987,7 +2026,7 @@ where
 
 
 </section>
- </content>
+</content>
 <glossary>
 <definition id="condprob">
 <term>Conditional Probability</term>

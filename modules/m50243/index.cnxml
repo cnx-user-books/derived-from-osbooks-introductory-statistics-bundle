@@ -23,8 +23,10 @@
 
 <note id="id11521709"><label/><title>Note</title>
 <para id="fs-idp40181216">The following section contains restaurants stratified by city into columns and grouped horizontally by entree cost (clusters).</para>
-</note><table id="id9894hh324636" pgwide="1" class="top-titled" summary="This table provides a sample of restaurants.  Each cell contains a list of restaurants that correspond to the given location and price range.  The first column lists the location, the second column contains restaurants with entrees under $10, the third column contains restaurants with entrees between $10 and $15, the fourth column between $15 and $20, and the fifth column restaurants with entrees over $20.">
-<title>Restaurants Used In Sample</title>
+</note><para id="fs-idp15735184"><title>Restaurants Stratified by City and Entree Cost </title>
+</para>
+<table id="id9894hh324636" pgwide="1" summary="This table provides a sample of restaurants.  Each cell contains a list of restaurants that correspond to the given location and price range.  The first column lists the location, the second column contains restaurants with entrees under $10, the third column contains restaurants with entrees between $10 and $15, the fourth column between $15 and $20, and the fifth column restaurants with entrees over $20.">
+<title>Restaurants Used in Sample</title>
 <tgroup cols="5">
 <colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -32,9 +34,6 @@
 <colspec colnum="4" colname="c4"/>
 <colspec colnum="5" colname="c5"/>
 <thead>
-  <row>
-    <entry namest="c1" nameend="c5" align="center">Restaurants Stratified by City and Entree Cost</entry>
-  </row>
 <row>
 <entry>Entree Cost</entry>
 <entry>Under $10</entry>
@@ -296,6 +295,6 @@
 </tgroup>
 </table>
 </item>
-</list></note> </content>
+</list></note></content>
 
 </document>
