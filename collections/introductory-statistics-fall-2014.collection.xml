@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Kathleen Elberson">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col11669</md:content-id>
     <md:title>Introductory Statistics Fall 2014</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
     <md:uuid>5304d77a-7053-4952-9dc8-062499335a31</md:uuid>
-<md:slug>introductory-statistics-fall-2014</md:slug>
-</metadata>
+    <md:slug>introductory-statistics-fall-2014</md:slug>
+  </metadata>
   <col:content>
     <col:module document="m47830"/>
     <col:subcollection>
