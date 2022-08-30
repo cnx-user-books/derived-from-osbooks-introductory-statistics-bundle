@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="John Raible">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col12022</md:content-id>
     <md:title> Introductory Statistics Chapter 2 only</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
     <md:uuid>c0a3022a-6a8a-4126-83b4-40a403dfd27e</md:uuid>
-<md:slug>introductory-statistics-chapter-2-only</md:slug>
-</metadata>
+    <md:slug>introductory-statistics-chapter-2-only</md:slug>
+  </metadata>
   <col:content>
     <col:subcollection>
       <md:title>Descriptive Statistics</md:title>
