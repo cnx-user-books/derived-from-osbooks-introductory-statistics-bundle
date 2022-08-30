@@ -1439,7 +1439,7 @@ Draw the graph of a two-tailed test.
 <solution id="fs-idm11266464">
 <list id="fs-idm126211024" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> = 69,110</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; 69,110</item>
-<item>Let <m:math display="">
+<item>Let <m:math>
  <m:mover accent="true">
   <m:mi>X</m:mi>
   <m:mo>¯</m:mo>
