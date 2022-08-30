@@ -164,7 +164,7 @@ A quick way to get the total number of possible outcomes without writing out the
 </para><section id="eip-221"><title>Permutation</title><para id="eip-16"><emphasis>Permutation</emphasis> is the arrangements of <emphasis effect="italics"><emphasis>r</emphasis></emphasis>
  elements in a different order chosen from <emphasis effect="italics"><emphasis>n</emphasis></emphasis>
  distinct available items. Below are different ways that a permutation can be represented.Insert paragraph text here.
-</para><equation id="eip-754"><m:math display="display">
+</para><equation id="eip-754"><m:math>
 <m:apply>
 <m:eq/>
 <m:ci>
@@ -228,7 +228,7 @@ A quick way to get the total number of possible outcomes without writing out the
 
 </equation><para id="eip-562">For the picture example, there are four pictures (<emphasis effect="italics">n</emphasis>
  = 4) and we are selecting two pictures (<emphasis effect="italics">r</emphasis>
- = 2) and arranging them in a specific order.  Using the multiplication rule, we have seen that the answer is 12.  Using permutation, we can see that we get the same result.    </para><para id="eip-804"><m:math display="display">
+ = 2) and arranging them in a specific order.  Using the multiplication rule, we have seen that the answer is 12.  Using permutation, we can see that we get the same result.    </para><para id="eip-804"><m:math>
 <m:apply>
 <m:eq/>
 <m:ci>
@@ -337,7 +337,7 @@ ABCD, ABDC</emphasis>} are considered the same because picture <emphasis effect=
 
 </list></problem>
 <solution id="fs-idm1424545">
-<para id="fs-idp62238245"><list id="eip-id1164092533045" list-type="enumerated" number-style="lower-alpha"><item><m:math display="display">
+<para id="fs-idp62238245"><list id="eip-id1164092533045" list-type="enumerated" number-style="lower-alpha"><item><m:math>
 <m:apply>
 <m:eq/>
 <m:ci>
@@ -427,7 +427,7 @@ different groups of 2
 
 
  </item>
-<item><m:math display="display">
+<item><m:math>
 <m:apply>
 <m:eq/>
 <m:ci>
@@ -536,7 +536,7 @@ different groups of 3
 <problem id="fs-idm5372195">
 <para id="fs-idm328335">How many different 2 digit numbers can be created from the digits “1”, “2” , “3” “4” and “5” if you can only use the number once?  For example, if "1" and then "2" is selected, the two digit number is "12". </para></problem>
 <solution id="fs-idm1424595">
-<para id="fs-idp62238295"><m:math display="display">
+<para id="fs-idp62238295"><m:math>
 <m:apply>
 <m:eq/>
 <m:ci>
@@ -763,7 +763,7 @@ Suppose we have our four pictures and we will randomly choose two to give to a f
 </m:apply>
 </m:math>
 
-<m:math display="display">
+<m:math>
 <m:apply>
 <m:eq/>
 <m:ci>
@@ -1234,7 +1234,7 @@ different snacks of three fruits are possible
 different samples of 5 students</para></solution>
 </exercise>
 </note></section><section id="eip-616"><title>Formula Review</title><para id="eip-384"><emphasis>Permutation</emphasis>:
-<m:math display="display">
+<m:math>
 <m:apply>
 <m:eq/>
 <m:ci>
