@@ -5,8 +5,8 @@
 _Introductory Statistics and Introductory Business Statistics_ are textbooks published by [OpenStax](https://openstax.org/), a non profit organization that is part of [Rice University](https://www.rice.edu/).
 
 To view these books online and view contributors, please visit:
-- _Introductory Statistics_ [online](https://openstax.org/details/books/introductory-statistics)
-- _Introductory Business Statistics_ [online](https://openstax.org/details/books/introductory-business-statistics)
+- _Introductory Statistics_ [online](https://github.com/cnx-user-books/cnxbook-introductory-statistics/releases/latest)
+- _Introductory Business Statistics_ [online](https://github.com/cnx-user-books/cnxbook-introductory-business-statistics/releases/latest)
 
 ## License
 These books are available under the [Creative Commons Attribution License](./LICENSE) license.
